@@ -4,17 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "7de8979a0109bb34",
+        "id": "fb9e6bdb8fddf7aa",
         "type": "tabs",
         "children": [
           {
-            "id": "e10e4b822a02b1e4",
+            "id": "e0efebcb8b881e54",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md"
+              }
             }
           },
           {
@@ -149,7 +154,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e10e4b822a02b1e4",
+  "active": "e0efebcb8b881e54",
   "lastOpenFiles": [
     "Offensive Security/Network Security/Enumeration/22 - SSH.md",
     "Offensive Security/Network Security/Enumeration/20, 21 - FTP.md",
