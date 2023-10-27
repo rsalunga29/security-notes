@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fb9e6bdb8fddf7aa",
+        "id": "5c1faabb84a5634b",
         "type": "tabs",
         "children": [
           {
-            "id": "e0efebcb8b881e54",
+            "id": "ba924eb4ab5989a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
+                "file": "Offensive Security/Network Security/Exploitation/Password Cracking & Brute Force.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
+                "file": "Offensive Security/Network Security/Exploitation/Password Cracking & Brute Force.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
+                "file": "Offensive Security/Network Security/Exploitation/Password Cracking & Brute Force.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,24 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md"
+                "file": "Offensive Security/Network Security/Exploitation/Password Cracking & Brute Force.md"
               }
             }
-          },
-          {
-            "id": "2e0b05b1549ca310",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,43 +146,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0efebcb8b881e54",
+  "active": "ba924eb4ab5989a4",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
+    "Offensive Security/Web Application Security/Enumeration",
+    "Offensive Security/Web Application Security",
+    "Offensive Security/Network Security/Exploitation/20, 21 - FTP.md",
     "Offensive Security/Network Security/Enumeration/22 - SSH.md",
     "Offensive Security/Network Security/Enumeration/20, 21 - FTP.md",
-    "Untitled 1.canvas",
-    "Untitled.canvas",
-    "2023-10-27.md",
     "Offensive Security/Network Security/Privilege Escalation/Windows.md",
-    "Offensive Security/Network Security/Privilege Escalation/Linux.md",
     "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
-    "Offensive Security/Network Security/Exploitation/RSync.md",
-    "Offensive Security/Network Security/Exploitation/Tunneling & Port Forwarding.md",
     "Offensive Security/Network Security/Exploitation/Password Cracking & Brute Force.md",
-    "Offensive Security/Network Security/Exploitation/NFS.md",
     "Offensive Security/Network Security/Exploitation/139, 445 - SMB.md",
-    "Offensive Security/Network Security/Exploitation/20, 21 - FTP.md",
-    "Offensive Security/Network Security/Enumeration/139, 445 - SMB.md",
-    "Offensive Security/Network Security/Enumeration/NFS.md",
+    "Offensive Security/Network Security/Privilege Escalation/Linux.md",
+    "Offensive Security/Network Security/Exploitation/Tunneling & Port Forwarding.md",
+    "Offensive Security/Network Security/Exploitation/RSync.md",
+    "Offensive Security/Network Security/Exploitation/NFS.md",
     "Offensive Security/Network Security/Enumeration/Ping Sweeping.md",
     "Offensive Security/Network Security/Enumeration/Port Scanning.md",
     "Offensive Security/Network Security/Enumeration/RSync.md",
+    "Offensive Security/Network Security/Enumeration/NFS.md",
+    "Offensive Security/Network Security/Enumeration/139, 445 - SMB.md",
     "Offensive Security/Network Security/Enumeration/Vulnerability Scanning.md",
-    "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
     "Offensive Security/Active Directory/Placeholder.md",
     "Defensive Security/Placeholder.md",
     "Offensive Security/Web Application Security/Untitled",
     "Offensive Security/Web Application Security/Exploitation",
-    "Offensive Security/Web Application Security/Enumeration",
     "Offensive Security/Network Security/NFS a30e84572ca041a882bc72c09c0fa011.md",
     "Offensive Security/Network Security/NFS 472508c3efe340338d97a6b788f065f2.md",
     "Offensive Security/Network Security/139 445 - SMB bc1ef4d84de54559b04d3560cbcbed41.md",
     "Offensive Security/Network Security/139 445 - SMB 89efc02b941a4dc1926071020b8139e0.md",
+    "Offensive Security/Network Security/22 - SSH 2e37db05be7b4c1ca2e0afb3b62901c1.md",
+    "Offensive Security/Network Security/20 21 - FTP dff2478833e64cbb83d5d5213eae1b23.md",
     "Offensive Security/Network Security/Privilege Escalation",
     "Offensive Security/Network Security/Exploitation",
     "Offensive Security/Network Security/Enumeration",
     "Offensive Security/Active Directory",
-    "Offensive Security/Web Application Security",
     "Offensive Security/Network Security",
     "Defensive Security"
   ]
