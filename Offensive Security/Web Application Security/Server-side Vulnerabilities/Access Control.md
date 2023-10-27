@@ -5,9 +5,17 @@ Access control is the application of constraints on who or what is authorized to
 
  Broken access controls are common and often present a critical security vulnerability. Design and management of access controls is a complex and dynamic problem that applies business, organizational, and legal constraints to a technical implementation. Access control design decisions have to be made by humans so the potential for errors is high.
 ## Vertical vs Horizontal Privilege Escalation
-Vertical privilege escalation is, when a user can gain access to functionality that they are not permitted to access. An example of vertical privilege escalation is, when a non-administrative user can access an admin page where they can modify or delete user accounts.
+Vertical privilege escalation is, when a user can gain access to functionality that they are not permitted to access. An example of a vertical privilege escalation is, when a non-administrative user can access an admin page where they can modify or delete user accounts.
 
-Horizontal privilege escalation is,
+Horizontal privilege escalation is, when a user is able to gain access to resources belonging to another user, instead of their own resources. An example of a horizontal privilege escalation is, when an user can access the records of other users as well as their own.
+
+Horizontal and vertical privilege escalation attacks may use similar types of exploit methods. For example, a user might access their own account page and another user's account page by modifying the `id` parameter in the following URL:
+```txt
+https://target-website.com/account?id=123
+```
+The above is an example of an Insecure Direct Object Reference (IDOR) vulnerability.
+## Insecure Direct Object Reference
+Also known as IDOR, is a type of vulnerability that arises where user-controlled parameter values are used to access resources or functions directly.
 ## Unprotected Functionality
 Vertical privilege escalation usually happens when an application does not enforce protection for sensitive functionality. For example, admin functions linked to an admin page but not from a regular user page. However, a user might be able to access the admin functions and page by browsing the relevant admin URL.
 ```txt
