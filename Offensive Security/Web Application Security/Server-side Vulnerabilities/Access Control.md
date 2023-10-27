@@ -18,3 +18,34 @@ In some cases, admin URLs might be disclosed in other locations such as `robots.
 https://target-website.com/robots.txt
 ```
 And even if the URL isn't disclosed anywhere, an attacker may be able to use a wordlist to brute-force the location of the sensitive functionality.
+## Unprotected Functionality w/ Unpredictable URL
+In some cases, sensitive functionality is concealed by giving it a less predictable URL. This is an example of so-called "security by obscurity". However, hiding sensitive functionality does not provide effective access control because users might still discover the obfuscated URL in a number of ways. Take the following URL as an example:
+```txt
+https://target-website.com/admin-panel-ybb86
+```
+This might not be easily guessable by an attacker. However, the application might still leak the URL, such as via JavaScript that constructs the user interface based on user's role:
+```js
+var isAdmin = false
+
+if (isAdmin) {
+	...
+	var adminPanelURL = document.createElement('a')
+	adminPanelURL.setAttribute('https://target-website.com/admin-panel-ybb86')
+	adminPanelURL.innerText = 'Admin Panel'
+}
+```
+The script above adds a link to the user's UI if they are an admin user. However, the script containing the URL is visible to everyone regardless of their role.
+## Parameter-based Access Control Methods
+Some applications determine the user's access rights or role at login, and then store this information in a user-controllable location such as:
+- Hidden HTML field
+- Preset query string parameter
+- Cookie
+
+The application makes access control decision based on submitted value, for example:
+```txt
+https://target-website.com/login/home.php?admin=true
+```
+```txt
+https://target-website.com/login.jsp?roleId=1
+```
+This approach is insecure because a user can modify the value and access functionalities they're not authorized to.
