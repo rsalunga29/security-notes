@@ -128,13 +128,21 @@
                 "file": "Offensive Security/Network Security/Exploitation/Password Cracking & Brute Force.md"
               }
             }
+          },
+          {
+            "id": "9d230b3f5545d39d",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
