@@ -14,8 +14,12 @@ Horizontal and vertical privilege escalation attacks may use similar types of ex
 https://target-website.com/account?id=123
 ```
 The above is an example of an Insecure Direct Object Reference (IDOR) vulnerability.
+## Horizontal to Vertical Privilege Escalation
+Often, a horizontal privilege escalation attack can be turned into a vertical privilege escalation, by compromising a more privileged user.
 ## Insecure Direct Object Reference
 Also known as IDOR, is a type of vulnerability that arises where user-controlled parameter values are used to access resources or functions directly.
+
+In some applications, the exploitable parameter does not have a predictable value, instead of an incrementing number, an application might use globally unique identifier (GUIDs) to identify users. This may prevent an attacker from guessing or predicting another user's identifier, however, GUIDs belonging to other users might be disclosed elsewhere in the application where users are referenced.
 ## Unprotected Functionality
 Vertical privilege escalation usually happens when an application does not enforce protection for sensitive functionality. For example, admin functions linked to an admin page but not from a regular user page. However, a user might be able to access the admin functions and page by browsing the relevant admin URL.
 ```txt
@@ -26,7 +30,7 @@ In some cases, admin URLs might be disclosed in other locations such as `robots.
 https://target-website.com/robots.txt
 ```
 And even if the URL isn't disclosed anywhere, an attacker may be able to use a wordlist to brute-force the location of the sensitive functionality.
-## Unprotected Functionality w/ Unpredictable URL
+## Unprotected Functionality with Unpredictable URL
 In some cases, sensitive functionality is concealed by giving it a less predictable URL. This is an example of so-called "security by obscurity". However, hiding sensitive functionality does not provide effective access control because users might still discover the obfuscated URL in a number of ways. Take the following URL as an example:
 ```txt
 https://target-website.com/admin-panel-ybb86
