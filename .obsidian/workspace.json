@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Insecure Direct Object Reference.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal/Common Exploit Obstacles/Traversal Sequences Stripped Non-Recursively.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5
+    "width": 293.5
   },
   "right": {
     "id": "02b9e0088986c5b2",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Insecure Direct Object Reference.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal/Common Exploit Obstacles/Traversal Sequences Stripped Non-Recursively.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Insecure Direct Object Reference.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal/Common Exploit Obstacles/Traversal Sequences Stripped Non-Recursively.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Insecure Direct Object Reference.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal/Common Exploit Obstacles/Traversal Sequences Stripped Non-Recursively.md"
               }
             }
           },
@@ -157,15 +157,18 @@
   },
   "active": "ba924eb4ab5989a4",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal/Common Exploit Obstacles/Traversal Sequences Blocked with Absolute Path Bypass.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal/Common Exploit Obstacles/Traversal Sequences Stripped Non-Recursively.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal/Reading arbitrary files via path traversal.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal/Common Exploit Obstacles",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Insecure Direct Object Reference.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Vertical Privilege Escalation via Unprotected Functionality.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Vertical vs Horizontal Privilege Escalation.md",
     "().md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Horizontal to Vertical Privilege Escalation.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Insecure Direct Object Reference.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal/Reading arbitrary files via path traversal.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication.md",
@@ -186,12 +189,9 @@
     "Offensive Security/Network Security/Exploitation/Tunneling & Port Forwarding.md",
     "Offensive Security/Network Security/Exploitation/RSync.md",
     "Offensive Security/Network Security/Exploitation/NFS.md",
-    "Offensive Security/Network Security/Enumeration/Ping Sweeping.md",
-    "Offensive Security/Network Security/Enumeration/Port Scanning.md",
     "Offensive Security/Web Application Security/Exploitation",
     "Offensive Security/Network Security/Privilege Escalation",
     "Offensive Security/Network Security/Exploitation",
-    "Offensive Security/Network Security/Enumeration",
-    "Offensive Security/Active Directory"
+    "Offensive Security/Network Security/Enumeration"
   ]
 }

@@ -2,4 +2,5 @@ Also known as directory traversal, is a vulnerability that enables an attacker t
 - Application code and data
 - Credentials for back-end systems
 - Sensitive operating system files
+
 In some cases, an attacker might be able to write to arbitrary files, allowing them to modify application data or behavior, and ultimately take full control of the server.
