@@ -142,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,7 +154,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9d230b3f5545d39d",
+  "active": "af284c9e3c0a30bb",
   "lastOpenFiles": [
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control.md",

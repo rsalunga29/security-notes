@@ -15,7 +15,7 @@ https://target-website.com/account?id=123
 ```
 The above is an example of an Insecure Direct Object Reference (IDOR) vulnerability.
 ## Horizontal to Vertical Privilege Escalation
-Often, a horizontal privilege escalation attack can be turned into a vertical privilege escalation, by compromising a more privileged user.
+Often, a horizontal privilege escalation attack can be turned into a vertical privilege escalation, by compromising a more privileged user. For example, a horizontal escalation might allow an attacker to reset or capture the password belonging to another user, if the target user is an admin user, the attacker can gain admin access and perform vertical privilege escalation.
 ## Insecure Direct Object Reference
 Also known as IDOR, is a type of vulnerability that arises where user-controlled parameter values are used to access resources or functions directly.
 
