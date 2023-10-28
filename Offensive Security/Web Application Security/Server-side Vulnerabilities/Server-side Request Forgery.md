@@ -1,0 +1,1 @@
+Also known as SSRF, is a web security vulnerability that allows an attacker to cause the server-side application to make request to an unintended location.
