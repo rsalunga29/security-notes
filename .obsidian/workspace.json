@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication.md"
               }
             }
           },
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,10 +155,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "af284c9e3c0a30bb",
+  "active": "ba924eb4ab5989a4",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities",
     "Offensive Security/Web Application Security/Enumeration/CMS.md",
     "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
@@ -185,7 +187,6 @@
     "Defensive Security/Placeholder.md",
     "Offensive Security/Web Application Security/Exploitation",
     "Offensive Security/Network Security/NFS a30e84572ca041a882bc72c09c0fa011.md",
-    "Offensive Security/Network Security/NFS 472508c3efe340338d97a6b788f065f2.md",
     "Offensive Security/Network Security/Privilege Escalation",
     "Offensive Security/Network Security/Exploitation",
     "Offensive Security/Network Security/Enumeration",
