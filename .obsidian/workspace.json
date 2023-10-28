@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Insecure Direct Object Reference.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Insecure Direct Object Reference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Insecure Direct Object Reference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Insecure Direct Object Reference.md"
               }
             }
           },
@@ -157,12 +157,18 @@
   },
   "active": "ba924eb4ab5989a4",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Vertical Privilege Escalation via Unprotected Functionality.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Vertical vs Horizontal Privilege Escalation.md",
+    "().md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Horizontal to Vertical Privilege Escalation.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Insecure Direct Object Reference.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal/Reading arbitrary files via path traversal.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities",
     "Offensive Security/Web Application Security/Enumeration/CMS.md",
     "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
@@ -182,16 +188,10 @@
     "Offensive Security/Network Security/Exploitation/NFS.md",
     "Offensive Security/Network Security/Enumeration/Ping Sweeping.md",
     "Offensive Security/Network Security/Enumeration/Port Scanning.md",
-    "Offensive Security/Network Security/Enumeration/RSync.md",
-    "Offensive Security/Network Security/Enumeration/NFS.md",
-    "Offensive Security/Network Security/Enumeration/139, 445 - SMB.md",
-    "Offensive Security/Network Security/Enumeration/Vulnerability Scanning.md",
-    "Offensive Security/Active Directory/Placeholder.md",
     "Offensive Security/Web Application Security/Exploitation",
     "Offensive Security/Network Security/Privilege Escalation",
     "Offensive Security/Network Security/Exploitation",
     "Offensive Security/Network Security/Enumeration",
-    "Offensive Security/Active Directory",
-    "Offensive Security/Network Security"
+    "Offensive Security/Active Directory"
   ]
 }
