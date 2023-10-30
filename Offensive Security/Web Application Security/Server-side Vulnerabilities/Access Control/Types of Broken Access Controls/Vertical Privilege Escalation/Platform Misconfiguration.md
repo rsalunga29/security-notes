@@ -15,3 +15,10 @@ In order to test if frameworks support `X-Original-URL` and `X-Rewrite-URL`, we 
 2. Change the URL in the request line to `/` and add the HTTP Header `X-Original-URL: /invalid-route`. If the application returns a 404 Response, it might indicate that the backend system is processing the URL from the `X-Original-Header`
 	1. If the target URL requires a parameter, change the URL in request line to `/?parameter=value`
 3. Change the value of `X-Original-Header` to the intended route target
+
+### Method-based Access Control Bypass
+An alternative attack relates to the HTTP method used in the request. The front-end controls described above restrict access based on the URL and HTTP method. Some websites tolerate different HTTP request methods when performing an action. For example, if an attacker can use the `GET` or any other method to perform actions on a restricted URL, they can bypass the implemented access control.
+
+In Burp Suite, we can do this by doing either of the following:
+- Change request method from `POST` to `POSTX`
+- Convert the request to `GET` method by right-clicking and selecting "Change request method"

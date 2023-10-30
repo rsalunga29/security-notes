@@ -1,0 +1,1 @@
+Some applications detect when the user is not permitted to access the resource, and returns a redirect to the login page. However, the response containing the redirect might still include some sensitive data belonging to the targeted user, so the attack will still be successful.
