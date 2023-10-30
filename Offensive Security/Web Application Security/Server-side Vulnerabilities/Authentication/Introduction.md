@@ -12,3 +12,6 @@ Authentication vulnerabilities can allow attackers to gain access to sensitive d
 Most authentication vulnerabilities occur in one of two ways:
 - The authentication mechanisms are weak because they fail to adequately protect against brute force attacks
 - Logic flaws or poor coding in the implementation allow the authentication mechanism to be bypassed entirely by an attacker. This is sometimes known as "broken authentication".
+
+## Impact
+The impact of authentication vulnerabilities can be severe. If an attacker bypasses authentication or brute forces their way into another user's account, they have access to all the data and functionality of that the compromised account has. This is even more severe if the compromised account is a high-privileged one, such as a system administration, as they can take full control over the entire application and potentially access the internal infrastructure.
