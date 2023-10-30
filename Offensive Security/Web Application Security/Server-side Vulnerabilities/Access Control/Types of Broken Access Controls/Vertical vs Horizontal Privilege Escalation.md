@@ -6,4 +6,4 @@ Horizontal and vertical privilege escalation attacks may use similar types of ex
 ```txt
 https://target-website.com/account?id=123
 ```
-The above is an example of an [Insecure Direct Object Reference (IDOR)](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FServer-side%20Vulnerabilities%2FAccess%20Control%2FTypes%20of%20Broken%20Access%20Controls%2FInsecure%20Direct%20Object%20Reference) vulnerability.
+The above is an example of an [Insecure Direct Object Reference (IDOR)](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FServer-side%20Vulnerabilities%2FAccess%20Control%2FTypes%20of%20Broken%20Access%20Controls%2FInsecure%20Direct%20Object%20References%2FIntroduction) vulnerability.

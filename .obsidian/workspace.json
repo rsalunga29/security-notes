@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Horizontal Privilege Escalation/Data Leakage in Redirect.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Multi-step Processes Vulnerabilities.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Horizontal Privilege Escalation/Data Leakage in Redirect.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Multi-step Processes Vulnerabilities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Horizontal Privilege Escalation/Data Leakage in Redirect.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Multi-step Processes Vulnerabilities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Horizontal Privilege Escalation/Data Leakage in Redirect.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Multi-step Processes Vulnerabilities.md"
               }
             }
           },
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,17 +157,22 @@
   },
   "active": "ba924eb4ab5989a4",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object Reference.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Horizontal Privilege Escalation/Data Leakage in Redirect.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical vs Horizontal Privilege Escalation.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Multi-step Processes Vulnerabilities.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/IDOR with Static Files.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/IDOR with Database Objects.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Untitled",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Horizontal Privilege Escalation/Upgrade to Vertical Privilege Escalation.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Horizontal Privilege Escalation/Data Leakage in Redirect.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation/Parameter-based Access Control Methods.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation/Platform Misconfiguration.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation/Unprotected Functionality.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation/URL-matching Discrepancies.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Prevention.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation/Parameter-based Access Control Methods.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation/Unprotected Functionality.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Horizontal Privilege Escalation/Upgrade to Vertical Privilege Escalation.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation/URL-matching Discrepancies.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Horizontal Privilege Escalation",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation/Platform Misconfiguration.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls",
@@ -186,11 +192,6 @@
     "().md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities",
-    "Offensive Security/Web Application Security/Enumeration/CMS.md",
-    "Offensive Security/Web Application Security/Enumeration",
-    "Offensive Security/Web Application Security"
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities"
   ]
 }

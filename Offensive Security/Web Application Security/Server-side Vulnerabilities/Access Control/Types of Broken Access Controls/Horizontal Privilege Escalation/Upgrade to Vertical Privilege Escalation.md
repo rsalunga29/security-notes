@@ -1,1 +1,3 @@
 Often, a horizontal privilege escalation attack can be turned into a vertical privilege escalation, by compromising a more privileged user. For example, a horizontal escalation might allow an attacker to reset or capture the password belonging to another user, if the target user is an admin user, the attacker can gain admin access and perform vertical privilege escalation.
+
+An attacker can also gain access to another user's account using the [Insecure Direct Object Reference (IDOR)](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FServer-side%20Vulnerabilities%2FAccess%20Control%2FTypes%20of%20Broken%20Access%20Controls%2FInsecure%20Direct%20Object%20References%2FIntroduction) vulnerability.
