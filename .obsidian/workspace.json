@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,7 +155,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ba924eb4ab5989a4",
+  "active": "9d230b3f5545d39d",
   "lastOpenFiles": [
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal/Common Exploit Obstacles/Traversal Sequences Stripped Non-Recursively.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal/Common Exploit Obstacles/Travel Sequences Stripped with Redundant URL decode.md",
