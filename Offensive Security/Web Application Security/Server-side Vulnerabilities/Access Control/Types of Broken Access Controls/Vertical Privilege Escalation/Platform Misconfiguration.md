@@ -9,3 +9,8 @@ Some application frameworks support various non-standard HTTP headers that can b
 POST / HTTP/1.1
 X-Original-URL: /admin/deleteUser
 ```
+
+In order to test if frameworks support `X-Original-URL` and `X-Rewrite-URL`, we can do the following:
+1. Send request to Burp Repeater
+2. Change the URL in the request line to `/` and add the HTTP Header `X-Original-URL: /invalid-route`. If the application returns a 404 Response, it might indicate that the backend system is processing the URL from the `X-Original-Header`.
+3. Change the value of `X-Original-Header` to the intended route target
