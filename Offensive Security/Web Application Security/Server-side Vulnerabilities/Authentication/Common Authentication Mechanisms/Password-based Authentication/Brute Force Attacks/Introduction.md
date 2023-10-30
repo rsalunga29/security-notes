@@ -1,0 +1,5 @@
+A brute force attack is an attack when an attacker uses a system of trial and error to guess valid user credentials. These attacks are typically automated using wordlists of usernames and passwords, and using dedicated tools, enabling the attacker to make vast numbers of login attempts at high speed.
+
+Brute forcing is not always a case of complete random guesses at usernames and passwords. Attackers can also take advantage of basic logic or publicly available knowledge to fine-tune brute force attacks to make a much more educated guesses which increases the efficiency of the attack.
+
+Websites relying on password-based login as their sole method of authenticating users can be highly vulnerable if they do not implement sufficient brute-force protection such as maximum login attempts and rate limits.

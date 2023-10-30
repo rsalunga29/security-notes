@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5c1faabb84a5634b",
+        "id": "90de8a8fe70ba850",
         "type": "tabs",
         "children": [
           {
-            "id": "ba924eb4ab5989a4",
+            "id": "85d9c5204a7e5d22",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Brute Force Attacks/Untitled.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Brute Force Attacks/Untitled.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Brute Force Attacks/Untitled.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Brute Force Attacks/Untitled.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Introduction.md"
               }
             }
           },
@@ -155,13 +155,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ba924eb4ab5989a4",
+  "active": "85d9c5204a7e5d22",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Brute Force Attacks/Brute Forcing Usernames.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Brute Force Attacks/Untitled.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Brute Force Attacks/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Authentication.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Brute Force Attacks",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Authentication vs Authorization.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Common Authentication Mechanisms/Password-based Authentication/HTTP Basic Authentication.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Common Authentication Mechanisms/Password-based Authentication/Flawed Brute Force Protection/Placeholder.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Common Authentication Mechanisms/Password-based Authentication/Brute Force Attacks/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Common Authentication Mechanisms/Password-based Authentication/Flawed Brute Force Protection",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Common Authentication Mechanisms/Password-based Authentication/Brute Force Attacks/Brute Forcing Passwords.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Common Authentication Mechanisms/Password-based Authentication/Brute Force Attacks/Username Enumeration.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Common Authentication Mechanisms/Multi-Factor Authentication/Bypassing Two-Factor Authentication.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Common Authentication Mechanisms/OAuth",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Common Authentication Mechanisms/Password-based Authentication",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Common Authentication Mechanisms/Multi-Factor Authentication",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Common Authentication Mechanisms",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Common Authentication Mechanisms/Password-based Authentication/Brute Force Attacks/Brute Forcing Usernames.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation/URL-matching Discrepancies.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation/Unprotected Functionality.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation/Platform Misconfiguration.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation/Parameter-based Access Control Methods.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/IDOR with Static Files.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/IDOR with Database Objects.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Horizontal Privilege Escalation/Data Leakage in Redirect.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Horizontal Privilege Escalation/Upgrade to Vertical Privilege Escalation.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Common Authentication Mechanisms/Password-based Authentication/Brute Force Attacks",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Prevention.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication",
@@ -169,29 +189,9 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Multi-step Processes.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Referer-based Access Control.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Location-based Access Control.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation/URL-matching Discrepancies.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation/Unprotected Functionality.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation/Platform Misconfiguration.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation/Parameter-based Access Control Methods.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/IDOR with Static Files.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/IDOR with Database Objects.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Horizontal Privilege Escalation/Data Leakage in Redirect.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Untitled",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Horizontal Privilege Escalation/Upgrade to Vertical Privilege Escalation.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Horizontal Privilege Escalation",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Access Controls/Context-dependent Access Controls.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Access Controls/Horizontal Access Controls.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Access Controls/Vertical Access Control.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Access Controls",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal/Common Exploit Obstacles/Validation of Start of Path.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal/Common Exploit Obstacles/Validation of File Extension with NULL Byte Bypass.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Path Traversal/Common Exploit Obstacles",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control"
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation/Introduction.md"
   ]
 }
