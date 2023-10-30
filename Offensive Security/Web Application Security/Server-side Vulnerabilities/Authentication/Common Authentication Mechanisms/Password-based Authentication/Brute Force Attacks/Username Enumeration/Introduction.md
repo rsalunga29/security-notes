@@ -8,5 +8,3 @@ While attempting to brute force a login page, we should also pay particular atte
 - Status Code - Most of the time, the returned HTTP status code is likely to be the same for the vast majority of guesses because most of them will be wrong. If a guess returns a different status code, this is a strong indication that the username was correct.
 - Error Messages - Sometimes the returned error message is different depending on whether both the username and password are incorrect or only the password was incorrect.
 - Response Times - If most of the requests were handler with a similar response time, any difference from this suggests that something different was happening behind the scenes. This is another indication that the guessed username might be correct.
-
-In order
