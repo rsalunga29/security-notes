@@ -8,4 +8,15 @@ User rate limiting is sometimes preferred to account locking due to being less p
 ## Exploit via Multiple Credentials per Request
 This might only work if the request is being submitted as a JSON format.
 1. Investigate the login request. If it's submitting login credentials in JSON format. Send the request to Burp Repeater.
-2. In Burp Repeater, replace the single string value of the password with an array of strings
+2. In Burp Repeater, replace the single string value of the password with an array of strings containing potential passwords, for example:
+```json
+"username" : "carlos",
+"password" : [
+	"123456",
+	"password",
+	"qwerty"
+	...
+]
+```
+3. Send the request. When finished, look for a `302` response.
+4. Right-click on the request and select **Show response in browser**. Copy the URL and load it in the browser.

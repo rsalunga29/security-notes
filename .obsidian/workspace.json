@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Rate Limiting.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/HTTP Basic Authentication.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Rate Limiting.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/HTTP Basic Authentication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Rate Limiting.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/HTTP Basic Authentication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Rate Limiting.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/HTTP Basic Authentication.md"
               }
             }
           },
@@ -157,10 +157,10 @@
   },
   "active": "ec03d7089b896030",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Rate Limiting.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Account Locking.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/IP Blocking.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Rate Limiting.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/HTTP Basic Authentication.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Authentication vs Authorization.md",
