@@ -8,3 +8,5 @@ For example, the following method can be used to work around this kind of protec
 3. Using a tool, try each of the selected passwords with each of the usernames. This way, you can attempt to brute-force every account without triggering the account lock.
 
 Account locking also fails to protect against credential stuffing attacks. This involves using a massive dictionary of `username:password` pairs, composed of genuine login credentials stolen in data breaches. Credential stuffing relies on the fact that many people reuse the same username and password on multiple websites and, therefore, there is a chance that some of the compromised credentials in the dictionary are also valid on the target website.
+
+1. In Burp Intruder
