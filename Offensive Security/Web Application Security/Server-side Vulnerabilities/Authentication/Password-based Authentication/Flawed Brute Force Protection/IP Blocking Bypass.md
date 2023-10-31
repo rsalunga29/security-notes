@@ -6,6 +6,6 @@ Depending on the implementation of this brute force protection, you can bypass i
 3. Start the attack. When finished, look for a `302` HTTP response.
 ### Reset Failed Login Attempts Counter by Successfully Logging In
 1. In Burp Intruder, select the **Resource pool** tab then add the attack to a resource pool with **Maximum concurrent requests** set to `1`. By only sending one request at a time, you can ensure that your login attempts are sent over to the server in the correct order.
-2. On the **Payloads** tab, add a username wordlist that alternates between your username and the target username. Make sure that your username is first and that the target username is repeated at least 100 times.
+2. On the **Payloads** tab, add a username wordlist that alternates between your username and the target username. Make sure that your username is first and then the target username. This should be repeated at least 100 times.
 3. Add a password wordlist and add your own password before each one. Make sure that your password is aligned with your username in the other wordlist.
 4. Start the attack. When finished, look for a `302` HTTP response.
