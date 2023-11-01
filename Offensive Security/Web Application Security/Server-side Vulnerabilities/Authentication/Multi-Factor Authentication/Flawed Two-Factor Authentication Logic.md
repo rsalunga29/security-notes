@@ -1,6 +1,6 @@
 Sometimes flawed logic in two-factor authentication means that after a user has completed the initial login step, the website doesn't adequately verify that the same user is completing the second step.
-
-For example, a user logs in with their credential in the first step as follows:
+## Example Logic
+A user logs in with their credential in the first step as follows:
 ```http
 POST /login-steps/first HTTP/1.1
 Host: target-website.com
@@ -33,3 +33,5 @@ Cookie: account=admin
 verification-code=qwerty
 ```
 This is extremely dangerous if the attacker is then able to brute force the verification code, as it would allow them to login to any user accounts based entirely on their username.
+## Exploiting Flawed Logic
+aaa
