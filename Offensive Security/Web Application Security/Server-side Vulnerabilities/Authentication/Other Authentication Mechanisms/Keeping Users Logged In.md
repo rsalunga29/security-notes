@@ -4,4 +4,4 @@ This functionality is often implemented by generating a "remember me" token, whi
 
 Even if the attacker is not able to create their own account, they may still be able to exploit this vulnerability. Using the usual techniques, such as Cross Site Scripting (XSS), an attacker could steal another user's "remember me" cookie and deduce how the cookie is constructed from that. If the website is using an open-source framework, the key details of the cookie construction may even be publicly documented.
 
-In some rare cases, it may be possible to obtain a user's actual password in cleartext from a cookie, even if it is hashed. Hashed versions of well-known password lists are available online, so if the user is using a password from any of these lists, decrypting the hash can occassionally b
+In some rare cases, it may be possible to obtain a user's actual password in cleartext from a cookie, even if it is hashed. Hashed versions of well-known password lists are available online, so if the user is using a password from any of these lists, decrypting the hash can occasionally be as trivial as just pasting the hash into a search engine.
