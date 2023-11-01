@@ -12,4 +12,5 @@ In some rare cases, it may be possible to obtain a user's actual password in cle
 4. Log out of your account.
 5. In the most recent `GET /my-account`, highlight the `stay-logged-in` cookie parameter and send the request to Burp Intruder.
 6. Use [Payload processing](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FBurp%20Suite%20Tips%20%26%20Tricks%2FBurp%20Intruder%20Payload%20Processing) to process the cookie based on how its constructed.
-7. As the `Your account name is: target-username` is only displayed when you access the `/my-account` page in an authenticated state, we can use the presence or absence of this text to determine whether we
+7. As the `Your account name is: target-username` is only displayed when you access the `/my-account` page in an authenticated state, we can use the presence or absence of this text to determine whether we've successfully brute forced the cookie. On the **Settings** tab, add a grep match rule to flag any responses containing the text.
+8. Start the attack.
