@@ -38,7 +38,7 @@ This is extremely dangerous if the attacker is then able to brute force the veri
 2. Send that request to Burp Repeater, and change `POST` to `GET` and `verify` parameter to the target username. This ensures that a temporary 2FA code is generated for the target username.
 3. Login with an account you can control. Then submit an invalid 2FA code.
 4. Send `POST /login2` to Turbo Intruder (install via bApp).
-5. In the pop-up, change the `verify` parameter to target username, then use the following code for the attack:
+5. In the pop-up, change the `verify` parameter to target username, add `%s` as value for the `mfa-code` parameter, then use the following code for the attack:
 ```python
 # https://gist.github.com/bavlayan/aa7470b9692f05f29e6c8ea88e8bde85
 def queueRequests(target, wordlists):
