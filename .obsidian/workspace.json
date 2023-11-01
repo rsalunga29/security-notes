@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Sending Passwords By Email.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Sending Passwords By Email.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Sending Passwords By Email.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Sending Passwords By Email.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Introduction.md"
               }
             }
           },
@@ -155,11 +156,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ec03d7089b896030",
+  "active": "8c76a30b8d5dbc7a",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Resetting Passwords Using a URL.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File upload",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Sending Passwords By Email.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/OAuth/Placeholder.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Resetting Passwords Using a URL.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Keeping Users Logged In.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Multi-Factor Authentication/Brute Forcing 2FA Verification Codes.md",
@@ -182,16 +188,11 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Horizontal Privilege Escalation/Upgrade to Vertical Privilege Escalation.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Horizontal Privilege Escalation/Data Leakage in Redirect.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/IDOR with Database Objects.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/IDOR with Static Files.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Authentication vs Authorization.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Common Authentication Mechanisms/Password-based Authentication/Brute Force Attacks/Username Enumeration/Untitled",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/OAuth",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Multi-Factor Authentication",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Common Authentication Mechanisms"
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Multi-Factor Authentication"
   ]
 }
