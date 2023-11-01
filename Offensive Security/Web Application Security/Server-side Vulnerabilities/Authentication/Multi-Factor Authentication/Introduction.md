@@ -2,4 +2,6 @@ Many websites rely exclusively on single-factor authentication using a password 
 
 Verifying biometric factors is impractical for most websites. However, it is increasingly common to see both mandatory and optional two-factor authentication (2FA) based on **something you know** and **something you have**. This usually requires a user to enter both a traditional password and a temporary verification code from an out-of-band physical device in their possession.
 
-..
+While it is sometimes possible for an attacker to obtain a knowledge-based factor, such as passwords, it is less likely that an attacker can also obtain an out-of-band source. For this reason, two-factor authentication is demonstrably more secure than single-factor authentication. However, as with any security measure, it is only ever as secure as its implementation, as poorly implemented two-factor authentication can be beaten and bypassed entirely.
+
+The full benefits of multi-factor authentication are only achieved by verifying **multiple different** factors, as verifying the same factor in two different ways it not a true two-factor authentication.

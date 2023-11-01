@@ -1,0 +1,3 @@
+Verification codes are usually read by the user from a physical device of some kind, such as their phones. Many high-security websites now provide users with a dedicated device for this purpose, such as the RSA token or keypad device that you might use to access your online banking or work laptop.
+
+In addition to being purpose-built for security, these dedicated devices also have the advantage of generating the verification code directly. It is also common to use a dedicated mobile app, such as Google Authenticator, for the same reason.
