@@ -1,0 +1,3 @@
+In practice, it is a given that some users will forget their password, so it is common to have a way for them to reset it. As the usual password-based authentication is obviously impossible in this scenario, websites has to rely on alternative methods to make sure that the real user is resetting their own password. For this reason, the password reset functionality is inherently dangerous and needs to be implemented securely.
+
+There are a few different ways that this feature is commonly implemented, with varying degrees of vulnerability.
