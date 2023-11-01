@@ -159,6 +159,9 @@
   "lastOpenFiles": [
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Sending Passwords By Email.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Resetting Passwords Using a URL.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Changing User Passwords.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Change User Passwords",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Keeping Users Logged In.md",
@@ -171,7 +174,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Brute Forcing Usernames.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Brute Forcing Passwords.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Multi-Factor Authentication/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Multi-Factor Authentication/Brute Forcing 2FA Verification Codes.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Placeholder/Introduction 1.md",
@@ -189,9 +191,7 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Race Conditions",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Command Injection/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Command Injection",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities"
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Command Injection"
   ]
 }
