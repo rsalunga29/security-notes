@@ -1,3 +1,3 @@
 At times, the implementation of 2FA is flawed to the point where it can be bypassed entirely.
 
-If the user is first prompted to enter a password, and then prompted to enter a verification code on a separate page, the user is effectively in a "logged in" state before they have entered the verification code. In this case, it is worst testing to see if you can directly skip the "logged-in only" pages. Occasionally, websites doesn't actually check whether or not the user has completed the second step before loading a different page.
+If the user is first prompted to enter a password, and then prompted to enter a verification code on a separate page, the user is effectively in a "logged in" state before they have entered the verification code. In this case, it is worth testing to see if you can directly skip to the "logged-in only" pages. Occasionally, websites doesn't actually check whether or not the user has completed the second step before loading a different page.
