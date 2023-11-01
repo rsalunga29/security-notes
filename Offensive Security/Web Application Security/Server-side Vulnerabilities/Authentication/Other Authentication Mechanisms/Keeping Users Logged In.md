@@ -7,4 +7,9 @@ Even if the attacker is not able to create their own account, they may still be 
 In some rare cases, it may be possible to obtain a user's actual password in cleartext from a cookie, even if it is hashed. Hashed versions of well-known password lists are available online, so if the user is using a password from any of these lists, decrypting the hash can occasionally be as trivial as just pasting the hash into a search engine.
 ## Exploit Example
 1. With Burp running, login to your own account with the **Stay logged in** option selected. Notice that this sets a `stay-logged-in` cookie.
-2. Examine the cookie and notice that is it Base64-encoded. It's decoded value is `wiener:51dc30ddc473d43a6011e9ebba6ca770`. Notice that the length and character set of this string could be an MD5 hash.
+2. Examine the cookie and notice that is it Base64-encoded. It's decoded value is `wiener:51dc30ddc473d43a6011e9ebba6ca770`. Notice that the length and character set of this string could be an MD5 hash. Given that the plaintext is your username, you can make an educated guess that this may be your password.
+3. Notice that the cookie is constructed as follows `base64(username+':'+md5HashOfPassword)`
+4. Log out of your account.
+5. In the most recent `GET /my-account`, highlight the `stay-logged-in` cookie parameter and send the request to Burp Intruder.
+6. Use [Payload processing](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FBurp%20Suite%20Tips%20%26%20Tricks%2FBurp%20Intruder%20Payload%20Processing) to process the cookie based on how its constructed.
+7. As the `Your account name is: target-username` is only displayed when you access the `/my-account` page in an authenticated state, we can use the presence or absence of this text to determine whether we
