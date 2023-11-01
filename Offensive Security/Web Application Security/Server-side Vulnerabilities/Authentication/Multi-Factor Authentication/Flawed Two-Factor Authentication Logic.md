@@ -33,7 +33,7 @@ Cookie: account=admin
 verification-code=qwerty
 ```
 This is extremely dangerous if the attacker is then able to brute force the verification code, as it would allow them to login to any user accounts based entirely on their username.
-## Exploiting Flawed Logic
+## Exploiting Example Flawed Logic
 1. Notice that in `POST /login2` request, the `verify` parameter is used to determine which user account is being accessed.
 2. Send that request to Burp Repeater, and change `POST` to `GET` and `verify` parameter to the target username. This ensures that a temporary 2FA code is generated for the target username.
 3. Login with an account you can control. Then submit an invalid 2FA code.
