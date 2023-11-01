@@ -12,4 +12,5 @@ As well as a sequence of requests, each macro specifies how cookies and paramete
 You can add a new macro by following these steps:
 1. In Burp, go to **Settings > Sessions**. Scroll down and look for **Macros**. Click **Add**, and in the dialog, select the requests you wish to include, and click **OK**.
 2. Click **Test macro**, to make sure it is working as intended. Click **OK** once done.
-3. In the Session handli
+3. In the **Session handling rules**, click **Add**, and in the dialog, click **Add** in the **Rule actions** then select **Run a macro**.
+4. In the dialog, select the macro you have created and click **Add** then update any settings depending on your desired results.
