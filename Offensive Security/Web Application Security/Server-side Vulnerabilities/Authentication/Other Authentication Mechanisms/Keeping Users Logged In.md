@@ -1,8 +1,12 @@
 A common feature is the option to stay logged in even after closing a browser session. This is usually a simple checkbox labeled as "Remember me" or "Keep me logged in".
 
-This functionality is often implemented by generating a "remember me" token, which is then stored in as a persistent cookie. As possessing this cookie allows you to bypass the entire login process, it is best practice for this cookie to be impractical to guess. However, some websites generate this cookie based on a predictable concatenation of static values, such as username and a timestamp. Even worst, some even use the password as part of the cookie. This approach is particularly dangerous specially if the attacker can create their own account and study their own cookie and potentially deduce how it is generated. Once they worked out the formula, they can try to brute force other user's cookies to gain access to their accounts.
+This is often implemented by generating a "remember me" token, which is then stored in as a persistent cookie. As possessing this cookie allows you to bypass the entire login process, it is best practice for this cookie to be impractical to guess. However, some websites generate this cookie based on a predictable concatenation of static values (e.g username and timestamp). Even worst, some even use the password as part of the cookie.
 
-Even if the attacker is not able to create their own account, they may still be able to exploit this vulnerability. Using the usual techniques, such as Cross Site Scripting (XSS), an attacker could steal another user's "remember me" cookie and deduce how the cookie is constructed from that. If the website is using an open-source framework, the key details of the cookie construction may even be publicly documented.
+This approach is particularly dangerous specially if the attacker can create their own account and study their own cookie and potentially deduce how it is generated and brute force other user's cookies.
+
+Even without creating an account, they may still exploit this vulnerability with Cross Site Scripting (XSS) to steal "remember me" cookies and deduce how the cookie is generated. If the website is using an open-source framework, the key details of the cookie construction may even be publicly documented.
+
+In some rare cases, it m
 
 In some rare cases, it may be possible to obtain a user's actual password in cleartext from a cookie, even if it is hashed. Hashed versions of well-known password lists are available online, so if the user is using a password from any of these lists, decrypting the hash can occasionally be as trivial as just pasting the hash into a search engine.
 ## Exploit Example
