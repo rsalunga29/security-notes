@@ -1,0 +1,3 @@
+In addition to basic login functionality, most websites provide supplementary functionality to allow users to manage their account. For example, users can typically change or reset their password when they forget it. These mechanism can also introduce vulnerabilities that can be exploited by an attacker.
+
+Websites usually take care to avoid well-known vulnerabilities in their login pages. But it is easy to overlook the fact that you need to take similar steps to ensure that related functionality is equally as robust. This is especially important in cases where an attacker is able to create their own account and, consequently, has easy access to study these additional pages.
