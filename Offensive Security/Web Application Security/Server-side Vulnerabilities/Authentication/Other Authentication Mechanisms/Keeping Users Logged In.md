@@ -5,3 +5,6 @@ This functionality is often implemented by generating a "remember me" token, whi
 Even if the attacker is not able to create their own account, they may still be able to exploit this vulnerability. Using the usual techniques, such as Cross Site Scripting (XSS), an attacker could steal another user's "remember me" cookie and deduce how the cookie is constructed from that. If the website is using an open-source framework, the key details of the cookie construction may even be publicly documented.
 
 In some rare cases, it may be possible to obtain a user's actual password in cleartext from a cookie, even if it is hashed. Hashed versions of well-known password lists are available online, so if the user is using a password from any of these lists, decrypting the hash can occasionally be as trivial as just pasting the hash into a search engine.
+## Exploit Example
+1. With Burp running, login to your own account with the **Stay logged in** option selected. Notice that this sets a `stay-logged-in` cookie.
+2. Examine the cookie and notice that is it Base64-encoded. It's decoded value is `wiener:51dc30ddc473d43a6011e9ebba6ca770`. Notice that the length and character set of this string could be an MD5 hash.
