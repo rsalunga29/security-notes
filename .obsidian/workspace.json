@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Sending Passwords By Email.md",
-                "mode": "source",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Resetting Passwords Using a URL.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Sending Passwords By Email.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Resetting Passwords Using a URL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Sending Passwords By Email.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Resetting Passwords Using a URL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Sending Passwords By Email.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Resetting Passwords Using a URL.md"
               }
             }
           },
@@ -157,8 +157,8 @@
   },
   "active": "9fc32b3a3c887b59",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Resetting Passwords Using a URL.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Sending Passwords By Email.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Resetting Passwords Using a URL.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Keeping Users Logged In.md",
