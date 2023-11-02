@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Introduction.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/Introduction.md"
               }
             }
           },
@@ -155,8 +155,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "af284c9e3c0a30bb",
+  "active": "9fc32b3a3c887b59",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/SSRF Attacks Against the Server.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/SSRF Attacks Against Other Backend Systems.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF Vulnerabilities",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Bypassing SSRF Defenses",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks",
@@ -185,13 +189,9 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/NoSQL Injection/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Placeholder",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/NoSQL Injection",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Information Disclosure/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Race Conditions/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Information Disclosure",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Race Conditions",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection"
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Race Conditions"
   ]
 }
