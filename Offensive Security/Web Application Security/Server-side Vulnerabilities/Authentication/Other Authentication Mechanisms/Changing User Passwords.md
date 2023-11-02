@@ -1,3 +1,7 @@
-Typically, changing your password involves verifying your current password and then entering a new password twice. This functionality typically rely on the same process for checking that a username and a password credentials match, just like a normal login page does. Therefore, these functionalities can be vulnerable to the same techniques.
+Typically, changing your password involves verifying your current password and then entering a new password twice. This functionality typically rely on the same process for checking that a username and a password credentials match, just like a normal login page does.
 
 Password change functionality can be dangerous if it allows an attacker to access it directly without being authenticated. For example, if the username is provided in a hidden field, an attacker can change this value and change the password of any user. Alternatively, an attacker can conduct a username enumeration and brute force passwords.
+## Tips
+Make sure to enumerate and analyze how the change password functionality works. As we can use its behavior and different error messages to plan the attack. For example:
+- Notice the behavior when you enter the wrong current password twice in a row, the system will lock the account and force the user to logout and send an error message "Current password is incorrect". However, if you enter a valid current password but two different new passwords, the message will say "New passwords do not match"
+- We can then use **Burp Intruder's Grep match** to fetch these error messages to determine if our brute forcing worked
