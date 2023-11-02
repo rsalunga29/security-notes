@@ -1,1 +1,0 @@
-SSRF attacks often exploit trust relationships to escalate an attack from the vulnerable application and perform unauthorized actions.
