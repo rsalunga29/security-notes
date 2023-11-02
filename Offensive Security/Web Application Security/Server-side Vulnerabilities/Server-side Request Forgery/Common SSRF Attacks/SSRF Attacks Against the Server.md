@@ -18,4 +18,4 @@ Content-Length: 118
 
 stockApi=http://localhost/admin
 ```
-This will result in the attacker gaining access to an internal-only admin application. While the attacker won't see anything of interest, as the critical functionality is hidden behind an authentication
+This will result in the attacker gaining access to an internal-only admin application. While the attacker won't see anything of interest yet, as the critical functionality is hidden behind an authentication, the [normal access controls](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FServer-side%20Vulnerabilities%2FAccess%20Control%2FIntroduction) are still bypassed as the request originated from the local machine, which is a trusted location.
