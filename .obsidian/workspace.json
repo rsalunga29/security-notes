@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Other SSRF Attacks.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/SSRF with Whitelist-based Input Filters.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Other SSRF Attacks.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/SSRF with Whitelist-based Input Filters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Other SSRF Attacks.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/SSRF with Whitelist-based Input Filters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Other SSRF Attacks.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/SSRF with Whitelist-based Input Filters.md"
               }
             }
           },
@@ -157,8 +157,8 @@
   },
   "active": "9fc32b3a3c887b59",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/SSRF with Whitelist-based Input Filters.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Other SSRF Attacks.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/SSRF with Whitelist-based Input Filters.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/Bypassing SSRF Filters via Open Redirection.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF Vulnerabilities/Blind SSRF with Shellshock Exploitation.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF Vulnerabilities/Introduction.md",
