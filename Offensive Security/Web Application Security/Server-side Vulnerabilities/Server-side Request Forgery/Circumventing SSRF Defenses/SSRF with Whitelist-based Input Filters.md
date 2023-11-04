@@ -13,4 +13,9 @@ https://evil-host#target-host
 ```txt
 https://target-host.evil-host
 ```
-- You can URL-encode characters to confuse the URL-parsing code.
+- You can URL-encode characters to confuse the URL-parsing code. This is useful specially if the code that implements the filter handles URL-encoded characters differently compared to the code that performs the backend HTTP request.
+- You can try double URL-encoding characters, some servers recursively URL-decode the input they receive, which may lead to further discrepancies.
+
+Often times, multiple anti-SSRF filters are deployed, you can combine the techniques described above to bypass the filters and exploit the SSRF vulnerabilities.
+## Abusing URL Parsers to Exploit SSRFs
+![A new era for SSRF - Exploiting URL Parsers](https://www.youtube.com/watch?v=D1S-G8rJrEk)
