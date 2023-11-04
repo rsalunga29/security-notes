@@ -1,0 +1,2 @@
+<!-- @TODO: -->
+Some websites, allows their users to generate a PDF based on the input they have provided. If these inputs are non-sanitized, this can lead to a SSRF by chaining it with a Cross Site Scripting (XSS) attack
