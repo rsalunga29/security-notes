@@ -8,6 +8,9 @@ POST /product/stock HTTP/1.0
 Content-Type: application/x-www-form-urlencoded
 Content-Length: 118
 
-stockApi=http://weliketoshop.net/product/nextProduct?currentProductId=6&path=http://192.168.0.68/admin
+stockApi=/product/nextProduct?currentProductId=6&path=http://192.168.0.68/admin
 ```
-This will return a redirection to `http://192.168.0.68/admin` exposing the administrative interface. This exploit works because the application can validate that the `stockApi` parameter value is a
+In this example, we noticed that another part of the application receives a URL to redirect to next product
+
+
+This will return a redirection to `http://192.168.0.68/admin` exposing the administrative interface. This exploit works because the application can validate that the `stockApi` parameter value is a on a whitelisted domain list, wherein the application requests the supplied URL and triggers the open redirection by following the redirection and making a request.
