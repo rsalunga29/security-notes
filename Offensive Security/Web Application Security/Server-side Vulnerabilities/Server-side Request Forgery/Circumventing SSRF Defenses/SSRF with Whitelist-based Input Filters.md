@@ -3,7 +3,7 @@ Some applications only allow inputs that match, a whitelist of allowed values. T
 The URL specification contains a number of features that are likely overlooked when URLs implement parsing and validation using this method:
 - You can embed credentials in a URL before the hostname by using the `@` character.
 ```txt
-https://expected-host:fakepassword@evil-host
+https://evil-host:fakepassword@expected-host
 ```
 - You can use the `#` character to indicate a URL fragment
 ```txt
@@ -17,5 +17,10 @@ https://expected-host.evil-host
 - You can try double URL-encoding characters, some servers recursively URL-decode the input they receive, which may lead to further discrepancies.
 
 Often times, multiple anti-SSRF filters are deployed, you can combine the techniques described above to bypass the filters and exploit the SSRF vulnerabilities.
+
+In this example, we combine the usage of `@` to embed a fake "credential" before the hostname which in reality is the `localhost`, and use `#`
+```txt
+https://localhost%2523@target-website.com
+```
 ## Abusing URL Parsers to Exploit SSRFs
 ![A new era for SSRF - Exploiting URL Parsers](https://www.youtube.com/watch?v=D1S-G8rJrEk)
