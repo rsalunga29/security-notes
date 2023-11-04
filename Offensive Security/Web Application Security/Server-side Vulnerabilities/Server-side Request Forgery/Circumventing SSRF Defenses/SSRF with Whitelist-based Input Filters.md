@@ -3,15 +3,15 @@ Some applications only allow inputs that match, a whitelist of allowed values. T
 The URL specification contains a number of features that are likely overlooked when URLs implement parsing and validation using this method:
 - You can embed credentials in a URL before the hostname by using the `@` character.
 ```txt
-https://username:password@target-host
+https://expected-host:fakepassword@evil-host
 ```
 - You can use the `#` character to indicate a URL fragment
 ```txt
-https://evil-host#target-host
+https://evil-host#expected-host
 ```
 - You can leverage the DNS naming hierarchy to place required input into fully-qualified DNS name that you control
 ```txt
-https://target-host.evil-host
+https://expected-host.evil-host
 ```
 - You can URL-encode characters to confuse the URL-parsing code. This is useful specially if the code that implements the filter handles URL-encoded characters differently compared to the code that performs the backend HTTP request.
 - You can try double URL-encoding characters, some servers recursively URL-decode the input they receive, which may lead to further discrepancies.
