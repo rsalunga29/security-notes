@@ -1,3 +1,7 @@
 Blind SSRF occurs if you can cause the application to issue a backend HTTP request to a supplied URL, but doesn't return a response to the application's frontend.
 
 This makes it harder to exploit as it cannot be trivially used to retrieve sensitive data but it could sometimes lead to a full remote code execution (RCE) on a server or other backend components.
+
+The most reliable way to detect a blind SSRF is using [out-of-band (OAST)](https://portswigger.net/burp/application-security-testing/oast) techniques, which involves attempting to trigger an HTTP request to an external system that an attacker controls, and monitoring for network interactions with that system. If an incoming HTTP request is observed coming from the application, then it is vulnerable to SSRF.
+## Note
+ It is common when testing for SSRF vulnerabilities to observe a DNS look-up for the supplied Collaborator domain, but no subsequent HTTP request. This typically happens because the application attempted to make an HTTP request to the domain, which caused the initial DNS lookup, but the actual HTTP request was blocked by network-level filtering. It is relatively common for infrastructure to allow outbound DNS traffic, since this is needed for so many purposes, but block HTTP connections to unexpected destinations.
