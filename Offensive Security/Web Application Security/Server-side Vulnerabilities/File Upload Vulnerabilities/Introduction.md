@@ -1,0 +1,1 @@
+File upload vulnerabilities arises when a web server allows users to upload files into its filesystem without validating things like the name, filetype, contents, or size.
