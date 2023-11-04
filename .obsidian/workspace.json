@@ -158,10 +158,11 @@
   "active": "9fc32b3a3c887b59",
   "lastOpenFiles": [
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF Vulnerabilities/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF Vulnerabilities/Blind SSRF with Shellshock Exploitation.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF Vulnerabilities/Blind SSRF with Out-of-Band Detection.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/Bypassing SSRF Filters via Open Redirection.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF Vulnerabilities/Blind SSRF with Shellshock Exploitation.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/SSRF with Whitelist-based Input Filters.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Other SSRF Attacks",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/Bypassing SSRF Filters via Open Redirection.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/SSRF Attacks Against PDF Generators.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/SSRF Attacks Against Other Backend Systems.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/SSRF Attacks Against the Server.md",
@@ -186,12 +187,10 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/IP Blocking.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Account Locking.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/HTTP Basic Authentication.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Placeholder",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/NoSQL Injection",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Information Disclosure",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Race Conditions"
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Information Disclosure"
   ]
 }
