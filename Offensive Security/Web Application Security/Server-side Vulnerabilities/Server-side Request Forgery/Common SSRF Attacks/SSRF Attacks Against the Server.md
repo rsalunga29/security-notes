@@ -1,6 +1,6 @@
 In an SSRF attack against the server, the attacker causes the application to make an HTTP request back to the server that is hosting the application. This typically involves supplying a URL hostname like `127.0.0.1` or `localhost`.
 
-For example, imagine a shopping application that lets a user view whether an item is in stock in a particular store branch. To provide this information, the application must use various backend REST APIs. It does this by passing the URL to the relevant backend API endpoint via a HTTP request. The browser then makes the following request:
+For example, imagine a shopping application that lets a user view whether an item is in stock in a particular store branch. To do this, the application passes a URL to the relevant backend API endpoint via a HTTP request:
 ```http
 POST /product/stock HTTP/1.0
 Content-Type: application/x-www-form-urlencoded
