@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed File Type Validation.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Preventing File Execution in User-Accessible Directories.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed File Type Validation.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Preventing File Execution in User-Accessible Directories.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed File Type Validation.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Preventing File Execution in User-Accessible Directories.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed File Type Validation.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Preventing File Execution in User-Accessible Directories.md"
               }
             }
           },
@@ -156,8 +156,9 @@
   },
   "active": "3be4bbd17d162f00",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Bypassing File Upload Filtering/Client-side/Content-Type Restriction Bypass.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed File Type Validation.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Preventing File Execution in User-Accessible Directories.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Bypassing File Upload Filtering/Client-side/Content-Type Restriction Bypass.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Bypassing File Upload Filtering/Client-side/Removing JavaScript Filtering.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Bypassing File Upload Filtering/Client-side/Untitled.md",
@@ -195,7 +196,6 @@
     "Offensive Security/Network Security/Privilege Escalation/Linux.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF Vulnerabilities",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Changing User Passwords.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Introduction.md"
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Changing User Passwords.md"
   ]
 }
