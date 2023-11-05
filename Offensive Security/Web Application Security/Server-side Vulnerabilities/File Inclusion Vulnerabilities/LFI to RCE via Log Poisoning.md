@@ -1,0 +1,1 @@
+In this scenario, we can force a local file inclusion vulnerability to chain a remote code execution to get access to sensitive data or full control of the server. This is possible bec

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Bypassing File Inclusion Defenses.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/LFI to RCE via Log Poisoning.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Bypassing File Inclusion Defenses.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/LFI to RCE via Log Poisoning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Bypassing File Inclusion Defenses.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/LFI to RCE via Log Poisoning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Bypassing File Inclusion Defenses.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/LFI to RCE via Log Poisoning.md"
               }
             }
           },
@@ -169,8 +169,10 @@
   },
   "active": "a7ab8d1fb76ab6e7",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Bypassing File Inclusion Defenses.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/LFI to RCE via Log Poisoning.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Untitled",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Other SSRF Attacks.md",
@@ -200,10 +202,8 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Keeping Users Logged In.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Rate Limiting.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Placeholder",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/NoSQL Injection",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities"
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/NoSQL Injection"
   ]
 }
