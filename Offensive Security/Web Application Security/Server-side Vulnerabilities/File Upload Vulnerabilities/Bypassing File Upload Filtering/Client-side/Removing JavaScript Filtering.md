@@ -4,4 +4,5 @@ In this example, we see a basic JavaScript function that checks the MIME types o
 ![[remove-js-1.png]]
 We will use Burp Suite to remove the JavaScript function and upload a different file.
 1. Using Burp Proxy, intercept the request. Right-click and select **Do intercept** then **Response to this request**.
-2. Click **Forward** to see the response, this gives us the ability to modify the HTML of the respo
+2. Click **Forward** to see the response, this gives us the ability to modify the HTML of the response; comment out or delete the JavaScript function, then click **Forward** again.
+3. With the filtering function disabled or removed, upload any file.
