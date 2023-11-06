@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed Validation of File Contents.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Insufficient Blacklisting of Filetypes/Obfuscating File Extensions.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed Validation of File Contents.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Insufficient Blacklisting of Filetypes/Obfuscating File Extensions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed Validation of File Contents.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Insufficient Blacklisting of Filetypes/Obfuscating File Extensions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed Validation of File Contents.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Insufficient Blacklisting of Filetypes/Obfuscating File Extensions.md"
               }
             }
           }
@@ -156,10 +156,11 @@
   },
   "active": "3be4bbd17d162f00",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Insufficient Blacklisting of Filetypes/Overriding Server Configuration.md",
+    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed Validation of File Contents.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed File Type Validation.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Insufficient Blacklisting of Filetypes/Obfuscating File Extensions.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Insufficient Blacklisting of Filetypes/Overriding Server Configuration.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed Validation of File Contents.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed File Type Validation/Magic Numbers Restriction Bypass.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed File Type Validation",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Preventing File Execution in User-Accessible Directories.md",
@@ -195,7 +196,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF Vulnerabilities/Blind SSRF with Out-of-Band Detection.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/SSRF with Whitelist-based Input Filters.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/Bypassing SSRF Filters via Open Redirection.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF Vulnerabilities/Blind SSRF with Shellshock Exploitation.md"
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/Bypassing SSRF Filters via Open Redirection.md"
   ]
 }
