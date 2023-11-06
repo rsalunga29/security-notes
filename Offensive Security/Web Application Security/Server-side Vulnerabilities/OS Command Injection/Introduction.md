@@ -1,0 +1,1 @@
+OS Command Injection also known as Shell Injection, is a vulnerability that allows an attacker to execute operating system (OS) commands on the server that the application is running on, which typically leads to a full compromise of the application and its data.
