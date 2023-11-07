@@ -1,1 +1,5 @@
-Also known as XML External Entity Injection is a vulnerability that allows an attacker to interfere with an application's processing of XML data.
+Also known as XML External Entity Injection is a vulnerability that allows an attacker to interfere with an application's processing of XML data. This vulnerability often allows the attacker to view files on the server and interact with any backend or external systems that the application has access to.
+
+In some situations, an attacker can escalate and XXE attack to perform [server-side request forgery (SSRF)](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FServer-side%20Vulnerabilities%2FServer-side%20Request%20Forgery%2FIntroduction) attacks by leveraging the XXE vulnerability.
+
+XML external entities are a type of custom XML entity whose defined values are loaded from outside of the [DTD](https://portswigger.net/web-security/xxe/xml-entities) in which they are declared. External entities are particularly interesting from a security perspective because they allow an entity to be defined based on the contents of a file path or URL.
