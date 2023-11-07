@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Exploit Using OAST Techniques.md",
-                "mode": "source",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Useful OS Commands.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Exploit Using OAST Techniques.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Useful OS Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Exploit Using OAST Techniques.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Useful OS Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Exploit Using OAST Techniques.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Useful OS Commands.md"
               }
             }
           }
@@ -156,8 +156,8 @@
   },
   "active": "e7be46a2572b352a",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Exploit by Redirecting Output.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Exploit Using OAST Techniques.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Exploit by Redirecting Output.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Exploit Using Time Delays.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF Vulnerabilities/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Introduction.md",
