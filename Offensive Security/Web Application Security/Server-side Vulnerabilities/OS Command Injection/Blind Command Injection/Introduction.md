@@ -1,0 +1,1 @@
+Many instances of OS command injection are blind vulnerabilities, which means the application does not return the output of the command via HTTP response. However, this can still be exploited using different techniques.
