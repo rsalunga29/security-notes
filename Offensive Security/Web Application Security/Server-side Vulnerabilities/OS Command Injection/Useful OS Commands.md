@@ -7,5 +7,15 @@ After identifying an OS command injection vulnerability, it's useful to execute 
 |Network configuration|`ifconfig`|`ipconfig /all`|
 |Network connections|`netstat -an`|`netstat -an`|
 |Running processes|`ps -ef`|`tasklist`|
+## Shell Metacharacters
+You can also use shell metacharacters to perform the attack.
 
-You can also use the following
+A number of characters function as command separators, allowing commands to be chained together. The following works on both Windows and Unix-based systems:
+- `&`
+- `&&`
+- `|`
+- `||`
+
+The following command separators work only on Unix-based systems:
+- `;`
+- Newline (`0x0a` or `\n`)
