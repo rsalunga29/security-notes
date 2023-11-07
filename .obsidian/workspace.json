@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Useful OS Commands.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Exploit by Redirecting Output.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Useful OS Commands.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Exploit by Redirecting Output.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Useful OS Commands.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Exploit by Redirecting Output.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Useful OS Commands.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Exploit by Redirecting Output.md"
               }
             }
           }
@@ -156,10 +156,11 @@
   },
   "active": "e7be46a2572b352a",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Useful OS Commands.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Exploit Using Time Delays.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Exploit by Redirecting Output.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Useful OS Commands.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Injecting OS Commands.md",
     "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection",
@@ -191,7 +192,6 @@
     "Offensive Security/Assets",
     "Pasted image 20231106015457.png.md",
     "Pasted image 20231106015457.png",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Bypassing File Upload Filtering/Server-side",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Bypassing File Upload Filtering/Client-side",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Bypassing File Upload Filtering",
