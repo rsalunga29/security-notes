@@ -12,7 +12,7 @@ This application implements no defenses against OS command injection, so an atta
 ```txt
 & echo "hello world" &
 ```
-If the input is submitted in `productId` parameter, the command executed by the application is:
+If the input is submitted in `productId` parameter (you must attempt injecting on any parameter possible), the command executed by the application is:
 ```bash
 stockreport.pl & echo "hello world" & 2
 ```
