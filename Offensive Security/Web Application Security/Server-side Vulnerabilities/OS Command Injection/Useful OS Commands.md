@@ -21,4 +21,5 @@ The following command separators work only on Unix-based systems:
 - Newline (`0x0a` or `\n`)
 
 On Unix-based systems, we can also use backticks or the dollar character to perform inline execution of an injected command within the original command:
-- <pre>`injected command`</pre>
+- \`injected command\`
+- `$(injected command)`

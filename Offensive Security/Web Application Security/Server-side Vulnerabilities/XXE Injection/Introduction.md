@@ -1,0 +1,1 @@
+Also known as XML External Entity Injection is a vulnerability that allows an attacker to interfere with an application's processing of XML data.
