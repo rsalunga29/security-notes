@@ -19,7 +19,7 @@ Sometimes, XXE attacks using regular entities are blocked due to input validatio
 
 For this technique, an attacker only need to know two things:
 1. The declaration of an XML parameter entity includes the percent character before the entity name: `<!ENTITY % myparameterentity "my parameter entity value" >`
-2. Parameter entities are referenced using the percent character instead of the usual ampersand: `%myparameterentity;`
+2. Parameter entities are referenced using the **percent character (%)** instead of the usual ampersand (&): `%myparameterentity;`
 
 This means, an attacker can test for blind XXE with the following payload:
 ```xml
