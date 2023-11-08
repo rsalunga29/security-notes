@@ -1,0 +1,1 @@
+Business logic vulnerabilities are flaws in the design and implementation of an application. This gives an attacker the oppor
