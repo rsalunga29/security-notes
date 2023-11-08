@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Exfiltrate Data via OAST Techniques.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Exfiltrate Data via OAST Techniques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Exfiltrate Data via OAST Techniques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Exfiltrate Data via OAST Techniques.md"
               }
             }
           },
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,8 +155,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "af284c9e3c0a30bb",
+  "active": "e0efebcb8b881e54",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Detecting Blind XXE using OAST Techniques.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Exfiltrate Data via OAST Techniques.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Exploiting Blind XXE by Repurposing a Local DTD.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Chained XXE to SSRF.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Retrieve Data via OAST Techniques.md",
+    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
+    "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/via Response Timing.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/via Subtly Different Responses.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/Introduction.md",
@@ -175,14 +184,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Other Authentication Mechanisms/Resetting User Passwords/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation/Unprotected Functionality.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation/URL-matching Discrepancies.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation/Platform Misconfiguration.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Vertical Privilege Escalation/Parameter-based Access Control Methods.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/IDOR with Static Files.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/IDOR with Database Objects.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Horizontal Privilege Escalation/Upgrade to Vertical Privilege Escalation.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Horizontal Privilege Escalation/Data Leakage in Redirect.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Exploiting XXE to Retrieve Files.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Insufficient Blacklisting of Filetypes",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks",
