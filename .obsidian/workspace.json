@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fb9e6bdb8fddf7aa",
+        "id": "a09db004d341c3d9",
         "type": "tabs",
         "children": [
           {
-            "id": "e0efebcb8b881e54",
+            "id": "38c4f8163b300148",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "imagine an application that stock",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,11 +155,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0efebcb8b881e54",
+  "active": "38c4f8163b300148",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Hidden Attack Surfaces for XXE Attacks/XInclude Attacks.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/SSRF Attacks Against the Server.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Hidden Attack Surfaces for XXE Attacks/XXE via Modified Content-Type Header.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Hidden Attack Surfaces for XXE Attacks/XXE via File Upload.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Hidden Attack Surfaces for XXE Attacks/XInclude Attacks.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Hidden Attack Surfaces for XXE Attacks/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Exploiting Blind XXE by Repurposing a Local DTD.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Hidden Attack Surfaces for XXE Attacks",
@@ -184,7 +185,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Account Locking.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Insufficient Blacklisting of Filetypes",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks",
