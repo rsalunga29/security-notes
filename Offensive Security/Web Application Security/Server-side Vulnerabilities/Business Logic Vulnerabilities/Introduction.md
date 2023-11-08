@@ -1,1 +1,1 @@
-Business logic vulnerabilities are flaws in the design and implementation of an application. This gives an attacker the oppor
+Business logic vulnerabilities are flaws in the design and implementation of an application, that allows an attacker to elicit unintended behavior from legitimate functionalities to achieve a malicious goal. These flaws are generally the result of failing to anticipate unusual user behavior and application states that may occur, and consequently, failing to handle them safely.
