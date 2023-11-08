@@ -1,0 +1,3 @@
+Some common file formats use XML or contain XML subcomponents, a primary example of these are office document formats like `.docx` and image formats like `.svg`.
+
+For example, an application allows users to uploads images, and process or validate these on the server after they are uploaded. Even if the application only accepts `.png` or `.jpeg`, the image processing library that is being used might support `.svg` images. Since the `.svg` uses XML, an attacker can s

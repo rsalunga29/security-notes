@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Hidden Attack Surfaces for XXE Attacks/XInclude Attacks.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Hidden Attack Surfaces for XXE Attacks/XXE via File Upload.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Hidden Attack Surfaces for XXE Attacks/XInclude Attacks.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Hidden Attack Surfaces for XXE Attacks/XXE via File Upload.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Hidden Attack Surfaces for XXE Attacks/XInclude Attacks.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Hidden Attack Surfaces for XXE Attacks/XXE via File Upload.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Hidden Attack Surfaces for XXE Attacks/XInclude Attacks.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Hidden Attack Surfaces for XXE Attacks/XXE via File Upload.md"
               }
             }
           },
