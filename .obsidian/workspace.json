@@ -158,10 +158,10 @@
   "active": "e0efebcb8b881e54",
   "lastOpenFiles": [
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Retrieve Data via Error Messages.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Exfiltrate Data via OAST Techniques.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Detecting Blind XXE using OAST Techniques.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Exploiting Blind XXE by Repurposing a Local DTD.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Exfiltrate Data via OAST Techniques.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Detecting Blind XXE using OAST Techniques.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Exploiting XXE to Retrieve Files.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Chained XXE to SSRF.md",
     "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
