@@ -1,7 +1,7 @@
 An alternative approach to exploiting blind XXE is to trigger an XML parsing error where the error message contains sensitive data. This will be effective if the application returns the resulting error message within its response.
 
 An attacker can use the following malicious DTD to trigger an XML parsing error message containing `/etc/passwd` contents:
-```xml
+```dtd
 <!ENTITY % file SYSTEM "file:///etc/passwd">
 <!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'file:///nonexistent/%file;'>">
 %eval;
