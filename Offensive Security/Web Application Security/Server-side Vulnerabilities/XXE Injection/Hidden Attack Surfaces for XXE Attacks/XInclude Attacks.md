@@ -1,0 +1,3 @@
+Some applications receive client-submitted data, converts it into an XML document and then parses the document. A typical example of this is when the client-submitted data is placed into a backend [SOAP](https://www.w3schools.com/xml/xml_soap.asp) request, which is then processed by the backend SOAP service.
+
+In this situation, an attacker cannot carry out a classic XXE attack due to lack of control of the entire XML document which makes it impossible to define or modify the `DOCTYPE` element. However, an attacker 
