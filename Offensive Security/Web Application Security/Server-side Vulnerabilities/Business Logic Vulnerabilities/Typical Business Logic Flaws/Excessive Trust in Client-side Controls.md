@@ -1,1 +1,3 @@
-Lorem ipsum
+A fundamentally flawed assumption is that users will only interact with the application via the provided web interface. This is not always the case, as attackers can use tools such as Burp Suite to intercept the request sent by the browser and tamper with the data before being passed into the server-side logic, making the client-side validation effectively useless.
+
+Additionally, accepting data at face value, without performing proper validation and integrity checks, can allow an attacker to do all kinds of damage with relatively minimal effort.
