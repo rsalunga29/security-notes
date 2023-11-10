@@ -8,5 +8,7 @@ When auditing an application, developers must use tools such as Burp Proxy and R
 - Are there any limits that are imposed on the data?
 - What happens when you reach those limits?
 - Is any transformation or normalization being performed on your input?
-## Example from PortSwigger Web Academy
+## Examples from PortSwigger Web Academy
 ![High level logic vulnerability (Video solution, Audio)](https://www.youtube.com/watch?v=FxJrvNJsi48)
+![Low level logic flaw (Video solution, audio)](https://www.youtube.com/watch?v=BpAc15a5m_Q)
+aa
