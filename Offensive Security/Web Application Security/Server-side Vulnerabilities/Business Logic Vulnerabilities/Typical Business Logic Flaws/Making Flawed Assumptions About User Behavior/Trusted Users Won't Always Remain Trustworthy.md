@@ -2,4 +2,4 @@ Applications may appear to be secure because they implement seemingly robust mea
 
 If business rules and security measures are not applied consistently throughout the application, this can lead to potentially dangerous loopholes that may be exploited by an attacker.
 
-For example, if an application only allows specific email domains to be used during registration, but the same validation doesn't apply when a user changes their email, allowing them to use any email domains including 
+For example, if an application only allows specific email domains to be used during registration, but the same validation doesn't apply when a user changes their email. An attacker can take advantage of this by changing their email containing the email domain of the target company, potentially giving them access to company email-only web interface.
