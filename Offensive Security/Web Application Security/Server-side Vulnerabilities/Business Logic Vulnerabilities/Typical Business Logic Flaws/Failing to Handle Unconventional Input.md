@@ -10,5 +10,7 @@ When auditing an application, developers must use tools such as Burp Proxy and R
 - Is any transformation or normalization being performed on your input?
 ## Examples from PortSwigger Web Academy
 ![High level logic vulnerability (Video solution, Audio)](https://www.youtube.com/watch?v=FxJrvNJsi48)
+
+The video below is an example of an [integer overflow attack](https://www.invicti.com/learn/integer-overflow/).
 ![Low level logic flaw (Video solution, audio)](https://www.youtube.com/watch?v=BpAc15a5m_Q)
 aa
