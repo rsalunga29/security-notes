@@ -1,1 +1,5 @@
-One aim of any application logic is to restrict user input to values that adhere to the business rules.
+One aim of any application logic is to restrict user input to values that adhere to the business rules. For example, the application may be designed to accept arbitrary values of a certain data type, but the logic determines whether or not this value is acceptable from the perspective of the business. Many applications incorporate numeric limits into their logic. This might include limits designed to manage inventory, apply budgetary restrictions, trigger phases of the supply chain, and so on.
+
+To implement rules like this, developers need to anticipate all possible scenarios and be able to handle them into the application logic, as failure
+
+Another example, a numeric data type might accept negative values. Consider a fund transfer between two bank accounts, the application will typically check whether the sender has sufficient funds. Although any integer is theoretically a valid input, the application might not prevent users from supplying a negative value, which could be exploited by an attacker to bypass the balance check and transfer funds in the "wrong direction". If the attacker sent -$1000 to the victim's account, this might result in them receiving $1000 from the victim instead.
