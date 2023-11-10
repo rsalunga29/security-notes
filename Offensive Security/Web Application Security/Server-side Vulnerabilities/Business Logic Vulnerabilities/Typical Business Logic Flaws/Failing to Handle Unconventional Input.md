@@ -1,0 +1,1 @@
+One aim of any application logic is to restrict user input to values that adhere to the business rules.
