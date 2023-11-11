@@ -1,0 +1,1 @@
+Many transactions rely on predefined workflows consisting of a sequence of steps.
