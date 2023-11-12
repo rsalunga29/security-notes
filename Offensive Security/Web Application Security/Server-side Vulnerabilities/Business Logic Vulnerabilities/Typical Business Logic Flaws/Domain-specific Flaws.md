@@ -1,3 +1,5 @@
 Many logic flaws are specific to the business domain or the purpose of the application. For example, the discounting functionality of online shops, which is a classic attack surface when hunting for logic flaws due to the way the discounts are applied.
 
 Consider an online shop that offers a 10% discount for orders over $1000. This could be vulnerable if the logic fails to check whether the order was changed after the discount is applied. In which case, the attacker could simply add items to their cart until the total value hit $1000, then remove the items before placing the order. They would then receive the discount even though it no longer satisfied the intended criteria.
+
+This type of vulnerability may require a certain level of domain-specific knowledge in order to understand might might be advantageous in a given context. Without this knowledge, you may dismiss dangerous behavior because you simply aren't aware of its potential knock-on effects, and may struggle to join the dots and notice how two functions can be combined in a harmful way.
