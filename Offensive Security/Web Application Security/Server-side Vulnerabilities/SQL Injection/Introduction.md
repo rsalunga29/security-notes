@@ -1,0 +1,5 @@
+Also known as SQLi, is a web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database. This can allow an attacker to view sensitive data, including data of other users or any other data that the application can access. In many cases, an attacker can modify or delete this data, causing persistent changes to the application's content or behavior.
+
+In some situations, an attacker can escalate a SQL injection attack to compromise the underlying backend infrastructure or perform a denial-of-service attack.
+## Cheat Sheet
+This [cheat sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet) contains some examples of useful syntax that you can use to perform a variety of tasks that often arises when performing SQL injection attacks.
