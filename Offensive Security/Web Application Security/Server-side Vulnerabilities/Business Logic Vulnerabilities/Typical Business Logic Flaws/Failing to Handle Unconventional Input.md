@@ -4,7 +4,7 @@ To implement rules like this, developers need to anticipate all possible scenari
 
 For example, a numeric data type might accept negative values. Consider a fund transfer between two bank accounts, the application will typically check whether the sender has sufficient funds. Although any integer is theoretically a valid input, the application might not prevent users from supplying a negative value, which could be exploited by an attacker to bypass the balance check and transfer funds in the "wrong direction". If the attacker sent -$1000 to the victim's account, this might result in them receiving $1000 from the victim instead.
 
-When auditing an application, developers must use tools such as Burp Proxy and Repeater to try submitting unconventional values such as exceptionally low numeric inputs and abnormally long strings. They can even try unexpected data types. By observing the application's response, they must be able to try and answer the following questions:
+When auditing an application, you must use tools such as Burp Proxy and Repeater to try submitting unconventional values such as exceptionally low numeric inputs and abnormally long strings. They can even try unexpected data types. By observing the application's response, you must be able to try and answer the following questions:
 - Are there any limits that are imposed on the data?
 - What happens when you reach those limits?
 - Is any transformation or normalization being performed on your input?
