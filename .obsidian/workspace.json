@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "23251f6c8ec362a1",
+        "id": "e7a28b08f0e929bb",
         "type": "tabs",
         "children": [
           {
-            "id": "c1c19a88ad84aee2",
+            "id": "f0862596f7ecb1e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Providing an Encryption Oracle.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Conditional Responses.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Providing an Encryption Oracle.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Conditional Responses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Providing an Encryption Oracle.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Conditional Responses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Providing an Encryption Oracle.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Conditional Responses.md"
               }
             }
           }
@@ -142,7 +141,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,13 +154,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c1c19a88ad84aee2",
+  "active": "f0862596f7ecb1e3",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Failing to Handle Unconventional Input.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Providing an Encryption Oracle.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Conditional Responses.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Error-based Blind SQLi/Extracting Sensitive Data via SQL Error Messages.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Error-based Blind SQLi/Blind SQLi by Triggering Conditional Errors.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Conditional Responses.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Providing an Encryption Oracle.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Failing to Handle Unconventional Input.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Error-based Blind SQLi/Extracting Sensitive Data via SQL Error Messages.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Time Delays.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi using OAST Techniques.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Introduction.md",
