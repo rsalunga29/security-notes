@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Conditional Responses.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Failing to Handle Unconventional Input.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "blind",
+                "query": "\"Examples from PortSwigger Web Academy\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Conditional Responses.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Failing to Handle Unconventional Input.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Conditional Responses.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Failing to Handle Unconventional Input.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Conditional Responses.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Failing to Handle Unconventional Input.md"
               }
             }
           }
@@ -153,11 +154,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9a8f674cdb8a97c7",
+  "active": "c1c19a88ad84aee2",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Providing an Encryption Oracle.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Conditional Responses.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Error-based Blind SQLi/Extracting Sensitive Data via SQL Error Messages.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Error-based Blind SQLi/Blind SQLi by Triggering Conditional Errors.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Conditional Responses.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Time Delays.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi using OAST Techniques.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Introduction.md",
@@ -183,7 +185,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Useful OS Commands.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Prevention.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks"

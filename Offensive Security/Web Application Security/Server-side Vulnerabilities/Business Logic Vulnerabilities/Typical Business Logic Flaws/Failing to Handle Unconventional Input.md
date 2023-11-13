@@ -9,9 +9,9 @@ When auditing an application, you must use tools such as Burp Proxy and Repeater
 - What happens when you reach those limits?
 - Is any transformation or normalization being performed on your input?
 ## Examples from PortSwigger Web Academy
-![High level logic vulnerability (Video solution, Audio)](https://www.youtube.com/watch?v=FxJrvNJsi48)
+[![High level logic vulnerability (Video solution, Audio)](https://img.youtube.com/vi/FxJrvNJsi48/0.jpg)](https://www.youtube.com/watch?v=FxJrvNJsi48)
 
 This video is an example of an [integer overflow attack](https://www.invicti.com/learn/integer-overflow/):
-![Low level logic flaw (Video solution, audio)](https://www.youtube.com/watch?v=BpAc15a5m_Q)
+[![Low level logic flaw (Video solution, audio)](https://img.youtube.com/vi/BpAc15a5m_Q/0.jpg)](https://www.youtube.com/watch?v=BpAc15a5m_Q)
 
-![Inconsistent handling of exceptional input (Video solution, Audio)](https://www.youtube.com/watch?v=MkbMJH-p2gg)
+[![Inconsistent handling of exceptional input (Video solution, Audio)](https://img.youtube.com/vi/MkbMJH-p2gg/0.jpg)](https://www.youtube.com/watch?v=MkbMJH-p2gg)

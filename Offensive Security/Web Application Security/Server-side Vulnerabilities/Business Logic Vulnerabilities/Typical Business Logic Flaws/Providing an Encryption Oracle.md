@@ -4,4 +4,4 @@ This becomes dangerous when there are other user-controllable inputs in the appl
 
 The danger also increases if there is a functionality on the site that provides a decryption function, which would enable to attacker to easily identify the expected data structure. The severity of an encryption oracle depends on what functionality also uses the same algorithm as the oracle.
 ## Examples from PortSwigger Web Academy
-![Authentication bypass via encryption oracle (Video solution, Audio)](https://www.youtube.com/watch?v=62spVp-GVPI)
+[![Authentication bypass via encryption oracle (Video solution, Audio)](https://img.youtube.com/vi/62spVp-GVPI/0.jpg)](https://www.youtube.com/watch?v=62spVp-GVPI)
