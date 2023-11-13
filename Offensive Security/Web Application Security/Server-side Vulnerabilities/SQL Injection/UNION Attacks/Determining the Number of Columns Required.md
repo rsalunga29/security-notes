@@ -18,4 +18,8 @@ The second method involves submitting a series of `UNION SELECT` payloads specif
 ' UNION SELECT NULL,NULL--
 etc...
 ```
-If the number of `nu`
+If the number of nulls does not match the number of columns, the database returns an error:
+```txt
+All queries combined using a UNION, INTERSECT or EXCEPT operator must have an equal number of expressions in their target lists.
+```
+Since data types in each columns must be compatible between the original and injected values, we use `NULL` as it is convertible to every common data type, increasing the chances that the payload will succeed when the column count is correct.
