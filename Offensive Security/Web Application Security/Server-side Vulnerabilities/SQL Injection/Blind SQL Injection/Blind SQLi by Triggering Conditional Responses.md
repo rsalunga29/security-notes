@@ -54,4 +54,7 @@ Verify that the condition is not true, confirming that the first password charac
 ...xyz' AND SUBSTRING((SELECT Password FROM Users WHERE Username = 'Administrator'), 1, 1) = 's
 ```
 ## Example from PortSwigger Web Academy
+The video below uses the Cluster Bomb attack type
 ![SQL Injection - Lab #11 Blind SQL injection with conditional responses](https://www.youtube.com/watch?v=LBG_n9fr8sM)
+The video below uses the Sniper attack type and manual brute forcing
+![Blind SQL injection with conditional responses (Video solution, Audio) ](https://www.youtube.com/watch?v=M5Ko7F1_co4)
