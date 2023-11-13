@@ -26,4 +26,4 @@ All queries combined using a UNION, INTERSECT or EXCEPT operator must have an eq
 ```
 However, some applications will only return a generic error response or will not return any response at all. Typically, when the number of nulls matches the number of columns, the database returns an additional row in the result set, containing null values in each column.
 
-The effect of the HTTP response will still dep
+The effect of the HTTP response will still depend on the application's code. If you are lucky, you will see some additional content within the response. Otherwise, the null values might trigger a different error, such as a `NullPointerException`.
