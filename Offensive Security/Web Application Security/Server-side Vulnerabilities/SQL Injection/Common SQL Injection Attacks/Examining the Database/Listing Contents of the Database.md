@@ -25,4 +25,12 @@ MyDatabase     dbo           Users       Username     varchar
 MyDatabase     dbo           Users       Password     varchar
 ```
 ## Listing Contents of an Oracle Database
-LOLO
+On Oracle, you can find the same information as follows:
+- You can list tables by querying `all_tables`:
+```sql
+SELECT * FROM all_tables
+```
+- You can list columns by querying `all_tab_columns`:
+```sql
+SELECT * FROM all_tab_columns WHERE table_name = 'USERS'
+```
