@@ -10,5 +10,4 @@ SELECT name, description FROM products WHERE category = 'Gifts' UNION SELECT use
 ```
 This will cause the application to return all username and passwords along with the names and description of products.
 
-<!-- @TODO: Link UNION Attacks -->
-This technique is also known as UNION-based SQL injection.
+This technique is also known as [UNION-based SQL injection](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FServer-side%20Vulnerabilities%2FSQL%20Injection%2FUNION%20Attacks%2FIntroduction).
