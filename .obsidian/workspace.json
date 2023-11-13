@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Examining the Database/Querying the Database Type and Version.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Examining the Database/Querying the Database Type and Version.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Examining the Database/Querying the Database Type and Version.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Examining the Database/Querying the Database Type and Version.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Introduction.md"
               }
             }
           }
@@ -161,8 +161,8 @@
   },
   "active": "a8c0ef01ed567fa5",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Database-specific Syntax.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Examining the Database/Querying the Database Type and Version.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Database-specific Syntax.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Finding Columns with a Useful Data Type.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Determining the Number of Columns Required.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Retrieve Interesting Data.md",
