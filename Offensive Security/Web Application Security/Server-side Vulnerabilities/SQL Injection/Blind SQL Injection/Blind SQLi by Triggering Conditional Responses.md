@@ -55,6 +55,6 @@ Verify that the condition is not true, confirming that the first password charac
 ```
 ## Example from PortSwigger Web Academy
 The video below uses the Cluster Bomb attack type
-![SQL Injection - Lab #11 Blind SQL injection with conditional responses](https://www.youtube.com/watch?v=LBG_n9fr8sM)
+![SQL Injection - Lab #11 Blind SQL injection with conditional responses(https://img.youtube.com/vi/LBG_n9fr8sM/0.jpg)](https://www.youtube.com/watch?v=LBG_n9fr8sM)
 The video below uses the Sniper attack type and manual brute forcing
-![Blind SQL injection with conditional responses (Video solution, Audio) ](https://www.youtube.com/watch?v=M5Ko7F1_co4)
+![Blind SQL injection with conditional responses (Video solution, Audio)(https://img.youtube.com/vi/M5Ko7F1_co4/0.jpg) ](https://www.youtube.com/watch?v=M5Ko7F1_co4)
