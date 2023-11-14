@@ -16,3 +16,5 @@ ResultSet resultSet = statement.executeQuery();
 Parameterized queries must be used on any situations where untrusted input appears as data within the query, including the `WHERE` clause and values in an `INSERT` or `UPDATE` statement. However, for handling inputs such as table names or column names, including the `ORDER BY` clause, you need to use a different approach, such as:
 - Whitelisting permitted input values.
 - Using different logic to deliver the required behavior.
+
+For a parameterized query to be effective in preventing SQL injection, the string that is used in the query must always be a hard-coded constant. It must never contain any variable data from any origin. 
