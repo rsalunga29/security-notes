@@ -2,4 +2,4 @@ Verbose error messages are dangerous since it could include information that may
 ```txt
 Unterminated string literal started at position 52 in SQL SELECT * FROM tracking WHERE id = '''. Expected char
 ```
-This shows the full query that the application has constructed using our input, which makes it easier for us to construct a valid query containing a malicious payload.
+This shows the full query that the application has constructed including our injected input, which makes it easier for us to construct a valid query containing a malicious payload.
