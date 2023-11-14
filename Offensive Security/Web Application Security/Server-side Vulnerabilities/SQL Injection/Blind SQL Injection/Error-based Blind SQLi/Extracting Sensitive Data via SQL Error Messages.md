@@ -6,7 +6,7 @@ This shows the full query that the application has constructed including our inj
 
 Occasionally, you can even induce the application to generate an error message that contains some of the data that is returned by the query, turning a blind SQL injection into a visible one. You can do this by using the `CAST()` function, which enables you to convert one data type to another. For example:
 ```txt
-...xyz' AND CAST((SELECT example_column FROM example_data) AS int)--
+productId=1' AND CAST((SELECT example_column FROM example_data) AS int)--
 ```
 Often, the data that you're string to read is a string. Attempting to convert it to an incompatible data type, such as `int`, may cause the application to return an error:
 ```txt

