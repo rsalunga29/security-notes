@@ -30,3 +30,5 @@ Using these different formats may provide ways to an attacker to obfuscate their
 ```
 ## Cheat Sheet
 This [cheat sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet) contains some examples of useful syntax that you can use to perform a variety of tasks that often arises when performing SQL injection attacks.
+
+There will be times where the `SELECT` keyword won't work.
