@@ -5,7 +5,7 @@ gobuster dir -u http://target.com/ -w /usr/share/wordlists/dirb/common.txt -o re
 ```
 ### Ffuf
 ```nix
-gobuster dir -u http://target.com/ -w /usr/share/wordlists/dirb/common.txt -x .php,.txt,.html,.old,.bak,.zip,.rar -o results.txt
+ffuf -c -w /usr/share/wordlists/dirb/common.txt -u https://target.com/FUZZ -ic
 ```
 ## Retrieve Hidden Files
 ### GoBuster
