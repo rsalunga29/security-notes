@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/CORS Headers/Access-Control-Allow-Origin Header.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/CORS Headers/Access-Control-Allow-Origin Header.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/CORS Headers/Access-Control-Allow-Origin Header.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Introduction.md"
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/CORS Headers/Access-Control-Allow-Origin Header.md"
               }
             }
           }
@@ -156,14 +156,14 @@
   },
   "active": "f0862596f7ecb1e3",
   "lastOpenFiles": [
-    "Untitled.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Introduction.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/CORS Headers/Access-Control-Allow-Origin Header.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/CORS Headers/Access-Control-Allow-Credentials Header.md",
+    "Untitled.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Same-origin Policy/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Same-origin Policy/SOP Implementation.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Access-Control-Allow Origin Response Header/CORS with Credentials.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Access-Control-Allow Origin Response Header/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Access-Control-Allow Origin Response Header/Untitled",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Access-Control-Allow Origin Response Header",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/CORS Headers",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Same-origin Policy",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed File Type Validation.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed Validation of File Contents.md",
