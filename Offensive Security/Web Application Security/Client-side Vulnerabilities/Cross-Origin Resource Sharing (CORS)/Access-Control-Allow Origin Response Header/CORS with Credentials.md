@@ -1,0 +1,1 @@
+The default behavior of cross-origin resource requests is for requests to be passed without credentials like cookies and the Authorization header. However, using the `Access-Control-Allow-Credentials` header and setting its value to `true`, permits the cross-domain server to read the response with credentials.
