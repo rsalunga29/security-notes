@@ -154,8 +154,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f0862596f7ecb1e3",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Untitled",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Access-Control-Allow Origin Response Header.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Same-origin Policy.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed File Type Validation.md",
@@ -183,9 +185,7 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF/Blind SSRF with Out-of-Band Detection.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Error-based Blind SQLi",
     "Offensive Security/Web Application Security/WAF Bypass/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Examining the Database/Querying the Database Type and Version.md",
     "Offensive Security/Web Application Security/WAF Bypass",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Examining the Database/Listing Contents of the Database.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Examining the Database",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection",

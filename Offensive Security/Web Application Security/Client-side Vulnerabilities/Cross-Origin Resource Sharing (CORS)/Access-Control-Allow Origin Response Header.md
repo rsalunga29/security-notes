@@ -1,0 +1,3 @@
+The `Access-Control-Allow-Origin` (ACAO) header is included in the response from one website to a request originating from another website, and identifies the permitted origin of the request. A web browser compares the `Access-Control-Allow-Origin` with the requesting website's origin and permits access to the response if they match.
+
+The CORS specification identifies a collection of protocol of which `Access-Control-Allow-Origin` is the most significant.
