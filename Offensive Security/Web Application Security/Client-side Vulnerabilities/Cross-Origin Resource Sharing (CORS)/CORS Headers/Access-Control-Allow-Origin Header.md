@@ -2,14 +2,19 @@ The `Access-Control-Allow-Origin` response header indicates whether the response
 ```http
 GET /data HTTP/1.1
 Host: robust-website.com
-Origin: https://normal-website.com
+Origin: normal-website.com
 ```
 The server running `robust-website.com` will then return the following response:
 ```http
 HTTP/1.1 200 OK
 ...
-Access-Control-Allow-Origin: https://normal-website.com
+Access-Control-Allow-Origin: normal-website.com
 ```
 The browser will then compare if `Access-Control-Allow-Origin` value is the same as the requesting website's origin, in this case `normal-website.com`, and permits the response if they match.
 
-The `Access-Control-Allow-Origin` also allows for multiple origins or the usage of `null` or the wildcard `*`. However, no browser supports multiple origins and there are restrictions on the use of the wildcard `*`.
+The `Access-Control-Allow-Origin` also allows for multiple origins or the usage of `null` or the wildcard `*`. However, no browser supports multiple origins and there are restrictions on the use of the wildcard `*`:
+- Setting `Access-Control-Allow-Origin` to the wildcard `*`, then the use of credentials is not allowed.
+- Wildcards cannot be used within any other value. For example, the following header is not valid:
+```txt
+Access-Control-Allow-Origin: *.normal-website.com
+```
