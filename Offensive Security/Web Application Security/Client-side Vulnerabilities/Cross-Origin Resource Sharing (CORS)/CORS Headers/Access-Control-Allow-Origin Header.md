@@ -13,7 +13,7 @@ Access-Control-Allow-Origin: normal-website.com
 The browser will then compare if `Access-Control-Allow-Origin` value is the same as the requesting website's origin, in this case `normal-website.com`, and permits the response if they match.
 
 The `Access-Control-Allow-Origin` also allows for multiple origins or the usage of `null` or the wildcard `*`. However, no browser supports multiple origins and there are restrictions on the use of the wildcard `*`:
-- When `Access-Control-Allow-Origin` is set to the wildcard `*`, it disallows the use cross-origin transfer of credentials.
+- When `Access-Control-Allow-Origin` is set to the wildcard `*`, the cross-origin transfer of credentials is not permitted since it would expose any authenticated content to everyone.
 - Wildcards cannot be used within any other value. For example, the following header is not valid:
 ```txt
 Access-Control-Allow-Origin: *.normal-website.com
