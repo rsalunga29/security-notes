@@ -15,11 +15,11 @@ This attack will cause the server to make HTTP request to the specified URL whic
 2. Right click and select **Insert Collaborator payload**  to insert a Burp Collaborator subdomain where indicated.
 3. Go to the Collaborator tab, and click **Poll now**. If you don't see any interactions listed, wait a few seconds and try again. You should see some DNS and HTTP interactions that were initiated by the application as the result of your payload.
 ## Out-of-band Interaction via XML Parameter Entities
-Sometimes, XXE attacks using regular entities are blocked due to input validation by the application or some hardening of the XML parser that is being used. In this situation, an attacker might use XML parameter entities instead, which are a special kind of XML entity which can only be reference within the DTO.
+Sometimes, XXE attacks using regular entities are blocked due to input validation by the application or some hardening of the XML parser that is being used. In this situation, an attacker might use XML parameter entities instead, which are a special kind of XML entity which can only be reference within the DTD.
 
 For this technique, an attacker only need to know two things:
 1. The declaration of an XML parameter entity includes the percent character before the entity name: `<!ENTITY % myparameterentity "my parameter entity value" >`
-2. Parameter entities are referenced using the percent character instead of the usual ampersand: `%myparameterentity;`
+2. Parameter entities are referenced using the **percent character (%)** instead of the usual ampersand (&): `%myparameterentity;`
 
 This means, an attacker can test for blind XXE with the following payload:
 ```xml
