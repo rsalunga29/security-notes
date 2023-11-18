@@ -4,5 +4,4 @@ The token is stored and managed by the browser, automatically adding it to the `
 
 In addition, HTTP Basic Authentication often don't support brute force protection. As the token consists exclusively of static values, this can leave it vulnerable to being brute-forced.
 
-<!-- @TODO: Link CSRF from Client-side Vulnerabilities -->
-Additionally, it is also particularly vulnerable to session-related exploits, notably Cross-Site Request Forgery (CSRF).
+Additionally, it is also particularly vulnerable to session-related exploits, notably [Cross-Site Request Forgery (CSRF)](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FClient-side%20Vulnerabilities%2FCross-site%20Request%20Forgery%20(CSRF)%2FIntroduction).
