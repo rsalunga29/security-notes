@@ -1,4 +1,4 @@
-The same-origin policy is a browser security mechanism that was defined to control access to data between web applications. For example, it aims to prevent a shopping application from accessing the response from your banking application during payment.
+The same-origin policy is a browser security mechanism that was defined to control access to data between web applications. For example, it aims to prevent a shopping application from accessing the resources from your banking application.
 
 The following table shows how the same-origin policy will be applied if the `http://normal-website.com/example/example.html` tries to access other origins¹:
 
