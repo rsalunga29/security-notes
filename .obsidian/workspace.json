@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Prevention.md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 262.5
   },
   "right": {
     "id": "64847627f5c52abb",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Prevention.md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Prevention.md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Prevention.md"
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Introduction.md"
               }
             }
           }
@@ -156,7 +156,12 @@
   },
   "active": "41fa81b2c2e0baea",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Examining the Database/Listing Contents of the Database.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Listing the Contents of the Database.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Retrieving Data from Other Database Tables.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Introduction.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Prevention.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Exploiting Misconfigured CORS/Breaking TLS with Poorly Configured CORS.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Exploiting Misconfigured CORS/Errors parsing Origin Headers.md",
@@ -184,13 +189,8 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Subverting Application Logic.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Prevention.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Second-order SQL Injection.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi using OAST Techniques.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF/Blind SSRF with Shellshock Exploitation.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Time Delays.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Conditional Responses.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Error-based Blind SQLi",
     "Offensive Security/Web Application Security/WAF Bypass",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Examining the Database",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks"
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Examining the Database"
   ]
 }
