@@ -1,1 +1,8 @@
 Also known as CSRF, is a web security vulnerability that allows an attacker to partly circumvent the [Same-origin Policy](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FClient-side%20Vulnerabilities%2FCross-Origin%20Resource%20Sharing%20(CORS)%2FSame-origin%20Policy%2FIntroduction) in order to cause a victim user to perform an action unintentionally. For example, this might be to change the email address on their account, to change their password, or to make a funds transfer.
+
+Depending on the nature of the CSRF attack, the attacker might be able to gain full control over a user's account. If the compromised user has a privileged role, the attacker might even be able to take full control of all of application's data and functionality.
+
+For a CSRF attack to be possible, three key conditions must be in place:
+1. **A relevant action.** There is an action within the application that the attacker has a reason to induce, this might be a privileged action (such as modifying or deleting user data) or any action on user-specific data (such as changing password).
+2. **Cookie-based session handling.** The action involves invoking HTTP request and must solely rely on session cookies to identify the user who has made the request. There must also be no other mechanism in place for tracking or validating session tokens used in the user's request.
+3. **No unpredictable request parameters.** The request that performs the action must not contain any parameters that an attacker cannot determine or guess. For example, during password change functionality, it will not be vulnerable if the attacker needs to know the value of the existing password.
