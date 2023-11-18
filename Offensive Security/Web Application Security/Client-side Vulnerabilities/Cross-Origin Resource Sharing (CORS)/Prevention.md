@@ -1,0 +1,1 @@
+CORS vulnerabilities arise primarily as misconfigurations. Proper configuration is obviously the
