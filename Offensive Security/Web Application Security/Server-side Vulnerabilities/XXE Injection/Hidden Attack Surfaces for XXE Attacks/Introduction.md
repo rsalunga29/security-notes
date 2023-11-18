@@ -1,0 +1,1 @@
+Attack surface for XXE injection is obvious in many cases, because an application's normal HTTP traffic includes requests that contain data in XML format. In some cases, the attack surface is less visible. However, if you look in the right places, you will find XXE attack surface in requests that do not contain any XML.

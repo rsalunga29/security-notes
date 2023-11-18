@@ -1,0 +1,5 @@
+A fundamentally flawed assumption is that users will only interact with the application via the provided web interface. This is not always the case, as attackers can use tools such as Burp Suite to intercept the request sent by the browser and tamper with the data before being passed into the server-side logic, making the client-side validation effectively useless.
+
+Additionally, accepting data at face value, without performing proper validation and integrity checks, can allow an attacker to do all kinds of damage with relatively minimal effort.
+
+For example, a shop application only applies client-side validation, an attacker can intercept the "Add to cart" or "Checkout" request using Burp Proxy and change the `price` parameter to undesired value before forwarding the request, this will result in the item being sold in the value provided by the attacker.

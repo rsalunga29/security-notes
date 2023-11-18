@@ -1,0 +1,8 @@
+The best way to prevent business logic vulnerabilities are to:
+- Make sure developers and testers understand the business domain that the application serves.
+- Avoid making implicit assumptions about user behavior or the behavior of other parts of the application.
+
+Developers and testers must able to fully identify what assumptions they have made about the server-side state and be able to implement the necessary logic to verify that these assumptions are met. This makes it easier for the team to understand how the applications react in different scenarios and help them spot logic flaws as early as possible. As such, it is recommended for the team to adhere to the following best practices wherever possible:
+- Maintain clear design documents and data flows for all transactions and workflows, noting any assumptions that are made at each stage.
+- Write code as clearly as possible. If it's difficult to understand what is supposed to happen, it will be difficult to spot any logic flaws. Ideally, well-written code shouldn't need documentation to understand it. In unavoidably complex cases, producing clear documentation is crucial to ensure that other developers and testers know what assumptions are being made and exactly what the expected behavior is.
+- Note any references to other code that uses each component. Think about any side-effects of these dependencies if a malicious party were to manipulate them in an unusual way.

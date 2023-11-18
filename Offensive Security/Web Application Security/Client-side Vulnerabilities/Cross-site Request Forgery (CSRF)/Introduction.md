@@ -1,0 +1,6 @@
+Also known as CSRF, is a web security vulnerability that allows an attacker to partly circumvent the [Same-origin Policy](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FClient-side%20Vulnerabilities%2FCross-Origin%20Resource%20Sharing%20(CORS)%2FSame-origin%20Policy%2FIntroduction) in order to cause a victim user to perform an action unintentionally. For example, this might be to change the email address on their account, to change their password, or to make a funds transfer.
+
+<!-- @TODO: Link XSS -->
+CSRF attacks are typically delivered the same way as reflected XSS, wherein the attacker will place the malicious HTML onto a website that they control and induce the victims to visit that website. This might be done by feeding the user a link to the website, via email or social media message, or placing it into a popular website, in which case the attacker would just wait for users to visit the website.
+
+Depending on the nature of the CSRF attack, the attacker might be able to gain full control over a user's account. If the compromised user has a privileged role, the attacker might even be able to take full control of all of application's data and functionality.
