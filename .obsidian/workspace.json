@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Detecting Blind XXE using OAST Techniques.md",
+                "file": "Certification Roadmap.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Detecting Blind XXE using OAST Techniques.md",
+                "file": "Certification Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Detecting Blind XXE using OAST Techniques.md",
+                "file": "Certification Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Detecting Blind XXE using OAST Techniques.md"
+                "file": "Certification Roadmap.md"
               }
             }
           }
@@ -141,7 +141,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,6 +156,9 @@
   },
   "active": "883d2f718bd8e57d",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Detecting Blind XXE using OAST Techniques.md",
+    "Certification Roadmap.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Hidden Attack Surfaces for XXE Attacks/XXE via Modified Content-Type Header.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Hidden Attack Surfaces for XXE Attacks/XXE via File Upload.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Hidden Attack Surfaces for XXE Attacks/XInclude Attacks.md",
@@ -167,7 +171,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Determining the Number of Columns Required.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Database-specific Syntax.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks",
-    "Untitled.md",
     "Offensive Security/Web Application Security/WAF Bypass/Introduction.md",
     "Offensive Security/Web Application Security/WAF Bypass",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Prevention.md",
@@ -185,8 +188,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Error-based Blind SQLi",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Time Delays.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi using OAST Techniques.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Conditional Responses.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Making Flawed Assumptions About User Behavior",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws",
