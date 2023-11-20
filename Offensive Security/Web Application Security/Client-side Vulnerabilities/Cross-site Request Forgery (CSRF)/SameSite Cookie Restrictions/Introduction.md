@@ -2,7 +2,7 @@ SameSite is a browser security mechanism that enables browsers and website owner
 
 All major browsers currently support the following SameSite restriction levels:
 - **Strict** - The most restrictive option. The browser sends the cookie only for same-site requests, that is, requests originating from the same site that set the cookie.
-- **Lax** - Since 2021, Chrome sets `Lax` as the default value if the website that issues the cookie doesn't explicitly sets its own restriction level. The browser does not send the cookie on cross-site requests, such as on requests to load images or frames, but it sent when a user is navigating to the origin site from an external site (i.e following a link).
+- **Lax** - Since 2021, Chrome sets `Lax` as the default value if the website that issues the cookie doesn't explicitly sets its own restriction level. The browser does not send the cookie on cross-site requests, such as on requests to load images or frames, but is sent when a user is navigating to the origin site from an external site (i.e following a link).
 - **None** - Removes any same-site requirements from the cookie. However, the cookie must be marked as Secure (i.e `SameSite=None; Secure`), otherwise an error will be logged. The browser sends the cookie on both cross-site and same-site requests.
 
 *Note: Developers can manually configure a restriction level for each cookie they set, giving them more control over when these cookies are used.* To do this, they just have to include the `SameSite` attribute in the `Set-Cookie` response header (i.e `Set-Cookie: session=abc123; SameSite=Strict`).
