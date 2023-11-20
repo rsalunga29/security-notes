@@ -10,4 +10,4 @@ Cookie: session=1DQGdzYbOJQzLP7460tfyiv3do7MjyPw; csrf=R8ov2YBfTYmzFyjit8o2hKBuo
 
 csrf=R8ov2YBfTYmzFyjit8o2hKBuoIjXXVpa&email=wiener@normal-user.com
 ```
-In this situation, the attacker can simply look for and abuse any cookie setting functionality wherein they will put the same token in both the cookie and request parameter. They can also simply invent a token following the required format, if the application checks for it.
+In this situation, the attacker can simply look for and abuse any cookie setting functionality wherein they will put the same token in both the cookie and request parameter. They can also simply invent a token of their own (following the required format, if the application checks for it).

