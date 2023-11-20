@@ -1,0 +1,1 @@
+Some applications do not maintain any server-side record of tokens that have been issue, instead they duplicate each token within a cookie and a request parameter. This is sometimes called the "double submit" defense against CSRF, which is a simple mechanism that avoids the need for any server-side state. For example:

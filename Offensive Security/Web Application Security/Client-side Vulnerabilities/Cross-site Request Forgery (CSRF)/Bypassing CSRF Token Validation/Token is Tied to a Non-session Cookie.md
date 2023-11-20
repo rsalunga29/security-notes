@@ -31,3 +31,5 @@ Imagine a shopping application that allows its users to change their email addre
 <img src="https://vulnerable-website.com/?search=test%0d%0aSet-Cookie:%20csrfKey=uM3IBWr9qbdJgnV9DBqjXEOcdHG3rMPp%3b%20SameSite=None" onerror="document.forms[0].submit()">
 ```
 8. Store the exploit then click "Deliver to victim" to solve the lab.
+## Note
+The cookie-setting behavior does not even need to exist within the same web application as the CSRF vulnerability. Any other application within the same overall DNS domain can be leveraged to set cookies in the application that is being targeted, this attack is called [cookie tossing](https://book.hacktricks.xyz/pentesting-web/hacking-with-cookies/cookie-tossing). For example, a cookie-setting function on `staging.demo.normal-website.com` could be leveraged to place a cookie that is submitted to `secure.normal-website.com`.
