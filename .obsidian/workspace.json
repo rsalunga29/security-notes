@@ -11,10 +11,11 @@
             "id": "41fa81b2c2e0baea",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Bypassing CSRF Defenses/Introduction.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -92,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Bypassing CSRF Defenses/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Bypassing CSRF Defenses/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Bypassing CSRF Defenses/Introduction.md"
+              }
             }
           }
         ]
@@ -150,6 +155,22 @@
   },
   "active": "41fa81b2c2e0baea",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Prevention.md",
+    "Offensive Security/Web Application Security/WAF Bypass/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Exploiting XXE to Retrieve Files.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Chained XXE to SSRF.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Examining the Database/Listing Contents of the Database.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Examining the Database/Querying the Database Type and Version.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Error-based Blind SQLi/Extracting Sensitive Data via SQL Error Messages.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Error-based Blind SQLi/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Error-based Blind SQLi/Blind SQLi by Triggering Conditional Errors.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi using OAST Techniques.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Time Delays.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Conditional Responses.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Insufficient Blacklisting of Filetypes/Obfuscating File Extensions.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Insufficient Blacklisting of Filetypes/Overriding Server Configuration.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Bypassing CSRF Defenses/Introduction.md",
     "Certification Roadmap.md",
     "conflict-files-obsidian-git.md",
@@ -159,29 +180,13 @@
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/HTTP Basic Authentication.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Bypassing CSRF Defenses",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Examining the Database/Listing Contents of the Database.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Listing the Contents of the Database.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Retrieving Data from Other Database Tables.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Prevention.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Exploiting Misconfigured CORS/Breaking TLS with Poorly Configured CORS.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Exploiting Misconfigured CORS/Errors parsing Origin Headers.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Exploiting Misconfigured CORS/Intranet and CORS without Credentials.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Exploiting Misconfigured CORS/XSS via CORS Trust Relationships.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Exploiting Misconfigured CORS/Whitelisted NULL Origin Value.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Exploiting Misconfigured CORS/Server-generated ACAO Header from Client-specified Origin Header.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Same-origin Policy/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Exploiting Misconfigured CORS",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Pre-flight Checks.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/CORS Headers/Introduction.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/CORS Headers/Access-Control-Allow-Origin Header.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/CORS Headers/Access-Control-Allow-Credentials Header.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Same-origin Policy/SOP Implementation.md",
-    "Untitled.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Access-Control-Allow Origin Response Header/Untitled",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/CORS Headers",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Same-origin Policy",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed File Type Validation.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Error-based Blind SQLi",
