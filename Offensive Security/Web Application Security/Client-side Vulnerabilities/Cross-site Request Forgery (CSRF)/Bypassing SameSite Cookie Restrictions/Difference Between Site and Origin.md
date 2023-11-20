@@ -1,1 +1,0 @@
-The difference between site and origin is their scope. A site encompasses multiple domain names, whereas an origin only includes one.
