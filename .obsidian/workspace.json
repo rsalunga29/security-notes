@@ -156,8 +156,9 @@
   },
   "active": "41fa81b2c2e0baea",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/SameSite Cookie Restrictions/Difference Between Site and Origin.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/SameSite Cookie Restrictions/Bypass Techniques/Strict Restrictions using On-Site Gadgets.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/SameSite Cookie Restrictions/Introduction.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/SameSite Cookie Restrictions/Difference Between Site and Origin.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/CSRF Token Validation/Bypass Techniques/Token Depends on Token Parameter Being Present.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/CSRF Token Validation/Bypass Techniques/Token is Duplicated in a Cookie.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/CSRF Token Validation/Bypass Techniques/Token is Tied to a Non-session Cookie.md",
