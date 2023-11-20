@@ -9,7 +9,7 @@ Cookie: session=pSJYSScWKpmC60LpFOAHKixuFuM4uXWF; csrfKey=rZHCnSzEp8dbI6atzagGoS
 csrf=RhV7yQDO0xcq9gLEah2WVbmuFqyOq7tY&email=wiener@normal-user.com
 ```
 This situation is normally harder to exploit, since an attack is only possible if the website contains any behavior that allows an attacker to set a cookie in the victim's browser. In this case, an attacker can obtain a valid CSRF and session token from their own account, leverage a cookie-setting behavior to inject their cookie into the victim's browser and conduct an attack.
-## Example Exploit
+## Example Exploit from PortSwigger Academy
 Imagine a shopping application that allows its users to change their email address and search for products within the store.
 
 1. Login to your account. Submit the "Update email" form and intercept the request using Burp Proxy, then send the request to Burp Repeater.
