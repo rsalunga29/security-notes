@@ -1,0 +1,1 @@
+The HTTP Referer header is an optional request header that is automatically added by browsers when a user triggers an HTTP request. It contains the URL of the website from which the resources has been requested.
