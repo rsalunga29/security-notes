@@ -8,4 +8,8 @@ This type of bypass works because, as far as browsers are concerned, these clien
 *Note that the equivalent attack is not possible with server-side redirects. In this case, browsers recognize that the request to follow the redirect resulted from a cross-site request initially, so they still apply the appropriate cookie restrictions.*
 ## Example Exploit from PortSwigger Academy
 1. Identify the `POST /my-account/change-email` request and notice that it is vulnerable to CSRF.
-2. Look at the response of `POST /login` request and notice that
+2. Look at the response of `POST /login` request and notice that the website explicitly specifies `SameSite=Strict` when setting session cookies.
+3. Go to one of the blog posts and post an arbitrary comment. Observe tat you're initially sent to a confirmation page at `/post/comment/confirmation?postId=x` but after a few seconds, you're taken back to the blog post.
+4. In the Burp Proxy history, notice that the redirect is handled client-side using the JavaScript file `/resources/js/commentConfirmationRedirect.js`.
+5. Read through the code and notice that it dynamically constructs a client-side redirect URL by using the `postId` query parameter.
+6. 
