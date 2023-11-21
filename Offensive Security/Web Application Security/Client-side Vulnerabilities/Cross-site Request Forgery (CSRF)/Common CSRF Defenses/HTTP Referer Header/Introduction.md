@@ -1,1 +1,3 @@
-The HTTP Referer header is an optional request header that is automatically added by browsers when a user triggers an HTTP request. It contains the URL of the website from which the resources has been requested.
+The HTTP Referer header is an optional request header that is automatically added by browsers when a user triggers an HTTP request. It contains the URL of the website from which the resources has been requested. By checking this header, the server can see where the request originated.
+
+Some applications make use of this header to protect against CSRF attacks, this is normally done by verifying that the request originated from the application's own domain. However, this approach is generally less effective and easy to bypass.
