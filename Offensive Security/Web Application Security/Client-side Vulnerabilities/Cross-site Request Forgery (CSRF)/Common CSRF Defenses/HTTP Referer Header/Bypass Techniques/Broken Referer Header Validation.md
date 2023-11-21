@@ -7,4 +7,4 @@ Likewise, if the application only validates whether the `Referer` header contain
 ```txt
 https://attacker-website.com/csrf-attack?vulnerable-website.com
 ```
-This method won't always work as many browsers now strip the query string (`?`) from the `Referer` header by default. However, an attacker can override this behavior by making sure that the response containing their exploit has the `Referrer-Policy: unsafe-url` header set.
+This method won't always work as many browsers now strip the query string (`?`) from the `Referer` header by default. However, an attacker can override this behavior by making sure that the website containing their exploit has the `Referrer-Policy: unsafe-url` header set.
