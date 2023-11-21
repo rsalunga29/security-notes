@@ -12,4 +12,11 @@ This type of bypass works because, as far as browsers are concerned, these clien
 3. Go to one of the blog posts and post an arbitrary comment. Observe tat you're initially sent to a confirmation page at `/post/comment/confirmation?postId=x` but after a few seconds, you're taken back to the blog post.
 4. In the Burp Proxy history, notice that the redirect is handled client-side using the JavaScript file `/resources/js/commentConfirmationRedirect.js`.
 5. Read through the code and notice that it dynamically constructs a client-side redirect URL by using the `postId` query parameter.
-6. 
+6. In the browser, visit the following URL and change the `postId` parameter into an arbitrary string `/post/comment/confirmation?postId=foo`. Notice that it redirects to a path containing the injected string `/post/foo`.
+7. Inject a path traversal sequence to the `postId` parameter and observe it will redirect to the account page, `/post/comment/confirmation?postId=1/../../my-account`. This confirms we can use `postId` parameter to elicit a `GET` request for an arbitrary endpoint on the target site.
+8. Use the following payload and execute a CSRF attack:
+```html
+<script>
+	document.location = 'https://vulnerable-website.com/post/comment/confirmation?postId=1/../../my-account/change-email?email=pwned@normal-user.net&submit=1';
+</script>
+```
