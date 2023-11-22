@@ -4,4 +4,4 @@ https://vulnerable-website.com?query=<script>alert(document.domain)</script>
 ```
 The URL above will show a JavaScript alert containing the target website's domain. Fortunately, since Chrome version 92, cross-origin iframes are prevented from calling `alert()`, however an attacker can still use the `print()` function as an [alternative](https://portswigger.net/research/alert-is-dead-long-live-print).
 
-An attacker can also use Cross-Site Scripting to steal other user's cookies and impersonate as a legitimate user.
+In worst cases, an attacker can also use Cross-Site Scripting to steal other user's cookies and impersonate as a legitimate user.
