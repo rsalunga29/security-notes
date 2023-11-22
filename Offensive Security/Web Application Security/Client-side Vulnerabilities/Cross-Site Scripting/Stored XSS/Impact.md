@@ -1,3 +1,3 @@
 Stored XSS is the most damaging type of XSS as it enables attacks that are self-contained within the target application. The attacker does not need to find a way to deliver the exploit to the user, they simply have to wait for the victim user to visit the application.
 
-The self-contained nature of stored XSS is particularly relevant in situations where an XSS vulnerability only affects users who are currently logged in. If the XSS is reflected, then the attack must be timed 
+The self-contained nature of stored XSS is particularly relevant in situations where an XSS vulnerability only affects users who are currently logged in. If the XSS is reflected, then the attack must be timed to when the user is logged in to take full effect. In stored XSS, the user is guaranteed to be logged in at the time they encounter the exploit.
