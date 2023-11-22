@@ -8,3 +8,8 @@ The application echoes the supplied search term in the HTML:
 ```html
 <p>You searched for: gift</p>
 ```
+Assuming the application doesn't process the data, an attacker can construct an attack like this:
+```txt
+https://vulnerable-website.com/search?term=<script>alert(document.domain)</script>
+```
+If another user visits the attacker-supplied URL, the script will execute to open an alert popup containing the website's domain.
