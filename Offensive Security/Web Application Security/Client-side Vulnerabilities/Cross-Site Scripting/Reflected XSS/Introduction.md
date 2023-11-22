@@ -14,4 +14,4 @@ https://vulnerable-website.com/search?term=<script>alert(document.domain)</scrip
 ```
 If another user visits the attacker-supplied URL, the script will execute to open an alert popup containing the website's domain.
 ## Difference with Self XSS
-Self XSS behaves identical to reflected XSS, however it can only be triggered if the victim themselves submits the XSS payload into their browser. Delivering such an attack requires
+Self XSS behaves identical to reflected XSS, however it can only be triggered if the victim themselves submits the XSS payload into their browser. Delivering such an attack requires social engineering the victim, as such, it is normally considered to be a lame, low-impact issue.

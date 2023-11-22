@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Stored XSS/Introduction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a679e710b0116eaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Reflected XSS/Introduction.md",
                 "mode": "source",
                 "source": false
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Reflected XSS/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Stored XSS/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Reflected XSS/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Stored XSS/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Reflected XSS/Introduction.md"
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Stored XSS/Introduction.md"
               }
             }
           }
@@ -156,15 +168,15 @@
   },
   "active": "c12a7939d39710de",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Reflected XSS/Introduction.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Stored XSS/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Reflected XSS/Find and Test for Vulnerability.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/XSS in Different Places",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Reflected XSS/Impact.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Reflected XSS/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Introduction.md",
     "Untitled.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Introduction.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Stored XSS/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Stored XSS",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Reflected XSS",
