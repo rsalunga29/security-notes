@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting with different sources and sinks/XSS in document.write Sink Using Source location.search Inside Select.md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Find and Test for Vulnerabilities.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting with different sources and sinks/XSS in document.write Sink Using Source location.search Inside Select.md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Find and Test for Vulnerabilities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting with different sources and sinks/XSS in document.write Sink Using Source location.search Inside Select.md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Find and Test for Vulnerabilities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting with different sources and sinks/XSS in document.write Sink Using Source location.search Inside Select.md"
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Find and Test for Vulnerabilities.md"
               }
             }
           }
@@ -167,13 +167,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d30f3e1c95d43bd9",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting with different sources and sinks/XSS in document.write Sink Using Source location.search.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting with different sources and sinks/XSS in document.write Sink Using Source location.search Inside Select.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting using sources and sinks in third-party libraries",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting with different sources and sinks/DOM XSS in innerHTML sink Using Source location.search.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting with different sources and sinks/DOM XSS in document.write Sink Using Source location.search Inside Select.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting with different sources and sinks/DOM XSS in document.write Sink Using Source location.search.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Find and Test for Vulnerabilities.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting with different sources and sinks",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Stored XSS/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Reflected XSS/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Stored XSS/Find and Test for Vulnerabilities.md",
@@ -202,8 +204,6 @@
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/SameSite Cookie Restrictions/Bypass Techniques/SameSite Bypass via Cookie Refresh.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/SameSite Cookie Restrictions/Bypass Techniques/SameSite Strict Bypass via Client-side Redirect.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/SameSite Cookie Restrictions/Bypass Techniques/SameSite Lax Bypass Using GET Requests.md",
-    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/SameSite Cookie Restrictions/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/SameSite Cookie Restrictions/Bypass Techniques"
   ]
 }
