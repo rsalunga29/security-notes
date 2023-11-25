@@ -2,3 +2,4 @@ In a reflected DOM XSS vulnerability, the server processes data from the request
 ```js
 eval('var data = "reflected string"');
 ```
+## Example from PortSwigger Academy
