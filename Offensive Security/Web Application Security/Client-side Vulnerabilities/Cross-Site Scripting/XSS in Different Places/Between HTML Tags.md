@@ -12,3 +12,8 @@ Some useful ways of executing JavaScript are:
 4. In Burp Intruder, in the Payloads tab, click "Paste" to paste the list of tags into the payloads list. Click "Start attack". 
 5. Once the allowed tag is found, go back to positions and place the cursor before the `=` character (i.e `<body §§=1>`).
 ## XSS w/ All Tags Blocked Except For Custom Tags
+In situations like this, the only solution is to create a custom tag, for example:
+```html
+<xss id=x onfocus=alert(document.cookie) tabindex=1>#x';
+```
+ This injection creates a custom tag with the ID x, which contains an onfocus event handler that triggers the alert function. The hash at the end of the URL focuses on this element as soon as the page is loaded, causing the alert payload to be called. 
