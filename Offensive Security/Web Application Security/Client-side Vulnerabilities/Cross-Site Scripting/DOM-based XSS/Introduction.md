@@ -2,6 +2,15 @@ Document Object Model (DOM) based XSS arises when JavaScript takes data from an 
 
 The most common source for DOM XSS is the URL, which is typically accessed with the `window.location` object. An attacker can construct a link to send a victim to a vulnerable page with payload in the query string and fragment portions of the URL.
 
+The following are some of the main sinks that can lead to DOM-XSS vulnerabilities:
+- `document.write()`
+- `document.writeln()`
+- `document.domain`
+- `element.innerHTML`
+- `element.outerHTML`
+- `element.insertAdjacentHTML`
+- `element.onevent`
+
 <!-- @TODO: Transfer Sources and Sinks to DOM-based vulnerabilities -->
 ## Sources
 A source is a JavaScript property that accepts data that is potentially attacker-controlled. The `location.search` property is a good example of a source that an attacker can easily control, since it reads input from the URL query string. Ultimately, any property that an attacker can control is a potential source.
