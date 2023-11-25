@@ -1,6 +1,6 @@
 Testing for DOM-based vulnerabilities manually needs a browser with developer tools, such as Chrome. You need to work through each available source and test each one individually.
 ## Testing HTML Sinks
-Testing for DOM XSS in HTML sink can be started by placing a random alphanumeric string into a source, such as `locatiton.search`, then use developer tools to inspect the HTML and find where the string appears.
+Testing for DOM XSS in HTML sink can be started by placing a random alphanumeric string into a source, such as `location.search`, then use developer tools to inspect the HTML and find where the string appears.
 
 After finding the injected string, identify the context. Based on this context, the input must be refined to determine how it is processed. For example, if the string appears in a double-quoted attribute, try injecting double quotes in the string and see if you can break out of the attribute.
 
