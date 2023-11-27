@@ -1,0 +1,3 @@
+Preventing a dangling markup attacks can be done by encoding data on output and validating input data upon arrival.
+
+You can also use [content security policy](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FClient-side%20Vulnerabilities%2FCross-Site%20Scripting%2FContent%20Security%20Policy%2FIntroduction) to mitigate such attacks. For example, you can prevent some (but not all) attacks, using a policy that prevent tags like `img` from loading external resources.
