@@ -10,4 +10,17 @@ An attacker can simply use the following payload to break out of existing JavaSc
 ```html
 ';</script><img src=1 onerror=alert(document.domain) />
 ```
-##
+## Breaking Out of a JavaScript String
+Some XSS contexts are inside a quoted string literal. The following are some useful ways of breaking out of a string literal:
+```js
+'-alert(document.domain)-'
+```
+```js
+';alert(document.domain)//
+```
+It is important to repair or comment out the script following the XSS payload, as any syntax error will prevent the whole script from executing.
+
+However, some applications escapes single or double-quote characters with a backslash, which tells the JavaScript parser to interpret it as a string instead of as a special character. You can attempt to bypass this by neutralizing the backslash added by the application using your own backslash character. For example, suppose the input:
+```js
+';alert(documen)
+```
