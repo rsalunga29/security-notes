@@ -16,4 +16,4 @@ In situations like this, the only solution is to create a custom tag, for exampl
 ```html
 <xss id=x onfocus=alert(document.cookie) tabindex=1>#x';
 ```
- This injection creates a custom tag with the ID x, which contains an onfocus event handler that triggers the alert function. The hash at the end of the URL focuses on this element as soon as the page is loaded, causing the alert payload to be called. 
+ This injection creates a custom tag with the ID x, which contains an onfocus event handler that triggers the alert function. The hash at the end of the URL focuses on this element as soon as the page is loaded, causing the alert payload to be called.
