@@ -1,0 +1,1 @@
+Dangling markup injection is a technique for capturing data cross-domain in situations where a full cross-site scripting attack isn't possible.
