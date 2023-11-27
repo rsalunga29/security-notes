@@ -38,4 +38,22 @@ which gets converted to:
 ```js
 \\';alert(document.domain)//
 ```
- Here, the first backslash means that the second backslash is interpreted literally, and not as a special character. This means that the quote is now interpreted as a string terminator, and so the attack succeeds.
+Here, the first backslash means that the second backslash is interpreted literally, and not as a special character. This means that the quote is now interpreted as a string terminator, and so the attack succeeds.
+## Making use of HTML-encoding
+Some applications blocks or sanitizes certain characters that are needed for a successful XSS exploit. This can often be bypassed by HTML-encoding those characters.
+
+For example, if the XSS context is as follows:
+```html
+<a href="#" onclick="...var input='data';...">
+```
+and the application blocks or escapes single quote characters, you can use the following payload to break out of the JavaScript string:
+```html
+&apos;-alert(document.domain)-&apos;
+```
+## JavaScript Template Literals
+The JavaScript template literals are string literals that allow embedded JavaScript expressions which are evaluated and are normally concatenated into the surrounding text. Template literals uses backticks instead of quotation marks and are embedded using the `${...}` syntax.
+
+For example:
+```js
+document.getElementById('message').innerText = `Welcome, ${user.name}`
+```
