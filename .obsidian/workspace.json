@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Capture Passwords via Autofill.md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Conditions for Successful CSRF Attacks.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Capture Passwords via Autofill.md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Conditions for Successful CSRF Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Capture Passwords via Autofill.md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Conditions for Successful CSRF Attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Capture Passwords via Autofill.md"
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Conditions for Successful CSRF Attacks.md"
               }
             }
           }
@@ -156,9 +156,18 @@
   },
   "active": "11b432b2897f6497",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/SameSite Cookie Restrictions/Introduction.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/HTTP Referer Header/Introduction.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/CSRF Token Validation/Introduction.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/CSRF Token Validation/Bypass Techniques/CSRF Token Validation Depends on Request Method.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/CSRF Token Validation/Bypass Techniques/CSRF Token Not Tied to User Session.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/CSRF Token Validation/Bypass Techniques/CSRF Token is Tied to a Non-session Cookie.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/CSRF Token Validation/Bypass Techniques/CSRF Token is Duplicated in a Cookie.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/CSRF Token Validation/Bypass Techniques/CSRF Token Depends on Token Parameter Being Present.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Performing CSRF.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Capture Passwords via Autofill.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC",
@@ -176,18 +185,9 @@
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Stored XSS/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Reflected and Stored DOM XSS/Reflected DOM XSS.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Reflected and Stored DOM XSS/Stored DOM XSS.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Find and Test for Vulnerabilities.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting using sources and sinks in third-party libraries/AngularJS.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting using sources and sinks in third-party libraries/jQuery/jQuery Sinks List.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting using sources and sinks in third-party libraries/jQuery/DOM XSS in href Sink Using location.search Source.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting using sources and sinks in third-party libraries/jQuery/DOM XSS in selector Sink using HashChange Event.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Reflected and Stored DOM XSS",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting using sources and sinks in third-party libraries/jQuery",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting with different sources and sinks/DOM XSS in innerHTML Sink Using Source location.search.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting with different sources and sinks/DOM XSS in document.write Sink Using Source location.search Inside Select.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting using sources and sinks in third-party libraries",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting with different sources and sinks/DOM XSS in document.write Sink Using Source location.search.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting with different sources and sinks",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/XSS in Different Places",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS",
