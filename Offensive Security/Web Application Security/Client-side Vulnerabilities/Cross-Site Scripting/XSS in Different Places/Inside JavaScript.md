@@ -53,7 +53,7 @@ and the application blocks or escapes single quote characters, you can use the f
 ## JavaScript Template Literals
 The JavaScript template literals are string literals that allow embedded JavaScript expressions which are evaluated and are normally concatenated into the surrounding text. Template literals uses backticks instead of quotation marks and are embedded using the `${...}` syntax.
 
-For example:
+ For example, the following script will print a welcome message that includes the user's first name: 
 ```js
-document.getElementById('message').innerText = `Welcome, ${user.name}`
+document.getElementById('message').innerText = `Welcome, ${user.firstName}!`;
 ```
