@@ -1,0 +1,1 @@
+XSS in hidden inputs is frequently very difficult to exploit because typical JavaScript events like `onmouseover` and `onfocus` can't be triggered due to the element being visible.
