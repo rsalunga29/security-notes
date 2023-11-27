@@ -20,7 +20,22 @@ Some XSS contexts are inside a quoted string literal. The following are some use
 ```
 It is important to repair or comment out the script following the XSS payload, as any syntax error will prevent the whole script from executing.
 
-However, some applications escapes single or double-quote characters with a backslash, which tells the JavaScript parser to interpret it as a string instead of as a special character. You can attempt to bypass this by neutralizing the backslash added by the application using your own backslash character. For example, suppose the input:
+However, some applications escapes single or double-quote characters with a backslash, which tells the JavaScript parser to interpret it as a string instead of as a special character. You can attempt to bypass this by neutralizing the backslash added by the application using your own backslash character.
+
+For example, suppose the input:
 ```js
-';alert(documen)
+';alert(document.domain)//
 ```
+gets converted to:
+```js
+\';alert(document.domain)//
+```
+The alternative payload would be:
+```js
+\';alert(document.domain)//
+```
+which gets converted to:
+```js
+\\';alert(document.domain)//
+```
+ Here, the first backslash means that the second backslash is interpreted literally, and not as a special character. This means that the quote is now interpreted as a string terminator, and so the attack succeeds.

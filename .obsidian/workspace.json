@@ -156,10 +156,10 @@
   },
   "active": "3b696e7dfc5802ff",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/XSS in Different Places/Using Hidden HTML Input Fields.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/XSS in Different Places/Inside JavaScript.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/XSS in Different Places/Inside HTML Tag Attributes.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/XSS in Different Places/Between HTML Tags.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/XSS in Different Places/Inside JavaScript.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/XSS in Different Places/Using Hidden HTML Input Fields.md",
     "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Stored XSS/Introduction.md",
