@@ -57,3 +57,7 @@ The JavaScript template literals are string literals that allow embedded JavaScr
 ```js
 document.getElementById('message').innerText = `Welcome, ${user.firstName}!`;
 ```
+An attacker can simply use the following payload without terminating the template literal:
+```js
+${alert(document.domain)}
+```
