@@ -1,4 +1,4 @@
-Most XSS can be prevented by encoding data on output and validating input upon arrival.
+Most XSS can be prevented by encoding data on output, validating input upon arrival, and creating a whitelist of allowed values.
 ## Encode Data on Output
 Output data must be encoded before it is written to a page, this is to prevent browsers from interpreting user-supplied or untrusted data as part of the web page code. The encoding you should use will be determined by the context you're writing into. For example, values inside a JavaScript string require a different type of escaping to those in an HTML context.
 
@@ -21,6 +21,6 @@ Example of input validation include:
 
 Ideally, input validating should block invalid inputs. An alternative approach would be to attempt to clean invalid input to make it valid, but this is more prone to errors and must be avoided when necessary.
 ## Whitelisting vs Blacklisting
-Employing whitelists is much better rather than blacklists, as this will future proof your application when new harmful contents appear
+Employing whitelists is much better rather than blacklists, as this will future proof your application defenses when new harmful contents appear and make it less susceptible to attacks that seek to evade your blacklist by obfuscating invalid values.
 
 For example, instead of trying to make a list of harmful protocols, such as `javascript`, `data`, etc., it is easier to simply make a list of safe protocols, such as HTTP and HTTPS.
