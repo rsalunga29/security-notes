@@ -4,8 +4,9 @@ To enable CSP, a response needs to include the header `Content-Security-Policy` 
 ```http
 HTTP/1.1 200 OK
 ...
-Content-Security-Policy: script-src 'self' js.website.com; object-src 'self';
+Content-Security-Policy: script-src js.cdn-website.com; img-src 'self';
 ```
+The directive `script-src` will only allow JavaScript to be loaded from the specified domain `js.cdn-website.com`. While the `img-src` will only allow images to be loaded from the same origin as the page itself.
 
 Alternatively, you can also apply CSP via the `<meta>` tag. For example:
 ```html
