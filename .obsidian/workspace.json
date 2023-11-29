@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Mitigating XSS using Content Security Policy (CSP).md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Exploiting Misconfigured CORS/XSS via CORS Trust Relationships.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Mitigating XSS using Content Security Policy (CSP).md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Exploiting Misconfigured CORS/XSS via CORS Trust Relationships.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Mitigating XSS using Content Security Policy (CSP).md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Exploiting Misconfigured CORS/XSS via CORS Trust Relationships.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Mitigating XSS using Content Security Policy (CSP).md"
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Exploiting Misconfigured CORS/XSS via CORS Trust Relationships.md"
               }
             }
           }
@@ -156,8 +157,19 @@
   },
   "active": "11b432b2897f6497",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Content Security Policy/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Uploading Malicious Client-side Scripts.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/SSRF Attacks Against PDF Generators.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Same-origin Policy/SOP Implementation.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Excessive Trust in Client-side Controls.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Making Flawed Assumptions About User Behavior/Users Won't Follow Intended Sequence.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Making Flawed Assumptions About User Behavior/Users Won't Always Supply Mandatory Input.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Making Flawed Assumptions About User Behavior/Trusted Users Won't Always Remain Trustworthy.md",
+    "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
+    "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
+    "Offensive Security/Web Application Security/Enumeration/CMS.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Mitigating XSS using Content Security Policy (CSP).md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Content Security Policy/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Using Templating Engine.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Preventing XSS in jQuery.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Preventing XSS in Client-side JavaScript.md",
@@ -172,18 +184,7 @@
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Exploiting Misconfigured CORS/Server-generated ACAO Header from Client-specified Origin Header.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Preventing File Execution in User-Accessible Directories.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Exploiting Misconfigured CORS/Intranet and CORS without Credentials.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Multi-Factor Authentication/Flawed Two-Factor Authentication Logic.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/CORS Headers/Access-Control-Allow-Origin Header.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Dangling Markup Injection/Introduction.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Dangling Markup Injection/Prevention.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Introduction.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Performing CSRF.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Conditions for Successful CSRF Attacks.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/SameSite Cookie Restrictions/Introduction.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/HTTP Referer Header/Introduction.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/CSRF Token Validation/Introduction.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/CSRF Token Validation/Bypass Techniques/CSRF Token Validation Depends on Request Method.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Dangling Markup Injection",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Content Security Policy",

@@ -6,7 +6,6 @@ There are various exceptions to the same-origin policy:
 - The `replace` function can generally be called cross-domain on the `location` object.
 - You can call certain functions cross-domain. For example, you can call the functions `close`, `blur` and `focus` on a new window. The `postMessage` function can also be called on iframes and new windows in order to send messages from one domain to another.
 
-<!-- @TODO: Link XSS from Client-side vulnerabilities -->
-The same-origin policy is more relaxed when dealing with cookies, allowing access from all subdomains even though each subdomain is technically a different origin. This can be partially mitigated by using the `HttpOnly` cookie flag, it can also prevent using XSS from stealing cookies.
+The same-origin policy is more relaxed when dealing with cookies, allowing access from all subdomains even though each subdomain is technically a different origin. This can be partially mitigated by using the `HttpOnly` cookie flag, which can also prevent using [XSS](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FClient-side%20Vulnerabilities%2FCross-Site%20Scripting%2FIntroduction) for stealing cookies.
 
 It is also possible to relax the same-origin policy using `document.domain`, so long as the specific domain is part of the FQDN (fully qualified domain name). For example, for `marketing.example.com` to read the contents of `example.com`, they both need to set `document.domain` to `example.com`. In the past, it was possible to set `document.domain` to a TLD such as `.com`, but modern browsers now prevent this.

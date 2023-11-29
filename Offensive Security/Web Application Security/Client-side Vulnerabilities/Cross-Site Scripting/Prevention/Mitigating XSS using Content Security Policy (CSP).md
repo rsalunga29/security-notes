@@ -10,4 +10,4 @@ This policy specifies that resources such as images and scripts can only be load
 
 If loading of external resources can't be avoided, ensure to only allow scripts that can't be used by an attacker to aid their exploit. For example, if a certain domain is whitelisted then an attacker can load any script from those domains. Whenever possibly, try to host resources on your own domain.
 
-Alternatively, using the 
+Alternatively, use the hash- or nonce-based policy to allow scripts on different domains.
