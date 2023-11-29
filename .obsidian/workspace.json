@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Preventing XSS in Client-side JavaScript.md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Mitigating XSS using Content Security Policy (CSP).md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Preventing XSS in Client-side JavaScript.md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Mitigating XSS using Content Security Policy (CSP).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Preventing XSS in Client-side JavaScript.md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Mitigating XSS using Content Security Policy (CSP).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Preventing XSS in Client-side JavaScript.md"
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Mitigating XSS using Content Security Policy (CSP).md"
               }
             }
           }
@@ -156,10 +156,12 @@
   },
   "active": "11b432b2897f6497",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Preventing XSS in PHP.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Preventing XSS in Client-side JavaScript.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Using Templating Engine.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Content Security Policy/Introduction.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Mitigating XSS using Content Security Policy (CSP).md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Using Templating Engine.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Preventing XSS in jQuery.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Preventing XSS in Client-side JavaScript.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Preventing XSS in PHP.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Allowing Safe HTML.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Basic Prevention.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention",
@@ -182,8 +184,6 @@
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/HTTP Referer Header/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/CSRF Token Validation/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/CSRF Token Validation/Bypass Techniques/CSRF Token Validation Depends on Request Method.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/CSRF Token Validation/Bypass Techniques/CSRF Token Not Tied to User Session.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/CSRF Token Validation/Bypass Techniques/CSRF Token is Tied to a Non-session Cookie.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Dangling Markup Injection",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Content Security Policy",
