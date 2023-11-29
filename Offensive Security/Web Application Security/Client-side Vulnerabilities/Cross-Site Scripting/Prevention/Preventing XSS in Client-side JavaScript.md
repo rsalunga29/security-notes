@@ -1,0 +1,1 @@
+In order to escape user-supplied input in an HTML context in JavaScript, you need to create your own functions to HTML-encode or Unicode-escape 
