@@ -12,7 +12,14 @@ The ORDER BY position number 3 is out of range of the number of items in the sel
 ```
 However, some applications will only return a generic error response or will not return any response at all. Regardless, as long as you can detect some difference in the response, you can guess how many columns are being returned from the query.
 ## UNION SELECT Method
-The second method involves submitting a series of `UNION SELECT` payloads specifying a different number of `null` values, for example:
+The second method involves submitting a series of `UNION SELECT` payloads specifying a different number of integer values, for example:
+```txt
+' UNION SELECT 1,2,3--
+' UNION SELECT 1,2,3,4,5,6--
+etc...
+```
+
+Alternatively, using `null` as values, for example:
 ```txt
 ' UNION SELECT NULL--
 ' UNION SELECT NULL,NULL--
