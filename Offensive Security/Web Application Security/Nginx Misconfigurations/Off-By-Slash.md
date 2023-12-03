@@ -5,7 +5,7 @@ server {
 	server_name _;
 
 	location /assets {
-		alias /var/www/html/assets;
+		alias /var/www/html/assets/;
 	}
 }
 ```
@@ -16,7 +16,10 @@ https://vulnerable-website.com/assets../.env
 ```txt
 https://vulnerable-website.com/assets../.git/HEAD
 ```
-The payloads above will
+The payloads above will cause the `alias` directive to transform to:
+```
+/var/www/html/assets/../.env
+```
 
 This vulnerability also applies to other commands such as `proxy_pass`. For example:
 ```nginx
