@@ -16,6 +16,7 @@ https://vulnerable-website.com/assets../.env
 ```txt
 https://vulnerable-website.com/assets../.git/HEAD
 ```
+The payloads above will
 
 This vulnerability also applies to other commands such as `proxy_pass`. For example:
 ```nginx
