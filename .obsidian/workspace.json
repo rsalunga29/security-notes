@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "6960f64ae68263ee",
+        "id": "bb1981903ad4b97f",
         "type": "tabs",
         "children": [
           {
-            "id": "b0c17e203e2f7d7b",
+            "id": "18a5117cafda7719",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Offensive Security/Web Application Security/Nginx Misconfigurations/Off-By-Slash.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Offensive Security/Web Application Security/Nginx Misconfigurations/Off-By-Slash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Offensive Security/Web Application Security/Nginx Misconfigurations/Off-By-Slash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,14 +132,17 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Offensive Security/Web Application Security/Nginx Misconfigurations/Off-By-Slash.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -145,8 +154,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b0c17e203e2f7d7b",
+  "active": "18a5117cafda7719",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Nginx Misconfigurations/Off-By-Slash.md",
+    "Offensive Security/Web Application Security/Nginx Misconfigurations",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting using sources and sinks in third-party libraries/jQuery/DOM XSS in selector Sink using HashChange Event.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/CRLF Injection/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/CRLF Injection",
@@ -173,16 +185,13 @@
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/CSRF Token Validation",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting using sources and sinks in third-party libraries/jQuery/jQuery Sinks List.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting using sources and sinks in third-party libraries/jQuery/DOM XSS in selector Sink using HashChange Event.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting using sources and sinks in third-party libraries/jQuery/DOM XSS in href Sink Using location.search Source.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Reflected and Stored DOM XSS/Stored DOM XSS.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Reflected and Stored DOM XSS/Reflected DOM XSS.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting with different sources and sinks/DOM XSS in innerHTML sink Using Source location.search.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting with different sources and sinks/DOM XSS in document.write Sink Using Source location.search.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting with different sources and sinks/DOM XSS in document.write Sink Using Source location.search Inside Select.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting using sources and sinks in third-party libraries/AngularJS.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting using sources and sinks in third-party libraries/jQuery",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Reflected and Stored DOM XSS",
     "Offensive Security/Assets/remove-js-1.png",
     "Untitled 1.canvas",
     "Untitled.canvas"
