@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Database-specific Syntax.md",
+                "file": "Certification Roadmap.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Database-specific Syntax.md",
+                "file": "Certification Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Database-specific Syntax.md",
+                "file": "Certification Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Database-specific Syntax.md"
+                "file": "Certification Roadmap.md"
               }
             }
           }
@@ -141,8 +141,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,6 +155,7 @@
   },
   "active": "11b432b2897f6497",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Database-specific Syntax.md",
     "Offensive Security/Web Application Security/Nginx Misconfigurations/Off-By-Slash.md",
     "Offensive Security/Web Application Security/Nginx Misconfigurations/Missing Root Location.md",
     "Offensive Security/Web Application Security/Nginx Misconfigurations",
@@ -182,7 +182,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Excessive Trust in Client-side Controls.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Making Flawed Assumptions About User Behavior/Users Won't Follow Intended Sequence.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Making Flawed Assumptions About User Behavior/Users Won't Always Supply Mandatory Input.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Making Flawed Assumptions About User Behavior/Trusted Users Won't Always Remain Trustworthy.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC",

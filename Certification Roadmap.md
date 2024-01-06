@@ -2,6 +2,7 @@
 - Study Materials
 	- PortSwigger Web Academy
 	- INE Labs & Courses
+	- Test
 - eLearnSecurity Web Application Penetration Tester
 ### Q2 2024
 - Study Materials
