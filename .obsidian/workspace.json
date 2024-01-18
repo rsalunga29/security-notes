@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "arbitrary files",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -155,35 +154,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7db1edcda1ea8fc7",
+  "active": "11b432b2897f6497",
   "lastOpenFiles": [
+    "Offensive Security/Network Security/Exploitation/Tunneling & Port Forwarding.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/ZIP Symlink Vulnerability.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Conditional Responses.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Error-based Blind SQLi/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Error-based Blind SQLi/Extracting Sensitive Data via SQL Error Messages.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Error-based Blind SQLi/Blind SQLi by Triggering Conditional Errors.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Making Flawed Assumptions About User Behavior/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Making Flawed Assumptions About User Behavior/Trusted Users Won't Always Remain Trustworthy.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Making Flawed Assumptions About User Behavior/Users Won't Follow Intended Sequence.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Business Logic Vulnerabilities/Typical Business Logic Flaws/Making Flawed Assumptions About User Behavior/Users Won't Always Supply Mandatory Input.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Insufficient Blacklisting of Filetypes/Overriding Server Configuration.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Insufficient Blacklisting of Filetypes/Obfuscating File Extensions.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Insufficient Blacklisting of Filetypes/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Removing JavaScript Filtering.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Preventing File Execution in User-Accessible Directories.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed Validation of File Contents.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed File Type Validation.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting File Format Parsing.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Information Disclosure/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/ZIP Symlink Vulnerability.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Prevention.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Uploading Malicious Client-side Scripts.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed File Type Validation.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Insufficient Blacklisting of Filetypes/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Error-based Blind SQLi/Blind SQLi by Triggering Conditional Errors.md",
     "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
     "Offensive Security/Web Application Security/Enumeration/CMS.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Hidden Attack Surfaces for XXE Attacks/XXE via File Upload.md",
     "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
-    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Burp Intruder Payload Processing.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Database-specific Syntax.md",
-    "Offensive Security/Web Application Security/Nginx Misconfigurations/Off-By-Slash.md",
-    "Offensive Security/Web Application Security/Nginx Misconfigurations/Missing Root Location.md",
     "Offensive Security/Web Application Security/Nginx Misconfigurations",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Determining the Number of Columns Required.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Finding Columns with a Useful Data Type.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Retrieving Hidden Data.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Subverting Application Logic.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Retrieving Data from Other Database Tables.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Examining the Database/Listing Contents of the Database.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Examining the Database/Querying the Database Type and Version.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Error-based Blind SQLi/Extracting Sensitive Data via SQL Error Messages.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC",
