@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "null byte",
+                "query": "file uploa",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -154,7 +155,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "11b432b2897f6497",
+  "active": "7db1edcda1ea8fc7",
   "lastOpenFiles": [
     "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Burp Intruder Payload Processing.md",
     "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
