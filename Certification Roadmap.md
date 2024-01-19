@@ -3,7 +3,7 @@
 	- PortSwigger Web Academy
 	- INE Labs & Courses
 - eLearnSecurity Web Application Penetration Tester
-### Q2 2024
+### Q2 2024  / Q3 2024
 - Study Materials
 	- TCM Academy
 		- Practical Ethical Hacking
