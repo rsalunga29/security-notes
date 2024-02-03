@@ -1,8 +1,11 @@
-Also known as XML External Entity Injection is a vulnerability that allows an attacker to interfere with an application's processing of XML data. This vulnerability often allows the attacker to view files on the server and interact with any backend or external systems that the application has access to.
+Also known as XML External Entity Injection is a vulnerability that allows an attacker to interfere with an application's processing of XML data. This vulnerability often happens when a poorly configured XML parser processes a XML input with a pathway to an external entity.
 
-In some situations, an attacker can escalate and XXE attack to perform [server-side request forgery (SSRF)](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FServer-side%20Vulnerabilities%2FServer-side%20Request%20Forgery%2FIntroduction) attacks by leveraging the XXE vulnerability.
+
+This vulnerability often allows the attacker to view files on the server and interact with any backend or external systems that the application has access to.
 
 XML external entities are a type of custom XML entity whose defined values are loaded from outside of the [DTD](https://portswigger.net/web-security/xxe/xml-entities) in which they are declared. External entities are particularly interesting from a security perspective because they allow an entity to be defined based on the contents of a file path or URL.
+
+In some situations, an attacker can leverage a XXE vulnerability to escalate and perform [server-side request forgery (SSRF)](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FServer-side%20Vulnerabilities%2FServer-side%20Request%20Forgery%2FIntroduction) attacks.
 ## How to Find XXE Vulnerabilities
 The vast majority of XXE vulnerabilities can be found quickly and reliably using Burp Suite's [web vulnerability scanner](https://portswigger.net/burp/vulnerability-scanner).
 

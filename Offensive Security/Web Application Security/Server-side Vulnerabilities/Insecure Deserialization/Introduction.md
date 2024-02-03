@@ -9,6 +9,7 @@ Deserialization is the process of restoring the byte stream into a fully functio
 
 Many programming languages natively support serialization, some of these languages serialize objects into binary formats, while others use different string formats, with varying degrees of human readability.
 
-All of the original object's attributes, including private fields are stored in the serialized data stream. To prevent this from happening, a field must be explicitly marked as "transient" in class declaration.
+There are other terms for serialization, depends on what language is being used, these are "marshalling" (Ruby) and "pickling" (Python).
 
-There are other terms for serialization, depends on what language is being used, th are "marshalling" (Ruby) and "pickling" (Python).
+All of the original object's attributes, including private fields are stored in the serialized data stream. To prevent this from happening, a field must be explicitly marked as "transient" in class declaration.
+## What is insecure deserialization?
