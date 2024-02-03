@@ -13,6 +13,10 @@ There are other terms for serialization, depends on what language is being used,
 
 All of the original object's attributes, including private fields are stored in the serialized data stream. To prevent this from happening, a field must be explicitly marked as "transient" in class declaration.
 ## What is insecure deserialization?
-The insecure deserialization vulnerability occurs when user-controllable data is deserialized by the application without proper validation. This potentially enables an attacker to manipulate serialized objects to pass harmful data into the application.
+The insecure deserialization vulnerability occurs when user-controllable data is deserialized by the application without proper validation. This enables an attacker to manipulate serialized objects to pass harmful data into the application.
 
 Additionally, if the application fails to validate the data type, class, or structure of the data, an attacker manipulate the serialized data to make the application instantiate any classes of their own choosing, so long as that class is available to the application. This could potentially lead to remote code execution or unauthorized access.
+
+Even if an unexpected class triggers an exception, the damage may have already been done. Many deserialization-based attacks are completed before the process is finished, since the process itself can ini
+
+An unexpected class or an object from it might cause an exception, however, the damage may already be done. Many deserialization-based attacks are completed before the deserialization process is finished, meaning deserialization process itself can initiate an attack, even if the website's own functionality does not directly interact with the malicious object. For this reason, websites whose logic is based on strongly typed languages can also be vulnerable to these techniques.
