@@ -2,6 +2,7 @@
 - Study Materials
 	- PortSwigger Web Academy
 	- HackTheBox CBBH Modules
+	- Web Hacking 101 (book)
 - eLearnSecurity Web Application Penetration Tester eXtreme
 ### Q2 2024  / Q3 2024
 - Study Materials
