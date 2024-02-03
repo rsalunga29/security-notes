@@ -154,8 +154,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "11b432b2897f6497",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Methodology & Checklists",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Title.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Identify Insecure Deserialization.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Introduction.md",
@@ -183,7 +184,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed Validation of File Contents.md",
     "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/Bypassing SSRF Filters via Open Redirection.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Bypassing File Inclusion Defenses.md",
     "Offensive Security/Web Application Security/Nginx Misconfigurations",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention",
