@@ -1,5 +1,4 @@
-Also known as XML External Entity Injection is a vulnerability that allows an attacker to interfere with an application's processing of XML data. This vulnerability often happens when a poorly configured XML parser processes a XML input with a pathway to an external entity.
-
+Also known as XML External Entity Injection is a vulnerability that allows an attacker to interfere with an application's processing of XML data. This vulnerability often happens when a poorly configured XML parser processes an XML input with a reference to an external entity.
 
 This vulnerability often allows the attacker to view files on the server and interact with any backend or external systems that the application has access to.
 
