@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Manipulating Serialized Objects.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Manipulating Serialized Objects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Manipulating Serialized Objects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certification Roadmap.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Manipulating Serialized Objects.md"
               }
             }
           }
@@ -156,12 +156,13 @@
   },
   "active": "11b432b2897f6497",
   "lastOpenFiles": [
-    "deserialization-diagram.jpg",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Identify Insecure Deserialization.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Introduction.md",
     "Certification Roadmap.md",
+    "deserialization-diagram.jpg",
     "Offensive Security/Web Application Security/Methodology & Checklists",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Title.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Manipulating Serialized Objects.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Exploit Using Time Delays.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Introduction.md",
@@ -190,7 +191,6 @@
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Dangling Markup Injection",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Content Security Policy",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Reflected and Stored DOM XSS",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Exploiting using sources and sinks in third-party libraries/jQuery"
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Reflected and Stored DOM XSS"
   ]
 }

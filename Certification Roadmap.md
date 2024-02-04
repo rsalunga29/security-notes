@@ -3,6 +3,7 @@
 	- PortSwigger Web Academy
 	- HackTheBox CBBH Modules
 	- Web Hacking 101 (book)
+	- The Web Application Hacker's Handbook 2nd Edition (book)
 - eLearnSecurity Web Application Penetration Tester eXtreme
 ### Q2 2024  / Q3 2024
 - Study Materials
