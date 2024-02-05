@@ -1,5 +1,7 @@
 Identifying insecure deserialization is relatively simple. Simply look at all the data being passed into the application and try to identify the anything that looks like serialized data.
 
+> Most cases of insecure deserialization in PHP is the usage of it as a cookie encoded in Base64. For other languages, there are other ways to identify a serialized object.
+
 It is also important to know which language the application is using.
 ## PHP Serialization
 PHP uses a mostly human-readable string format, with letters representing the data type and numbers representing the length of each entry.
@@ -25,6 +27,12 @@ This can be interpreted as follows:
 
 The native methods PHP use for serialization are `serialize()` and `unserialize()`. During source code review, it's wise to look for `unserialize()` and start investigating.
 ## Java Serialization
-Some languages, including Java, use binary serialization formats. This is more difficult to read, but can still be identified by recognizing a few tell-tale signs. Java objects always begin with the same bytes, which are encoded as `ac ed` in hexadecimal and `rO0` in Base64.
+Some languages, including Java, use binary serialization formats. This is more difficult to read, but can still be identified by recognizing a few tell-tale signs:
+1. Java objects always begin with the same bytes, which are encoded as `ac ed` in hexadecimal and `rO0` in Base64.
+2. `Content-Type` header of an HTTP response is set to `application/x-java-serialized-object`.
 
-Any class that implements the `java.io.Serializable` can be serialized and deserialized. During source code review, the code `readObject()` is used to read and deserialize data from an `InputStream`.
+Any class that implements the `java.io.Serializable` can be serialized and deserialized. During source code review, the code `readObject()` is used to read and deserialize data from an `InputStream`. Additionally, the following methods can be the source of this vulnerability as well:
+- `XMLdecoded`
+- `XStream` with `fromXML` method (XStream version <= v1.46)
+- `ObjectInputStream` with `readObject`
+- Uses of
