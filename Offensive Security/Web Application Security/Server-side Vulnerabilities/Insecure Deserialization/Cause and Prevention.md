@@ -12,3 +12,5 @@ This vulnerability can be avoided by implementing proper validation, however, it
 Deserialization of user input should be avoided. If it cannot be avoided, robust measures must be implemented to make sure that the data has not been tampered with. Such as implementing a digital signature to verify the data's integrity.
 
 Avoid using generic deserialization features/functions as serialized data from these may contain all attributes of the original object, including any private fields that contains sensitive information. Instead, create your own class-specific serialization methods.
+
+Additionally, for PHP applications, make sure to use the triple equal (`===`) comparison operator to force the code to check the given values and its data type.

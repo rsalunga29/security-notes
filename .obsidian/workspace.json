@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Manipulating Serialized Objects.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Identify Insecure Deserialization.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Manipulating Serialized Objects.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Identify Insecure Deserialization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Manipulating Serialized Objects.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Identify Insecure Deserialization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Manipulating Serialized Objects.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Identify Insecure Deserialization.md"
               }
             }
           }
@@ -156,12 +156,13 @@
   },
   "active": "11b432b2897f6497",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Manipulating Serialized Objects.md",
+    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Cause and Prevention.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/CORS Headers/Access-Control-Allow-Credentials Header.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Identify Insecure Deserialization.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Introduction.md",
     "Certification Roadmap.md",
     "deserialization-diagram.jpg",
     "Offensive Security/Web Application Security/Methodology & Checklists",
@@ -170,7 +171,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Exploit Using OAST Techniques.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Exploit by Redirecting Output.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Cause and Prevention.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Prevention.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Introduction.md",
