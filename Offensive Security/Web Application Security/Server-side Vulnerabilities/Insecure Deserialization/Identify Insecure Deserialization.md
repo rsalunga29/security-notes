@@ -43,3 +43,9 @@ During code review, look for the following code snippets:
 - Uses of `PyYAML` with `load()`.
 - Uses of `jsonpickle` with `encode` or `store` methods.
 Additionally, if the traffic data contains the symbol dot `.` at the end, it's very likely that the data was sent in serialization.
+## .NET Serialization
+During code review, look for the following code snippets:
+- Uses of `TypeNameHandling`.
+- Uses of `JavaScriptTypeResolver`.
+- Any serializers where the type of set by a user-controlled variable.
+Additionally, look for traffic data that contains a Base64-encoded content that starts with `AAEAAAD/////`. Then look for the `TypeObject` and `$type:` content in the decoded string.

@@ -7,3 +7,10 @@ Common examples of magic methods are PHP's `__construct()` and Python's `__init_
 Magic methods are generally safe, however, they can become dangerous when the code they execute handles user-controllable data, for example, from a deserialized object. This can be exploited by an attacker to automatically invoke methods on the deserialized data when the corresponding conditions are met.
 
 Some languages have magic methods that are automatically invoked during the serialization and deserialization process. For example, the PHP's `serialize()` and `unserialize()` method looks for and invokes an object's `__sleep()` and `__wakeup()` magic methods, respectively.
+
+In Java, the `ObjectInputStream.readObject()` acts like a constructor for "re-initializing" a serialized object. However, `Serializable` classes can also declare their own `readObject()` method which will act as a magic method that is invoked during the deserialization process. Example code:
+```java
+private void readObject(ObjectInputStream in) throw IOException, ClassNotFoundException {
+	// ...code
+}
+```
