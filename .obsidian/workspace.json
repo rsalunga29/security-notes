@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Using Application Functionality.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Magic Methods.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Using Application Functionality.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Magic Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Using Application Functionality.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Magic Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Using Application Functionality.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Magic Methods.md"
               }
             }
           }
@@ -156,8 +156,8 @@
   },
   "active": "11b432b2897f6497",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Magic Methods.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Using Application Functionality.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Magic Methods.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Manipulating Serialized Objects.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Identify Insecure Deserialization.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Introduction.md",
