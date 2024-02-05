@@ -27,12 +27,15 @@ This can be interpreted as follows:
 
 The native methods PHP use for serialization are `serialize()` and `unserialize()`. During source code review, it's wise to look for `unserialize()` and start investigating.
 ## Java Serialization
-Some languages, including Java, use binary serialization formats. This is more difficult to read, but can still be identified by recognizing a few tell-tale signs:
-1. Java objects always begin with the same bytes, which are encoded as `ac ed` in hexadecimal and `rO0` in Base64.
+Some languages, including Java, use binary serialization formats. This is more difficult to read, but can still be identified by recognizing a few tell-tale signs of a captured traffic data:
+1. Java objects always begin with the same bytes, which are encoded as `AC ED` or `AC ED 00 05` in hexadecimal and `rO0` in Base64.
 2. `Content-Type` header of an HTTP response is set to `application/x-java-serialized-object`.
 
-Any class that implements the `java.io.Serializable` can be serialized and deserialized. During source code review, the code `readObject()` is used to read and deserialize data from an `InputStream`. Additionally, the following methods can be the source of this vulnerability as well:
+During source code review, any class that implements the `java.io.Serializable` can be serialized and deserialized. The following methods can be the source of this vulnerability as well:
 - `XMLdecoded`
 - `XStream` with `fromXML` method (XStream version <= v1.46)
 - `ObjectInputStream` with `readObject`
-- Uses of
+- Uses of `readObject`, `readObjectNodData`, `readResolve`, or `readExternal` (used to read and deserialized data from an `InputStream`)
+- `ObjectInputStream.readUnshared`
+## Python Serialization
+//
