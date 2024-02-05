@@ -38,4 +38,8 @@ During source code review, any class that implements the `java.io.Serializable` 
 - Uses of `readObject`, `readObjectNodData`, `readResolve`, or `readExternal` (used to read and deserialized data from an `InputStream`)
 - `ObjectInputStream.readUnshared`
 ## Python Serialization
-//
+During code review, look for the following code snippets:
+- Uses of `pickle` with `load()`.
+- Uses of `PyYAML` with `load()`.
+- Uses of `jsonpickle` with `encode` or `store` methods.
+Additionally, if the traffic data contains the symbol dot `.` at the end, it's very likely that the data was sent in serialization.
