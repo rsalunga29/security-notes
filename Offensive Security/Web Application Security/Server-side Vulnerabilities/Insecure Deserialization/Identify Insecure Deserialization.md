@@ -1,6 +1,6 @@
 Identifying insecure deserialization is relatively simple. Simply look at all the data being passed into the application and try to identify the anything that looks like serialized data.
 
-> Most cases of insecure deserialization in PHP is the usage of it as a cookie encoded in Base64. For other languages, there are other ways to identify a serialized object.
+> Most cases of insecure deserialization in PHP is found in Base64-encoded value of Cookie HTTP header when serialization-based session mechanism is being used. For other languages, there are other ways to identify a serialized object.
 
 It is also important to know which language the application is using.
 ## PHP Serialization
