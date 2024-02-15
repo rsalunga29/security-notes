@@ -23,7 +23,7 @@ This can be interpreted as follows:
 - `s:10:"isLoggedIn"` - The key of the second attribute is the 10-character string `"isLoggedIn"`
 - `b:1` - The value of the second attribute is the boolean value `true`
 
-> The serialized string for an integer would be `i:123`, notice that it only contains the data type and value, and not including the character length.
+> *The serialized string for an integer would be `i:123`, notice that it only contains the data type and value, and not including the character length.*
 
 The native methods PHP use for serialization are `serialize()` and `unserialize()`. During source code review, it's wise to look for `unserialize()` and start investigating.
 ## Java Serialization
