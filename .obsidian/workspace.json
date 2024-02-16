@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Gadget Chains/Pre-built Gadget Chains.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/PHAR Deserialization.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Gadget Chains/Pre-built Gadget Chains.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/PHAR Deserialization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Gadget Chains/Pre-built Gadget Chains.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/PHAR Deserialization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Gadget Chains/Pre-built Gadget Chains.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/PHAR Deserialization.md"
               }
             }
           }
@@ -156,12 +156,16 @@
   },
   "active": "11b432b2897f6497",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed Validation of File Contents.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed File Type Validation.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Uploading Malicious Client-side Scripts.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/ZIP Symlink Vulnerability.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/PHAR Deserialization.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Gadget Chains/Pre-built Gadget Chains.md",
+    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Gadget Chains/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Identify Insecure Deserialization.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Injecting Arbitrary Objects.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/PHAR Deserialization.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Gadget Chains",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Magic Methods.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Manipulating Serialized Objects.md",
@@ -182,10 +186,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Exploit by Redirecting Output.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Prevention.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Prevention.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Exploiting XXE to Retrieve Files.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization",
     "Offensive Security/Web Application Security/Nginx Misconfigurations",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention",
