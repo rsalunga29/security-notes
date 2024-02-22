@@ -2,7 +2,7 @@
 - Study Materials
 	- PortSwigger Web Academy
 	- HackTheBox CBBH Modules
-		- Sb
+		- Subscribe $68/month, 
 	- Web Hacking 101 (book)
 	- The Web Application Hacker's Handbook 2nd Edition (book)
 - eLearnSecurity Web Application Penetration Tester eXtreme
