@@ -6,7 +6,11 @@
 	- Web Hacking 101 (book)
 	- The Web Application Hacker's Handbook 2nd Edition (book)
 	- AppSec Homelab Project
-		- GitLab
+		- Firewall: pfSense
+		- DevOps: GitLab
+		- Adversary Emulation: Atomic Red Team or Caldera
+		- IDS/IPS: Snort (?)
+		- SIEM: Splunk or Security Onion or ELK
 - eLearnSecurity Web Application Penetration Tester eXtreme
 ### Q2 2024  / Q3 2024
 - Study Materials
