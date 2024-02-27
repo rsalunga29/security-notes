@@ -7,10 +7,11 @@
 	- The Web Application Hacker's Handbook 2nd Edition (book)
 	- AppSec Homelab Project
 		- Firewall: pfSense
-		- DevOps: GitLab
+		- DevOps: GitLab, Vulnerability Scanner, Intentionally Vulnerable App
 		- Adversary Emulation: Atomic Red Team or Caldera
 		- IDS/IPS: Snort (?)
-		- SIEM: Splunk or Security Onion or ELK
+		- SIEM: Security Onion or Splunk or ELK
+		- Active Directory: 1 DC, 2 User
 - eLearnSecurity Web Application Penetration Tester eXtreme
 ### Q2 2024  / Q3 2024
 - Study Materials
