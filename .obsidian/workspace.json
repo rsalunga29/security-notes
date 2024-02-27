@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Intercept HTTP Requests by Tools in Burp.md",
+                "file": "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Intercept HTTP Requests by Tools in Burp.md",
+                "file": "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Intercept HTTP Requests by Tools in Burp.md",
+                "file": "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Intercept HTTP Requests by Tools in Burp.md"
+                "file": "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md"
               }
             }
           }
@@ -156,6 +156,7 @@
   },
   "active": "11b432b2897f6497",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Intercept HTTP Requests by Tools in Burp.md",
     "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Creating Macros.md",
     "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Burp Intruder Payload Processing.md",
     "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Burp Intruder Attack Types.md",
@@ -168,7 +169,6 @@
     "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
     "Offensive Security/Web Application Security/Enumeration/CMS.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
-    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Intercept HTTP Requests by Tools in Burp.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Conditions for Successful CSRF Attacks.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Introduction.md",
