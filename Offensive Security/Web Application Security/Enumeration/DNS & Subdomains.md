@@ -27,3 +27,35 @@ subfinder -d target.com
 ```nix
 amass enum -passive -d target.com -src
 ```
+### Crt.sh using Curl
+```nix
+export TARGET="target.com"
+
+curl -s "https://crt.sh/?q=${TARGET}&output=json" | jq -r '.[] | "\(.name_value)\n\(.common_name)"' | sort -u > "${TARGET}_crt.sh.txt"
+```
+### theHarvester
+Create a `sources.txt` list using the following content:
+- baidu
+- bufferoverun
+- crtsh
+- hackertarget
+- otx
+- projectdiscovery
+- rapiddns
+- sublist3r
+- threatcrowd
+- trello
+- urlscan
+- vhost
+- virustotal
+- zoomeye
+Run the command
+```nix
+export TARGET="target.com"
+
+cat sources.txt | while read source; do theHarvester -d "${TARGET}" -b $source -f "${source}_${TARGET}";done
+```
+Extract and sort all found subdomains
+```nix
+cat *.json | jq -r '.hosts[]' 2>/dev/null | cut -d':' -f 1 | sort -u > "${TARGET}_theHarvester.txt"
+```

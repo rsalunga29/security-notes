@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
+                "file": "Offensive Security/Web Application Security/Enumeration/WAF.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
+                "file": "Offensive Security/Web Application Security/Enumeration/WAF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
+                "file": "Offensive Security/Web Application Security/Enumeration/WAF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md"
+                "file": "Offensive Security/Web Application Security/Enumeration/WAF.md"
               }
             }
           }
@@ -141,7 +141,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,8 +156,12 @@
   },
   "active": "11b432b2897f6497",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Intercept HTTP Requests by Tools in Burp.md",
+    "Offensive Security/Web Application Security/Enumeration/CMS.md",
+    "Offensive Security/Web Application Security/Enumeration/WAF.md",
+    "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
+    "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
+    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Intercept HTTP Requests by Tools in Burp.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Conditions for Successful CSRF Attacks.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Introduction.md",
@@ -177,10 +182,6 @@
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Performing CSRF.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Introduction.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Content Security Policy/Introduction.md",
-    "Certification Roadmap.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Information Disclosure/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/PHAR Deserialization.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Gadget Chains",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation",
     "deserialization-diagram.jpg",
