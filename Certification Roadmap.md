@@ -5,6 +5,8 @@
 		- Subscribe $68/month, couple of days before renewal downgrade to $38/month.
 	- Web Hacking 101 (book)
 	- The Web Application Hacker's Handbook 2nd Edition (book)
+	- AppSec Homelab Project
+		- GitLab
 - eLearnSecurity Web Application Penetration Tester eXtreme
 ### Q2 2024  / Q3 2024
 - Study Materials

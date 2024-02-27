@@ -7,8 +7,13 @@ For an attacker, this is a useful enumeration trick as it can reveal information
 This vulnerability is caused by a misconfigured DNS server, which causes anyone to request the zone file. To remediate, the DNS server must be configured properly to only allow the replicating DNS server to have access to the zone file.
 ## Host, Dig, and Nslookup
 1. Enumerate the nameservers of the target domain by using any of the following commands:
-	- `host -t ns target.com``dig ns target.com` or `nslookup -type=ns target.com`.
-1. Test for `AXFR` zone transfer using `host -l target.com ns.target.com` or `dig axfr target.com @ns.target.com` or `nslookup -type=any -query=axfr target.com ns.target.com`.
+	- `host -t ns target.com`
+	- `dig ns target.com`
+	- `nslookup -type=ns target.com`
+1. Test for `AXFR` zone transfer using any of the following commands:
+	- `host -l target.com ns.target.com`
+	- `dig axfr target.com @ns.target.com`
+	- `nslookup -type=any -query=axfr target.com ns.target.com`
 ## DNSrecon
 ```nix
 dnsrecon -d target.com -t axfr
