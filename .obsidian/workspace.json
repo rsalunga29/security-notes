@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Intercept HTTP Requests by Tools in Burp.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Intercept HTTP Requests by Tools in Burp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Intercept HTTP Requests by Tools in Burp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certification Roadmap.md"
+                "file": "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Intercept HTTP Requests by Tools in Burp.md"
               }
             }
           }
@@ -156,6 +156,11 @@
   },
   "active": "11b432b2897f6497",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Creating Macros.md",
+    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Burp Intruder Payload Processing.md",
+    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Burp Intruder Attack Types.md",
+    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
+    "Certification Roadmap.md",
     "Offensive Security/Web Application Security/Enumeration/Infrastructure.md",
     "Offensive Security/Web Application Security/Enumeration/DNS Zone Transfer.md",
     "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
@@ -177,11 +182,6 @@
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Reflected XSS/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Reflected XSS/Impact.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Reflected XSS/Find and Test for Vulnerability.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Find and Test for Vulnerabilities.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Reflected and Stored DOM XSS/Reflected DOM XSS.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/DOM-based XSS/Reflected and Stored DOM XSS/Stored DOM XSS.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Capture Passwords via Autofill.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Gadget Chains",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation",
     "deserialization-diagram.jpg",
