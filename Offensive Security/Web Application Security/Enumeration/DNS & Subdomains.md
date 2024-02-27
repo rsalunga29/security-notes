@@ -13,7 +13,7 @@ python3 sublist3r.py -d target.com -b -p 80,443,21 -v
 ```
 ## Ffuf
 ```nix
-ffuf -c -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://target.com -H "Host: FUZZ.target.com" -fw 5338
+ffuf -c -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://target.com -H "Host: FUZZ.target.com"
 ```
 ### Wfuzz
 ```nix
