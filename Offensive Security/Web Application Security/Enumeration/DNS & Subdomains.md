@@ -27,6 +27,10 @@ subfinder -d target.com
 ```nix
 amass enum -passive -d target.com -src
 ```
+### Nslookup
+```nix
+nslookup -type=any target.com
+```
 ### Crt.sh using Curl
 ```nix
 export TARGET="target.com"
