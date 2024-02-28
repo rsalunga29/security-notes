@@ -8,7 +8,7 @@
 - eLearnSecurity Web Application Penetration Tester eXtreme
 - AppSec Homelab Project Part 1
 	- Firewall: pfSense
-	- DevSecOps: GitLab with CI/CD, Vulnerability Scanner, Intentionally Vulnerable App
+	- DevSecOps: GitLab or Gitea, Vulnerability Scanner, Intentionally Vulnerable App
 	- Vulnerability Management: DefectDojo
 	- Create Network Topology
 ### Q2 2024  / Q3 2024
