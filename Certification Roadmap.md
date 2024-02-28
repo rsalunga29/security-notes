@@ -9,7 +9,7 @@
 - AppSec Homelab Project Part 1
 	- Firewall: pfSense
 	- DevSecOps: GitLab with CI/CD, Vulnerability Scanner, Intentionally Vulnerable App
-	- Vulnerability M
+	- Vulnerability Management: DefectDojo
 ### Q2 2024  / Q3 2024
 - Study Materials
 	- TCM Academy
