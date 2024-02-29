@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Offensive Security/Web Application Security/Enumeration/Parameter Fuzzing.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Offensive Security/Web Application Security/Enumeration/Parameter Fuzzing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Offensive Security/Web Application Security/Enumeration/Parameter Fuzzing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certification Roadmap.md"
+                "file": "Offensive Security/Web Application Security/Enumeration/Parameter Fuzzing.md"
               }
             }
           }
@@ -156,11 +156,11 @@
   },
   "active": "11b432b2897f6497",
   "lastOpenFiles": [
+    "Certification Roadmap.md",
     "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
     "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
     "Offensive Security/Web Application Security/Enumeration/Parameter Fuzzing.md",
     "Offensive Security/Web Application Security/Enumeration/DNS Zone Transfer.md",
-    "Certification Roadmap.md",
     "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Intercept HTTP Requests by Tools in Burp.md",
     "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Creating Macros.md",
     "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Burp Intruder Payload Processing.md",
