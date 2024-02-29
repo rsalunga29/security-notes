@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation/Advanced Obfuscation.md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation/Deobfuscation.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation/Advanced Obfuscation.md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation/Deobfuscation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation/Advanced Obfuscation.md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation/Deobfuscation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation/Advanced Obfuscation.md"
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation/Deobfuscation.md"
               }
             }
           }
@@ -169,8 +169,10 @@
   },
   "active": "2baa0203c755c75e",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation/Basic Obfuscation.md",
+    "Offensive Security/Web Application Security/Nginx Misconfigurations/Missing Root Location.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation/Deobfuscation.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation/Advanced Obfuscation.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation/Basic Obfuscation.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Stored XSS/Introduction.md",
@@ -178,7 +180,6 @@
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Stored XSS/Find and Test for Vulnerabilities.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation",
     "Offensive Security/Web Application Security/Enumeration/Infrastructure.md",
-    "Offensive Security/Web Application Security/Nginx Misconfigurations/Missing Root Location.md",
     "Offensive Security/Web Application Security/Nginx Misconfigurations/Off-By-Slash.md",
     "Offensive Security/Web Application Security/Enumeration/Parameter Fuzzing.md",
     "Certification Roadmap.md",
@@ -195,7 +196,6 @@
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Conditions for Successful CSRF Attacks.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Introduction.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/XSS in Different Places/Inside JavaScript.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Gadget Chains",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation",
     "deserialization-diagram.jpg",
