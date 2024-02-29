@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Basic Prevention.md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Basic Prevention.md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Basic Prevention.md",
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Basic Prevention.md"
+                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md"
               }
             }
           }
@@ -169,6 +169,8 @@
   },
   "active": "2baa0203c755c75e",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Performing CSRF.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Basic Prevention.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Allowing Safe HTML.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Stored XSS/Blind XSS.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md",
@@ -180,7 +182,6 @@
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Reflected XSS/Impact.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Reflected XSS/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Introduction.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Performing CSRF.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Capture Passwords via Autofill.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation/Deobfuscation.md",
@@ -195,7 +196,6 @@
     "Certification Roadmap.md",
     "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
     "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
-    "Offensive Security/Web Application Security/Enumeration/DNS Zone Transfer.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Gadget Chains",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation",
     "deserialization-diagram.jpg",
