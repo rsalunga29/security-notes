@@ -18,6 +18,7 @@ Example of input validation include:
 - If a user submits a URL, validating that it starts with a safe protocol such as HTTP and HTTPS will prevent someone from exploiting your application with a harmful protocol like `javascript` or `data`.
 - If the input expects a value to be numeric, make sure to validate that the value actually contains an integer.
 - Validating that input contains only an expected set of characters.
+- Do not allow any input with JavaScript code in it, the library [DOMPurify](https://github.com/cure53/DOMPurify) can assist in implementing this.
 
 Ideally, input validating should block invalid inputs. An alternative approach would be to attempt to clean invalid input to make it valid, but this is more prone to errors and must be avoided when necessary.
 ## Whitelisting vs Blacklisting
