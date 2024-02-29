@@ -1,0 +1,1 @@
+Blind XSS vulnerabilities are a variant of stored XSS vulnerabilities. They occur when an attacker input is saved in the database and executed as a malicious script in another part of the application or in another application.
