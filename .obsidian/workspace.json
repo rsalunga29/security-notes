@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Retrieve Interesting Data.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Determining the Number of Columns Required.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Retrieve Interesting Data.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Determining the Number of Columns Required.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Retrieve Interesting Data.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Determining the Number of Columns Required.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Retrieve Interesting Data.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Determining the Number of Columns Required.md"
               }
             }
           }
