@@ -15,3 +15,5 @@ Mar 18 2018 09:11:49
 Copyright (c) Microsoft Corporation
 Standard Edition (64-bit) on Windows Server 2016 Standard 10.0 <X64> (Build 14393: ) (Hypervisor
 ```
+## Enumerating Database using Information_Schema Database
+The `information_schema` database contains metadata about the database and tables present on the server, making it a crucial step for attackers to view or enumerate when per
