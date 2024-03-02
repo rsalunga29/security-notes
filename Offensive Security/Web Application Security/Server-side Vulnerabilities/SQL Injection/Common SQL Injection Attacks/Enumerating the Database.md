@@ -29,8 +29,18 @@ You can potentially identify both the database name and user by injecting provid
 | MySQL         | `SELECT current_user()` or `SELECT session_user()` |
 | PostgreSQL    | `SELECT current_user` or `SELECT current_role`     |
 | Microsoft     | `SELECT user_name()`                               |
-| Oracle        | `SELECT * FROM v$database;`                        |
+| Oracle        | `SELECT user FROM dual`                            |
+## Query the Database User Privileges
+It is also possible to view a DB user's privileges in order to understand what it can and cannot do.
 
+We can use the following query to check if the current DB User has superuser privileges. If the results returned `Y`, it indicates that the current user has superuser privileges.
+```sql
+SELECT super_priv FROM mysql.user
+```
+Additionally, we can dump other privileges for the current DB user using the following query:
+```sql
+SELECT grantee, privilege_type FROM information_schema.user_privileges
+```
 ## Enumerating using `information_schema` Database
 The `information_schema` database contains metadata about the database, tables, and columns present on the server, making it a crucial step for attackers to view or enumerate when performing SQL injection vulnerabilities.
 > Note: Most databases have an `information_schema` present, except for Oracle databases.
