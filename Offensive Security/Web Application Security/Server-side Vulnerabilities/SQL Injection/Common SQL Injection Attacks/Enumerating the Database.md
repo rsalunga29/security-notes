@@ -17,11 +17,20 @@ Standard Edition (64-bit) on Windows Server 2016 Standard 10.0 <X64> (Build 1439
 ## Query the Database Name and User
 You can potentially identify both the database name and user by injecting provider-specific queries to see if one works. The following are some queries for some popular database servers:
 
-| Database type | Query                     |
-| ------------- | ------------------------- |
-| MySQL         | `SELECT database()`       |
-| Oracle        | `SELECT * FROM v$version` |
-| PostgreSQL    | `SELECT version()`        |
+| Database type | Query                       |
+| ------------- | --------------------------- |
+| MySQL         | `SELECT database()`         |
+| PostgreSQL    | `SELECT current_database()` |
+| Microsoft     | `SELECT db_name()`          |
+| Oracle        | `SELECT * FROM v$database;` |
+
+| Database type | Query                                              |
+| ------------- | -------------------------------------------------- |
+| MySQL         | `SELECT current_user()` or `SELECT session_user()` |
+| PostgreSQL    | `SELECT current_user` or `SELECT current_role`     |
+| Microsoft     | `SELECT user_name()`                               |
+| Oracle        | `SELECT * FROM v$database;`                        |
+
 ## Enumerating using `information_schema` Database
 The `information_schema` database contains metadata about the database, tables, and columns present on the server, making it a crucial step for attackers to view or enumerate when performing SQL injection vulnerabilities.
 > Note: Most databases have an `information_schema` present, except for Oracle databases.

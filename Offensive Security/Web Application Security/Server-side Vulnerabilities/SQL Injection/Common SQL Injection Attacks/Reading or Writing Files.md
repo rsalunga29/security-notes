@@ -1,0 +1,3 @@
+In addition to gathering data from various tables and databases within the DBMS, a SQL Injection can also be leveraged to perform many other operations, such as reading and writing files on the server and even gaining remote code execution on the back-end server.
+## Prerequisites
+Reading data is much more common than writing data, which is strictly reserved for privileged users in modern DBMSes, as it can lead to system exploitation. For MySQL, the DB user must have the `FILE` privilege to load a file's content into a table and then dump data from that table and read files.
