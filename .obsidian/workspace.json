@@ -179,11 +179,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccc68e20622978c5",
+  "active": "266142215e8cffad",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Examining the Database/Listing Contents of the Database.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Enumerating the Database.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Subverting Application Logic.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Enumerating the Database.md",
+    "Offensive Security/Web Application Security/Nginx Misconfigurations/Missing Root Location.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Examining the Database/Listing Contents of the Database.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Retrieving Hidden Data.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Retrieve Interesting Data.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Retrieve Multiple Values in Single Column.md",
@@ -206,7 +207,6 @@
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Allowing Safe HTML.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Stored XSS/Blind XSS.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Stored XSS/Impact.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi using OAST Techniques.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Gadget Chains",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation",
