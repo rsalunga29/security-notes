@@ -35,11 +35,11 @@ It is also possible to view a DB user's privileges in order to understand what i
 
 We can use the following query to check if the current DB User has superuser privileges. If the results returned `Y`, it indicates that the current user has superuser privileges.
 ```sql
-SELECT super_priv FROM mysql.user
+SELECT super_priv FROM mysql.user;
 ```
 Additionally, we can dump other privileges for the current DB user using the following query:
 ```sql
-SELECT grantee, privilege_type FROM information_schema.user_privileges
+SELECT grantee, privilege_type FROM information_schema.user_privileges;
 ```
 ## Enumerating using `information_schema` Database
 The `information_schema` database contains metadata about the database, tables, and columns present on the server, making it a crucial step for attackers to view or enumerate when performing SQL injection vulnerabilities.
@@ -83,9 +83,9 @@ MyDatabase     dbo           Users       Password     varchar
 On Oracle, you can find the same information as follows:
 - You can list tables by querying `all_tables`:
 ```sql
-SELECT * FROM all_tables
+SELECT * FROM all_tables;
 ```
 - You can list columns by querying `all_tab_columns`:
 ```sql
-SELECT * FROM all_tab_columns WHERE table_name = 'USERS'
+SELECT * FROM all_tab_columns WHERE table_name = 'USERS';
 ```
