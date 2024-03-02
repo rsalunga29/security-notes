@@ -27,3 +27,8 @@ The `SELECT INTO OUTFILE` statement can be used to write data from select querie
 ```sql
 SELECT * from users INTO OUTFILE '/tmp/credentials';
 ```
+Additionally, you can also use the same query to write files with custom contents:
+```sql
+SELECT 'this is a test. hello, world!' INTO OUTFILE '/tmp/test.txt';
+```
+> Tip: Advanced file exports utilize the 'FROM_BASE64("base64_data")' function in order to be able to write long/advanced files, including binary data.
