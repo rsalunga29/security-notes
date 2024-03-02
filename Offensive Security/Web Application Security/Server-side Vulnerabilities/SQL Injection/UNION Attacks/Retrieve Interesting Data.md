@@ -1,4 +1,4 @@
-Once you have determined the number of columns and which columns can hold string data, you are already in position to retrieve interested data. For example, we can now retrieve user credentials, so long as we meet the following requirements:
+Once you have determined the number of columns and which columns can hold string data, you are already in position to retrieve interesting data. For example, we can now retrieve user credentials, so long as we meet the following requirements:
 - The original query returns two columns, both of which can hold string data.
 - The injection point is a quoted string within the `WHERE` clause.
 - The database contains a table called `users` with the columns `username` and `password`.

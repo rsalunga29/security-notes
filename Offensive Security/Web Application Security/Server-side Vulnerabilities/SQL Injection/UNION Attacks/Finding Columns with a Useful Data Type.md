@@ -11,7 +11,7 @@ If the column data type is not compatible with string data, the database will re
 ```txt
 Conversion failed when converting the varchar value 'a' to data type int.
 ```
-However, if this error does not occur, and the application's response contains some additional content including the injected string value, then the relevant column is suitable for retrieving string data.
+However, if this error does not occur and the application's response contains some additional content including the injected string value, then the relevant column is suitable for retrieving string data.
 
 Once successful, you can now proceed with the attack. Depending on the number of column that is string-value compatible, you can return the results in multiple column or in this example, a single column using string concatenation:
 ```txt
