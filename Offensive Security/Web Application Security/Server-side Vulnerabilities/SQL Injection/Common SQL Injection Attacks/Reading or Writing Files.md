@@ -8,6 +8,15 @@ The `LOAD_FILE()` function can be used in MariaDB / MySQL to read data from file
 ```sql
 SELECT LOAD_FILE('/etc/passwd');
 ```
+
+Additionally, this can also be used to read server configurations. The following are the common config locations for some popular web servers.
+
+| Server | Config Location                                         |
+| ------ | ------------------------------------------------------- |
+| Apache | /etc/apache2/apache2.conf                               |
+| Nginx  | /etc/nginx/nginx.conf                                   |
+| IIS    | %WinDir%\System32\Inetsrv\Config\ApplicationHost.config |
+Furthermore, we may run a fuzzing scan and try to write files to different possible web roots, using [this wordlist for Linux](https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/default-web-root-directory-linux.txt) or [this wordlist for Windows](https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/default-web-root-directory-windows.txt).
 ## Write File
 First, we have to check if the global variable `secure_file_priv` is disabled using the following query. If the result returns empty, that means we can write files to any location.
 ```sql
