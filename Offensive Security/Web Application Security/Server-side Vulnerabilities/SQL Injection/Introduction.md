@@ -10,7 +10,12 @@ A successful SQL injection attack can result in unauthorized access to sensitive
 This kind of attack has been used in many high-profile data breaches over the years, which has caused reputational damage and regulatory fines. In severe cases, SQL injection was used to obtain a persistent backdoor into an organization's system, leading to a long-term compromise for an extended period of time.
 ## Detecting SQL Injection
 You can detect a SQL injection manually using a set of tests against every entry point in the application:
-- The single quote character `'` and look for errors or other anomalies.
+- The following characters and look for errors or other anomalies:
+	- Single-quote `'` or `%27` as URL-encoded
+	- Double-quote `"` or `%22` as URL-encoded
+	- Hashtag `#` or `%23` as URL-encoded
+	- Semicolon `;` or `%3B` as URL-encoded
+	- Ending parenthesis `)` or `%29` as URL-encoded
 - Some SQL-specific syntax that evaluates to the base (original) value of the entry point, and to a different value, and look for systematic differences in the application responses.
 - Boolean conditions such as `OR 1=1` and `OR 1=2`, and look for differences in the application's responses.
 - Payloads designed to trigger time delays when executed within a SQL query, and look for differences in the time taken to respond.

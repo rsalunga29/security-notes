@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Subverting Application Logic.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Subverting Application Logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Subverting Application Logic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Subverting Application Logic.md"
               }
             }
           }
@@ -181,7 +181,15 @@
   },
   "active": "2baa0203c755c75e",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Retrieving Hidden Data.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Retrieving Data from Other Database Tables.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Prevention.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/SQL Injection in Different Contexts.md",
+    "Offensive Security/Web Application Security/WAF Bypass/Introduction.md",
     "Certification Roadmap.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Second-order SQL Injection.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Performing CSRF.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Prevention/Basic Prevention.md",
@@ -199,15 +207,7 @@
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Capture Passwords via Autofill.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation/Deobfuscation.md",
     "Offensive Security/Web Application Security/Nginx Misconfigurations/Missing Root Location.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation/Advanced Obfuscation.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation/Basic Obfuscation.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation",
-    "Offensive Security/Web Application Security/Enumeration/Infrastructure.md",
-    "Offensive Security/Web Application Security/Nginx Misconfigurations/Off-By-Slash.md",
-    "Offensive Security/Web Application Security/Enumeration/Parameter Fuzzing.md",
-    "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
-    "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Gadget Chains",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation",
     "deserialization-diagram.jpg",
