@@ -26,3 +26,5 @@ Alternatively, you can use tools such as [Burp Scanner](https://portswigger.net/
 This [cheat sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet) contains some examples of useful syntax that you can use to perform a variety of tasks that often arises when performing SQL injection attacks.
 
 There will be times where the `SELECT` keyword won't work.
+## Usage of SQLmap
+To automate detection and exploitation of SQL injection vulnerabilities, the [SQLmap](https://github.com/sqlmapproject/sqlmap) tool can be used.
