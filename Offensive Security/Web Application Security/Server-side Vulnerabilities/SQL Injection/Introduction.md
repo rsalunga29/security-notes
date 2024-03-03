@@ -26,5 +26,26 @@ Alternatively, you can use tools such as [Burp Scanner](https://portswigger.net/
 This [cheat sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet) contains some examples of useful syntax that you can use to perform a variety of tasks that often arises when performing SQL injection attacks.
 
 There will be times where the `SELECT` keyword won't work.
-## Usage of SQLmap
-To automate detection and exploitation of SQL injection vulnerabilities, the [SQLmap](https://github.com/sqlmapproject/sqlmap) tool can be used.
+## Usage of sqlmap
+To automate detection and exploitation of SQL injection vulnerabilities, the [sqlmap](https://github.com/sqlmapproject/sqlmap) tool can be used.
+```nix
+sqlmap -u "http://target.com/products.php?id=1" --batch --dump
+```
+### SQLmap Levels and Risk
+The `--level` and `--risk` options are critical to understand when using sqlmap, because they decide what tests are performed and what payloads are used when looking for SQL injections in web applications. They can make the difference between finding and not finding SQL injection vulnerabilities.
+
+| Level | Description                                                                                                                                                                          |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1     | Tests all `GET` and `POST` parameters. Default level.                                                                                                                                |
+| 2     | Tests for HTTP Cookie headers. Set `--cookie` parameter manually to test specific cookies. Use `--param-exclude` parameter to skip specific cookies. (Addtl parameters are optional) |
+| 3     | Tests for HTTP User-Agent and Referer headers.                                                                                                                                       |
+| 4     | Enables more payloads such as boolean-based blind, etc...                                                                                                                            |
+| 5     | Tests for HTTP Host headers and other additional checks.                                                                                                                             |
+> Note: Higher levels includes tests from their lower levels. If level is set to 3, sqlmap will include levels 1 and 2 test cases. Additionally, the higher the level, the higher number of requests the tool makes.
+
+| Risk | Description     |
+| ---- | --------------- |
+| 1    | Least offensive |
+| 2    |                 |
+| 3    |                 |
+> Note: The higher the risk level, the more dangerous the payloads are, which can lead to unintentional modification of data or take down the database itself.
