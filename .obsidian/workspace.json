@@ -181,6 +181,8 @@
   },
   "active": "266142215e8cffad",
   "lastOpenFiles": [
+    "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Reading or Writing Files.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Enumerating the Database.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Determining the Number of Columns Required.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Finding Columns with a Useful Data Type.md",
@@ -188,9 +190,7 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Subverting Application Logic.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Retrieving Hidden Data.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Retrieving Data from Other Database Tables.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Reading or Writing Files.md",
     "Certification Roadmap.md",
-    "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Introduction.md",
     "Offensive Security/Web Application Security/Nginx Misconfigurations/Missing Root Location.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Examining the Database/Listing Contents of the Database.md",
