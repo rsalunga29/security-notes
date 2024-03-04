@@ -7,6 +7,10 @@ Additionally, if one of the provided parameters contains any of the infixes (i.e
 In some cases, the web application may only require unique values to be provided inside pre-defined parameters (e.g `?id=1&uid=7389271937219`). For this scenario, the option `--randomize` should be used, pointing the parameter name containing a value which should be randomize before sending the request (e.g `--randomize=uid`).
 ## Calculated Parameter Bypass
 Another similar mechanism is for web applications to expect a proper parameter value to be calculated based on several factors. Most often, one parameter value has to contain a message digest (e.g `h=MD5(id)`) of another parameter. To bypass this, the option `--eval` should be used (e.g `--eval="import hashlib; h=hashlib.md5(id).hexdigest()"`).
+## IP Address Concealing
+In case where we want to conceal our IP Address or if some web application blacklists our current IP Address, we can use a proxy or Tor. A proxy can be set with the option `--proxy` (e.g `--proxy="socks4://192.168.187.70:33283"`), if we have a list of proxies, we can use the option `--proxy-file` instead.
+
+Using the option `--tor` will have SQLmap use the Tor network. However, if we first wanted to make sure Tor is properly working to avoid unwanted behavior, we can use the `--check-tor` option which makes SQLmap connect to `https://check.torproject.org/` and check the response for the intended results.
 ## User-agent Blacklisting Bypass
 In case of immediate problems (e.g., HTTP error code 5XX from the start) while running SQLMap, one of the first things we should think of is the potential blacklisting of the default user-agent used by SQLMap (e.g. `User-agent: sqlmap/1.4.9 (http://sqlmap.org)`).
 
