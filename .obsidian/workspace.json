@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/WAF Bypass/SQLmap Bypass.md",
+                "file": "Offensive Security/Web Application Security/WAF Bypass/SQLmap Bypass WAF.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/WAF Bypass/SQLmap Bypass.md",
+                "file": "Offensive Security/Web Application Security/WAF Bypass/SQLmap Bypass WAF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/WAF Bypass/SQLmap Bypass.md",
+                "file": "Offensive Security/Web Application Security/WAF Bypass/SQLmap Bypass WAF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/WAF Bypass/SQLmap Bypass.md"
+                "file": "Offensive Security/Web Application Security/WAF Bypass/SQLmap Bypass WAF.md"
               }
             }
           }
@@ -179,15 +179,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccc68e20622978c5",
+  "active": "266142215e8cffad",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Enumerating the Database.md",
+    "Offensive Security/Web Application Security/WAF Bypass/SQLmap Bypass WAF.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Introduction.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Retrieving Data from Other Database Tables.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Reading or Writing Files.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Enumerating the Database.md",
-    "Offensive Security/Web Application Security/WAF Bypass/SQLmap Bypass.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Conditional Responses.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi using OAST Techniques.md",
