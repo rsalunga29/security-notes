@@ -1,4 +1,12 @@
 Whenever we run SQLMap, As part of the initial tests, SQLMap sends a predefined malicious looking payload using a non-existent parameter name (e.g. `?pfov=...`) to test for the existence of a WAF (Web Application Firewall). The following are multiple ways that sqlmap can use to bypass WAFs.
+## Anti-CSRF Token Bypass
+One of the first line of defense against automation tools is the incorporation of anti-CSRF tokens into all HTTP requests. SQLmap's `--csrf-token` flag can help in bypassing anti-CSRF protection by specifying the token parameter name (e.g `--csrf-token=_csrftoken`).
+
+Additionally, if one of the provided parameters contains any of the infixes (i.e csrf, xsrf, token), the user will be prompted to update the request.
+## Unique Value Bypass
+In some cases, the web application may only require unique values to be provided inside pre-defined parameters (e.g `?id=1&uid=7389271937219`). For this scenario, the option `--randomize` should be used, pointing the parameter name containing a value which should be randomize before sending the request (e.g `--randomize=uid`).
+## Calculated Parameter Bypass
+Another similar mechanism is for web applications to expect a proper parameter value to be calculated based on several factors. Most often, one parameter value has to contain a message digest (e.g `h=MD5(id)`) of another parameter. To bypass this, the option `--eval` should be used (e.g `--eval="import hashlib; h=hashlib.md5(id).hexdigest()"`).
 ## User-agent Blacklisting Bypass
 In case of immediate problems (e.g., HTTP error code 5XX from the start) while running SQLMap, one of the first things we should think of is the potential blacklisting of the default user-agent used by SQLMap (e.g. `User-agent: sqlmap/1.4.9 (http://sqlmap.org)`).
 
