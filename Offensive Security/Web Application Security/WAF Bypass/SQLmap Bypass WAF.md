@@ -31,3 +31,6 @@ These scripts can be chained, one after another, within the `--tamper` flag (e.g
 | versionedkeywords         | Encloses each non-function keyword with (MySQL) versioned comment                                                                |
 | versionedmorekeywords     | Encloses each keyword with (MySQL) versioned comment                                                                             |
 ## Chunked Transfer Encoding
+The Chunked transfer encoding, turned on using the switch `--chunked`, which splits the POST request's body into so-called "chunks." Blacklisted SQL keywords are split between chunks in a way that the request containing them can pass unnoticed.
+## HTTP Parameter Pollution
+Also known as HPP, is where payloads are split in a similar way as in case of `--chunked` between different same parameter named values (e.g `?id=1&id=UNION&id=SELECT&id=username,password&id=FROM&id=users...`), which are concatenated by the target platform if it supports it.
