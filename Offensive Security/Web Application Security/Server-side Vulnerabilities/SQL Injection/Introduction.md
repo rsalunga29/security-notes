@@ -31,6 +31,8 @@ To automate detection and exploitation of SQL injection vulnerabilities, the [sq
 ```nix
 sqlmap -u "http://target.com/products.php?id=1" --batch --dump
 ```
+> Tip: Remember to specify the [techniques](https://github.com/sqlmapproject/sqlmap/wiki/Techniques) to use using the `--technique` option (e.g `--technique=T`)
+> * T stands for Time-based Injection 
 ### SQLmap Levels and Risk
 The `--level` and `--risk` options are critical to understand when using sqlmap, because they decide what tests are performed and what payloads are used when looking for SQL injections in web applications. They can make the difference between finding and not finding SQL injection vulnerabilities.
 
