@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Bypass Other Characters.md",
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Bypass Blacklisted Commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Bypass Other Characters.md",
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Bypass Blacklisted Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Bypass Other Characters.md",
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Bypass Blacklisted Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Bypass Other Characters.md"
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Bypass Blacklisted Commands.md"
               }
             }
           }
@@ -181,8 +181,9 @@
   },
   "active": "266142215e8cffad",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Bypass Space Filters.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Bypass Other Characters.md",
+    "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Bypass Blacklisted Commands.md",
+    "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Bypass Space Filters.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Introduction.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
@@ -208,7 +209,6 @@
     "Offensive Security/Web Application Security/Nginx Misconfigurations/Missing Root Location.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Examining the Database/Listing Contents of the Database.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Retrieve Interesting Data.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Retrieve Multiple Values in Single Column.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Gadget Chains",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation",
