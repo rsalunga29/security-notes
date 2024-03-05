@@ -13,5 +13,5 @@ foreach ($blacklist as $malicious) {
 }
 ```
 If any character or command in the string an attacker sent matches a value of the blacklist array, the request will be denied. However, in this example, the code is looking for an exact match of the provided character or command. An attacker can easily bypass this by using a different command or obfuscating their payload.
-## Identifying Blacklisted Characters
-## Identifying Blacklisted Commands (Linux)
+## Identifying Blacklisted Characters and Commands
+To identify which characters and commands are blacklisted, 
