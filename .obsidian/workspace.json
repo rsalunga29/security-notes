@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md"
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass.md"
               }
             }
           }
@@ -179,8 +179,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e004d84b6629aa20",
+  "active": "266142215e8cffad",
   "lastOpenFiles": [
+    "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/SQL Injection Bypass/Bypass with SQLMap.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Introduction.md",
@@ -197,7 +198,6 @@
     "Offensive Security/Web Application Security/Protections & WAF Bypass/SQL Injection Bypass",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Database-specific Syntax.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Determining the Number of Columns Required.md",
-    "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Common SQL Injection Attacks/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/UNION Attacks/Finding Columns with a Useful Data Type.md",
