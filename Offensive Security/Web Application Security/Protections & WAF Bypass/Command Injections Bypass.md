@@ -14,4 +14,17 @@ foreach ($blacklist as $malicious) {
 ```
 If any character or command in the string an attacker sent matches a value of the blacklist array, the request will be denied. However, in this example, the code is looking for an exact match of the provided character or command. An attacker can easily bypass this by using a different command or obfuscating their payload.
 ## Identifying Blacklisted Characters and Commands
-To identify which characters and commands are blacklisted, 
+To identify which characters and commands are blacklisted, send a request containing each character or command and see which of them gets an error. An error indicates that the character or command is blacklisted.
+## Bypass Space Filters
+A commonly blacklisted character is a space ( ) or `+` when its encoded. There are a couple of ways to bypass such filters for this characters.
+### Using Tabs
+Using tabs (`%09`) instead of spaces is a technique that might work, since both Linux and Windows accept commands with tabs in between arguments, and they are executed the same.  Example:
+```http
+POST / HTTP/1.1
+Host: target-website.com
+...
+
+ip=127.0.0.1%09whoami
+```
+### Using $IFS
+The `$IFS` is a Linux Environment Variable that can used since its default value is a space and a tab, which would work between command arguments. So if the I
