@@ -1,0 +1,1 @@
+Other commonly blacklisted characters includes the slash (`/`) or backslash (`\`). There are a couple of ways to bypass such filters for this characters.
