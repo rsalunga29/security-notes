@@ -10,3 +10,12 @@ ip=127.0.0.1%09w'h'o'am'i
 > Tip: The important things to remember are that we cannot mix types of quotes and the number of quotes must be even.
 ## Linux Only
 We can also insert a few Linux-only characters in the middle of commands, and the bash shell would ignore it and execute the command. These characters include the backslash and the positional parameter character (`$@`).
+## Windows Only
+There are also some Windows-only characters we can insert in the middle of commands that do not affect the outcome, like a caret (`^`) character. Example:
+```http
+POST / HTTP/1.1
+Host: target-website.com
+...
+
+ip=127.0.0.1%09who^ami
+```
