@@ -41,3 +41,12 @@ Host: target-website.com
 ip=127.0.0.1%0d%0aiex "$('imaohw'[-1..-20] -join '')"
 ```
 > Note: We removed the encoding on the command so that we can read it properly. But during engagements, make sure to encode the necessary characters to bypass other filters.
+## Encoded Commands
+Another technique is encoding commands, this may be helpful for commands containing filtered characters or characters that may be URL-decoded by the server. However, this may allow for the command to get messed up by the time it reaches the shell and eventually fails to execute.
+
+In this case, we can utilize various tools such as ``
+
+
+
+
+> Tip: Try to create your own unique obfuscation techniques by getting creative with Bash or Powershell. This way, it is much less likely to be denied by a filter or a WAF.
