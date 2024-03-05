@@ -1,0 +1,3 @@
+In some instances, we may be dealing with advanced filtering solutions, like Web Application Firewalls (WAFs), and basic evasion techniques may not necessarily work. We can utilize more advanced techniques for such occasions, which make detecting the injected commands much less likely.
+## Case Manipulation
+One command obfuscation technique we can use is case manipulation, in which the character cases of a command is inverted (e.g `WHOAMI`) or alternated (e.g `WhOaMi`). This usually works because command blacklist functions may not  check for different case variations of a 
