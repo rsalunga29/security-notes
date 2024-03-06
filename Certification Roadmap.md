@@ -21,7 +21,7 @@
 - TCM Academy Practical Network Penetration Tester
 - AppSec Homelab Part 2
 	- Adversary Emulation: Atomic Red Team or Caldera
-	- IDS/IPS: Snort or Suricata
+	- IDS/IPS: Suricata (NIDS) and Wazuh Agent (HIDS)
 	- SIEM: Security Onion or Splunk or ELK
 	- Active Directory: 1 DC, 2 User
 ### Q3 2024 / Q4 2024
