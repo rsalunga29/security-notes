@@ -1,4 +1,6 @@
 In some instances, we may be dealing with advanced filtering solutions, like Web Application Firewalls (WAFs), and basic evasion techniques may not necessarily work. We can utilize more advanced techniques for such occasions, which make detecting the injected commands much less likely.
+
+While the following techniques can work, it is still a good idea to be creative with Bash and Powershell to create your own unique obfuscation methods. This way, it is much less likely for the payload to be denied by a filter or a WAF.
 ## Case Manipulation
 One command obfuscation technique we can use is case manipulation, in which the character cases of a command is inverted (e.g `WHOAMI`) or alternated (e.g `WhOaMi`). This usually works because command blacklist functions may not check for different case variations of a single word, this is because Linux-based systems are case sensitive. So this technique will work for Windows' Powershell and CMD as they are case-insensitive.
 
@@ -62,19 +64,18 @@ ip=127.0.0.1%0d%0abash<<<$(base64%09-d<<<d2hvYW1pCg==)
 ```
 >   Tip: Note that we are using `<<<` to avoid using a pipe `|`, which is a filtered character. 
 
-Additionally, we can first convert the string from `utf-8` to `utf-16` before it is encoded into base64 by using the following command:
-```nix
-echo -n whoami | iconv -f utf-8 -t utf-16le | base64
-```
-
 This encoding technique can also be used in Windows environment by using the following command:
 ```powershell
 [Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))
+```
+The command above can also be done in a Linux environment, by first converting the string from `utf-8` to `utf-16`:
+```nix
+echo -n whoami | iconv -f utf-8 -t utf-16le | base64
 ```
 
 We can then decode the base64-encoded string and execute it with a Powershell sub-shell (`iex "$()"`):
 ```powershell
 iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"
 ```
-
-Finally, it is a good idea to be creative with Bash and Powershell to create your own unique obfuscation methods. This way, it is much less likely for the payload to be denied by a filter or a WAF.
+## Automating Evasion/Bypass
+When dealing with advanced security tools, it may be hard to use basic, manual obfuscation methods. In such cases, it's wise to resort to automated obfuscation tools, such as [Bashfuscator](https://github.com/Bashfuscator/Bashfuscator) for Linux and [DOSfuscation](https://github.com/danielbohannon/Invoke-DOSfuscation) for Windows.
