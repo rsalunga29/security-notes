@@ -1,4 +1,3 @@
-## Content-Type Bypass
 When submitting HTML forms, the browser typically sends the provided data in `POST` HTTP request with the `Content-Type` value of `application/x-www-form-url-encoded`. Most of the time this works, however it isn't suitable for sending large amounts of binary data, such as an image or PDF file. In this case the `multipart/form-data` is more suitable.
 
 Consider a form containing fields for uploading an image, providing a description of it, and entering your username. Submitting the form will result in a request like this:
