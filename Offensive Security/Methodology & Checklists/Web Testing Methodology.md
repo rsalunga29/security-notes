@@ -8,7 +8,7 @@ Create a checklist for each vulnerability types (optional).
 3. Enumerate the web technologies used by the web server and look for exploitable flaws.
 4. Assess web app from both authenticated and unauthenticated perspectives.
 ### File Upload
-- Fuzz the file upload function for whitelisted and blacklisted extensions
+- Fuzz the file upload functionality for whitelisted and blacklisted extensions
 
 ## Preparation
 - Understand the business area and what the customer needs.
