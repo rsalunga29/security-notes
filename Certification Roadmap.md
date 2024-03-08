@@ -11,7 +11,7 @@
 	- DevSecOps: Gitea, DejectDojo, Intentionally Vulnerable App
 	- AppSec Tools: semgrep, SonarQube, ZAP, DependencyCheck, OpenVAS
 	- Create Network Topology
-### Q2 2024  / Q3 2024
+### Q2 2024 - Q4 2024
 - Study Materials
 	- TCM Academy
 		- Practical Ethical Hacking
@@ -25,11 +25,8 @@
 	- IDS/IPS: Suricata (NIDS) and Wazuh Agent (HIDS)
 	- SIEM: Security Onion or Splunk or ELK
 	- Active Directory: 1 DC, 2 User
-### Q3 2024 / Q4 2024
-- Study Materials
-	- TBD
-- Altered Security Certified Red Team Practitioner
 ### Q4 2024 / Q1 2025
 - Study Materials
 	- TBD
+- Altered Security Certified Red Team Practitioner
 - Offensive Security Certified Professional
