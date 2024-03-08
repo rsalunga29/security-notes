@@ -9,4 +9,4 @@ However, even the most robust way of validating a file isn't foolproof. Special 
 exiftool -Comment="<?php echo 'START ' . file_get_contents('/etc/passwd') . ' END'; ?>" image.jpg -o polyglot.php
 ```
 ## Alternative Usage
-The technique can also be used to introduce different vulnerabilities via file upload. These includes XS
+The technique can also be used to introduce different vulnerabilities via file upload. These includes XSS, XXE, or DoS.
