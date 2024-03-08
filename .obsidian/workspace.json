@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Prevention.md",
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Obfuscating File Extensions.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Prevention.md",
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Obfuscating File Extensions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Prevention.md",
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Obfuscating File Extensions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Prevention.md"
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Obfuscating File Extensions.md"
               }
             }
           }
@@ -181,25 +181,25 @@
   },
   "active": "266142215e8cffad",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Injections in File Name.md",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/File Content Validation Bypass.md",
+    "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Bypass User-Accessible Directories Restriction.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Content-Type Bypass.md",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Removing Front-end Validation.md",
+    "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/File Content Validation Bypass.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/File Signatures or Magic Bytes Bypass.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Prevention.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Injections in File Name.md",
+    "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Removing Front-end Validation.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Exploiting XXE to Retrieve Files.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Chained XXE to SSRF.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Prevention.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Obfuscating File Extensions.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Overriding Server Configuration.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Prevention.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting File Format Parsing.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/ZIP Symlink Vulnerability.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Uploading Malicious Client-side Scripts.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Uploading Files using PUT.md",
     "Certification Roadmap.md",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Bypass User-Accessible Directories Restriction.md",
     "Offensive Security/Web Application Security/Nginx Misconfigurations/Missing Root Location.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Bypass via Character Injection.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Double Extensions.md",
