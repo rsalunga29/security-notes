@@ -19,6 +19,13 @@
 		- External Pentest Playbook
 		- Windows Privilege Escalation
 		- Linux Privilege Escalation
+	- Lets Defend
+		- SOC Analyst Learning Path
+	- TryHackMe
+		- Cyber Defense
+		- SOC Level 1
+		- SOC Level 2
+- Security Blue Team Level 1
 - TCM Academy Practical Network Penetration Tester
 - AppSec Homelab Part 2
 	- Adversary Emulation: Atomic Red Team or Caldera
