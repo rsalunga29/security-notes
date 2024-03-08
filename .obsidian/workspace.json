@@ -181,8 +181,9 @@
   },
   "active": "266142215e8cffad",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Overriding Server Configuration.md",
+    "Offensive Security/Web Application Security/Nginx Misconfigurations/Missing Root Location.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Obfuscating File Extensions.md",
+    "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Overriding Server Configuration.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Bypass User-Accessible Directories Restriction.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Bypass via Character Injection.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Content-Type Bypass.md",
@@ -209,7 +210,6 @@
     "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Bypass Space Filters.md",
     "Certification Roadmap.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/SQL Injection Bypass/Bypass with SQLMap.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/SQL Injection Bypass",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Gadget Chains",
