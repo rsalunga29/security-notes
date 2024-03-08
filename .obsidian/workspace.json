@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Magic Bytes Bypass.md",
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/File Signatures or Magic Bytes Bypass.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Magic Bytes Bypass.md",
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/File Signatures or Magic Bytes Bypass.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Magic Bytes Bypass.md",
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/File Signatures or Magic Bytes Bypass.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Magic Bytes Bypass.md"
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/File Signatures or Magic Bytes Bypass.md"
               }
             }
           }
@@ -197,7 +197,7 @@
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Double Extensions.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Insufficient Blacklisting of Filetypes/Introduction.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Removing Front-end Validation.md",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Magic Bytes Bypass.md",
+    "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/File Signatures or Magic Bytes Bypass.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting Flawed File Uploads Validation/Flawed File Type Validation.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Introduction.md",
