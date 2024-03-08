@@ -9,6 +9,7 @@
 - AppSec Homelab Project Part 1
 	- Firewall: pfSense
 	- DevSecOps: GitLab or Gitea, DejectDojo, Intentionally Vulnerable App
+	- AppSec Tools: semgrep, SonarQube, ZAP, DependencyCheck, OpenVAS
 	- Create Network Topology
 ### Q2 2024  / Q3 2024
 - Study Materials
