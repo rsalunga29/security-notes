@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Magic Bytes Bypass.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Magic Bytes Bypass.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Magic Bytes Bypass.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certification Roadmap.md"
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Magic Bytes Bypass.md"
               }
             }
           }
@@ -181,10 +181,11 @@
   },
   "active": "266142215e8cffad",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Bypass User-Accessible Directories Restriction.md",
+    "Certification Roadmap.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Obfuscating File Extensions.md",
     "Offensive Security/Web Application Security/Nginx Misconfigurations/Missing Root Location.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Overriding Server Configuration.md",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Bypass User-Accessible Directories Restriction.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Bypass via Character Injection.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Content-Type Bypass.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/File Content Validation Bypass.md",
@@ -208,7 +209,6 @@
     "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Bypass Blacklisted Commands.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Advanced Obfuscation Techniques.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Bypass Space Filters.md",
-    "Certification Roadmap.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/SQL Injection Bypass",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation",
