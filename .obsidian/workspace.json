@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Enumeration/Parameter Fuzzing.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes Injection/Attacking XSLT.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Enumeration/Parameter Fuzzing.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes Injection/Attacking XSLT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Enumeration/Parameter Fuzzing.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes Injection/Attacking XSLT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Enumeration/Parameter Fuzzing.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes Injection/Attacking XSLT.md"
               }
             }
           }
@@ -180,12 +180,14 @@
   },
   "active": "850ada7823c81d37",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes Injection/Edge-Side Includes Injection.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes Injection/Attacking XSLT.md",
+    "Offensive Security/Web Application Security/Enumeration/Parameter Fuzzing.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Template Injection/Custom Payload.md",
     "Offensive Security/Web Application Security/Nginx Misconfigurations/Missing Root Location.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Template Injection/Introduction.md",
     "ssti-diagram.png",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes Injection/Edge-Side Includes Injection.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes Injection/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF/Time-Based SSRF.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF/Introduction.md",
@@ -206,8 +208,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/SSRF Attacks Against Other Backend Systems.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/SSRF Attacks Against the Server.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/Full SSRF Exploit Example.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Other SSRF Attacks.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes/Edge-side Includes",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Template Injection",
