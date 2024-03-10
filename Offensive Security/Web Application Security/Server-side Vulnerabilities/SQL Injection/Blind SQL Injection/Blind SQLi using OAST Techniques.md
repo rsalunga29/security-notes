@@ -16,3 +16,4 @@ This will trigger a DNS lookup with the following results:
 ```txt
 p@$$w0rd.BURP-COLLABORATOR-SUBDOMAIN
 ```
+> Note: If Burp Collaborator is not available, we can use [CanaryTokens](https://canarytokens.org/generate#) and [interactsh](https://github.com/projectdiscovery/interactsh) as alternatives.

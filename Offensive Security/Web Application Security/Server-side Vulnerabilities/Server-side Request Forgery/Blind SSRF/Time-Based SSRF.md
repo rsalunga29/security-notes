@@ -1,0 +1,1 @@
+We can also determine the existence of an SSRF vulnerability by observing time differences in responses. This method is also helpful for discovering internal services (i.e maybe it takes more time accessing an existing resource than accessing one that doesn't exist).

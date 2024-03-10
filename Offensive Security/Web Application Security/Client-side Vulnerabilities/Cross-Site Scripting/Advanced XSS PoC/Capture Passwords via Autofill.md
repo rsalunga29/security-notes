@@ -17,3 +17,4 @@ This script will make anyone who views the comment issue a POST request containi
 4. Go back to the Collaborator tab, and click "Poll now". You should see an HTTP interaction. If you don't see any interactions listed, wait a few seconds and try again.
 5. Take a note of the value of the victim's username and password in the POST body.
 6. Use the credentials to log in as the victim user.
+> Note: If Burp Collaborator is not available, we can use [CanaryTokens](https://canarytokens.org/generate#) and [interactsh](https://github.com/projectdiscovery/interactsh) as alternatives.

