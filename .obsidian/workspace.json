@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hydra",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -178,8 +178,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccc68e20622978c5",
+  "active": "850ada7823c81d37",
   "lastOpenFiles": [
+    "Offensive Security/Network Security/Exploitation/Tunneling & Port Forwarding.md",
+    "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
+    "Offensive Security/Network Security/Exploitation/Password Cracking & Brute Force.md",
+    "Offensive Security/Network Security/Exploitation/NFS.md",
+    "Offensive Security/Network Security/Exploitation/139, 445 - SMB.md",
+    "Offensive Security/Network Security/Exploitation/20, 21 - FTP.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/Full SSRF Exploit Example.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes Injection/Attacking XSLT.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes Injection/Edge-Side Includes Injection.md",
@@ -201,13 +207,7 @@
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Capture Passwords via Autofill.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Stored XSS/Blind XSS.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF/Blind SSRF with Shellshock Exploitation.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF/Blind SSRF with Out-of-Band Detection.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi using OAST Techniques.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF/Blind SSRF with PDF Generators.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Introduction.md",
     "Offensive Security/Assets/deserialization-diagram.jpg",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/SSRF Attacks Against Other Backend Systems.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/SSRF Attacks Against the Server.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes/Edge-side Includes",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Template Injection",
