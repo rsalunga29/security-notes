@@ -35,7 +35,7 @@ Next we edit the `/etc/nginx/conf/nginx.conf` and comment out the entire `server
 upstream tomcats {
 	server <TARGET_SERVER>:8009;
 	keepalive 10;
-	}
+}
 server {
 	listen 80;
 	location / {
@@ -47,5 +47,28 @@ server {
 Then we simply start Nginx and confirm everything is working correctly by using cURL
 ```bash
 sudo nginx
+curl <TARGET_SERVER>:8009
+```
+## Apache Reverse Proxy and AJP
+The same technique can also be done using Apache. First, we install and enable all required modules.
+```bash
+sudo apt install libapache2-mod-jk
+sudo a2enmod proxy_ajp
+sudo a2enmod proxy_http
+```
+Then we configure the `/etc/apache2/sites-available/ajp-proxy.conf`
+```bash
+export TARGET="<TARGET_SERVER>"
+echo -n """<Proxy *>
+Order allow,deny
+Allow from all
+</Proxy>
+ProxyPass / ajp://$TARGET:8009/
+ProxyPassReverse / ajp://$TARGET:8009/""" | sudo tee /etc/apache2/sites-available/ajp-proxy.conf
+sudo ln -s /etc/apache2/sites-available/ajp-proxy.conf /etc/apache2/sites-enabled/ajp-proxy.conf
+```
+Then we simple start Apache and confirm everything is working correctly by using cURL
+```bash
+sudo systemctl start apache2
 curl <TARGET_SERVER>:8009
 ```

@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "11b432b2897f6497",
+            "id": "266142215e8cffad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Nginx Misconfigurations/Missing Root Location.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Introduction.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "266142215e8cffad",
+            "id": "11b432b2897f6497",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Nginx Misconfigurations/Missing Root Location.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy/Introduction.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Introduction.md"
               }
             }
           }
@@ -181,6 +180,8 @@
   },
   "active": "266142215e8cffad",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy/Introduction.md",
+    "Offensive Security/Web Application Security/Nginx Misconfigurations/Missing Root Location.md",
     "Offensive Security/Network Security/Privilege Escalation/Windows.md",
     "Offensive Security/Web Application Security/Enumeration/WAF.md",
     "Offensive Security/Network Security/Enumeration/Vulnerability Scanning.md",
@@ -196,7 +197,6 @@
     "Offensive Security/Network Security/Exploitation/NFS.md",
     "Offensive Security/Network Security/Privilege Escalation/Linux.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy/Introduction.md",
     "Offensive Security/Web Application Security/Enumeration/Infrastructure.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/File Content Validation Bypass.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Exploit Using Time Delays.md",
@@ -206,7 +206,6 @@
     "Offensive Security/Web Application Security/Enumeration/CMS.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Bypass Other Characters.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Advanced Obfuscation Techniques.md",
-    "Offensive Security/Network Security/Enumeration/139, 445 - SMB.md",
     "deserialization-diagram.jpg",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes/Edge-side Includes",
