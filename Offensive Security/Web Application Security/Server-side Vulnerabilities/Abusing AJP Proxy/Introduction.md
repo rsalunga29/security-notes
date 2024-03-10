@@ -14,3 +14,5 @@ Then make sure we have Docker installed, once confirmed, spin up a Docker instan
 ```nix
 sudo docker run -it --rm -p 8009:8009 -v `pwd`/tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml --name tomcat "tomcat:8.0"
 ```
+## Nginx Reverse Proxy and AJP
+Download the 
