@@ -1,5 +1,7 @@
 There will be times where we will be needing to construct a custom payload to exploit SSTI vulnerabilities. For example, a template engine that executes templates inside a sandbox, which can make exploitation difficult or impossible.
-## Understanding Payload Creation with Python
+## Navigating Python Objects and Inheritance Trees
+In Python, everything is an object! While this is a fundamental property and feature of the language, we are going to focus on one very particular thing one can do: navigating the inheritance tree of objects and, thus, classes.
+
 1. The first step is to open up a Python environment and understand Python's hierarchy. Using `__mro__` or `mro()`, we can go back up the three of inherited objects in the Python environment.
 ```python
 import flask
@@ -22,6 +24,8 @@ def searchfunc(name):
 searchfunc('warning')
 ```
 The reason we are searching for `warning` is because, this class imports Python's `sys` module, and from `sys`, we can reach the `os` module.
+> Note: This is not the only module that can be used for SSTI exploitation. For example, the `_io._IOBase` module can be utilized to read local files. Read more [here](https://kleiber.me/blog/2021/10/31/python-flask-jinja2-ssti-example/).
+
 3. We will now attempt to reach the `import` by walking through the hierarchy.
 ```python
 x = s.__class__.mro()[1].__subclasses__()
