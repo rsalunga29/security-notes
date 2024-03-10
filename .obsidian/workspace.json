@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "```nix",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -179,7 +180,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "266142215e8cffad",
+  "active": "7db1edcda1ea8fc7",
   "lastOpenFiles": [
     "Certification Roadmap.md",
     "deserialization-diagram.jpg",
