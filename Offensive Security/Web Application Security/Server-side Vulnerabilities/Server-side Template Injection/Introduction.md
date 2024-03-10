@@ -16,7 +16,7 @@ $output = $twig->render("Dear " . $_GET['name']);
 ```
 > Note: In this example, instead of a static value being passed into the template, part of the template itself is being dynamically generated using the `GET` parameter `name`. As template syntax is evaluated server-side, this potentially allows an attacker to place a server-side template injection payload inside the `name` parameter
 
-We can use tplmap to automa
+Aside from manual process, we can use [tplmap](https://github.com/epinna/tplmap) to automate the detection and exploitation of SSTI vulnerabilities.
 ## Detection
 The easiest way to detect injections is to supply mathematical expressions in curly brackets, for example:
 ```html
