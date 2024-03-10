@@ -178,8 +178,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "850ada7823c81d37",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
+    "ssti-diagram.png",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes Injection/Edge-Side Includes Injection.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Template Injection/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes Injection/Introduction.md",
@@ -206,7 +207,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/Full SSRF Exploit Example.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Other SSRF Attacks.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Introduction.md",
-    "Offensive Security/Network Security/Enumeration/Port Scanning.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes/Edge-side Includes",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Template Injection",
