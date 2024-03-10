@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "assets",
+                "query": "assets/",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
