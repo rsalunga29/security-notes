@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "assets/",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,8 +89,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Introduction.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF/Introduction.md"
               }
             }
           }
@@ -179,14 +178,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7db1edcda1ea8fc7",
+  "active": "266142215e8cffad",
   "lastOpenFiles": [
-    "Offensive Security/Assets/deserialization-diagram.jpg",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF/Blind SSRF with PDF Generators.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF/Blind SSRF with Shellshock Exploitation.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF/Blind SSRF with PDF Generators.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF/Blind SSRF with Out-of-Band Detection.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Introduction.md",
+    "Offensive Security/Assets/deserialization-diagram.jpg",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/SSRF Attacks Against Other Backend Systems.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/SSRF Attacks Against the Server.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF/Blind SSRF with Out-of-Band Detection.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/Full SSRF Exploit Example.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Other SSRF Attacks.md",
