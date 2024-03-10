@@ -1,7 +1,7 @@
 ## Banner Grabbing
-```nix
+```bash
 nc -vn 10.10.10.10 22
 ```
-```nix
+```bash
 telnet 10.10.10.10 22
 ```

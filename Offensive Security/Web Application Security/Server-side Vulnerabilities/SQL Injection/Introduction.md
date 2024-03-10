@@ -28,7 +28,7 @@ This [cheat sheet](https://portswigger.net/web-security/sql-injection/cheat-shee
 There will be times where the `SELECT` keyword won't work.
 ## Automating using sqlmap
 To automate detection and exploitation of SQL injection vulnerabilities, the [sqlmap](https://github.com/sqlmapproject/sqlmap) tool can be used.
-```nix
+```bash
 sqlmap -u "http://target.com/products.php?id=1" --batch --dump
 ```
 > Tip: Remember to specify the [techniques](https://github.com/sqlmapproject/sqlmap/wiki/Techniques) to use using the `--technique` option (e.g `--technique=T`)

@@ -15,6 +15,6 @@ This vulnerability is caused by a misconfigured DNS server, which causes anyone 
 	- `dig axfr target.com @ns.target.com`
 	- `nslookup -type=any -query=axfr target.com ns.target.com`
 ## DNSrecon
-```nix
+```bash
 dnsrecon -d target.com -t axfr
 ```

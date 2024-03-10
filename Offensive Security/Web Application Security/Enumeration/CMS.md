@@ -1,5 +1,5 @@
 ## WordPress
 ### WPScan
-```nix
+```bash
 wpscan --url http://target.localhost --enumerate
 ```

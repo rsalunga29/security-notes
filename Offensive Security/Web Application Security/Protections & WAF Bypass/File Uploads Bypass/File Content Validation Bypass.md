@@ -5,13 +5,13 @@ In cases of an image upload function, some applications might try to verify cert
 In other cases, an application might try to verify a file's magic bytes - which is a sequence of bytes in a file's header of footer used as a fingerprint or signature to determine whether the file contents match the expected file type. For example, JPEG files always begin with the bytes `FF D8 FF`. An attacker can use `hexedit` to modify the file's magic bytes based on a [public list](https://en.wikipedia.org/wiki/List_of_file_signatures) of file signatures.
 
 However, even the most robust way of validating a file isn't foolproof. Special tools such as `ExifTool`, can be used to create polyglot JPEG file containing malicious code within its metadata. For example:
-```nix
+```bash
 exiftool -Comment="<?php echo 'START ' . file_get_contents('/etc/passwd') . ' END'; ?>" image.jpg -o polyglot.php
 ```
 ## Chaining File Upload Vulnerabilities with XSS and XXE
 The technique can also be used to introduce different vulnerabilities via file upload. These includes XSS, XXE, or DoS.
 ### XSS via Exif Comment
-```nix
+```bash
 exiftool -Comment=' "><img src=1 onerror=alert(window.origin)>' HTB.jpg
 ```
 ### XSS via SVG

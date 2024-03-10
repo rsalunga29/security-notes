@@ -5,20 +5,20 @@ While the following techniques can work, it is still a good idea to be creative 
 One command obfuscation technique we can use is case manipulation, in which the character cases of a command is inverted (e.g `WHOAMI`) or alternated (e.g `WhOaMi`). This usually works because command blacklist functions may not check for different case variations of a single word, this is because Linux-based systems are case sensitive. So this technique will work for Windows' Powershell and CMD as they are case-insensitive.
 
 Not all is lost for Linux-based systems and bash shell, we just have to be creative:
-```nix
+```bash
 $(tr "[A-Z]" "[a-z]"<<<"WhOaMi")
 ```
 The command above will convert the command into an all-lowercase word and execute it.
 
 Additionally, for bash shell, the following technique will work as well:
-```nix
+```bash
 $(a="WhOaMi";printf %s "${a,,}")
 ```
 ## Reversed Commands
 Another technique is reversing commands, and having a command template that switches them back and executes the command. For example, instead of executing `whoami`, we will instead use `imaohw` to avoid triggering the blacklisted command.
 
 But first, we have to get the reversed string of our command in our terminal:
-```nix
+```bash
 echo 'whoami' | rev
 ```
 Then we can execute the original command by reversing it back in a sub-shell:
@@ -47,11 +47,11 @@ ip=127.0.0.1%0d%0aiex "$('imaohw'[-1..-20] -join '')"
 Another technique is encoding commands, this may be helpful for commands containing filtered characters or characters that may be URL-decoded by the server. However, this may allow for the command to get messed up by the time it reaches the shell and eventually fails to execute (avoid this by not using encoded characters).
 
 In this case, we can utilize various tools such as `base64` for base64 encoding and `xxd` for hex encoding. For example:
-```nix
+```bash
 echo "whoami" | base64
 ```
 Which will return `d2hvYW1pCg==`. We can now create a command to decode the encoded string in a sub-shell and then pass it to bash to be executed:
-```nix
+```bash
 bash<<<$(base64 -d<<<d2hvYW1pCg==)
 ```
 Which we can then use as a payload:
@@ -69,7 +69,7 @@ This encoding technique can also be used in Windows environment by using the fol
 [Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))
 ```
 The command above can also be done in a Linux environment, by first converting the string from `utf-8` to `utf-16`:
-```nix
+```bash
 echo -n whoami | iconv -f utf-8 -t utf-16le | base64
 ```
 

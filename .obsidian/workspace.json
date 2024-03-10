@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "c1f0d0b1758c1a74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Offensive Security/Network Security/Privilege Escalation/Linux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e004d84b6629aa20",
             "type": "leaf",
             "state": {
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -119,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy/Introduction.md",
+                "file": "Offensive Security/Network Security/Privilege Escalation/Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy/Introduction.md",
+                "file": "Offensive Security/Network Security/Privilege Escalation/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy/Introduction.md"
+                "file": "Offensive Security/Network Security/Privilege Escalation/Linux.md"
               }
             }
           }
@@ -180,11 +192,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7db1edcda1ea8fc7",
+  "active": "c1f0d0b1758c1a74",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy/Introduction.md",
+    "Offensive Security/Web Application Security/Enumeration/Infrastructure.md",
+    "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/File Content Validation Bypass.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Exploit Using Time Delays.md",
+    "Offensive Security/Web Application Security/Enumeration/DNS Zone Transfer.md",
+    "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
+    "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
+    "Offensive Security/Web Application Security/Enumeration/CMS.md",
+    "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Bypass Other Characters.md",
+    "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Advanced Obfuscation Techniques.md",
+    "Offensive Security/Network Security/Enumeration/139, 445 - SMB.md",
+    "Offensive Security/Network Security/Exploitation/139, 445 - SMB.md",
+    "Offensive Security/Network Security/Enumeration/22 - SSH.md",
+    "Offensive Security/Network Security/Enumeration/20, 21 - FTP.md",
+    "Offensive Security/Network Security/Exploitation/20, 21 - FTP.md",
     "Certification Roadmap.md",
     "deserialization-diagram.jpg",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes/Edge-side Includes",
@@ -194,24 +221,10 @@
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Obfuscating File Extensions.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Bypass User-Accessible Directories Restriction.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Content-Type Bypass.md",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/File Content Validation Bypass.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/File Signatures or Magic Bytes Bypass.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Prevention.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Injections in File Name.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Removing Front-end Validation.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Exploiting XXE to Retrieve Files.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Chained XXE to SSRF.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Prevention.md",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Overriding Server Configuration.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Exploiting File Format Parsing.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/ZIP Symlink Vulnerability.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Uploading Malicious Client-side Scripts.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Upload Vulnerabilities/Uploading Files using PUT.md",
-    "Offensive Security/Web Application Security/Nginx Misconfigurations/Missing Root Location.md",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Bypass via Character Injection.md",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Double Extensions.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/SQL Injection Bypass",
