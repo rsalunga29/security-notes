@@ -9,9 +9,6 @@ Server-side includes (`SSI`) is a technology used by web applications to create 
 // CGI Program results
 <!--#include virtual="/cgi-bin/counter.pl" -->
 
-// Including a footer
-<!--#include virtual="/footer.html" -->
-
 // Executing commands
 <!--#exec cmd="ls" -->
 
