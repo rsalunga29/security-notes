@@ -6,5 +6,5 @@ POST /product/stock HTTP/1.0
 Content-Type: application/x-www-form-urlencoded
 Content-Length: 118
 
-stockApi=`https://192.168.0.68/admin`
+stockApi=https://192.168.0.68/admin
 ```
