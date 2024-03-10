@@ -1,33 +1,33 @@
 ## Nmap
 ### ICMP Ping
-```nix
+```bash
 nmap -sn -PE 10.10.10.0/24
 ```
 ### ARP Ping
-```nix
+```bash
 nmap -sn -PR 10.10.10.0/24
 ```
 ### TCP/SYN Ping
-```nix
+```bash
 nmap -sn -PS 10.10.10.0/24
 ```
 ### UDP Ping
-```nix
+```bash
 nmap -sn -PU 10.10.10.0/24
 ```
 ## FPing
-```nix
+```bash
 fping -g -r 1 10.10.10.0/24
 ```
 ## ARP-Scan
-```nix
+```bash
 arp-scan --localnet
 ```
-```nix
+```bash
 arp-scan 10.10.10.0/24
 ```
 ## Receive Ping
 Useful for testing if target server can reach our attack box
-```nix
+```bash
 tcpdump ip proto \\\\icmp
 ```

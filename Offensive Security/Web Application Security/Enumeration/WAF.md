@@ -1,4 +1,4 @@
 ## Identify WAF Type
-```nix
+```bash
 wafw00f -v http://target.com
 ```
