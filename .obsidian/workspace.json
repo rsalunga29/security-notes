@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
+                "file": "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
+                "file": "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
+                "file": "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md"
+                "file": "Offensive Security/Network Security/Exploitation/Reverse Shells.md"
               }
             }
           }
@@ -180,6 +180,7 @@
   },
   "active": "850ada7823c81d37",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
     "Offensive Security/Network Security/Enumeration/Port Scanning.md",
     "Offensive Security/Network Security/Exploitation/Password Cracking & Brute Force.md",
     "Offensive Security/Network Security/Exploitation/Tunneling & Port Forwarding.md",
@@ -206,7 +207,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Exploit Using OAST Techniques.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Detecting Blind XXE using OAST Techniques.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Capture Passwords via Autofill.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Stored XSS/Blind XSS.md",
     "Offensive Security/Assets/deserialization-diagram.jpg",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes/Edge-side Includes",
