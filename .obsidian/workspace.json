@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "certutil",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -178,7 +179,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "850ada7823c81d37",
+  "active": "7db1edcda1ea8fc7",
   "lastOpenFiles": [
     "Offensive Security/Network Security/Privilege Escalation/Windows.md",
     "Offensive Security/MIscellaneous/Draft.md",
