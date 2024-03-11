@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Network Security/Privilege Escalation/Windows.md",
+                "file": "Offensive Security/MIscellaneous/Draft.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Network Security/Privilege Escalation/Windows.md",
+                "file": "Offensive Security/MIscellaneous/Draft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Network Security/Privilege Escalation/Windows.md",
+                "file": "Offensive Security/MIscellaneous/Draft.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Network Security/Privilege Escalation/Windows.md"
+                "file": "Offensive Security/MIscellaneous/Draft.md"
               }
             }
           }
@@ -180,6 +180,9 @@
   },
   "active": "850ada7823c81d37",
   "lastOpenFiles": [
+    "Offensive Security/Network Security/Privilege Escalation/Windows.md",
+    "Offensive Security/MIscellaneous/Draft.md",
+    "Offensive Security/MIscellaneous",
     "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
     "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
     "Offensive Security/Network Security/Enumeration/Port Scanning.md",
@@ -205,8 +208,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Origin Resource Sharing (CORS)/Exploiting Misconfigured CORS/Intranet and CORS without Credentials.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/OS Command Injection/Blind Command Injection/Exploit Using OAST Techniques.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Detecting Blind XXE using OAST Techniques.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Capture Passwords via Autofill.md",
     "Offensive Security/Assets/deserialization-diagram.jpg",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes/Edge-side Includes",
@@ -216,7 +217,6 @@
     "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/SQL Injection Bypass",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/JavaScript Deobfuscation",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Gadget Chains",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation"
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Insecure Deserialization/Exploitation/Gadget Chains"
   ]
 }
