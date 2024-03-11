@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/MIscellaneous/Draft.md",
+                "file": "Offensive Security/MIscellaneous/TBD Title.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "certutil",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,8 +89,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/MIscellaneous/Draft.md",
+                "file": "Offensive Security/MIscellaneous/TBD Title.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/MIscellaneous/Draft.md",
+                "file": "Offensive Security/MIscellaneous/TBD Title.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/MIscellaneous/Draft.md"
+                "file": "Offensive Security/MIscellaneous/TBD Title.md"
               }
             }
           }
@@ -179,10 +178,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7db1edcda1ea8fc7",
+  "active": "850ada7823c81d37",
   "lastOpenFiles": [
     "Offensive Security/Network Security/Privilege Escalation/Windows.md",
-    "Offensive Security/MIscellaneous/Draft.md",
+    "Offensive Security/MIscellaneous/TBD Title.md",
     "Offensive Security/MIscellaneous",
     "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
     "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
