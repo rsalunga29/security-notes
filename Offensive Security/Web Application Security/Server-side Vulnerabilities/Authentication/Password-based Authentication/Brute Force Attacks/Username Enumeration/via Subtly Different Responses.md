@@ -4,3 +4,4 @@
 4. When the attack is finished, notice that there is an additional column containing the error message you extracted. Sort the results using this column and find for any changes in the responses.
 5. With the correct username in hand, close the attack and go back to **Positions** and **Payloads** tab and set the correct settings to brute force for the password.
 6. When finished, look for a `302` HTTP response.
+> Tip: Some web applications leave the input field pre-filled with the (probably) a valid username, so check for these.
