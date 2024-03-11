@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/MIscellaneous/TBD Title.md",
+                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/MIscellaneous/TBD Title.md",
+                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/MIscellaneous/TBD Title.md",
+                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/MIscellaneous/TBD Title.md"
+                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md"
               }
             }
           }
@@ -180,8 +180,8 @@
   },
   "active": "850ada7823c81d37",
   "lastOpenFiles": [
-    "Offensive Security/Network Security/Privilege Escalation/Windows.md",
     "Offensive Security/MIscellaneous/TBD Title.md",
+    "Offensive Security/Network Security/Privilege Escalation/Windows.md",
     "Offensive Security/MIscellaneous",
     "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
     "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
