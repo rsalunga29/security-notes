@@ -47,8 +47,12 @@
             "id": "005810d02f9b6269",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Rate Limiting.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -126,6 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Rate Limiting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,6 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Rate Limiting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +169,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Rate Limiting.md"
+              }
             }
           }
         ]
@@ -185,8 +193,11 @@
   },
   "active": "005810d02f9b6269",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Rate Limiting.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/IP Blocking.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Rate Limiting.md",
+    "Offensive Security/Web Application Security/Enumeration/Parameter Fuzzing.md",
+    "Offensive Security/Web Application Security/Enumeration/DNS Zone Transfer.md",
+    "Offensive Security/Network Security/Exploitation/Password Cracking & Brute Force.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Account Locking.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Authentication vs Authorization.md",
@@ -198,7 +209,6 @@
     "Offensive Security/MIscellaneous",
     "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
     "Offensive Security/Network Security/Enumeration/Port Scanning.md",
-    "Offensive Security/Network Security/Exploitation/Password Cracking & Brute Force.md",
     "Offensive Security/Network Security/Exploitation/Tunneling & Port Forwarding.md",
     "Offensive Security/Network Security/Exploitation/NFS.md",
     "Offensive Security/Network Security/Exploitation/139, 445 - SMB.md",
@@ -206,13 +216,11 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/Full SSRF Exploit Example.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes Injection/Attacking XSLT.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes Injection/Edge-Side Includes Injection.md",
-    "Offensive Security/Web Application Security/Enumeration/Parameter Fuzzing.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Template Injection/Custom Payload.md",
     "Offensive Security/Web Application Security/Nginx Misconfigurations/Missing Root Location.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Template Injection/Introduction.md",
     "ssti-diagram.png",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes Injection/Introduction.md",
     "Offensive Security/Assets/deserialization-diagram.jpg",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes/Edge-side Includes",
