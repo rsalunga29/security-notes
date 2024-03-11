@@ -19,3 +19,5 @@ This might only work if the request is being submitted as a JSON format.
 ```
 3. Send the request. When finished, look for a `302` response.
 4. Right-click on the request and select **Show response in browser**. Copy the URL and load it in the browser.
+## Anti-Rate Limit Custom Script
+We can also create a custom Python script to overcome rate limiting, by teaching our tool to understand messages related to rate-limiting and we can, for example, tell our tool to "sleep" for x seconds to wait for the cooling-off period to pass before trying again. Although this can only work when the rate-limiting mechanism applies a cooling-off period.
