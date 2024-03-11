@@ -42,8 +42,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "005810d02f9b6269",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -117,7 +126,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Rate Limiting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +142,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Rate Limiting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,9 +163,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Rate Limiting.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -178,8 +183,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "850ada7823c81d37",
+  "active": "005810d02f9b6269",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Rate Limiting.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/IP Blocking.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Account Locking.md",
@@ -207,7 +213,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Template Injection/Introduction.md",
     "ssti-diagram.png",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes Injection/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Blind SSRF/Time-Based SSRF.md",
     "Offensive Security/Assets/deserialization-diagram.jpg",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes/Edge-side Includes",
