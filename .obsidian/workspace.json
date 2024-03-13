@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Brute Forcing Passwords.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Predictable Reset Token.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Brute Forcing Passwords.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Predictable Reset Token.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Brute Forcing Passwords.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Predictable Reset Token.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Brute Forcing Passwords.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Predictable Reset Token.md"
               }
             }
           }
@@ -180,6 +180,12 @@
   },
   "active": "005810d02f9b6269",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Predictable Reset Token.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/HTTP Basic Authentication.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/IP Blocking.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Rate Limiting.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Brute Forcing Passwords.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/via Response Timing.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/via Subtly Different Responses.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/Introduction.md",
@@ -189,8 +195,6 @@
     "Offensive Security/Web Application Security/Nginx Misconfigurations/Missing Root Location.md",
     "Offensive Security/Network Security/Exploitation/2049 - NFS.md",
     "Certification Roadmap.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Rate Limiting.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/IP Blocking.md",
     "Offensive Security/Web Application Security/Enumeration/Parameter Fuzzing.md",
     "Offensive Security/Web Application Security/Enumeration/DNS Zone Transfer.md",
     "Offensive Security/Network Security/Exploitation/Password Cracking & Brute Force.md",
@@ -203,10 +207,6 @@
     "Offensive Security/MIscellaneous/TBD Title.md",
     "Offensive Security/Network Security/Privilege Escalation/Windows.md",
     "Offensive Security/MIscellaneous",
-    "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
-    "Offensive Security/Network Security/Enumeration/Port Scanning.md",
-    "Offensive Security/Network Security/Exploitation/Tunneling & Port Forwarding.md",
-    "Offensive Security/Network Security/Exploitation/139, 445 - SMB.md",
     "ssti-diagram.png",
     "Offensive Security/Assets/deserialization-diagram.jpg",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy",

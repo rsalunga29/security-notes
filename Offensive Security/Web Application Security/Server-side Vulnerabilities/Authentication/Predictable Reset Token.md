@@ -1,0 +1,1 @@
+Reset tokens (in the form of a code or temporary password) are secret pieces of data generated mainly by the application when a password reset is requested. A user must provide it to prove their identity before actually changing their credentials.
