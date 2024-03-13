@@ -13,4 +13,12 @@ However, during a real engagement, it is possible that an application only repli
 
 It is also possible that an application only replies a generic error message at first and reveals exact policy conditions after a number of failed attempts. This is why it is recommended to test three or four times before giving up.
 ### Modifying Wordlist based on Policy
-Now that the attacker knows the minimum password requirements, they can now take a giant wordlist and extract only passwords that match the target's policy. Unix `grep` is not the fastest tool but allows us to do the job quickly using POSIX regular expressions.
+Now that the attacker knows the minimum password requirements, they can now take a giant wordlist and extract only passwords that match the target's policy. Unix `grep` is not the fastest tool but allows us to do the job quickly using POSIX regular expressions. For example:
+```bash
+grep '[[:upper:]]' rockyou.txt | grep '[[:lower:]]' | grep -E '^.{8,12}$' | wc -l
+
+416712
+```
+This command finds lines have at least one uppercase character (`'[[:upper:]]'`), and then only lines that also have a lowercase one (`'[[:lower:]]'`) and with a length of 8 and 12 chars ('^.{8,12}$') using extended regular expressions (-E).
+
+We see that starting from the standard `rockyou.txt`, which contains more than 14 million lines, we have narrowed it down to roughly 400 thousand.
