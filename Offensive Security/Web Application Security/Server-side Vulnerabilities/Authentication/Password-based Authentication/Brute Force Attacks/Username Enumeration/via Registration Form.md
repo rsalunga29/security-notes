@@ -1,0 +1,5 @@
+By default, a registration form that prompts users to choose their username usually replies with an error when the selected username already exists. By abusing this behavior, an attacker could register common usernames, like admin, administrator, tech, to enumerate valid ones.
+
+Another technique is by enumerating email addresses. One feature about email addresses that most people don't know about is sub-addressing, which means that writing to an email address like `student+htb@hackthebox.eu` will deliver the email to `student@hackthebox.eu` and, if filters are supported and properly configured, will be placed in folder `htb`. Very few web applications respect this RFC, which leads to the possibility of registering almost infinite users by using a tag and only one actual email address.
+
+A secure registration form should implement some protection before checking if the selected username exists, like a CAPTCHA.
