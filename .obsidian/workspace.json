@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/via Response Timing.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Brute Forcing Passwords.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/via Response Timing.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Brute Forcing Passwords.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/via Response Timing.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Brute Forcing Passwords.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/via Response Timing.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Brute Forcing Passwords.md"
               }
             }
           }
@@ -180,8 +180,8 @@
   },
   "active": "005810d02f9b6269",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/via Subtly Different Responses.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/via Response Timing.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/via Subtly Different Responses.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/via Password Reset.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/via Predictable Username Conventions.md",

@@ -32,6 +32,5 @@ Given that there could be a network glitch, it is easy to identify a valid user 
 To automate this using Burp, follow the following steps:
 1. Submit an invalid username and password. Highlight the `username` parameter in the request and send it to Burp Intruder.
 2. On the **Payloads** tab, select "Simple List" and add the username wordlist.
-3. During the attack, 
-4. On the **Settings** tab, under **Grep - Extract**, click **Add**. In the dialog that appears, scroll down through the response until you find the error message, highlight the text content of the message then the other settings will be automatically adjusted. Click **OK** and then start the attack.
-5. When the attack is finished, notice that there is an additional column containing the error message you extracted. Sort the results using this column and find for any changes in the responses.
+3. During the attack, look for **Columns** menu on the attack modal, click it and select "Response received" and "Response completed" to see the time it takes for the server to response.
+4. When the attack is finished, sort the results using these columns and look for any deviations.
