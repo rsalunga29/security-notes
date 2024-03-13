@@ -14,6 +14,8 @@ Create a checklist for each vulnerability types (optional).
 ### Session Tokens
 - Cookie Token Tampering
 - Brute Force `rememberme` tokens
+- Session Fixation Attack
+- Session Hijacking
 ## Preparation
 - Understand the business area and what the customer needs.
 - Study the web application's structure.
