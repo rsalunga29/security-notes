@@ -11,6 +11,9 @@ Create a checklist for each vulnerability types (optional).
 - Fuzz the file upload functionality for whitelisted and blacklisted extensions
 ### Input
 - Test for Server-Side Includes Injection using various SSI directives.
+### Session Tokens
+- Cookie Token Tampering
+- Brute Force `rememberme` tokens
 ## Preparation
 - Understand the business area and what the customer needs.
 - Study the web application's structure.
