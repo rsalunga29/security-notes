@@ -1,8 +1,6 @@
-Reset forms are often less well protected than login ones. Therefore, they very often leak information about a valid or invalid username. 
+Reset forms are often less well protected than login ones. Therefore, they very often leak information about a valid or invalid username. Some web applications leave the input field pre-filled with the (probably) valid username, so it is important to check for these subtle changes.
 
-An application that replies with a "You should receive a message shortly" when a valid username has been found and "Username unknown, check your data" for an invalid entry leaks the presence of registered users.
-
-Some web applications also leave the input field pre-filled with the (probably) valid username, so it is important to check for these subtle changes.
+While some may put a hidden field that may contain the wrong username, if the username is valid, this hidden input field will be empty, otherwise, it will include the value of the invalid username. It is a good idea to check the source code.
 
 To automate this using Burp, follow the following steps:
 1. Submit an invalid username and password. Highlight the `username` parameter in the request and send it to Burp Intruder.
