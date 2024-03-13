@@ -1,1 +1,5 @@
-Another bad practice is using short tokens. An application might generate a token with a length of 5/6 numerical characters that sometimes could be easily brute-forced.
+Another bad practice is using short tokens. An application might generate a token with a length of 5/6 numerical characters that sometimes could be easily brute-forced. For example, an application that generates tokens consisting of five digits with values ranging from 00000 to 99999. At a rate of 10 checks per second, an attacker can brute force the entire range in about 3 hours.
+
+Also, consider that the same application replies with a `Valid token` message if the submitted token is valid; otherwise, an `Invalid token` message is returned. If we wanted to perform a brute force attack against the application, we could use `ffuf` or Burp Intruder and use a string match to look for success or failure messages.
+
+Always try to brute force tokens during your tests, considering that such an attack is loud and can also cause a Denial of Service, so it should be executed with great care and possibly only after conferring with your client.

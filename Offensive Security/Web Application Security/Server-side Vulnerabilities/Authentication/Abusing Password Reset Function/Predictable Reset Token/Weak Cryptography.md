@@ -1,0 +1,7 @@
+Even cryptographically generated tokens could be predictable, specially when developers try to create their own crypto routing, often resorting to security through obscurity processes. Both cases usually lead to weak token randomness.
+
+Some cryptographic functions have also been proven to be less secure. A fascinating use case on attacks against weak cryptography is the [research](https://labs.withsecure.com/advisories/opencart-predictable-password-reset-tokens) performed by by F-Secure lab on OpenCart. In which researchers discovered that the application uses the `mt_rand()` PHP function, which is known to be vulnerable due to lack of sufficient entropy during the random generation process. OpenCart uses this vulnerable function to generate all random values, from CAPTCHA to `session_id` to reset tokens.
+
+Attacking `mt_rand()` is not an easy task by any means, but proof of concept attacks have been released [here](https://github.com/GeorgeArgyros/Snowflake) and [here](https://download.openwall.net/pub/projects/php_mt_seed/). `mt_rand()` should be therefore used with caution and taking into account the security implications.
+
+To avoid this vulnerability, it is recommended to always use modern, reputable, and well-known encryption algorithms that have been heavily reviewed over the years.

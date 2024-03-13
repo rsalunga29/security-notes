@@ -1,0 +1,1 @@
+It should be noted that some applications use reset tokens as actual temporary passwords. By design, any temporary password should be invalidated as soon as the user logs in and changes it. However, some developers forgets to 
