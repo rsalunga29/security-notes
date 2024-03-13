@@ -1,1 +1,3 @@
-It should be noted that some applications use reset tokens as actual temporary passwords. By design, any temporary password should be invalidated as soon as the user logs in and changes it. However, some developers forgets to do this
+It should be noted that some applications use reset tokens as actual temporary passwords. By design, any temporary password should be invalidated as soon as the user logs in and changes it. However, some web applications forget to do this or the expiration time is simply too long. That being said, try to be as thorough as possible and check if any reset tokens being used as temporary passwords can be reused.
+
+There are also a higher chance that temporary passwords are being generated using a predictable algorithm like `mt_rand()` or `mdt(username)`.
