@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Keeping Users Logged In.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Session Fixation.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Keeping Users Logged In.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Session Fixation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Keeping Users Logged In.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Session Fixation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Keeping Users Logged In.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Session Fixation.md"
               }
             }
           }
@@ -180,8 +180,9 @@
   },
   "active": "005810d02f9b6269",
   "lastOpenFiles": [
-    "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Keeping Users Logged In.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Session Fixation.md",
+    "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Multi-Factor Authentication/Flawed Two-Factor Authentication Logic.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes Injection/Edge-Side Includes Injection.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Username Injection.md",
@@ -211,7 +212,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Rate Limiting.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Brute Forcing Passwords.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/via Response Timing.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/via Subtly Different Responses.md",
     "Offensive Security/MIscellaneous",
     "Offensive Security/Assets/deserialization-diagram.jpg",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy",

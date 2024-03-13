@@ -1,0 +1,3 @@
+A token should expire after the user has been inactive for a given amount of time, for example, after 1 hour, and should expire even if there is activity after a given amount of time, such as 24 hours. Additionally, if the user gets more grants during a sudo-like session, the token must change. If a token never expires or changes, it might be prone to a session fixation attack.
+
+A session fixation is an attack that permits an attacker to hijack a valid user session. For example, a web application doesn't assign a new session ID to a user after authentication, making it possible to use an existing session ID. An attacker can obtain this session ID by any means and induce a user to authenticate themselves with that session ID, the attacker would 
