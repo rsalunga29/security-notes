@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token/Weak Token Generation.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token/Short Token.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token/Weak Token Generation.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token/Short Token.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token/Weak Token Generation.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token/Short Token.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token/Weak Token Generation.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token/Short Token.md"
               }
             }
           }
@@ -180,8 +180,9 @@
   },
   "active": "005810d02f9b6269",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token/Weak Token Generation.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token/Short Token.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Resetting Passwords Using a URL.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Changing User Passwords.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Introduction.md",
@@ -209,7 +210,6 @@
     "Offensive Security/Web Application Security/Nginx Misconfigurations/Missing Root Location.md",
     "Offensive Security/Network Security/Exploitation/2049 - NFS.md",
     "Certification Roadmap.md",
-    "Offensive Security/Web Application Security/Enumeration/Parameter Fuzzing.md",
     "Offensive Security/MIscellaneous",
     "ssti-diagram.png",
     "Offensive Security/Assets/deserialization-diagram.jpg",

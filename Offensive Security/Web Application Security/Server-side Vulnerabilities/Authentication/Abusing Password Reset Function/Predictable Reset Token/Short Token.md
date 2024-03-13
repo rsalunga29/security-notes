@@ -1,0 +1,1 @@
+Another bad practice is using short tokens. An application might generate a token with a length of 5/6 numerical characters that sometimes could be easily brute-forced.
