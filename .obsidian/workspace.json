@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/via Response Timing.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "91698c100c97ac6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Offensive Security/Network Security/Exploitation/2049 - NFS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e004d84b6629aa20",
             "type": "leaf",
             "state": {
@@ -55,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Network Security/Exploitation/2049 - NFS.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/via Response Timing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Network Security/Exploitation/2049 - NFS.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/via Response Timing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Network Security/Exploitation/2049 - NFS.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/via Response Timing.md"
               }
             }
           }
@@ -191,14 +178,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "91698c100c97ac6b",
+  "active": "005810d02f9b6269",
   "lastOpenFiles": [
-    "Certification Roadmap.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/Introduction.md",
-    "Offensive Security/Web Application Security/Nginx Misconfigurations/Missing Root Location.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Rate Limiting.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/via Subtly Different Responses.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/via Response Timing.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Brute Force Attacks/Username Enumeration/Introduction.md",
+    "Offensive Security/Web Application Security/Nginx Misconfigurations/Missing Root Location.md",
+    "Offensive Security/Network Security/Exploitation/2049 - NFS.md",
+    "Certification Roadmap.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/Rate Limiting.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Flawed Brute Force Protection/IP Blocking.md",
     "Offensive Security/Web Application Security/Enumeration/Parameter Fuzzing.md",
     "Offensive Security/Web Application Security/Enumeration/DNS Zone Transfer.md",
@@ -215,7 +203,6 @@
     "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
     "Offensive Security/Network Security/Enumeration/Port Scanning.md",
     "Offensive Security/Network Security/Exploitation/Tunneling & Port Forwarding.md",
-    "Offensive Security/Network Security/Exploitation/2049 - NFS.md",
     "Offensive Security/Network Security/Exploitation/139, 445 - SMB.md",
     "Offensive Security/Network Security/Exploitation/20, 21 - FTP.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/Full SSRF Exploit Example.md",
