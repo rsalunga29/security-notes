@@ -10,7 +10,9 @@ https://target-website.com/password-reset?token=a0ba0d1cb3b63d13822572fcff1a2418
 ```
 When the user visits the URL, the system should check the token's existence and validity. If confirmed, it should identify the associated user for password reset. This token should expire after a short period of time and be destroyed immediately to prevent it from being reused.
 
-**However, some websites fails to validate the token again when the reset form is submitted. In this case, an attacker could delete the token and reset another user's account.**
+However, some web applications uses predictable tokens or they 
+
+fails to validate the token again when the reset form is submitted. In this case, an attacker could delete the token and reset another user's account.
 
 <!--- @TODO: Link Password Reset Poisoning from HTTP Host header attacks section -->
 Even if the URL in the reset email is generated dynamically, it may still be vulnerable to password reset poisoning. In this case, an attacker can potentially steal another user's token and use it to change their password.
