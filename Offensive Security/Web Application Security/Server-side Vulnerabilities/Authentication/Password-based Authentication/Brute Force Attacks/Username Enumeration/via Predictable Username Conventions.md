@@ -1,0 +1,1 @@
+While uncommon, you may run into accounts like `user1000`, `user1001`. It is also possible that "administrative" users have a predictable naming convention, like `support.it`, `support.fr`, or similar. An attacker could infer the algorithm used to create users (incremental four digits, country code, etc.) and guess existing user accounts starting from some known ones.
