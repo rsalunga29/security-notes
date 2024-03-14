@@ -7,15 +7,17 @@ Create a checklist for each vulnerability types (optional).
 2. After thoroughly testing all frontend components, review the web app's core functionality to review the interaction between browser and server.
 3. Enumerate the web technologies used by the web server and look for exploitable flaws.
 4. Assess web app from both authenticated and unauthenticated perspectives.
-## Preparation
+## Recon
 - Understand the business area and what the customer needs.
+- Perform OSINT on the target.
+	- Gather any publicly available information about the target.
+	- Look for employees or contractors associated with the target.
 - Study the web application's structure.
 	- Frontend Components (HTML, CSS, JavaScript)
 	- Core Functionality (Interaction between browser and server)
-	- Assess the target from both authenticated and unauthenticated perspectives, whenever possible.
+	- Assess the target from both authenticated and unauthenticated perspectives.
 - Enumerate technologies used by the web application and server.
-## Recon
-Lorem Ipsum
+	- Look for known vulnerabilities in the version of the technology.
 ## Checklist
 ### Input
 - Test for Server-Side Includes Injection using various SSI directives.
