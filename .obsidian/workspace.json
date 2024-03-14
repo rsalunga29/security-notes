@@ -181,8 +181,10 @@
   },
   "active": "e004d84b6629aa20",
   "lastOpenFiles": [
-    "Certification Roadmap.md",
+    "Offensive Security/Methodology & Checklists/Web Vulnerabilities.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
+    "Offensive Security/Methodology & Checklists/Untitled",
+    "Certification Roadmap.md",
     "Offensive Security/Network Security/Enumeration/Ping Sweeping.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/HTTP Verb Tampering/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security",
@@ -211,7 +213,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token/Weak Token Generation.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token/Reset Token as Temporary Password.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token/Weak Cryptography.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function",
     "Offensive Security/Assets/password-reset-flow.png",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token",
@@ -220,7 +221,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes/Edge-side Includes",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Template Injection",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes Injection",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass"
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes Injection"
   ]
 }

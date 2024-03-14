@@ -12,13 +12,15 @@ Create a checklist for each vulnerability types (optional).
 - Study the web application's structure.
 	- Frontend Components (HTML, CSS, JavaScript)
 	- Core Functionality (Interaction between browser and server)
+	- Assess the target from both authenticated and unauthenticated perspectives, whenever possible.
+- Enumerate technologies used by the web application and server.
 ## Recon
 Lorem Ipsum
-## Vulnerabilities
-### File Upload
-- Fuzz the file upload functionality for whitelisted and blacklisted extensions
+## Checklist
 ### Input
 - Test for Server-Side Includes Injection using various SSI directives.
+### File Upload
+- Fuzz the file upload functionality for whitelisted and blacklisted extensions
 ### Session Tokens
 - Cookie Token Tampering
 - Brute Force `rememberme` tokens
