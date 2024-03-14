@@ -10,7 +10,7 @@
 - AppSec Homelab Project Part 1
 	- Firewall: pfSense
 	- DevSecOps: Gitea, DejectDojo, Intentionally Vulnerable App
-	- AppSec Tools: semgrep, SonarQube, ZAP, DependencyCheck, OpenVAS
+	- AppSec Tools: semgrep, SonarQube, TruffleHog, ZAP, DependencyCheck
 	- Create Network Topology
 ### Q2 2024 - Q4 2024
 - Study Materials
@@ -33,7 +33,7 @@
 	- Adversary Emulation: Atomic Red Team or Caldera
 	- IDS/IPS: Suricata (NIDS) and Wazuh Agent (HIDS)
 	- SIEM: Security Onion or Splunk or ELK
-	- Active Directory: 1 DC, 2 User
+	- Active Directory: 1 DC, 2 User (1 IIS)
 ### Q4 2024 / Q1 2025
 - Study Materials
 	- TBD

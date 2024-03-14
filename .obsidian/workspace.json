@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
+                "file": "Certification Roadmap.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
+                "file": "Certification Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
+                "file": "Certification Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md"
+                "file": "Certification Roadmap.md"
               }
             }
           }
@@ -182,6 +181,7 @@
   },
   "active": "e004d84b6629aa20",
   "lastOpenFiles": [
+    "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Network Security/Enumeration/Ping Sweeping.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/HTTP Verb Tampering/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security",
@@ -190,7 +190,6 @@
     "Offensive Security/Assets/cookie-tampering.png",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/HTTP Basic Authentication.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Introduction.md",
-    "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Default Credentials.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Keeping Users Logged In.md",
