@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/HTTP Verb Tampering/Introduction.md",
+                "file": "Offensive Security/Network Security/Enumeration/Ping Sweeping.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tampering",
+                "query": "tcpdump",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/HTTP Verb Tampering/Introduction.md",
+                "file": "Offensive Security/Network Security/Enumeration/Ping Sweeping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/HTTP Verb Tampering/Introduction.md",
+                "file": "Offensive Security/Network Security/Enumeration/Ping Sweeping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/HTTP Verb Tampering/Introduction.md"
+                "file": "Offensive Security/Network Security/Enumeration/Ping Sweeping.md"
               }
             }
           }
@@ -178,11 +179,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccc68e20622978c5",
+  "active": "acc00b2bf41afdbf",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/HTTP Verb Tampering/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Cookie Token Tampering.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/HTTP Verb Tampering/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/HTTP Verb Tampering",
     "Offensive Security/Assets/cookie-tampering.png",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/HTTP Basic Authentication.md",
@@ -219,7 +220,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes/Edge-side Includes",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Template Injection",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes Injection",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass"
+    "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass"
   ]
 }
