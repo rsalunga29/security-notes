@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Username Injection.md",
+                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tampering",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -118,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Username Injection.md",
+                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Username Injection.md",
+                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Username Injection.md"
+                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md"
               }
             }
           }
@@ -181,18 +182,23 @@
   },
   "active": "acc00b2bf41afdbf",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Cookie Security.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Default Credentials.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Keeping Users Logged In.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Session Fixation.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Username Injection.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Sending Passwords By Email.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Resetting Passwords Using a URL.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Changing User Passwords.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Performing CSRF.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Capture Passwords via Autofill.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Cookie Security.md",
     "Offensive Security/Web Application Security/Nginx Misconfigurations/Missing Root Location.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Keeping Users Logged In.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Multi-Factor Authentication/Flawed Two-Factor Authentication Logic.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes Injection/Edge-Side Includes Injection.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Username Injection.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Changing User Passwords.md",
     "Offensive Security/Assets/ssti-diagram.png",
     "Offensive Security/Assets/username-injection.png",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token/Introduction.md",
@@ -200,19 +206,14 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token/Reset Token as Temporary Password.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token/Weak Cryptography.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token/Short Token.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Resetting Passwords Using a URL.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Template Injection/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Template Injection/Custom Payload.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Sending Passwords By Email.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Authentication vs Authorization.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Default Credentials.md",
     "Offensive Security/Assets/password-reset-flow.png",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Untitled",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Password-based Authentication/HTTP Basic Authentication.md",
     "Offensive Security/MIscellaneous",
     "Offensive Security/Assets/deserialization-diagram.jpg",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy",
