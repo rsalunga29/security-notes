@@ -2,4 +2,10 @@ To prevent web server misconfigurations resulting to HTTP Verb Tampering, always
 
 Additionally, we should also generally consider disabling/denying all `HEAD` requests unless specifically required by the web application.
 
-To prevent HTTP Verb Tampering vulnerabilities in our code, we have to make sure that we are consistent with the use of HTTP methods and ensure that the same method is always used for any specific functionality across the application. It is always advised to expand the scope of testing in security filters by testing all request parameters.
+To prevent HTTP Verb Tampering vulnerabilities in our code, we have to make sure that we are consistent with the use of HTTP methods and ensure that the same method is always used for any specific functionality across the application. It is always advised to expand the scope of testing in security filters by testing all request parameters. This can be done with the following functions and variables:
+
+|Language|Function|
+|---|---|
+|PHP|`$_REQUEST['param']`|
+|Java|`request.getParameter('param')`|
+|C#|`Request['param']`|
