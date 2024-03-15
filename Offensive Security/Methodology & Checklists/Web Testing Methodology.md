@@ -5,7 +5,7 @@ Create a checklist for each vulnerability types (optional).
 ## Passive Recon
 - Understand the business area and what the customer needs.
 - Perform OSINT on the target.
-	- Utilize Google Dorks, [Shodan.io](https://www.shodan.io/), [Censys](https://censys.com/).
+	- Utilize Google Dorks, [Shodan.io](https://www.shodan.io/), or [Censys](https://censys.com/).
 	- Gather any publicly available information about the target.
 	- Look for contact information of employees or contractors associated with the target.
 - Study the web application's structure (utilize browser dev tools).
@@ -24,11 +24,11 @@ Create a checklist for each vulnerability types (optional).
 	- [wafw00f](https://github.com/EnableSecurity/wafw00f)
 - Utilize general purpose automatic scanners.
 	- Port scanning using Nmap.
-	- Directory, DNS, VHost fuzzing using ffuf or GoBuster.
-	- Vulnerability scanning using Nuclei, OpenVAS, or Burp Active Scanner.
+	- Directory, DNS, VHost fuzzing using [ffuf](https://github.com/ffuf/ffuf) or [GoBuster](https://github.com/OJ/gobuster).
+	- Vulnerability scanning using [Nuclei](https://github.com/projectdiscovery/nuclei), [OpenVAS](https://github.com/greenbone/openvas-scanner), or Burp Active Scanner.
+	- [reconFTW](https://github.com/six2dez/reconftw) or [recon-ng](https://github.com/lanmaster53/recon-ng)
 - Enumerate and identify technologies used by the web application and server.
-	- [WhatWeb](https://github.com/urbanadventurer/WhatWeb)
-	- [Wappalyzer](https://www.wappalyzer.com/)
+	- [WhatWeb](https://github.com/urbanadventurer/WhatWeb) or [Wappalyzer](https://www.wappalyzer.com/)
 	- Look for known vulnerabilities in the version of the technology.
 	- Utilize well-known tricks about the technology to extract more information.
 ## Source Code Review
@@ -37,7 +37,7 @@ If the source code of the application is open-source or has been made available 
 - Look for information leakage and hardcoded credentials in the source code or commit history.
 - Look for and understand currently open or recently closed issues submitted in the repository.
 - Identify the encryption or hashing algorithm used.
-## Checklist
+## Common Features Checklist
 ### Input
 - Test for Server-Side Includes Injection using various SSI directives.
 ### File Upload
@@ -47,3 +47,8 @@ If the source code of the application is open-source or has been made available 
 - Brute Force `rememberme` tokens
 - Session Fixation Attack
 - Session Hijacking
+## Resources
+- https://book.hacktricks.xyz/network-services-pentesting/pentesting-web
+- https://book.hacktricks.xyz/pentesting-web/web-vulnerabilities-methodology
+- https://pentestbook.six2dez.com/others/web-checklist
+- 
