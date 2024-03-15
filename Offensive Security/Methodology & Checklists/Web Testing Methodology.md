@@ -26,6 +26,7 @@ Create a checklist for each vulnerability types (optional).
 	- Port scanning using Nmap.
 	- Directory, DNS, VHost, and subdomain fuzzing using [ffuf](https://github.com/ffuf/ffuf), [GoBuster](https://github.com/OJ/gobuster), or [subfinder](https://github.com/projectdiscovery/subfinder).
 	- Vulnerability scanning using [Nuclei](https://github.com/projectdiscovery/nuclei), [OpenVAS](https://github.com/greenbone/openvas-scanner), [Nikto](https://github.com/sullo/nikto), or Burp Active Scanner.
+	- SSL/TLS scanning using [testssl.sh](https://github.com/drwetter/testssl.sh).
 	- [reconFTW](https://github.com/six2dez/reconftw) or [recon-ng](https://github.com/lanmaster53/recon-ng)
 - Look for exposed Git folder or backup files during directory fuzzing.
 - Check for default pages which might contain interesting information:
