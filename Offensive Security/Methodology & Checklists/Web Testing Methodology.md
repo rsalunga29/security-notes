@@ -29,7 +29,7 @@ Create a checklist for each vulnerability types (optional).
 	- SSL/TLS scanning using [testssl.sh](https://github.com/drwetter/testssl.sh).
 	- [reconFTW](https://github.com/six2dez/reconftw) or [recon-ng](https://github.com/lanmaster53/recon-ng)
 - Enumerate for subdomains using [subfinder](https://github.com/projectdiscovery/subfinder) or [crt.sh](https://crt.sh/).
-- Look for exposed Git folder, backup files, and admin/staff-only pages during directory fuzzing.
+- Look for exposed Git folder, `.env` files, backup files, debug pages, and admin/staff-only pages during directory fuzzing.
 - Check for default pages which might contain interesting information:
 	- `robots.txt`
 	- `sitemap.xml`
