@@ -6,8 +6,8 @@ Create a checklist for each vulnerability types (optional).
 - Understand the business area and what the customer needs.
 - Perform OSINT on the target.
 	- Utilize Google Dorks, [Shodan.io](https://www.shodan.io/), [theHarvester](https://github.com/laramies/theHarvester), [Censys](https://censys.com/).
-	- Gather any publicly available information about the target.
-	- Look for contact information of employees or contractors associated with the target.
+	- Gather any publicly available information about the target including leaks from breaches/incidents.
+	- Look for DNS and WHOIS records.
 - Study the web application's structure (utilize browser dev tools).
 	- Frontend Components (HTML, CSS, JavaScript).
 	- Look for endpoints in JavaScript files.
@@ -24,9 +24,10 @@ Create a checklist for each vulnerability types (optional).
 	- [wafw00f](https://github.com/EnableSecurity/wafw00f)
 - Utilize general purpose automatic scanners.
 	- Port scanning using Nmap.
-	- Directory, DNS, VHost fuzzing using [ffuf](https://github.com/ffuf/ffuf) or [GoBuster](https://github.com/OJ/gobuster).
+	- Directory, DNS, VHost, and subdomain fuzzing using [ffuf](https://github.com/ffuf/ffuf), [GoBuster](https://github.com/OJ/gobuster), or [subfinder](https://github.com/projectdiscovery/subfinder).
 	- Vulnerability scanning using [Nuclei](https://github.com/projectdiscovery/nuclei), [OpenVAS](https://github.com/greenbone/openvas-scanner), or Burp Active Scanner.
 	- [reconFTW](https://github.com/six2dez/reconftw) or [recon-ng](https://github.com/lanmaster53/recon-ng)
+- Look for following
 - Enumerate and identify technologies used by the web application and server.
 	- [WhatWeb](https://github.com/urbanadventurer/WhatWeb) or [Wappalyzer](https://www.wappalyzer.com/)
 	- Look for known vulnerabilities in the version of the technology.

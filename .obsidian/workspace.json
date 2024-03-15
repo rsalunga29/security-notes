@@ -181,8 +181,9 @@
   },
   "active": "e004d84b6629aa20",
   "lastOpenFiles": [
-    "Offensive Security/Methodology & Checklists/Web Vulnerabilities.md",
+    "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
+    "Offensive Security/Methodology & Checklists/Web Vulnerabilities.md",
     "Offensive Security/Methodology & Checklists/Untitled",
     "Certification Roadmap.md",
     "Offensive Security/Network Security/Enumeration/Ping Sweeping.md",
@@ -212,7 +213,6 @@
     "Offensive Security/Assets/username-injection.png",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token/Weak Token Generation.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token/Reset Token as Temporary Password.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function",
     "Offensive Security/Assets/password-reset-flow.png",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token",
