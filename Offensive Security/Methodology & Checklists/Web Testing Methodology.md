@@ -27,6 +27,7 @@ Create a checklist for each vulnerability types (optional).
 	- Directory, DNS, and VHost fuzzing using [ffuf](https://github.com/ffuf/ffuf)or [GoBuster](https://github.com/OJ/gobuster).
 	- Vulnerability scanning using [Nuclei](https://github.com/projectdiscovery/nuclei), [OpenVAS](https://github.com/greenbone/openvas-scanner), [Nikto](https://github.com/sullo/nikto), or Burp Active Scanner.
 	- SSL/TLS scanning using [testssl.sh](https://github.com/drwetter/testssl.sh).
+	- Spidering using [hakrawler](https://github.com/hakluke/hakrawler), [ParamSpider](https://github.com/devanshbatham/ParamSpider), or ZAP.
 	- [reconFTW](https://github.com/six2dez/reconftw) or [recon-ng](https://github.com/lanmaster53/recon-ng)
 - Enumerate for subdomains using [subfinder](https://github.com/projectdiscovery/subfinder) or [crt.sh](https://crt.sh/).
 - Look for exposed Git folder, `.env` files, backup files, debug pages, and admin/staff-only pages during directory fuzzing.
@@ -52,7 +53,6 @@ If the source code of the application is open-source or has been made available 
 ## Common Features Checklist
 ### Authentication
 - Try to bypass using HTTP Verb Tampering
-
 
 
 

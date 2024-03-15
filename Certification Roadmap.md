@@ -39,4 +39,5 @@
 	- TBD
 - Certifications
 	- Altered Security Certified Red Team Practitioner
+	- API Security Certified Professional
 	- Offensive Security Certified Professional
