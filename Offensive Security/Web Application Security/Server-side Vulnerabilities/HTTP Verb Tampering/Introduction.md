@@ -1,1 +1,3 @@
-Lorem Ipsum...
+The `HTTP` protocol works by accepting various HTTP methods as `verbs` at the beginning of an HTTP request. Depending on the web server configuration, web applications may be scripted to accept certain HTTP methods for their various functionalities and perform a particular action based on the type of the request.
+
+While both `GET` and `POST` are the two most commonly used HTTP methods, any client can send any other methods in their HTTP requests and then see how the web server handles these methods. Imagine a web application and web server is 
