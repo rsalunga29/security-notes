@@ -14,4 +14,6 @@ HTTP Verb Tampering is an attack in which an attacker takes advantage of a misco
 
 For example, imagine a web application and a web server are configured to only accept `GET` and `POST` methods, sending different HTTP methods would cause the application to show an error page, that itself isn't a vulnerability. However, if the web server configurations are not restricted to accept only `GET` and `POST` methods, and the web application is not developed to handle other types of HTTP requests, an attacker may be able to take advantage of this misconfiguration to gain access to admin/staff-only functionalities, or even bypass certain security controls.
 
-What makes HTTP Verb Tampering attacks more common (and hence more critical), is that they are caused by a misconfiguration in either the back-end web server or the web application, either of which can cause the vulnerability.
+As mentioned in the example above, exploiting HTTP Verb Tampering vulnerabilities is usually a relatively straightforward process. We just need to try alternate HTTP methods to see how they are handled by the web server and the web application.
+
+Finally, what makes HTTP Verb Tampering attacks more common (and hence more critical), is that they are caused by a misconfiguration in either the back-end web server or the web application, either of which can cause the vulnerability.

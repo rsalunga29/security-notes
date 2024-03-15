@@ -51,7 +51,7 @@ If the source code of the application is open-source or has been made available 
 - Identify the encryption or hashing algorithm used.
 ## Common Features Checklist
 ### Authentication
-
+- Try to bypass using HTTP Verb Tampering
 
 
 
