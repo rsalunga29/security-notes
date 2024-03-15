@@ -1,4 +1,7 @@
-Insecure coding practices cause the other type of HTTP Verb Tampering vulnerabilities. This typically occurs when a developer applies specific filters or patches to mitigate particular vulnerabilities or issues while not covering all HTTP methods with that filter/patch. For example, a web page is vulnerable to SQL injection and the developer mitigated this vulnerability by applying the following patch:
+Insecure coding practices causes HTTP Verb Tampering vulnerabilities, this vulnerability is 
+
+
+This typically occurs when a developer applies specific filters or patches to mitigate particular vulnerabilities or issues while not covering all HTTP methods with that filter/patch. For example, a web page is vulnerable to SQL injection and the developer mitigated this vulnerability by applying the following patch:
 ```php
 ...[TRIM]...
 $pattern = "/^[A-Za-z\s]+$/";
