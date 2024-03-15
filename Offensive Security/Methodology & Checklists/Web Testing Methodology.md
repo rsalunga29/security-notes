@@ -5,7 +5,7 @@ Create a checklist for each vulnerability types (optional).
 ## Passive Recon
 - Understand the business area and what the customer needs.
 - Perform OSINT on the target.
-	- Utilize Google Dorks, [Shodan.io](https://www.shodan.io/), or [Censys](https://censys.com/).
+	- Utilize Google Dorks, [Shodan.io](https://www.shodan.io/), [theHarvester](https://github.com/laramies/theHarvester), [Censys](https://censys.com/).
 	- Gather any publicly available information about the target.
 	- Look for contact information of employees or contractors associated with the target.
 - Study the web application's structure (utilize browser dev tools).
