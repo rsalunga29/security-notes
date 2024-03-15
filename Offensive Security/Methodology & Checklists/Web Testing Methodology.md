@@ -25,13 +25,22 @@ Create a checklist for each vulnerability types (optional).
 - Utilize general purpose automatic scanners.
 	- Port scanning using Nmap.
 	- Directory, DNS, VHost, and subdomain fuzzing using [ffuf](https://github.com/ffuf/ffuf), [GoBuster](https://github.com/OJ/gobuster), or [subfinder](https://github.com/projectdiscovery/subfinder).
-	- Vulnerability scanning using [Nuclei](https://github.com/projectdiscovery/nuclei), [OpenVAS](https://github.com/greenbone/openvas-scanner), or Burp Active Scanner.
+	- Vulnerability scanning using [Nuclei](https://github.com/projectdiscovery/nuclei), [OpenVAS](https://github.com/greenbone/openvas-scanner), [Nikto](https://github.com/sullo/nikto), or Burp Active Scanner.
 	- [reconFTW](https://github.com/six2dez/reconftw) or [recon-ng](https://github.com/lanmaster53/recon-ng)
-- Look for following
+- Look for exposed Git folder or backup files during directory fuzzing.
+- Check for default pages which might contain interesting information:
+	- `robots.txt`
+	- `sitemap.xml`
+	- `crossdomain.xml`
+	- `clientaccesspolicy.xml`
+	- `/.well-known/`
 - Enumerate and identify technologies used by the web application and server.
 	- [WhatWeb](https://github.com/urbanadventurer/WhatWeb) or [Wappalyzer](https://www.wappalyzer.com/)
 	- Look for known vulnerabilities in the version of the technology.
 	- Utilize well-known tricks about the technology to extract more information.
+- If target has CMS, identify CMS type and use the following:
+	- WordPress: [wpscan](https://github.com/wpscanteam/wpscan)
+	- Drupal/Silverstripe: [droopescan](https://github.com/SamJoan/droopescan)
 ## Source Code Review
 If the source code of the application is open-source or has been made available to us.
 - Study the contents of the CHANGELOG and README files.
