@@ -50,6 +50,13 @@ If the source code of the application is open-source or has been made available 
 - Look for and understand currently open or recently closed issues submitted in the repository.
 - Identify the encryption or hashing algorithm used.
 ## Common Features Checklist
+### Authentication
+
+
+
+
+
+# MERGE EVERYTHING BELOW ON CHECKLIST
 ### Input
 - Test for Server-Side Includes Injection using various SSI directives.
 ### File Upload
