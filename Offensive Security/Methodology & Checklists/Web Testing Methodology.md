@@ -17,7 +17,7 @@ Create a checklist for each vulnerability types (optional).
 	- Missing SPF record
 	- Missing DMARC record
 	- Missing DKIM record
-	- Missing security headers
+	- Missing security headers (Utilize [securityheaders.com](https://securityheaders.com/))
 - Look for any public repositories owned by the target.
 ## Active Recon
 - Identify if the application if using WAF
