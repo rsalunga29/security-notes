@@ -5,7 +5,7 @@ Create a checklist for each vulnerability types (optional).
 ## Passive Recon
 - Understand the business area and what the customer needs.
 - Perform OSINT on the target.
-	- Utilize Google Dorks, [Shodan.io](https://www.shodan.io/), [theHarvester](https://github.com/laramies/theHarvester), [Censys](https://censys.com/).
+	- Utilize Google Dorks, [Shodan.io](https://www.shodan.io/), [theHarvester](https://github.com/laramies/theHarvester), [Censys](https://censys.com/) or [Wayback Machine](https://archive.org/web/).
 	- Gather any publicly available information about the target including leaks from breaches/incidents.
 	- Look for DNS and WHOIS records.
 - Study the web application's structure (utilize browser dev tools).
@@ -24,11 +24,12 @@ Create a checklist for each vulnerability types (optional).
 	- [wafw00f](https://github.com/EnableSecurity/wafw00f)
 - Utilize general purpose automatic scanners.
 	- Port scanning using Nmap.
-	- Directory, DNS, VHost, and subdomain fuzzing using [ffuf](https://github.com/ffuf/ffuf), [GoBuster](https://github.com/OJ/gobuster), or [subfinder](https://github.com/projectdiscovery/subfinder).
+	- Directory, DNS, and VHost fuzzing using [ffuf](https://github.com/ffuf/ffuf)or [GoBuster](https://github.com/OJ/gobuster).
 	- Vulnerability scanning using [Nuclei](https://github.com/projectdiscovery/nuclei), [OpenVAS](https://github.com/greenbone/openvas-scanner), [Nikto](https://github.com/sullo/nikto), or Burp Active Scanner.
 	- SSL/TLS scanning using [testssl.sh](https://github.com/drwetter/testssl.sh).
 	- [reconFTW](https://github.com/six2dez/reconftw) or [recon-ng](https://github.com/lanmaster53/recon-ng)
-- Look for exposed Git folder or backup files during directory fuzzing.
+- Enumerate for subdomains using [subfinder](https://github.com/projectdiscovery/subfinder) or [crt.sh](https://crt.sh/).
+- Look for exposed Git folder, backup files, and admin/staff-only pages during directory fuzzing.
 - Check for default pages which might contain interesting information:
 	- `robots.txt`
 	- `sitemap.xml`
@@ -62,4 +63,4 @@ If the source code of the application is open-source or has been made available 
 - https://book.hacktricks.xyz/network-services-pentesting/pentesting-web
 - https://book.hacktricks.xyz/pentesting-web/web-vulnerabilities-methodology
 - https://pentestbook.six2dez.com/others/web-checklist
-- 
+- https://github.com/Secuna/checklists/blob/main/web.md
