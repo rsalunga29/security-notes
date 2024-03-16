@@ -35,6 +35,10 @@ env
 ```bash
 sudo -l
 ```
+### Check for sudo version (CVE-2021-3156)
+```bash
+sudo --version
+```
 ### View all system users
 ```bash
 cat /etc/passwd | cut -d ":" -f 1
