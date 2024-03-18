@@ -54,8 +54,22 @@ If the source code of the application is open-source or has been made available 
 ## Common Features Checklist
 ### Authentication
 - Try to bypass using HTTP Verb Tampering
-
-
+#### Registration
+- Lorem Ipsum
+#### Login
+- Lorem Ipsum
+#### Logout
+- Lorem Ipsum
+#### Forgot Password
+- Lorem Ipsum
+#### Change Credentials
+- Lorem ipsum
+#### Multi-factor Authentication
+- Lorem ipsum
+### Authorization
+Lorem Ipsum
+### Logging and Monitoring
+Lorem Ipsum
 
 # MERGE EVERYTHING BELOW ON CHECKLIST
 ### Input
