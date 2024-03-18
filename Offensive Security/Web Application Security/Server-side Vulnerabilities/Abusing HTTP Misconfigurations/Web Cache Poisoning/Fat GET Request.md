@@ -1,0 +1,1 @@
+A "fat GET" request is a `GET` request that includes a body in the request. If the request body is unkeyed and included in the response, it can create an opportunity for cache poisoning.
