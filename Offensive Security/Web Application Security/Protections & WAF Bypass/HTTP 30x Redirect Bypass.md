@@ -9,4 +9,6 @@ Sometimes the requested resource can't be accessed from its canonical location, 
 - 303 See Other
 - 307 Temporary Redirect
 ## Bypass
-Before doing any bypass, we must first check the HTTP redirect response in a proxy tool such as Burp, there will be cases where the redirects are being done on the client-side, 
+Before doing any bypass, we must first check the HTTP redirect response in a proxy tool such as Burp Suite, as there will be cases where the redirects are being done on the client-side only.
+
+Additionally, always check the `Content-Length` of the HTTP response, an unusually large `Content-Length` with a `302 Found` HTTP response code, could mean that the protected resources can still be accessed by changing the HTTP response code from `302 Found` to `200 OK` and removing the `Location` response header.

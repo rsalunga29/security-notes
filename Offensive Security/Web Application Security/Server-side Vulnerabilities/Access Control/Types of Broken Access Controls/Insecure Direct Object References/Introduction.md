@@ -1,4 +1,4 @@
-Also known as IDOR, is a type of access control vulnerability that arises where user-controlled parameter values are used to access resources or functions directly.
+Also known as IDOR, is a type of access control vulnerability that arises when a web application exposes a direct reference to an object, like a file or a database resource, which the end-user can directly control to obtain access to other similar objects. If any user can access any resource due to the lack of a solid access control system, the system is considered to be vulnerable.
 
 In some applications, the exploitable parameter does not have a predictable value, instead of an incrementing number, an application might use globally unique identifier (GUIDs) to identify users. This may prevent an attacker from guessing or predicting another user's identifier, however, GUIDs belonging to other users might be disclosed elsewhere in the application where users are referenced.
 
