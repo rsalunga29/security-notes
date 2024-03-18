@@ -66,6 +66,7 @@ If the source code of the application is open-source or has been made available 
 - Brute Force `rememberme` tokens
 - Session Fixation Attack
 - Session Hijacking
+Requests
 ## Resources
 - https://book.hacktricks.xyz/network-services-pentesting/pentesting-web
 - https://book.hacktricks.xyz/pentesting-web/web-vulnerabilities-methodology
