@@ -16,4 +16,4 @@ GET /profile HTTP/1.1
 
 }
 ```
-The second user may not have all of these API parameters
+The second user may not have all of these API parameters to replicate the call and should not be able to make the same call as `User1`. However, with these details at hand, we can try repeating the same API call while logged in as `User2` to see if the web application returns anything.
