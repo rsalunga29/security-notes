@@ -50,6 +50,7 @@ If the source code of the application is open-source or has been made available 
 - Look for information leakage and hardcoded credentials in the source code or commit history.
 - Look for and understand currently open or recently closed issues submitted in the repository.
 - Identify the encryption or hashing algorithm used.
+- Identify the sources and sinks for each functionality/feature.
 ## Common Features Checklist
 ### Authentication
 - Try to bypass using HTTP Verb Tampering
