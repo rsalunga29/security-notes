@@ -66,10 +66,20 @@ If the source code of the application is open-source or has been made available 
 - Lorem ipsum
 #### Multi-factor Authentication
 - Lorem ipsum
+### Session Management
+Lorem Ipsum
 ### Authorization
 Lorem Ipsum
-### Logging and Monitoring
+### Input Validation
 Lorem Ipsum
+### File Uploads
+Lorem Ipsum
+### Error Handling
+Lorem Ipsum
+### Logging and Monitoring
+- Does the application log authenticated/unauthenticated requests?
+- Does the application log authorized/unauthorized requests?
+- Check for verbosity of the logs.
 
 # MERGE EVERYTHING BELOW ON CHECKLIST
 ### Input
@@ -81,7 +91,6 @@ Lorem Ipsum
 - Brute Force `rememberme` tokens
 - Session Fixation Attack
 - Session Hijacking
-Requests
 ## Resources
 - https://book.hacktricks.xyz/network-services-pentesting/pentesting-web
 - https://book.hacktricks.xyz/pentesting-web/web-vulnerabilities-methodology
