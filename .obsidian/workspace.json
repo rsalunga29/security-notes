@@ -89,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "IDOR",
+                "query": "TODO",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -195,7 +196,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ae9f981dc887f7e6",
+  "active": "7db1edcda1ea8fc7",
   "lastOpenFiles": [
     "Offensive Security/Web Application Security/Protections & WAF Bypass/SQL Injection Bypass/Bypass with SQLMap.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/HTTP 403 and 401 Bypass.md",

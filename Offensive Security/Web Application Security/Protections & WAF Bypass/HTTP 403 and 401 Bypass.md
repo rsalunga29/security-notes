@@ -33,4 +33,17 @@ If the path is protected, try to use encoding or multiple encodings to attempt t
 
 Additionally, the access control mechanism might not be case-sensitive, so try changing the case for each character. Example below:
 - `target-website.com/admin` returns `403 Forbidden`.
-- `target-website.com/ADMIN` returns `200 OK`
+- `target-website.com/ADMIN` returns `200 OK`.
+- `target-website.com/admin/` returns `200 OK`.
+- `target-website.com//admin//` returns `200 OK`.
+- `target-website.com/;/admin` returns `200 OK`.
+- etc...
+
+<!-- TODO: Link Parameter Pollution -->
+Finally, if the target is an API, try changing the API versions, the data type of the request body, or perform Parameter Pollution. For example:
+- `/v3/users_data/id=1234` returns `403 Forbidden`.
+- `/v1/users_data/id=1234` returns `200 OK`.
+- `{"id": 1234}` returns `401 Unauthorized`.
+- `{"id": [1234]}` returns `200 OK`.
+- `{"id":{"id":111}}` returns `200 OK`.
+- `{"user_id":"<legit_id>","user_id":"<victims_id>"}` (JSON Parameter Pollution)
