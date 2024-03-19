@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Chained XXE to RCE.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Chained XXE to RCE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Chained XXE to RCE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Introduction.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Chained XXE to RCE.md"
               }
             }
           }
@@ -184,6 +184,13 @@
   },
   "active": "0f825a0f30ae18d3",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Retrieve Sensitive Files using XXE.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Chained XXE to RCE.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Chained XXE to SSRF.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Hidden Attack Surfaces for XXE Attacks/XInclude Attacks.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Hidden Attack Surfaces for XXE Attacks/XXE via Modified Content-Type Header.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Hidden Attack Surfaces for XXE Attacks/XXE via File Upload.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Prevention.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Information Disclosure/Introduction.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
@@ -204,15 +211,8 @@
     "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Bypass Blacklisted Commands.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Introduction.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Bypass Space Filters.md",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Advanced Obfuscation Techniques.md",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Content-Type Bypass.md",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/Bypass User-Accessible Directories Restriction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing HTTP Misconfigurations/Web Cache Poisoning/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing HTTP Misconfigurations/Web Cache Poisoning",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing HTTP Misconfigurations",
-    "Offensive Security/Network Security/Privilege Escalation/Linux.md",
-    "Offensive Security/MIscellaneous/TBD Title.md",
     "Offensive Security/Methodology & Checklists/Untitled",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/HTTP Verb Tampering",
