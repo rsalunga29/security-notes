@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Chained XXE to RCE.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures/Advanced Exfiltration with CDATA.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Chained XXE to RCE.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures/Advanced Exfiltration with CDATA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Chained XXE to RCE.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures/Advanced Exfiltration with CDATA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Chained XXE to RCE.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures/Advanced Exfiltration with CDATA.md"
               }
             }
           }
@@ -184,6 +184,9 @@
   },
   "active": "0f825a0f30ae18d3",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures/Introduction.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures/Advanced Exfiltration with CDATA.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Retrieve Sensitive Files using XXE.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Chained XXE to RCE.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Chained XXE to SSRF.md",
@@ -209,8 +212,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing HTTP Misconfigurations/Web Cache Poisoning/Fat GET Request.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/SQL Injection Bypass/Bypass with SQLMap.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Bypass Blacklisted Commands.md",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Introduction.md",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/Command Injections Bypass/Bypass Space Filters.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing HTTP Misconfigurations/Web Cache Poisoning",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing HTTP Misconfigurations",
     "Offensive Security/Methodology & Checklists/Untitled",
@@ -223,7 +224,6 @@
     "Offensive Security/Assets/password-reset-flow.png",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function/Predictable Reset Token",
     "Offensive Security/MIscellaneous",
-    "Offensive Security/Assets/deserialization-diagram.jpg",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing AJP Proxy"
+    "Offensive Security/Assets/deserialization-diagram.jpg"
   ]
 }
