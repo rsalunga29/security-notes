@@ -1,7 +1,3 @@
-# TODO
-Complete this methodology using following as guides: [HackTricks](https://book.hacktricks.xyz/network-services-pentesting/pentesting-web) and [Pentest Book](https://pentestbook.six2dez.com/others/web-checklist).
-Create a checklist for each steps.
-Create a checklist for each vulnerability types (optional).
 ## Passive Recon
 - Understand the business area and what the customer needs.
 - Perform OSINT on the target.
