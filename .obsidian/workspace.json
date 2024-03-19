@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/Mass Enumeration.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/AJAX Calls.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/Mass Enumeration.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/AJAX Calls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/Mass Enumeration.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/AJAX Calls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/Mass Enumeration.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/AJAX Calls.md"
               }
             }
           }
@@ -184,8 +184,8 @@
   },
   "active": "0f825a0f30ae18d3",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/Compare User Roles.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/Mass Enumeration.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/Compare User Roles.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/Hashed or Encoded Values.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/AJAX Calls.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/URL Parameters and APIs.md",
