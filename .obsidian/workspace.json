@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Prevention.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/Hashed or Encoded Values.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Prevention.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/Hashed or Encoded Values.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Prevention.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/Hashed or Encoded Values.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Prevention.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/Hashed or Encoded Values.md"
               }
             }
           }
@@ -182,8 +182,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0f825a0f30ae18d3",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/URL Parameters and APIs.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/Mass Enumeration.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/Hashed or Encoded Values.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/Compare User Roles.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/AJAX Calls.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Prevention.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Detecting Blind XXE using OAST Techniques.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Exploiting Blind XXE by Repurposing a Local DTD.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Blind XXE Injection/Exfiltrate Data via OAST Techniques.md",
@@ -205,12 +211,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Prevention.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Information Disclosure/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/AJAX Calls.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/Mass Enumeration.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/Compare User Roles.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/Hashed or Encoded Values.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/URL Parameters and APIs.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing HTTP Misconfigurations/Web Cache Poisoning",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing HTTP Misconfigurations",
