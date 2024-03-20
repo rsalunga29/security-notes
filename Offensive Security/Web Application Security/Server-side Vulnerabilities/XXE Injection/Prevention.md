@@ -1,5 +1,8 @@
-The easiest and most effective way to prevent XXE attacks is to configure the XML parser to disallow custom DTDs, disable DTD support, and disable the external entity functionality. It is also advisable to disable potentially dangerous features from XML parsing library that the application does not need or intend to use.
+The easiest and most effective way to prevent XXE attacks is to configure the XML parsing libraries and XML configurations to:
+- Disable DTD support and referencing custom DTDs.
+- Disable the external entity functionality and referencing of external XML entities.
+- Disable parameter entity processing.
+- Disable support for `XInclude`.
+- Prevent entity reference loops.
 
-Additionally, it is advisable to avoid using outdated components. For example, PHP's [libxml_disable_entity_loader](https://www.php.net/manual/en/function.libxml-disable-entity-loader.php) function is deprecated since it allows a developer to enable external entities in an unsafe manner, which leads to XXE vulnerabilities.
-
-Generally, it is sufficient to disable resolution of external entities and disable support for `XInclude`. This can usually be done via configuration options or by programmatically overriding default behavior.
+Finally, it is advisable to avoid using outdated components. For example, PHP's [libxml_disable_entity_loader](https://www.php.net/manual/en/function.libxml-disable-entity-loader.php) function is deprecated since it allows a developer to enable external entities in an unsafe manner, which leads to XXE vulnerabilities.
