@@ -5,11 +5,6 @@ Exfiltrating sensitive data in blind XXE is hard but not possible. This can be a
 %eval;
 %exfiltrate;
 ```
-This DTD carries out the following step:
-- Defines an XML parameter entity called `file`, containing the contents of the `/etc/passwd` file.
-- Defines an XML parameter entity called `eval`, containing a dynamic declaration of another XML parameter entity called `exfiltrate`. The `exfiltrate` entity will be evaluated by making an HTTP request to the attacker's web server containing the value of the `file` entity within the URL query string.
-- Uses the `eval` entity, which causes the dynamic declaration of the `exfiltrate` entity to be performed.
-- Uses the `exfiltrate` entity, so that its value is evaluated by requesting the specified URL.
 
 The attacker must then host the malicious DTD on a system they control. For example, the attacker might serve it at the following URL: `https://web-attacker.com/malicious.dtd`.
 
