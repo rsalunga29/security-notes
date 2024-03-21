@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Using PHP Filters.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Using PHP Wrappers.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Using PHP Filters.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Using PHP Wrappers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Using PHP Filters.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Using PHP Wrappers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Using PHP Filters.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Using PHP Wrappers.md"
               }
             }
           }
@@ -185,7 +185,7 @@
   "active": "fa3bb93b28906820",
   "lastOpenFiles": [
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Inclusion Bypass.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Using PHP Filters.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Using PHP Wrappers.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi using OAST Techniques.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Conditional Responses.md",
