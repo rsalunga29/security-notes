@@ -2,4 +2,6 @@ Many popular web applications are developed in PHP, along with various custom we
 
 PHP Wrappers allow us to access different I/O streams at the application level, including standard input/output, file descriptors, and memory streams.
 ## Input Filters
-PHP Filters are a type of PHP wrappers,
+PHP Filters are a type of PHP wrappers, where we can pass different types of inputs and have it filtered by the filter type we specify. We can access the PHP filter wrapper using `php://filter/`.
+
+The filter wrapper has multiple parameters, but main ones required for an attack are `resource` and `read`.
