@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "6f1eaa24be5c0ce8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
+              }
+            }
+          },
+          {
             "id": "8870e9b60e703fc9",
             "type": "leaf",
             "pinned": true,
@@ -47,7 +57,8 @@
               "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,7 +193,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa3bb93b28906820",
+  "active": "6f1eaa24be5c0ce8",
   "lastOpenFiles": [
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Conditional Responses.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Time Delays.md",
