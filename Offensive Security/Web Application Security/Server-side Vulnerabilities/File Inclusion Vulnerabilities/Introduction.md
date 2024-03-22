@@ -5,6 +5,7 @@ There are two types of file inclusions:
 2. Remote File Inclusion (RFI) - The file is loaded from a remote server. Since PHP5, this is disabled by default with the config `allow_url_include`.
 
 This vulnerability is usually chained with [Path Traversal](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FServer-side%20Vulnerabilities%2FPath%20Traversal%2FIntroduction) and [Server Side Request Forgery (SSRF)](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FServer-side%20Vulnerabilities%2FServer-side%20Request%20Forgery%2FIntroduction), as this vulnerability requires one or the other to properly work.
+> Note: We can automate the discovery and exploitation of this vulnerability by using tools such as ffuf or [liffy](https://github.com/mzfr/liffy).
 ## PHP
 In PHP, we may use the `include()` function to load a local or a remote file as we load a page. If the path passed to the `include()` is taken from a user-controlled parameter, like a GET parameter, and the code does not explicitly filter and sanitize the user input, then the code becomes vulnerable to File Inclusion. For example:
 ```php

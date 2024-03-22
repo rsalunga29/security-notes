@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Remote Code Executions/LFI to RCE via Log Poisoning.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Remote Code Executions/LFI to RCE via Log Poisoning.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Remote Code Executions/LFI to RCE via Log Poisoning.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Remote Code Executions/LFI to RCE via Log Poisoning.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Introduction.md"
               }
             }
           }
@@ -184,6 +184,7 @@
   },
   "active": "ccc68e20622978c5",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Remote Code Executions/LFI to RCE via Log Poisoning.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/LFI via File Uploads.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Read vs Execute.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Remote File Inclusion.md",
@@ -192,7 +193,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/File Disclosures/Second-Order Attacks.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Remote Code Executions/Using PHP Wrappers.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Remote Code Executions/LFI to RCE via Log Poisoning.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Remote Code Executions",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/File Disclosures",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/File Inclusion Bypass.md",
