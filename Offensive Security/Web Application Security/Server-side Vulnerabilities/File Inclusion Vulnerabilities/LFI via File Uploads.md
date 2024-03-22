@@ -2,3 +2,4 @@ For LFI to work in file uploads, the file upload form do not need to be vulnerab
 
 For example, we can upload an image file (e.g. `image.jpg`), and store a PHP web shell code within it 'instead of image data', and if we include it through the LFI vulnerability, the PHP code will get executed and we will have remote code execution.
 ## Crafting Malicious Image
+The first step is to create a malicious image file containing a shell code
