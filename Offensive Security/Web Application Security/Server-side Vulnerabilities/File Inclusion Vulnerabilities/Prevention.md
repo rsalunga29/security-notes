@@ -1,0 +1,7 @@
+The most effective thing we can do to reduce file inclusion vulnerabilities is to avoid passing any user-controlled inputs into any file inclusion functions or APIs. Additionally, whenever [any of these functions](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FServer-side%20Vulnerabilities%2FFile%20Inclusion%20Vulnerabilities%2FRead%20vs%20Execute) is used, we should ensure that no user input is directly going into them. Of course, this list of functions is not comprehensive, so we should generally consider any function that can read files.
+
+In some cases, this is not feasible, instead we should utilize a limited whitelist of allowed user inputs, and match each input to the file to be loaded, while having a default value for all inputs.
+## Web Server Configuration
+Several configurations may also be utilized to reduce the impact of file inclusion vulnerabilities in case they occur. In PHP this can be done by setting `allow_url_fopen` and `allow_url_include` to Off.
+
+It's also often possible to lock web applications to their web root directory, preventing them from accessing non-web related files. The most common way to do this in today's age is by running the application within `Docker`. Otherwise, you may use your programming language or frameworks built-in mechanism to prevent accessing files outside of the web directory. 
