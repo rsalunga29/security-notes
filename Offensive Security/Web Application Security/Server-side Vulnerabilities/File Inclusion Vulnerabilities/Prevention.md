@@ -4,4 +4,8 @@ In some cases, this is not feasible, instead we should utilize a limited whiteli
 ## Web Server Configuration
 Several configurations may also be utilized to reduce the impact of file inclusion vulnerabilities in case they occur. In PHP this can be done by setting `allow_url_fopen` and `allow_url_include` to Off.
 
-It's also often possible to lock web applications to their web root directory, preventing them from accessing non-web related files. The most common way to do this in today's age is by running the application within `Docker`. Otherwise, you may use your programming language or frameworks built-in mechanism to prevent accessing files outside of the web directory. 
+It's also often possible to lock web applications to their web root directory, preventing them from accessing non-web related files. The most common way to do this in today's age is by running the application within `Docker`. Otherwise, you may use your programming language or frameworks built-in mechanism to prevent accessing files outside of the web directory. In PHP, that can be done by adding `open_basedir = /var/www/html` in the `php.ini` file.
+
+Furthermore, you should ensure that certain potentially dangerous modules are disabled, like [PHP Expect](https://www.php.net/manual/en/wrappers.expect.php) [mod_userdir](https://httpd.apache.org/docs/2.4/mod/mod_userdir.html).
+## Web Application Firewall
+The universal way to harden applications is to utilize a Web Application Firewall (WAF), such as [ModSecurity](https://github.com/owasp-modsecurity/ModSecurity). When dealing with WAFs, the most important thing to avoid is false positives and blocking non-malicious requests. ModSecurity minimizes false positives by offering a `permissive` mode, which will only report things it would have blocked.
