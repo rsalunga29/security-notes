@@ -6,7 +6,7 @@ For example, we may find the database password in `config.php`, which may match 
 ## Data Wrapper
 The [data](https://www.php.net/manual/en/wrappers.data.php) wrapper can be used to include external data, including PHP code. We can access the data wrapper using `data://`.
 
-However, the data wrapper is only available to use if the (`allow_url_include`) setting is enabled in the PHP configurations. To confirm this, we need to use the `convert.base64-encode` for the `read` parameter [technique](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FServer-side%20Vulnerabilities%2FFile%20Inclusion%20Vulnerabilities%2FFile%20Disclosures%2FUsing%20PHP%20Wrappers) to read PHP configuration files.
+However, the data wrapper is only available to use if the `allow_url_include` setting is enabled in the PHP configurations. To confirm this, we can use the `convert.base64-encode` for the `read` parameter [technique](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FServer-side%20Vulnerabilities%2FFile%20Inclusion%20Vulnerabilities%2FFile%20Disclosures%2FUsing%20PHP%20Wrappers) to read PHP configuration files.
 
 Once we have the base64 encoded string, we can decode it and `grep` for `allow_url_include` to see its value:
 ```bash
@@ -41,7 +41,7 @@ curl -s -X POST --data '<?php system($_GET["cmd"]) ?>' http://target-website.com
 ## Expect Wrapper
 Finally, we may utilize the [expect](https://www.php.net/manual/en/wrappers.expect.php) wrapper, which allows us to directly run commands through URL streams. Expect works very similarly to the web shells used in previous examples, but don't need to provide a web shell, as it is designed to execute commands. We can access the data wrapper using `expect://`.
 
-However, expect is an external wrapper, so it needs to be manually installed and enabled on the backend server, although some web applications rely on it for their core functionality, so there will be use cases for it in the wild. To determine if `expect` wrapper is installed, we need to use the `convert.base64-encode` for the `read` parameter [technique](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FServer-side%20Vulnerabilities%2FFile%20Inclusion%20Vulnerabilities%2FFile%20Disclosures%2FUsing%20PHP%20Wrappers) to read PHP configuration files.
+However, expect is an external wrapper, so it needs to be manually installed and enabled on the backend server, although some web applications rely on it for their core functionality, so there will be use cases for it in the wild. To determine if `expect` wrapper is installed, we can use the `convert.base64-encode` for the `read` parameter [technique](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FServer-side%20Vulnerabilities%2FFile%20Inclusion%20Vulnerabilities%2FFile%20Disclosures%2FUsing%20PHP%20Wrappers) to read PHP configuration files.
 
 To use the expect module, we can use the `expect://` wrapper and then pass the command we want to execute, as follows:
 ```txt
