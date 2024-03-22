@@ -40,4 +40,4 @@ Next we will combine this script into a `phar` file that when called would write
 ```bash
 php --define phar.readonly=0 shell.php && mv shell.phar shell.jpg
 ```
-Now, we should have a `phar` file called `shell.jpg`, next 
+Now, we should have a `phar` file called `shell.jpg`, next we uplo
