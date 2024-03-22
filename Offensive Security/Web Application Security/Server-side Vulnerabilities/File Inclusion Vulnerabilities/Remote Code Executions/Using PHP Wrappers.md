@@ -2,4 +2,4 @@ Aside from [using PHP wrappers for file disclosures](obsidian://open?vault=secur
 
 While we can use many different methods to execute remote commands depending on the backend language/framework and the vulnerable function's capabilities. The most command method for gaining control over the backend server is by enumerating for user credentials and SSH keys, and then use those to login to the backend server through SSH or any remote session.
 
-For example, we may find the database password in `conf`
+For example, we may find the database password in `config.php`, which may match a us
