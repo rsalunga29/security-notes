@@ -51,8 +51,24 @@ If the source code of the application is open-source or has been made available 
 ### Authentication
 - Try to bypass using HTTP Verb Tampering
 #### Registration
-- Check for username uniqueness
-- Check for the bug to overwrite existing user 
+- Check for common vulnerabilities:
+	- Stored XSS via reflected values such as name and email.
+	- SQL injection (manual and automated using sqlmap).
+	- HTTP Verb Tampering
+	- HTTP Parameter Pollution
+- Username uniqueness.
+- Existing user takeover via duplicate registration:
+	- Changes in letter cases (uppercase, lowercase, camelcase).
+	- Add some dots in the emails.
+	- Use special characters in the email (`%00`, `%09`, `%20`).
+	- Manipulating email by adding additional `@` (i.e `victim@gmail.com@attacker.com`).
+- Weak password policy.
+	- Minimum of 8 characters with no maximum number.
+	- Must not allow dictionary word as password.
+- Insufficient email verification process.
+- Weak registration implementation or allows disposable email addresses.
+- Fuzz after user creation to check if any folder have been overwritten or created with your profile name.
+- Missing rate limit.
 #### Login
 - Lorem Ipsum
 #### Logout
