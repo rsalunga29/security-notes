@@ -51,7 +51,8 @@ If the source code of the application is open-source or has been made available 
 ### Authentication
 - Try to bypass using HTTP Verb Tampering
 #### Registration
-- Lorem Ipsum
+- Check for username uniqueness
+- Check for the bug to overwrite existing user 
 #### Login
 - Lorem Ipsum
 #### Logout
