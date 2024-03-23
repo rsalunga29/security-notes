@@ -49,13 +49,13 @@ If the source code of the application is open-source or has been made available 
 - Identify the sources and sinks for each functionality/feature.
 ## Common Features Checklist
 ### Authentication
-- Try to bypass using HTTP Verb Tampering
 #### Registration
-- Check for common vulnerabilities:
+- Check for common vulnerabilities and bypasses:
 	- Stored XSS or SSTI via reflected values such as name, email, etc.
 	- SQL injection (manual and automated using sqlmap).
-	- HTTP Verb Tampering
-	- HTTP Parameter Pollution
+	- Server-Side Includes Injection using various SSI directives.
+	- HTTP Verb Tampering.
+	- HTTP Parameter Pollution.
 - Existing user takeover via duplicate registration:
 	- Changes in letter cases (uppercase, lowercase, camelcase).
 	- Add some dots in the emails.
@@ -81,40 +81,39 @@ If the source code of the application is open-source or has been made available 
 - Fuzz after user creation to check if any folder have been overwritten or created with your profile name.
 - Missing rate limit.
 #### Login
-- Username enumeration via error message.
+- Check for common vulnerabilities and bypasses:
+	- SQL injection (manual and automated using sqlmap).
+	- HTTP Verb Tampering.
+	- HTTP Parameter Pollution.
+- Username/email enumeration via error message.
+- Lack of defenses against brute force attacks.
+- Test for default or common credentials.
 #### Logout
 - Check cookie if it's still usable after logout.
+- Cache issue, Logout then click back button.
 #### Forgot Password
-- Lorem Ipsum
+- Username/email enumeration via error message.
 #### Change Credentials
 - Lorem ipsum
 #### Multi-factor Authentication
 - Lorem ipsum
 ### Session Management
-Lorem Ipsum
+- Cookie Token Tampering.
+- Brute Force `rememberme` tokens.
+- Session Fixation Attack.
+- Session Hijacking.
 ### Authorization
 Lorem Ipsum
 ### Input Validation
 Lorem Ipsum
 ### File Uploads
-Lorem Ipsum
+- Fuzz the file upload functionality for whitelisted and blacklisted extensions.
 ### Error Handling
 Lorem Ipsum
 ### Logging and Monitoring
 - Does the application log authenticated/unauthenticated requests?
 - Does the application log authorized/unauthorized requests?
 - Check for verbosity of the logs.
-
-# MERGE EVERYTHING BELOW ON CHECKLIST
-### Input
-- Test for Server-Side Includes Injection using various SSI directives.
-### File Upload
-- Fuzz the file upload functionality for whitelisted and blacklisted extensions
-### Session Tokens
-- Cookie Token Tampering
-- Brute Force `rememberme` tokens
-- Session Fixation Attack
-- Session Hijacking
 ## Resources
 - https://book.hacktricks.xyz/network-services-pentesting/pentesting-web
 - https://book.hacktricks.xyz/pentesting-web/web-vulnerabilities-methodology
