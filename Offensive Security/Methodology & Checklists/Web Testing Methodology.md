@@ -52,27 +52,38 @@ If the source code of the application is open-source or has been made available 
 - Try to bypass using HTTP Verb Tampering
 #### Registration
 - Check for common vulnerabilities:
-	- Stored XSS via reflected values such as name and email.
+	- Stored XSS or SSTI via reflected values such as name, email, etc.
 	- SQL injection (manual and automated using sqlmap).
 	- HTTP Verb Tampering
 	- HTTP Parameter Pollution
-- Username uniqueness.
 - Existing user takeover via duplicate registration:
 	- Changes in letter cases (uppercase, lowercase, camelcase).
 	- Add some dots in the emails.
 	- Use special characters in the email (`%00`, `%09`, `%20`).
 	- Manipulating email by adding additional `@` (i.e `victim@gmail.com@attacker.com`).
-- Weak password policy.
+- Weak password policy:
 	- Minimum of 8 characters with no maximum number.
+	- Must allow numbers and special characters.
 	- Must not allow dictionary word as password.
+	- Long passwords (more than 200 chars) might lead to DoS.
+- Social Media registration:
+	- Check for OAuth.
+	- Check for state parameter value.
+- Corrupt registration and verification process:
+	- 1. Sign up.
+	- 2. Do not verify new account.
+	- 3. Request for change/forgot password.
+	- 4. Change password then check if account is active/verified.
+- For JSON type requests, try manipulating JSON body by adding commas (i.e `{"email":"victim@gmail.com","hacker@mail.com","username":"defnothacker","password":"xxx"}`)
+- Username uniqueness.
 - Insufficient email verification process.
 - Weak registration implementation or allows disposable email addresses.
 - Fuzz after user creation to check if any folder have been overwritten or created with your profile name.
 - Missing rate limit.
 #### Login
-- Lorem Ipsum
+- Username enumeration via error message.
 #### Logout
-- Lorem Ipsum
+- Check cookie if it's still usable after logout.
 #### Forgot Password
 - Lorem Ipsum
 #### Change Credentials
