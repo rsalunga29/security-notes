@@ -12,4 +12,4 @@ The scenario on stage 1 is expected behavior, but it can turn into a session fix
 - Session IDs are being accepted from URL query strings or POST data and being passed to the application.
 
 If, for example, a session-related parameter is included in the URL (and not on the cookie header) and any specified value eventually becomes a session identifier, then the attacker can fixate a session.
-#### Stage 3: 
+#### Stage 3: Attacker tricks the victim into establishing a session using the abovementioned session identifier
