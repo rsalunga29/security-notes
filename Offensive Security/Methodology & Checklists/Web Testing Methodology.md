@@ -10,10 +10,11 @@
 	- Core Functionality (Interaction between browser and server).
 	- Assess the target from both authenticated and unauthenticated perspectives.
 - Look for the following misconfigurations:
-	- Missing SPF record
-	- Missing DMARC record
-	- Missing DKIM record
-	- Missing security headers (Utilize [securityheaders.com](https://securityheaders.com/))
+	- Missing SPF record.
+	- Missing DMARC record.
+	- Missing DKIM record.
+	- Missing security headers (Utilize [securityheaders.com](https://securityheaders.com/)).
+	- Look for cookies lacking security flags (https://www.invicti.com/learn/cookie-security-flags/).
 - Look for any public repositories owned by the target.
 ## Active Recon
 - Identify if the application if using WAF

