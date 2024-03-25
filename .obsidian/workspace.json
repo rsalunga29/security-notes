@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Useful Extensions.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Useful Extensions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Useful Extensions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Introduction.md"
+                "file": "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Useful Extensions.md"
               }
             }
           }
@@ -184,8 +184,14 @@
   },
   "active": "3c182d049d7bba6d",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Prevention.md",
+    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
+    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Intercept Tools HTTP Requests in Burp.md",
+    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Useful Extensions.md",
+    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Creating Macros.md",
+    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Burp Intruder Payload Processing.md",
+    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Burp Intruder Attack Types.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Introduction.md",
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Prevention.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Certification Roadmap.md",
@@ -205,12 +211,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes Injection/Edge-Side Includes Injection.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Server-side Includes Injection/Attacking XSLT.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Prevention.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Directory Traversal/Prevention.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Directory Traversal/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Directory Traversal/Reading arbitrary files via path traversal.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Directory Traversal/Common Exploit Obstacles/Validation of Start of Path.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Directory Traversal/Common Exploit Obstacles/Validation of File Extension with NULL Byte Bypass.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Directory Traversal/Common Exploit Obstacles/Traversal Sequences Stripped Non-Recursively.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Remote Code Executions",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/File Disclosures",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures",
