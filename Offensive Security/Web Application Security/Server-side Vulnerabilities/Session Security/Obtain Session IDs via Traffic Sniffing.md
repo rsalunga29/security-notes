@@ -5,3 +5,5 @@ Obtaining session identifiers through traffic sniffing requires:
 - Unencrypted HTTP traffic.
 
 There are numerous packet sniffing tools, the most popular one is [Wireshark](https://www.wireshark.org/), which already have a built-in filter function that allows users to filter traffic for specific protocols such as HTTP, SSH, FTP, and even for a particular source IP address.
+
+That being said, all we have to do is open Wireshark, select the network interface we will use to sniff the traffic, and filter the results to show only HTTP packets. We can also use the `Edit -> Find Packet` feature to search the results for specific keywords.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtain Session IDs via Traffic Sniffing.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtain Session IDs via Post-Exploitation.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtain Session IDs via Traffic Sniffing.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtain Session IDs via Post-Exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtain Session IDs via Traffic Sniffing.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtain Session IDs via Post-Exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtain Session IDs via Traffic Sniffing.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtain Session IDs via Post-Exploitation.md"
               }
             }
           }
@@ -182,10 +182,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3c182d049d7bba6d",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtain Session IDs via Post-Exploitation.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtain Session IDs via Traffic Sniffing.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtain Session IDs via Post-Exploitation.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Session Fixation.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtaining Session IDs without User Interaction",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Session Hijacking.md",
