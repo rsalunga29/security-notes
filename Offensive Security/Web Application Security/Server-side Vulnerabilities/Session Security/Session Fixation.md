@@ -11,7 +11,9 @@ The scenario on stage 1 is expected behavior, but it can turn into a session fix
 - The assigned session ID pre-login remains the same post-login
 - Session IDs are being accepted from URL query strings or POST data and being passed to the application.
 
-If, for example, a session-related parameter is included in the URL (and not on the cookie header) and any specified value eventually becomes a session identifier, then the attacker can fixate a session. For example,
+If, for example, a session-related parameter is included in the URL (and not on the cookie header) and any specified value eventually becomes a session identifier, then the attacker can fixate a session.
+
+For example, suppose we are looking into `http://target-website.com/login` for session fixation bugs, and the session identifier being used is a cookie named `PHPSESSID`. To test for session fixation, we could try the following `http://target-website.com/login?PHPSESSID=AttackerSpecifiedCookieValue` and see if the specified cookie value is passed to the application.
 #### Stage 3: Attacker tricks the victim into establishing a session using the abovementioned session identifier
 All the attacker has to do is craft a URL and lure the victim into visiting it. If the victim does so, the web application will then assign this session identifier to the victim.
 

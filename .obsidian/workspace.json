@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Session Fixation.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtain Session IDs via Traffic Sniffing.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Session Fixation.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtain Session IDs via Traffic Sniffing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Session Fixation.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtain Session IDs via Traffic Sniffing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Session Fixation.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtain Session IDs via Traffic Sniffing.md"
               }
             }
           }
@@ -184,9 +184,12 @@
   },
   "active": "3c182d049d7bba6d",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtain Session IDs via Post-Exploitation.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtain Session IDs via Traffic Sniffing.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Session Fixation.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtaining Session IDs without User Interaction",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Session Hijacking.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Introduction.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Session Fixation.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Remote Code Executions/LFI to RCE via Log Poisoning.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/File Disclosures/Using PHP Wrappers.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/File Disclosures/Second-Order Attacks.md",
@@ -208,8 +211,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/LFI via File Uploads.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Read vs Execute.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Remote File Inclusion.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Remote Code Executions/Using PHP Wrappers.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Remote Code Executions",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/File Disclosures",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures",
@@ -222,7 +223,6 @@
     "Offensive Security/Assets/cookie-tampering.png",
     "Offensive Security/Assets/ssti-diagram.png",
     "Offensive Security/Assets/username-injection.png",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Authentication/Abusing Password Reset Function",
     "Offensive Security/Assets/password-reset-flow.png",
     "Offensive Security/Assets/deserialization-diagram.jpg"
   ]
