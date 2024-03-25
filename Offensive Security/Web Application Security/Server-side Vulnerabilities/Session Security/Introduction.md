@@ -4,7 +4,11 @@ Since HTTP is a stateless communication protocol, each requests only carry enoug
 
 For this reason, web applications utilizes cookies, URL parameters, URL arguments (on GET requests), body arguments (on POST requests), and other proprietary solutions for session tracking and management purposes.
 ## Session Identifier Security
-A unique session identifier (Session ID) or token is the basis upon which user sessions are generated and distinguished.
+A unique session identifier (Session ID) or token is the basis upon which user sessions are generated and distinguished. Session IDs can be obtained by attackers via different techniques, not all of which include actively attacking the victim. A session ID can also be:
+- Captured through passive traffic/packet sniffing
+- Identified in logs
+- Predicted
+- Brute Forced
 
 A session identifier's security level depends on its:
 - Validity Scope - a secure session identifier should be valid for one session only.
