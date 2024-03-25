@@ -47,7 +47,8 @@
               "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/SameSite Cookie Restrictions/Difference Between Site and Origin.md",
+                "file": "Certification Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/SameSite Cookie Restrictions/Difference Between Site and Origin.md",
+                "file": "Certification Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/SameSite Cookie Restrictions/Difference Between Site and Origin.md"
+                "file": "Certification Roadmap.md"
               }
             }
           }
@@ -182,8 +183,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3c182d049d7bba6d",
+  "active": "30561c69d3abdc0d",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/SameSite Cookie Restrictions/Difference Between Site and Origin.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/SameSite Cookie Restrictions/Introduction.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/SameSite Cookie Restrictions/Bypass Techniques/SameSite Strict Bypass via Client-side Redirect.md",
     "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/SameSite Cookie Restrictions/Bypass Techniques/SameSite Lax Bypass Using GET Requests.md",
@@ -210,7 +212,6 @@
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Session Fixation.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtaining Session IDs without User Interaction",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Session Hijacking.md",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Remote Code Executions",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/File Disclosures",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures",
