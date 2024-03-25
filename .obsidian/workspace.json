@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Session Hijacking.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Session Fixation.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Session Hijacking.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Session Fixation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Session Hijacking.md",
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Session Fixation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Session Hijacking.md"
+                "file": "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Session Fixation.md"
               }
             }
           }
@@ -184,8 +184,8 @@
   },
   "active": "3c182d049d7bba6d",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Session Hijacking.md",
+    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Introduction.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Session Fixation.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Remote Code Executions/LFI to RCE via Log Poisoning.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/File Disclosures/Using PHP Wrappers.md",
