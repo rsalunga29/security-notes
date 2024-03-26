@@ -1,3 +1,8 @@
+It is recommended that whenever a request is made to access each function, a check should be done to ensure the user is authorized to perform that action.
+
+The preferred way is to modify session management mechanisms and implement additional, secure-randomly generated, and non-predictable tokens (a.k.a Synchronizer Token Pattern).
+
+Additionally, security mechanisms such as Referer header checking, forcing "two-step" operation on critical functionalities, would help impede the ease of CSRF exploitation.
 ## SameSite Flag
 The SameSite flag allows developers declare whether a cookie is restricted to first-party or same-site context only. The main goal is to mitigate the risk of cross-origin information leakage. It also provides some protection against cross-site request forgery attacks.
 

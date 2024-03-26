@@ -1,0 +1,1 @@
+Refer to [HTTP Verb Tampering](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FServer-side%20Vulnerabilities%2FHTTP%20Verb%20Tampering%2FIntroduction). tldr; If the application is using `POST` method, try changing it to `GET` method.
