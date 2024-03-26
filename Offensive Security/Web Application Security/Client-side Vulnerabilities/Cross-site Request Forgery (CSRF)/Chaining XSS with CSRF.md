@@ -22,3 +22,6 @@ function handleResponse(d) {
 };
 </script>
 ```
+> Note: The snippet `/name="csrf" type="hidden" value="(\w+)"/)[1];` looks for a hidden input field called _csrf_ and \w+ matches one or more alphanumeric characters. We know there is an input field called _csrf_ by reading the page's source code using developer tools.
+
+To simulate a victim visiting our profile, we will open an incognito window and login as a different user, we will then visit our now public profile and the payload from our original profile will execute
