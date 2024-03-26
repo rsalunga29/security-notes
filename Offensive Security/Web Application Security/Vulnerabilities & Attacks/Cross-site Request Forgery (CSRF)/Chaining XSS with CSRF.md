@@ -7,7 +7,7 @@ Additional facts about the application:
 For this scenario, we will target the Change Visibility functionality, because a successful CSRF attack would cause the disclosure of a private profile.
 
 We will use the following payload and insert it in the Country field:
-```javascript
+```html
 <script>
 var req = new XMLHttpRequest();
 req.onload = handleResponse;
