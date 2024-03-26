@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/Chaining XSS with CSRF.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Obtain Session IDs via Traffic Sniffing.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/Chaining XSS with CSRF.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Obtain Session IDs via Traffic Sniffing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/Chaining XSS with CSRF.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Obtain Session IDs via Traffic Sniffing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/Chaining XSS with CSRF.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Obtain Session IDs via Traffic Sniffing.md"
               }
             }
           }
@@ -184,12 +184,12 @@
   },
   "active": "3c182d049d7bba6d",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Obtain Session IDs via Post-Exploitation.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/Chaining XSS with CSRF.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/Conditions for Successful CSRF Attacks.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/GET-based vs POST-based CSRF.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Open Redirect/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Obtain Session IDs via Traffic Sniffing.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Obtain Session IDs via Post-Exploitation.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/Chaining XSS with CSRF.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Open Redirect/Prevention.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Open Redirect",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Prevention.md",
