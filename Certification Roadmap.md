@@ -5,7 +5,6 @@
 		- Subscribe $68/month, couple of days before renewal downgrade to $38/month.
 	- Web Hacking 101 (book)
 	- The Web Application Hacker's Handbook 2nd Edition (book)
-	- https://studylib.net/doc/27122711/elearnsecurity-ewptx-notes-basic-by-joas
 - Certifications
 	- eLearnSecurity Web Application Penetration Tester eXtreme
 - AppSec Homelab Project Part 1
