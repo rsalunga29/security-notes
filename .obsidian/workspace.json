@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Prevention.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Open Redirect/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Prevention.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Open Redirect/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Prevention.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Open Redirect/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Prevention.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Open Redirect/Introduction.md"
               }
             }
           }
@@ -169,8 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,13 +183,15 @@
   },
   "active": "3c182d049d7bba6d",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Open Redirect",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Prevention.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Open Redirect/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Abusing HTTP Misconfigurations/Web Cache Poisoning/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Abusing HTTP Misconfigurations/Web Cache Poisoning/Fat GET Request.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/Bypassing SSRF Filters via Open Redirection.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/SSRF with Whitelist-based Input Filters.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/SSRF with Blacklist-based Input Filters.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Prevention.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/Prevention.md",
@@ -212,8 +213,6 @@
     "Offensive Security/Web Application Security/Protections & WAF Bypass/Untitled.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/Token Validation Bypass/CSRF Token Validation Depends on Request Method.md",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/Token Validation Bypass/CSRF Token is Tied to a Non-session Cookie.md",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/Token Validation Bypass/CSRF Token Depends on Token Parameter Being Present.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtaining Session IDs without User Interaction",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Inclusion Vulnerabilities/Remote Code Executions",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Inclusion Vulnerabilities/File Disclosures",
