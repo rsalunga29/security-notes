@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Prevention.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Prevention.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Prevention.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Prevention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Prevention.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Prevention.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Prevention.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Prevention.md"
               }
             }
           }
@@ -184,21 +184,29 @@
   },
   "active": "3c182d049d7bba6d",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Prevention.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Prevention.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Introduction.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Abusing HTTP Misconfigurations/Web Cache Poisoning/Introduction.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Abusing HTTP Misconfigurations/Web Cache Poisoning/Fat GET Request.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/Bypassing SSRF Filters via Open Redirection.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/SSRF with Whitelist-based Input Filters.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/SSRF with Blacklist-based Input Filters.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Prevention.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/Prevention.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/HTTP Referer Header Bypass/Broken Referer Header Validation.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/HTTP Referer Header Bypass/Referer Header Depends On Being Present.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/HTTP Referer Header.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/HTTP Referer Header.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/Token Validation Bypass/CSRF Token is Duplicated in a Cookie.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/SameSite Cookie Restrictions/Introduction.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/SameSite Cookie Restrictions/Introduction.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/SameSite Bypass/SameSite Strict Bypass via Client-side Redirect.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/SameSite Bypass/SameSite Bypass via Cookie Refresh.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/SameSite Bypass/SameSite Lax Bypass Using GET Requests.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/SameSite Cookie Restrictions/Difference Between Site and Origin.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/CSRF Token Validation.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/SameSite Cookie Restrictions/Difference Between Site and Origin.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/CSRF Token Validation.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/Request Method Tampering.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/Token Validation Bypass",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/HTTP Verb Tampering/Introduction.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/HTTP Verb Tampering/Introduction.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/Token Validation Bypass/CSRF Token Not Tied to User Session.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/Untitled.md",
@@ -206,20 +214,12 @@
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/Token Validation Bypass/CSRF Token Validation Depends on Request Method.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/Token Validation Bypass/CSRF Token is Tied to a Non-session Cookie.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/Token Validation Bypass/CSRF Token Depends on Token Parameter Being Present.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Chaining XSS with CSRF.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/GET-based vs POST-based CSRF.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Conditions for Successful CSRF Attacks.md",
-    "Offensive Security/Web Application Security/Client-side Vulnerabilities/Cross-site Request Forgery (CSRF)/Introduction.md",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/File Uploads Bypass/File Content Validation Bypass.md",
-    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtaining Session IDs without User Interaction",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/Remote Code Executions",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/File Inclusion Vulnerabilities/File Disclosures",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing HTTP Misconfigurations/Web Cache Poisoning",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Abusing HTTP Misconfigurations",
-    "Offensive Security/Methodology & Checklists/Untitled",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Inclusion Vulnerabilities/Remote Code Executions",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Inclusion Vulnerabilities/File Disclosures",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Abusing HTTP Misconfigurations/Web Cache Poisoning",
     "Offensive Security/Assets/cookie-tampering.png",
     "Offensive Security/Assets/ssti-diagram.png",
     "Offensive Security/Assets/username-injection.png",
