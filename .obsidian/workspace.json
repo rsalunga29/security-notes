@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Obtain Session IDs via XXS.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -76,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "interactsh",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,8 +93,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Obtain Session IDs via XXS.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Obtain Session IDs via XXS.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Obtain Session IDs via XXS.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/Introduction.md"
               }
             }
           }
@@ -183,10 +182,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7db1edcda1ea8fc7",
+  "active": "3c182d049d7bba6d",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Obtain Session IDs via Post-Exploitation.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/API Attacks/Introduction.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Obtain Session IDs via XXS.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/API Attacks",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Obtain Session IDs via Post-Exploitation.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Obtain Session IDs via Traffic Sniffing.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/Chaining XSS with CSRF.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/Conditions for Successful CSRF Attacks.md",
@@ -212,15 +215,11 @@
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/SameSite Bypass/SameSite Strict Bypass via Client-side Redirect.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/SameSite Bypass/SameSite Bypass via Cookie Refresh.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/SameSite Bypass/SameSite Lax Bypass Using GET Requests.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/SameSite Cookie Restrictions/Difference Between Site and Origin.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/CSRF Token Validation.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/Token Validation Bypass",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtaining Session IDs without User Interaction",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Inclusion Vulnerabilities/Remote Code Executions",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Inclusion Vulnerabilities/File Disclosures",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR",
     "Offensive Security/Assets/cookie-tampering.png",
     "Offensive Security/Assets/ssti-diagram.png",
     "Offensive Security/Assets/username-injection.png",
