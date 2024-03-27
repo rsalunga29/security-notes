@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/Web Services Description Language (WSDL).md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/Web Services Description Language (WSDL).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/Web Services Description Language (WSDL).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/Introduction.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/Web Services Description Language (WSDL).md"
               }
             }
           }
@@ -184,8 +184,9 @@
   },
   "active": "3c182d049d7bba6d",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/API Attacks/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/Introduction.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/Web Services Description Language (WSDL).md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/API Attacks/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Obtain Session IDs via XXS.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/API Attacks",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities",
@@ -214,7 +215,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/SameSite Cookie Restrictions/Introduction.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/SameSite Bypass/SameSite Strict Bypass via Client-side Redirect.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/SameSite Bypass/SameSite Bypass via Cookie Refresh.md",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/SameSite Bypass/SameSite Lax Bypass Using GET Requests.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/Token Validation Bypass",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtaining Session IDs without User Interaction",
