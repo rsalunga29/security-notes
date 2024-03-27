@@ -20,7 +20,7 @@ The root element of all WSDL files. Inside the definition, the name of the web s
 </wsdl:definitions>
 ```
 ## Data Types
-The data types to be used in the exchanged messages.
+The data types / parameters to be used in the exchanged messages.
 ```xml
 <wsdl:types>
     <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
@@ -102,4 +102,13 @@ Binds the operation into a particular port type. A client will call the relevant
   	  </wsdl:output>
     </wsdl:operation>
 </wsdl:binding>
+```
+## Service
+A client makes a call to the web service through the name of the service specified in the service tag. Through this element, the client identifies the location of the web service.
+```xml
+<wsdl:service name="HacktheboxService">
+	<wsdl:port name="HacktheboxServiceSoapPort" binding="tns:HacktheboxServiceSoapBinding">
+		<soap:address location="http://localhost:80/wsdl"/>
+	</wsdl:port>
+</wsdl:service>
 ```

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/WSDL File Breakdown.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/SOAPAction Spoofing.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/WSDL File Breakdown.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/SOAPAction Spoofing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/WSDL File Breakdown.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/SOAPAction Spoofing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/WSDL File Breakdown.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/SOAPAction Spoofing.md"
               }
             }
           }
@@ -184,10 +184,11 @@
   },
   "active": "3c182d049d7bba6d",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/WSDL File Breakdown.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/SOAPAction Spoofing.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/Web Services Description Language (WSDL).md",
     "Certification Roadmap.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/WSDL File Breakdown.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/Web Services Description Language (WSDL).md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/API Attacks/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Obtain Session IDs via XXS.md",
@@ -214,7 +215,6 @@
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/HTTP Referer Header Bypass/Broken Referer Header Validation.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/HTTP Referer Header Bypass/Referer Header Depends On Being Present.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/HTTP Referer Header.md",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/Token Validation Bypass/CSRF Token is Duplicated in a Cookie.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/Token Validation Bypass",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtaining Session IDs without User Interaction",
