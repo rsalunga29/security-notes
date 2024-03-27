@@ -6,6 +6,8 @@ The first method involves injecting a series of `ORDER BY` clauses and increment
 ' ORDER BY 2--
 etc...
 ```
+> Note: We can also do this without the `'` (i.e `target-website.com?id=3 ORDER BY 1-- -`)
+
 This series of payloads modifies the original query to order the results by different columns in the result set. The column in an `ORDER BY` clause can be specified by its index. When the specified index exceed the number of the actual columns in the results, the database returns an error:
 ```txt
 The ORDER BY position number 3 is out of range of the number of items in the select list.
