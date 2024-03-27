@@ -56,4 +56,6 @@ When we execute this script, it will throw an error as the `ExecuteCommand` acti
 In our new payload, we did the following:
 - We specify `LoginRequest` in `<soap:Body>` instead, since this operation is allowed externally, our request will go through.
 - Inside the `LoginRequest`, we will specify the parameters of `ExecuteCommandRequest` because our aim is to achieve code execution.
-- We specify the blocked operation (`ExecuteCommand`) in the SOAPAction header
+- We will leave the value of `SOAPAction` HTTP header to `ExecuteCommand`.
+
+If the web service does not implement additional checks and only uses the `SOAPAction` HTTP to determine which operation to execute, we can bypass any security filters/restrictions of the SOAP service.
