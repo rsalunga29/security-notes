@@ -7,6 +7,8 @@ You can do this by submitting a series of `UNION SELECT` payloads that place a s
 ' UNION SELECT NULL,NULL,'a',NULL--
 ' UNION SELECT NULL,NULL,NULL,'a'--
 ```
+> Note: We can also do this without the `'` (i.e `target-website.com?id=3 UNION SELECT NULL,NULL,'a'-- -`)
+
 If the column data type is not compatible with string data, the database will return an error:
 ```txt
 Conversion failed when converting the varchar value 'a' to data type int.

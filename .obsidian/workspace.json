@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/UNION Attacks/Determining the Number of Columns Required.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/API Attacks/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/UNION Attacks/Determining the Number of Columns Required.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/API Attacks/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/UNION Attacks/Determining the Number of Columns Required.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/API Attacks/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/UNION Attacks/Determining the Number of Columns Required.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/API Attacks/Introduction.md"
               }
             }
           }
@@ -185,9 +185,9 @@
   "active": "3c182d049d7bba6d",
   "lastOpenFiles": [
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/UNION Attacks/Finding Columns with a Useful Data Type.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/UNION Attacks/Determining the Number of Columns Required.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/UNION Attacks/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/UNION Attacks/Database-specific Syntax.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/UNION Attacks/Determining the Number of Columns Required.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Conditional Responses.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Time Delays.md",
