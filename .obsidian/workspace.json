@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/API Attacks/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/SOAPAction Spoofing.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/API Attacks/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/SOAPAction Spoofing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/API Attacks/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/SOAPAction Spoofing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/API Attacks/Introduction.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/SOAPAction Spoofing.md"
               }
             }
           }
@@ -184,6 +184,8 @@
   },
   "active": "3c182d049d7bba6d",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Retrieve Sensitive Files using XXE.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/API Attacks/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/UNION Attacks/Finding Columns with a Useful Data Type.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/UNION Attacks/Determining the Number of Columns Required.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/UNION Attacks/Introduction.md",
@@ -193,7 +195,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Time Delays.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Blind SQL Injection/Blind SQLi using OAST Techniques.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Common SQL Injection Attacks/Enumerating the Database.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/API Attacks/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Vulnerabilities/Attacking xmlrpc.php.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/SOAPAction Spoofing.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Vulnerabilities",
@@ -213,7 +214,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Open Redirect/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Open Redirect/Prevention.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Open Redirect",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Prevention.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/Token Validation Bypass",
