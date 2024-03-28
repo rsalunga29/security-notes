@@ -47,8 +47,7 @@
               "pinned": true
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Attacking xmlrpc.php.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Attacking xmlrpc.php.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certification Roadmap.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Attacking xmlrpc.php.md"
               }
             }
           }
@@ -183,15 +182,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30561c69d3abdc0d",
+  "active": "3c182d049d7bba6d",
   "lastOpenFiles": [
+    "Certification Roadmap.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Attacking xmlrpc.php.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/OS Command Injection/Blind Command Injection/Exploit Using Time Delays.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/OS Command Injection/Blind Command Injection/Exploit Using OAST Techniques.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/OS Command Injection/Blind Command Injection/Exploit by Redirecting Output.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Origin Resource Sharing (CORS)/Same-origin Policy/SOP Implementation.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Origin Resource Sharing (CORS)/Same-origin Policy/Introduction.md",
-    "Certification Roadmap.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Upload Vulnerabilities/Injections in File Name.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Reflected XSS/Find and Test for Vulnerability.md",
     "Offensive Security/Miscellaneous/CVSS Scoring.md",
