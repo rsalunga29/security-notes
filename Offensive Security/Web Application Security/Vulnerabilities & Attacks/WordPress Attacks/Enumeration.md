@@ -1,5 +1,6 @@
+An essential part of any enumeration phase is knowing the version number of the application we are targeting. We can do this manually by using browser developer tools or CLI utilities, alternatively, we can also use [WPScan](https://github.com/wpscanteam/wpscan) to automate this step.
 ## Core Version
-An essential part of any enumeration phase is knowing the version number of the application we are targeting. The first and easiest step is reviewing the page source code, which can be done by using the browser developer tools.
+The first and easiest step is reviewing the page source code, which can be done by using the browser developer tools.
 
 In WordPress, the versions are shown in following HTML tags:
 **Meta Tags**
@@ -27,3 +28,21 @@ In WordPress, the versions are shown in following HTML tags:
 ```
 ## Plugins and Themes Version
 We can also find information about the installed plugins by reviewing the source code manually or filtering for information using `curl` and other CLI utitlities.
+**Plugins**
+```bash
+curl -s -X GET http://target-website.com | sed 's/href=/\n/g' | sed 's/src=/\n/g' | grep 'wp-content/plugins/*' | cut -d"'" -f2
+```
+**Themes**
+```bash
+curl -s -X GET http://target-website.com | sed 's/href=/\n/g' | sed 's/src=/\n/g' | grep 'themes' | cut -d"'" -f2
+```
+
+The response headers may also contain version numbers for specific plugins.
+
+However, not all installed plugins and themes can be discovered passively. In this case, we have to send requests to the server actively to enumerate them. For example:
+```bash
+curl -I -X GET http://target-website.com/wp-content/plugins/mail-masta/
+```
+If the content does not exist, we will receive a `404 Not Found error`. The same applied to installed themes.
+
+>Note: Even if a plugin or theme is deactivated, it may still be accessible, and therefore we can gain access to its associated scripts and functions.
