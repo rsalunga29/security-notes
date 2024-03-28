@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Enumeration.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Attacking xmlrpc.php.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Enumeration.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Attacking xmlrpc.php.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Enumeration.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Attacking xmlrpc.php.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Enumeration.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Attacking xmlrpc.php.md"
               }
             }
           }
@@ -182,10 +182,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3c182d049d7bba6d",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Attacking xmlrpc.php.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Enumeration.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Attacking xmlrpc.php.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/WordPress User Roles.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Enumeration",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/WordPress File Structure.md",

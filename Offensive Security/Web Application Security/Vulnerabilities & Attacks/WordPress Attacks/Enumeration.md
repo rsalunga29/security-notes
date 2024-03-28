@@ -49,4 +49,15 @@ If the content does not exist, we will receive a `404 Not Found error`. The same
 ## Site Users
 Enumerating a list of valid users is a critical phase of a WordPress security assessment. Armed with this list, we may be able to guess default credentials or perform a brute force password attack.
 ### First Method
-The first method is reviewing posts to uncover the ID assigned to the user and their corresponding username. If we mouse over any post'
+The first method is reviewing posts to uncover the ID assigned to the user and their corresponding username. If we mouse over any post's author linked titled "by user", a link to the user's account will appear in the browser's left/right corner.
+
+Alternatively, we can use the following `curl` command to enumerate via user id. The admin user is usually assigned the user id `1`:
+```bash
+curl -s -I -X GET http://target-website.com/?author=1
+```
+If the user does not exist, we receive a `404 Not Found error`, otherwise it will redirect us to the user's profile page or the login page.
+### Second Method
+The second method requires interaction with the `JSON` endpoint, which allows us to obtain a list of users. This was changed in WordPress core after version 4.7.1, and later versions only show whether a user is configured or not. Before this release, all users who had published a post were shown by default.
+```bash
+curl http://target-website.com/wp-json/wp/v2/users | jq
+```
