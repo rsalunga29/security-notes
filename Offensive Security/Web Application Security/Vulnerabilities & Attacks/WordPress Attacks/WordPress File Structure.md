@@ -33,4 +33,5 @@ The root directory contains files that are needed to configure WordPress to func
 	- `/login.php`
 	- `/wp-login.php`
 - `wp-config.php` contains information required by WordPress to connect to the database. This file can also be used to activate `DEBUG` mode, which can be useful in troubleshooting.
-- `wp-content` folder is the main directory where plugins and themes are stored. There is also a subdirectory named `uploads/` wh
+- `wp-content` folder is the main directory where plugins and themes are stored. There is also a subdirectory named `uploads/` which is where any files uploaded to the platform are stored.
+- `wp-includes` contains everything except for the administrative components and the themes that belong to the website. This is the directory where core files are stored, such as certificates, fonts, JavaScript files, and widgets.

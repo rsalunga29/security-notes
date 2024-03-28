@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/WordPress File Structure.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Enumeration.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/WordPress File Structure.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/WordPress File Structure.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/WordPress File Structure.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Enumeration.md"
               }
             }
           }
@@ -185,6 +185,9 @@
   "active": "3c182d049d7bba6d",
   "lastOpenFiles": [
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Attacking xmlrpc.php.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Enumeration.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/WordPress User Roles.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Enumeration",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/WordPress File Structure.md",
     "Certification Roadmap.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/OS Command Injection/Blind Command Injection/Exploit Using Time Delays.md",
@@ -209,8 +212,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Blind SQL Injection/Blind SQLi using OAST Techniques.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Common SQL Injection Attacks/Enumerating the Database.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/WSDL File Breakdown.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities/Web Services Description Language (WSDL).md",
     "Offensive Security/API Security",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Open Redirect",
@@ -219,7 +220,6 @@
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/Token Validation Bypass",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass",
     "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtaining Session IDs without User Interaction",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Inclusion Vulnerabilities/Remote Code Executions",
     "Offensive Security/Assets/cookie-tampering.png",
     "Offensive Security/Assets/ssti-diagram.png",
     "Offensive Security/Assets/username-injection.png",
