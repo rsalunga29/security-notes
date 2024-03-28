@@ -61,3 +61,5 @@ The second method requires interaction with the `JSON` endpoint, which allows us
 ```bash
 curl http://target-website.com/wp-json/wp/v2/users | jq
 ```
+## Uploaded Files
+Make sure to check if `wp-content` is accessible and directory fuzzing can be performed.
