@@ -46,3 +46,7 @@ curl -I -X GET http://target-website.com/wp-content/plugins/mail-masta/
 If the content does not exist, we will receive a `404 Not Found error`. The same applied to installed themes.
 
 >Note: Even if a plugin or theme is deactivated, it may still be accessible, and therefore we can gain access to its associated scripts and functions.
+## Site Users
+Enumerating a list of valid users is a critical phase of a WordPress security assessment. Armed with this list, we may be able to guess default credentials or perform a brute force password attack.
+### First Method
+The first method is reviewing posts to uncover the ID assigned to the user and their corresponding username. If we mouse over any post'
