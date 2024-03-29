@@ -13,4 +13,7 @@ While this process can be done manually, is can also be automated which provides
 Alternatively, the [Logger++](https://portswigger.net/bappstore/470b7057b86f41c396a97903377f3d81) extension, available from the BApp store can also be used to extend the log filtering function of Burp Suite.
 ## Using Burp Scanner
 [Burp Suite Professional](https://portswigger.net/burp/pro) users have the benefit of Burp Scanner. This provides live scanning features for auditing items while you browse, or you can schedule automated scans to crawl and audit the target site on your behalf. Burp Scanner will alert you if it finds sensitive information such as private keys, email addresses, and credit card numbers in a response. It will also identify any backup files, directory listings, and so on.
-## Using Burp E
+## Using Burp's engagement tools
+Burp provides several engagement tools that you can use to find interesting information in the target website more easily. You can access this by right clicking on any HTTP message, Burp Proxy entry, or item in the site map and go to "Engagement tools".
+
+Additionally, we can also view the site map located in the "Target" tab.

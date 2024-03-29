@@ -1,0 +1,3 @@
+Web servers can be configured to automatically list the contents of directories that do not have an index page present. This aids the attacker by allowing them to quickly identify the resources at a given path, and proceed to directly analyze said resources.
+
+While it's not necessarily a vulnerability, it increases the possibility of exposing the existence and location of  sensitive files that are not intended to be accessible to users, such as temporary files and crash dumps.
