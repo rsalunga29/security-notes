@@ -95,7 +95,13 @@ If the source code of the application is open-source or has been made available 
 #### Forgot Password
 - Username/email enumeration via error message.
 #### Change Credentials
-- Lorem ipsum
+- Check for common vulnerabilities and bypasses:
+	- Stored XSS or SSTI via reflected values such as name, email, etc.
+	- SQL injection (manual and automated using sqlmap).
+	- Server-Side Includes Injection using various SSI directives.
+- Check for pre-requisites before changing critical details:
+	- Does it require a password or OTP before applying changes?
+	- Does it require to input old password before applying new password?
 #### Multi-factor Authentication
 - Lorem ipsum
 ### Session Management
