@@ -1,0 +1,3 @@
+Obtaining source code access makes it much easier for an attacker to understand the application's behavior and construct high-severity attacks. Sensitive data is sometimes even hard-coded within the source code. Typical examples of this include API keys and credentials for accessing back-end components.
+
+When a server handles files with a particular extension, such as `.php`, it will typically execute the code. However, we can trick a website into returning the contents of the file by appending a tilde (`~`) to the filename or adding a different file extension.
