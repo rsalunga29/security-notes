@@ -23,7 +23,12 @@ http://vulnerable-website.com/?greeting=data.username
 ```
 This would be rendered in the output to `Hello Carlos`, for example.
 
-Most attackers would miss this context during their assessments simply because it doesn't result in obvious XSS and is almost identical from a simple hashmap lookup. One method of testing for server-side template injection in this context is to first establish that the parameter doesn't contain a direct XSS vulnerability by injecting arbitrary HTML into the value:
+Most attackers miss this context during their assessments simply because it doesn't result in obvious XSS and is almost identical from a simple hashmap lookup. One method of testing for SSTI in this context is to make sure the parameter doesn't contain a direct XSS vulnerability:
 ```txt
-http://target-website.com/?username=data.username<tag>
+http://target-website.com/?username=data.username<xss>
 ```
+If the result is either blank output, encoded tags, or an error message, that means there is no XSS. The next step is to try to break out of the statement using common templating syntax and test for XSS again:
+```txt
+http://target-website.com/?username=data.username}}<xss>
+```
+If this again results in a blank output or an error message, it either means the syntax that was used is from the wrong templating engine or SSTI is not possible. Otherwise, if the output is rendered correctly along with the arbitrary HTML payload, it is a key indication that SSTI exists.
