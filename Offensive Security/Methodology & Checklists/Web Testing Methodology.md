@@ -28,6 +28,7 @@
 	- [reconFTW](https://github.com/six2dez/reconftw) or [recon-ng](https://github.com/lanmaster53/recon-ng) or [uncover](https://github.com/projectdiscovery/uncover)
 - Enumerate for subdomains using [subfinder](https://github.com/projectdiscovery/subfinder) or [crt.sh](https://crt.sh/).
 - Look for exposed Git folder, `.env` files, backup files, debug pages, and admin/staff-only pages during directory fuzzing.
+- Looked for leaked credentials using [developer tools and regex](https://github.com/h4x0r-dz/Leaked-Credentials/).
 - Check for default pages which might contain interesting information:
 	- `robots.txt`
 	- `sitemap.xml`
