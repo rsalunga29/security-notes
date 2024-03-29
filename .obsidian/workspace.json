@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources/Error Messages.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/3b. Exploiting Using Java-based Custom Payload.md",
                 "mode": "source",
                 "source": false
               }
@@ -185,8 +185,9 @@
   },
   "active": "8870e9b60e703fc9",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources/Error Messages.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/3b. Exploiting Using Java-based Custom Payload.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources/Error Messages.md",
+    "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/3a. Exploit Using Python-based Custom Payload.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/3. Exploit.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/1. Detection.md",
@@ -196,7 +197,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload",
     "Offensive Security/Miscellaneous/TBD Title.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources/Version Control History.md",
-    "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources/Insecure Configuration.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources/Source Code Disclosure via Backup Files.md",
     "Certification Roadmap.md",
