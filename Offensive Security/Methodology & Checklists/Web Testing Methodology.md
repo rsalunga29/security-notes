@@ -9,6 +9,7 @@
 	- Look for endpoints in JavaScript files.
 	- Core Functionality (Interaction between browser and server).
 	- Assess the target from both authenticated and unauthenticated perspectives.
+	- Looked for leaked credentials using [developer tools and regex](https://github.com/h4x0r-dz/Leaked-Credentials/).
 - Look for the following misconfigurations:
 	- Missing SPF record.
 	- Missing DMARC record.
@@ -28,7 +29,6 @@
 	- [reconFTW](https://github.com/six2dez/reconftw) or [recon-ng](https://github.com/lanmaster53/recon-ng) or [uncover](https://github.com/projectdiscovery/uncover)
 - Enumerate for subdomains using [subfinder](https://github.com/projectdiscovery/subfinder) or [crt.sh](https://crt.sh/).
 - Look for exposed Git folder, `.env` files, backup files, debug pages, and admin/staff-only pages during directory fuzzing.
-- Looked for leaked credentials using [developer tools and regex](https://github.com/h4x0r-dz/Leaked-Credentials/).
 - Check for default pages which might contain interesting information:
 	- `robots.txt`
 	- `sitemap.xml`
@@ -101,9 +101,10 @@ If the source code of the application is open-source or has been made available 
 - Test for Password Reset Poisoning with HTTP Header Injection.
 	- Add another `Host` or `X-Forwarded-Host` header.
 - Username/email enumeration via error message.
+- Test for reset token leak via URL or HTTP `Referer` header.
 - Uniqueness of forget password reset links/codes.
 	- Check which encryption/hashing algo is used for the tokens.
-	- Look for any signs of sequential tokens.
+	- Look for any signs of sequential tokens in multiple requests.
 - Validity and expiration time of reset links/codes.
 	- Request 2 reset links and use the older one.
 - If parameter includes email of account to reset password, check for carbon copy by using CRLF injection (i.e `email=victim@email.com%0a%0dcc:hacker@mail.com`).
