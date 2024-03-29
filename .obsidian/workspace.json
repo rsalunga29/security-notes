@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/3. Exploit.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/1. Detection.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/3. Exploit.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/1. Detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/3. Exploit.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/1. Detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/3. Exploit.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/1. Detection.md"
               }
             }
           }
@@ -184,10 +184,10 @@
   },
   "active": "3c182d049d7bba6d",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/3. Exploit.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/1. Detection.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/2. Identify.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/3a. Exploit Using Custom Payload.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/3. Exploit.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Prevention.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload",
