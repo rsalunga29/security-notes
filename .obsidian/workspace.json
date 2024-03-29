@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Miscellaneous/TBD Title.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Miscellaneous/TBD Title.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Miscellaneous/TBD Title.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Miscellaneous/TBD Title.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Introduction.md"
               }
             }
           }
@@ -184,6 +184,8 @@
   },
   "active": "ccc68e20622978c5",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Custom Payload.md",
+    "Offensive Security/Miscellaneous/TBD Title.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources/Version Control History.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources/Insecure Configuration.md",
@@ -210,8 +212,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/OS Command Injection/Blind Command Injection/Exploit Using Time Delays.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/OS Command Injection/Blind Command Injection/Exploit Using OAST Techniques.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/OS Command Injection/Blind Command Injection/Exploit by Redirecting Output.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Origin Resource Sharing (CORS)/Same-origin Policy/SOP Implementation.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Origin Resource Sharing (CORS)/Same-origin Policy/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks",
     "Offensive Security/API Security",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities",
