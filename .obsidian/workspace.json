@@ -182,11 +182,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3c182d049d7bba6d",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Untitled",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Prevention.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Introduction.md",
     "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Resetting Passwords Using a URL.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Introduction.md",
     "Certification Roadmap.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Enumeration.md",
@@ -209,8 +211,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Retrieve Sensitive Files using XXE.md",
     "Offensive Security/API Security/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/UNION Attacks/Introduction.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/UNION Attacks/Database-specific Syntax.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks",
     "Offensive Security/API Security",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities",
