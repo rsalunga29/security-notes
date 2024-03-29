@@ -87,6 +87,7 @@ If the source code of the application is open-source or has been made available 
 	- SQL injection (manual and automated using sqlmap).
 	- HTTP Verb Tampering.
 	- HTTP Parameter Pollution.
+- Check for response header and body, tamper parameters to test for bypasses.
 - Username/email enumeration via error message.
 - Lack of defenses against brute force attacks.
 - Test for default or common credentials.
@@ -94,13 +95,20 @@ If the source code of the application is open-source or has been made available 
 - Check cookie if it's still usable after logout.
 - Cache issue, Logout then click back button.
 #### Forgot Password
+- Check for common vulnerabilities and bypasses:
+	- Stored XSS or SSTI via reflected values such as name, email, etc.
+	- Check for IDOR if parameters includes identifiers such as IDs and username.
 - Username/email enumeration via error message.
+- Uniqueness of forget password reset links/codes.
+- Validity and expiration time of reset links/codes.
+	- Request 2 reset links and use the older one.
+- If parameter includes email 
 #### Change Credentials
 - Check for common vulnerabilities and bypasses:
 	- Stored XSS or SSTI via reflected values such as name, email, etc.
 	- SQL injection (manual and automated using sqlmap).
 	- Server-Side Includes Injection using various SSI directives.
-	- Check for IDOR if parameters includes identifying details such as IDs and username.
+	- Check for IDOR if parameters includes identifiers such as IDs and username.
 - Check for pre-requisites before changing critical details:
 	- Does it require a password or OTP before applying changes?
 	- Does it require to input old password before applying new password?
@@ -123,7 +131,7 @@ Lorem Ipsum
 - Does the application log authenticated/unauthenticated requests?
 - Does the application log authorized/unauthorized requests?
 - Check for verbosity of the logs.
-### Application Lorem
+### Application Logic
 - Lorem
 ## Resources
 - https://book.hacktricks.xyz/network-services-pentesting/pentesting-web
