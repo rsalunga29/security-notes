@@ -87,7 +87,7 @@ If the source code of the application is open-source or has been made available 
 	- SQL injection (manual and automated using sqlmap).
 	- HTTP Verb Tampering.
 	- HTTP Parameter Pollution.
-- Check for response header and body, tamper parameters to test for bypasses.
+- Check for response header and body, tamper with parameters to test for bypasses.
 - Username/email enumeration via error message.
 - Lack of defenses against brute force attacks.
 - Test for default or common credentials.
@@ -98,11 +98,15 @@ If the source code of the application is open-source or has been made available 
 - Check for common vulnerabilities and bypasses:
 	- Stored XSS or SSTI via reflected values such as name, email, etc.
 	- Check for IDOR if parameters includes identifiers such as IDs and username.
+- Test for Password Reset Poisoning with HTTP Header Injection.
+	- Add another `Host` or `X-Forwarded-Host` header.
 - Username/email enumeration via error message.
 - Uniqueness of forget password reset links/codes.
+	- Check which encryption/hashing algo is used for the tokens.
+	- Look for any signs of sequential tokens.
 - Validity and expiration time of reset links/codes.
 	- Request 2 reset links and use the older one.
-- If parameter includes email 
+- If parameter includes email of account to reset password, check for carbon copy by using CRLF injection (i.e `email=victim@email.com%0a%0dcc:hacker@mail.com`).
 #### Change Credentials
 - Check for common vulnerabilities and bypasses:
 	- Stored XSS or SSTI via reflected values such as name, email, etc.
@@ -138,3 +142,4 @@ Lorem Ipsum
 - https://book.hacktricks.xyz/pentesting-web/web-vulnerabilities-methodology
 - https://pentestbook.six2dez.com/others/web-checklist
 - https://github.com/Secuna/checklists/blob/main/web.md
+- https://owasp.org/www-project-web-security-testing-guide/stable/
