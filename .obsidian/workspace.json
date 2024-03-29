@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Testing for Information Disclosure.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Testing for Information Disclosure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Testing for Information Disclosure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Introduction.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Testing for Information Disclosure.md"
               }
             }
           }
@@ -182,11 +182,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccc68e20622978c5",
+  "active": "3c182d049d7bba6d",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Introduction.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Testing for Information Disclosure.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Prevention.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Introduction.md",
     "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Resetting Passwords Using a URL.md",
     "Certification Roadmap.md",
@@ -219,7 +220,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass/Token Validation Bypass",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSRF Bypass",
-    "Offensive Security/Web Application Security/Server-side Vulnerabilities/Session Security/Obtaining Session IDs without User Interaction",
     "Offensive Security/Assets/cookie-tampering.png",
     "Offensive Security/Assets/ssti-diagram.png",
     "Offensive Security/Assets/username-injection.png",
