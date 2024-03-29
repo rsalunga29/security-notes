@@ -1,3 +1,3 @@
 Websites are sometimes vulnerable due to improper configuration. This is especially common due to the widespread use of third-party technologies, whose configuration options are not necessarily well-understood by those implementing them.
 
-There will also be cases in which developers forget to disable various debugging options in the production environment. For example, the HTTP method `TRACE` is designed for diagnostic purposes
+There will also be cases in which developers forget to disable various debugging options in the production environment. For example, the HTTP method `TRACE` is designed for diagnostic purposes, in which it will
