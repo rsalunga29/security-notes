@@ -1,0 +1,3 @@
+The best way to prevent server-side template injection is to not allow any users to modify or submit new templates. If this is not possible due to business requirements, it is recommended to execute users' code in a sandboxed environment, such as in a locked-down Docker container, where potentially dangerous modules and functions have been removed altogether.
+
+Alternatively, implement "logic-less" templating engine, such as, Mustache when possible.
