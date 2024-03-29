@@ -99,6 +99,7 @@ If the source code of the application is open-source or has been made available 
 	- Stored XSS or SSTI via reflected values such as name, email, etc.
 	- SQL injection (manual and automated using sqlmap).
 	- Server-Side Includes Injection using various SSI directives.
+	- Check for IDOR if parameters includes identifying details such as IDs and username.
 - Check for pre-requisites before changing critical details:
 	- Does it require a password or OTP before applying changes?
 	- Does it require to input old password before applying new password?
@@ -111,16 +112,18 @@ If the source code of the application is open-source or has been made available 
 - Session Hijacking.
 ### Authorization
 Lorem Ipsum
-### Input Validation
+### Input / Parameter Validation
 Lorem Ipsum
 ### File Uploads
 - Fuzz the file upload functionality for whitelisted and blacklisted extensions.
 ### Error Handling
-Lorem Ipsum
+- Force an error to see if the error message leaks unnecessary and sensitive information.
 ### Logging and Monitoring
 - Does the application log authenticated/unauthenticated requests?
 - Does the application log authorized/unauthorized requests?
 - Check for verbosity of the logs.
+### Application Lorem
+- Lorem
 ## Resources
 - https://book.hacktricks.xyz/network-services-pentesting/pentesting-web
 - https://book.hacktricks.xyz/pentesting-web/web-vulnerabilities-methodology
