@@ -1,0 +1,5 @@
+One of the most common causes of information disclosure is verbose error messages. The content of these error messages can reveal information about what input or data type is expected for a given parameter, the absolute path of the source code, or even information about the technologies used. This can help an attacker narrow down their attack surface by identifying vulnerable entry points or searching for any documented exploits.
+
+There will be times that an attacker can also discover that an application is using an open-source framework, in which case, allows them to study the publicly available source code, which allows them to construct exploits.
+
+Differences between error messages can also reveal different application behavior that is occurring behind the scenes. Observing differences in error messages is a crucial aspect of many techniques, such as SQL injection, username enumeration, and so on. 
