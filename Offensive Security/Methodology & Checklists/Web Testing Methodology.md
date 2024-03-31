@@ -103,7 +103,7 @@ If the source code of the application is open-source or has been made available 
 - Username/email enumeration via error message.
 - Test for reset token leak via URL or HTTP `Referer` header.
 - Uniqueness of forget password reset links/codes.
-	- Check which encryption/hashing algo is used for the tokens.
+	- Check which encryption/hashing algorithm is used for the tokens.
 	- Look for any signs of sequential tokens in multiple requests.
 - Validity and expiration time of reset links/codes.
 	- Request 2 reset links and use the older one.
@@ -117,6 +117,7 @@ If the source code of the application is open-source or has been made available 
 - Check for pre-requisites before changing critical details:
 	- Does it require a password or OTP before applying changes?
 	- Does it require to input old password before applying new password?
+- What happens if parameter values are left as empty or null?
 #### Multi-factor Authentication
 - Lorem ipsum
 ### Session Management
