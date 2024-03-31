@@ -144,6 +144,7 @@ If the source code of the application is open-source or has been made available 
 	- Cross Site Request Forgery.
 	- SQL injection (manual and automated using sqlmap) via `Cookie` parameter.
 	- LFI via `Cookie` parameter.
+	- IDOR or HTTP Parameter Pollution for any parameters denoting session or authorization (roles).
 	- Session Fixation Attack.
 	- Session Hijacking.
 - Check `HTTPOnly` and `Secure` flags.
