@@ -1,4 +1,4 @@
-Also known as CSP, is a web security mechanism that aims to mitigate XSS and some other attacks. The CSP works by restricting the resources that a page can load and whether a page can be framed by other pages. For example, the CSP can be used to restrict loading external scripts or allowing inline scripts to be executed.
+Content Security Policy, also known a  CSP, is a web security mechanism that aims to mitigate XSS and some other attacks. The CSP works by restricting the resources that a page can load and whether a page can be framed by other pages. For example, the CSP can be used to restrict loading external scripts or allowing inline scripts to be executed.
 
 To enable CSP, a response needs to include the header `Content-Security-Policy` containing the policy value which itself consists of one or more directives, separated by semicolons. For example:
 ```http
