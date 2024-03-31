@@ -154,13 +154,15 @@ If the source code of the application is open-source or has been made available 
 - Cookie or "remember me" tokens resilience to brute force.
 ### Input / Parameter Validation
 - XSS or SSTI via reflected values.
+- IDOR.
+- HTTP Parameter Pollution.
 - SQL injection (manual and automated using sqlmap).
 - Server-Side Includes Injection using various SSI directives.
-- HTTP Parameter Pollution.
 - If input / parameter is using XML, test for XXE Injection.
 - If input / parameter is calling another URL, test for SSRF.
 - If input / parameter accepts what looks like an OS command or value for an OS command, test for Command Injection.
 - If input / parameter accepts a filename or directory, test for LFI.
+- If input / parameter includes `/login?next=` of any sort, test for Open Redirection.
 ### File Uploads
 - Fuzz the file upload functionality for file size limit and whitelisted/ blacklisted extensions and file types.
 - Attempt to bypass filters and whitelists/blacklists to upload unwanted files.
