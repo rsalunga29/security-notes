@@ -114,16 +114,6 @@ If the source code of the application is open-source or has been made available 
 - Validity and expiration time of reset links/codes.
 	- Request 2 reset links and use the older one.
 - If parameter includes email of account to reset password, check for carbon copy by using CRLF injection (i.e `email=victim@email.com%0a%0dcc:hacker@mail.com`).
-#### Change Credentials
-- Check for common vulnerabilities and bypasses, including but not limited to:
-	- Stored XSS or SSTI via reflected values such as name, email, etc.
-	- SQL injection (manual and automated using sqlmap).
-	- Server-Side Includes Injection using various SSI directives.
-	- Test for IDOR or HTTP Parameter Pollution if parameters includes identifiers such as IDs and username.
-- Check for pre-requisites before changing critical details:
-	- Does it require a password or MFA before applying changes?
-	- Does it require to input old password before applying new password?
-- What happens if parameter values are left as empty or null?
 #### Multi-factor Authentication
 - Check for common vulnerabilities and bypasses, including but not limited to:
 	- Guessable codes and race conditions.
@@ -139,6 +129,15 @@ If the source code of the application is open-source or has been made available 
 	- Injecting self-signed JWT via `jwk`, `jku`, or `kid` parameters.
 - Timestamp tampering.
 - [JWT Tool](https://github.com/ticarpi/jwt_tool).
+### Changing Critical Information
+- Check for common vulnerabilities and bypasses, including but not limited to:
+	- Stored XSS or SSTI via reflected values such as name, email, etc.
+	- SQL injection (manual and automated using sqlmap).
+	- Server-Side Includes Injection using various SSI directives.
+	- Test for IDOR or HTTP Parameter Pollution if parameters includes identifiers such as IDs and username.
+- Check for pre-requisites before changing critical details:
+	- Does it require a password or MFA before applying changes?
+	- Does it require to input old password before applying new password?
 ### Session Management / Authorization
 - Check for common vulnerabilities and bypasses, including but not limited to:
 	- Cross Site Request Forgery.
@@ -148,13 +147,15 @@ If the source code of the application is open-source or has been made available 
 	- Session Fixation Attack.
 	- Session Hijacking.
 - Test tokens for meaning and predictability.
+- Test for authorization (roles) bypass (i.e With privileged user perform privileged actions, try to repeat with unprivileged user cookie).
 - Check `HTTPOnly` and `Secure` flags.
 - Cookie Token Tampering.
 - Cookie or "remember me" tokens resilience to brute force.
 ### Input / Parameter Validation
 Lorem Ipsum
 ### File Uploads
-- Fuzz the file upload functionality for whitelisted and blacklisted extensions.
+- Fuzz the file upload functionality for file size limit and whitelisted/ blacklisted extensions and file types.
+- 
 ### Error Handling
 - Force an error to see if the error message leaks unnecessary and sensitive information.
 ### Logging and Monitoring
@@ -163,7 +164,11 @@ Lorem Ipsum
 - Does the application log sensitive data, such as passwords, tokens, PIIs, etc.?
 - Check for verbosity of the logs.
 ### Application Logic
-- Lorem
+- Check for common vulnerabilities and bypasses, including but not limited to:
+	- SQL injection (manual and automated using sqlmap).
+	- IDOR if interesting parameters exists (i.e `roleId`).
+	- HTTP Verb Tampering.
+	- HTTP Parameter Pollution.
 ## Resources
 - https://book.hacktricks.xyz/network-services-pentesting/pentesting-web
 - https://book.hacktricks.xyz/pentesting-web/web-vulnerabilities-methodology
