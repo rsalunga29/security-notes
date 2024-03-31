@@ -178,7 +178,9 @@ If the source code of the application is open-source or has been made available 
 ### Application Logic
 - Lorem
 ### Web Proxies
-- Lorem
+- Cache Poisoning
+- Cache Deception
+- HTTP Request Smuggling
 ## Resources
 - https://book.hacktricks.xyz/network-services-pentesting/pentesting-web
 - https://book.hacktricks.xyz/pentesting-web/web-vulnerabilities-methodology
