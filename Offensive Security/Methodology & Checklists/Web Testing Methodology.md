@@ -97,9 +97,6 @@ If the source code of the application is open-source or has been made available 
 	- Does the account get locked after number of failed attempts?
 	- Does the application provide hints during failed attempts?
 - If using OAuth or URL includes `/login?next=` of any sort, test for Open Redirection.
-#### Logout
-- Check cookie if it's still usable after logout.
-- Cache issue, Logout then click back button.
 #### Forgot Password
 - Check for common vulnerabilities and bypasses, including but not limited to:
 	- Stored XSS or SSTI via reflected values such as name, email, etc.
@@ -142,16 +139,19 @@ If the source code of the application is open-source or has been made available 
 - Check for common vulnerabilities and bypasses, including but not limited to:
 	- Cross Site Request Forgery.
 	- SQL injection (manual and automated using sqlmap) via `Cookie` parameter.
-	- LFI via `Cookie` parameter.
+	- LFI/RFI via `Cookie` parameter.
 	- IDOR or HTTP Parameter Pollution for any parameters denoting session or authorization (roles).
 	- Session Fixation Attack.
 	- Session Hijacking.
 - Test tokens for meaning and predictability.
-- Test for authorization (roles) bypass (i.e With privileged user perform privileged actions, try to repeat with unprivileged user cookie).
+- Test for improper implementation (i.e With privileged user perform privileged actions, try to repeat with unprivileged user cookie).
 - If Cookie is Base64-encoded and decoded value looks like serialized object, test for Insecure Deserialization.
 - Check `HTTPOnly` and `Secure` flags.
 - Cookie Token Tampering.
 - Cookie or "remember me" tokens resilience to brute force.
+- Check cookie if it's still usable after logout.
+- Cache issue, Logout then click back button.
+- Insecure access control methods (request parameters, `Referer` header, etc.).
 ### Input / Parameter Validation
 - XSS or SSTI via reflected values.
 - IDOR.
@@ -161,7 +161,7 @@ If the source code of the application is open-source or has been made available 
 - If input / parameter is using XML, test for XXE Injection.
 - If input / parameter is calling another URL, test for SSRF.
 - If input / parameter accepts what looks like an OS command or value for an OS command, test for Command Injection.
-- If input / parameter accepts a filename or directory, test for LFI.
+- If input / parameter accepts a filename or directory, test for LFI/RFI.
 - If input / parameter includes `/login?next=` of any sort, test for Open Redirection.
 ### File Uploads
 - Fuzz the file upload functionality for file size limit and whitelisted/ blacklisted extensions and file types.
@@ -176,7 +176,7 @@ If the source code of the application is open-source or has been made available 
 - Does the application log sensitive data, such as passwords, tokens, PIIs, etc.?
 - Check for verbosity of the logs.
 ### Application Logic
-- Lorem
+- Account deletion/disable option and try to reactivate with Forgot Password feature.
 ### Web Proxies
 - Cache Poisoning
 - Cache Deception
