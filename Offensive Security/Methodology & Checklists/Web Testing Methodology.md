@@ -173,11 +173,9 @@ If the source code of the application is open-source or has been made available 
 - Does the application log sensitive data, such as passwords, tokens, PIIs, etc.?
 - Check for verbosity of the logs.
 ### Application Logic
-- Check for common vulnerabilities and bypasses, including but not limited to:
-	- SQL injection (manual and automated using sqlmap).
-	- IDOR if interesting parameters exists (i.e `roleId`).
-	- HTTP Verb Tampering.
-	- HTTP Parameter Pollution.
+- Lorem
+### Web Proxies
+- Lorem
 ## Resources
 - https://book.hacktricks.xyz/network-services-pentesting/pentesting-web
 - https://book.hacktricks.xyz/pentesting-web/web-vulnerabilities-methodology
