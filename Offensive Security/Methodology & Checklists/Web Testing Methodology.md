@@ -14,7 +14,7 @@
 	- Missing SPF record.
 	- Missing DMARC record.
 	- Missing DKIM record.
-	- Missing security headers (Utilize [securityheaders.com](https://securityheaders.com/)).
+	- Missing security headers ([securityheaders.com](https://securityheaders.com/)).
 	- Look for cookies lacking security flags (https://www.invicti.com/learn/cookie-security-flags/).
 - Look for any public repositories owned by the target.
 ## Active Recon
@@ -26,29 +26,29 @@
 	- Vulnerability scanning using [Nuclei](https://github.com/projectdiscovery/nuclei), [OpenVAS](https://github.com/greenbone/openvas-scanner), [Nikto](https://github.com/sullo/nikto), or Burp Active Scanner.
 	- SSL/TLS scanning using [testssl.sh](https://github.com/drwetter/testssl.sh).
 	- Spidering using [hakrawler](https://github.com/hakluke/hakrawler), [ParamSpider](https://github.com/devanshbatham/ParamSpider), or ZAP.
-	- [reconFTW](https://github.com/six2dez/reconftw) or [recon-ng](https://github.com/lanmaster53/recon-ng) or [uncover](https://github.com/projectdiscovery/uncover)
+	- [reconFTW](https://github.com/six2dez/reconftw) or [recon-ng](https://github.com/lanmaster53/recon-ng) or [uncover](https://github.com/projectdiscovery/uncover).
 - Enumerate for subdomains using [subfinder](https://github.com/projectdiscovery/subfinder) or [crt.sh](https://crt.sh/).
 - Look for exposed Git folder, `.env` files, backup files, debug pages, and admin/staff-only pages during directory fuzzing.
 - Check for default pages which might contain interesting information:
-	- `robots.txt`
+	- `robots.txt`.
 	- `sitemap.xml`
 	- `crossdomain.xml`
 	- `clientaccesspolicy.xml`
 	- `/.well-known/`
 - Enumerate and identify technologies used by the web application and server.
-	- [WhatWeb](https://github.com/urbanadventurer/WhatWeb) or [Wappalyzer](https://www.wappalyzer.com/)
+	- [WhatWeb](https://github.com/urbanadventurer/WhatWeb) or [Wappalyzer](https://www.wappalyzer.com/).
 	- Look for known vulnerabilities in the version of the technology.
 	- Utilize well-known tricks about the technology to extract more information.
 - If target has CMS, identify CMS type and use the following:
-	- WordPress: [wpscan](https://github.com/wpscanteam/wpscan)
-	- Drupal/Silverstripe: [droopescan](https://github.com/SamJoan/droopescan)
+	- WordPress: [wpscan](https://github.com/wpscanteam/wpscan).
+	- Drupal/Silverstripe: [droopescan](https://github.com/SamJoan/droopescan).
 ## Source Code Review
 If the source code of the application is open-source or has been made available to us.
 - Study the contents of the CHANGELOG and README files.
 - Look for information leakage and hardcoded credentials in the source code or commit history.
 - Look for and understand currently open or recently closed issues submitted in the repository.
 - Identify the encryption or hashing algorithm used.
-- Identify the sources and sinks for each functionality/feature.
+- Identify and fuzz for sources and sinks for each functionality/feature.
 ## Common Features Checklist
 ### Authentication
 #### Registration
@@ -96,7 +96,7 @@ If the source code of the application is open-source or has been made available 
 - Test for resilience to password guessing:
 	- Does the account get locked after number of failed attempts?
 	- Does the application provide hints during failed attempts?
-- If using OAuth, test for Open Redirection.
+- If using OAuth or URL includes `/login?next=` of any sort, test for Open Redirection.
 #### Logout
 - Check cookie if it's still usable after logout.
 - Cache issue, Logout then click back button.
@@ -135,17 +135,20 @@ If the source code of the application is open-source or has been made available 
 	- Secret keys resilience to dictionary-type brute force.
 	- Change `alg` value to `none`.
 - Parameter injections
-	- Remote Code Execution.
-	- SQL Injection.
-	- Local File Inclusion + Directory Traversal.
+	- RCE, SQLi, or LFI via key id (`kid`) parameter.
+	- Injecting self-signed JWT via `jwk`, `jku`, or `kid` parameters.
 - Timestamp tampering.
-### Session Management
+- [JWT Tool](https://github.com/ticarpi/jwt_tool).
+### Session Management / Authorization
+- Check for common vulnerabilities and bypasses, including but not limited to:
+	- Cross Site Request Forgery.
+	- SQL injection (manual and automated using sqlmap) via `Cookie` parameter.
+	- LFI via `Cookie` parameter.
+	- Session Fixation Attack.
+	- Session Hijacking.
+- Check `HTTPOnly` and `Secure` flags.
 - Cookie Token Tampering.
 - Brute Force `rememberme` tokens.
-- Session Fixation Attack.
-- Session Hijacking.
-### Authorization
-Lorem Ipsum
 ### Input / Parameter Validation
 Lorem Ipsum
 ### File Uploads
