@@ -147,9 +147,10 @@ If the source code of the application is open-source or has been made available 
 	- IDOR or HTTP Parameter Pollution for any parameters denoting session or authorization (roles).
 	- Session Fixation Attack.
 	- Session Hijacking.
+- Test tokens for meaning and predictability.
 - Check `HTTPOnly` and `Secure` flags.
 - Cookie Token Tampering.
-- Brute Force `rememberme` tokens.
+- Cookie or "remember me" tokens resilience to brute force.
 ### Input / Parameter Validation
 Lorem Ipsum
 ### File Uploads
@@ -159,6 +160,7 @@ Lorem Ipsum
 ### Logging and Monitoring
 - Does the application log authenticated/unauthenticated requests?
 - Does the application log authorized/unauthorized requests?
+- Does the application log sensitive data, such as passwords, tokens, PIIs, etc.?
 - Check for verbosity of the logs.
 ### Application Logic
 - Lorem

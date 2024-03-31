@@ -46,9 +46,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "5b0653b62935fab4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Session Fixation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Session Fixation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Session Fixation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Session Fixation.md"
               }
             }
           }
@@ -183,10 +195,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8870e9b60e703fc9",
+  "active": "5b0653b62935fab4",
   "lastOpenFiles": [
-    "Certification Roadmap.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
+    "Certification Roadmap.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Upload Vulnerabilities/Uploading Malicious Client-side Scripts.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Upload Vulnerabilities/Uploading Files using PUT.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Upload Vulnerabilities/Prevention.md",
