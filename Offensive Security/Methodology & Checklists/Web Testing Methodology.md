@@ -148,14 +148,22 @@ If the source code of the application is open-source or has been made available 
 	- Session Hijacking.
 - Test tokens for meaning and predictability.
 - Test for authorization (roles) bypass (i.e With privileged user perform privileged actions, try to repeat with unprivileged user cookie).
+- If Cookie is Base64-encoded and decoded value looks like deserialized bytes, test for Insecure Deserialization.
 - Check `HTTPOnly` and `Secure` flags.
 - Cookie Token Tampering.
 - Cookie or "remember me" tokens resilience to brute force.
 ### Input / Parameter Validation
-Lorem Ipsum
+- Stored XSS or SSTI via reflected values.
+- SQL injection (manual and automated using sqlmap).
+- Server-Side Includes Injection using various SSI directives.
+- HTTP Parameter Pollution.
+- If input / parameter is using XML, test for XXE Injection.
+- If input / parameter is calling another URL, test for SSRF.
+- 
 ### File Uploads
 - Fuzz the file upload functionality for file size limit and whitelisted/ blacklisted extensions and file types.
 - Attempt to bypass filters and whitelists/blacklists to upload unwanted files.
+	- If bypassed, chain with other vulnerabilities.
 - Test for injections via filenames.
 ### Error Handling
 - Force an error to see if the error message leaks unnecessary and sensitive information.
