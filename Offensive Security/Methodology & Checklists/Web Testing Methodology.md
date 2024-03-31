@@ -52,10 +52,11 @@ If the source code of the application is open-source or has been made available 
 ## Common Features Checklist
 ### Authentication
 #### Registration
-- Check for common vulnerabilities and bypasses:
+- Check for common vulnerabilities and bypasses, including but not limited to:
 	- Stored XSS or SSTI via reflected values such as name, email, etc.
 	- SQL injection (manual and automated using sqlmap).
 	- Server-Side Includes Injection using various SSI directives.
+	- IDOR if interesting parameters exists (i.e `roleId`).
 	- HTTP Verb Tampering.
 	- HTTP Parameter Pollution.
 - Existing user takeover via duplicate registration:
@@ -83,21 +84,27 @@ If the source code of the application is open-source or has been made available 
 - Fuzz after user creation to check if any folder have been overwritten or created with your profile name.
 - Missing rate limit.
 #### Login
-- Check for common vulnerabilities and bypasses:
+- Check for common vulnerabilities and bypasses, including but not limited to:
 	- SQL injection (manual and automated using sqlmap).
+	- IDOR if interesting parameters exists (i.e `roleId`).
 	- HTTP Verb Tampering.
 	- HTTP Parameter Pollution.
 - Check for response header and body, tamper with parameters to test for bypasses.
 - Username/email enumeration via error message.
 - Lack of defenses against brute force attacks.
 - Test for default or common credentials.
+- Test for resilience to password guessing:
+	- Does the account get locked after number of failed attempts?
+	- Does the application provide hints during failed attempts?
+- If using OAuth, test for Open Redirection.
+- If using MFA
 #### Logout
 - Check cookie if it's still usable after logout.
 - Cache issue, Logout then click back button.
 #### Forgot Password
-- Check for common vulnerabilities and bypasses:
+- Check for common vulnerabilities and bypasses, including but not limited to:
 	- Stored XSS or SSTI via reflected values such as name, email, etc.
-	- Check for IDOR if parameters includes identifiers such as IDs and username.
+	- Test for IDOR or HTTP Parameter Pollution if parameters includes identifiers such as IDs and username.
 - Test for Password Reset Poisoning with HTTP Header Injection.
 	- Add another `Host` or `X-Forwarded-Host` header.
 - Username/email enumeration via error message.
@@ -109,17 +116,18 @@ If the source code of the application is open-source or has been made available 
 	- Request 2 reset links and use the older one.
 - If parameter includes email of account to reset password, check for carbon copy by using CRLF injection (i.e `email=victim@email.com%0a%0dcc:hacker@mail.com`).
 #### Change Credentials
-- Check for common vulnerabilities and bypasses:
+- Check for common vulnerabilities and bypasses, including but not limited to:
 	- Stored XSS or SSTI via reflected values such as name, email, etc.
 	- SQL injection (manual and automated using sqlmap).
 	- Server-Side Includes Injection using various SSI directives.
-	- Check for IDOR if parameters includes identifiers such as IDs and username.
+	- Test for IDOR or HTTP Parameter Pollution if parameters includes identifiers such as IDs and username.
 - Check for pre-requisites before changing critical details:
-	- Does it require a password or OTP before applying changes?
+	- Does it require a password or MFA before applying changes?
 	- Does it require to input old password before applying new password?
 - What happens if parameter values are left as empty or null?
 #### Multi-factor Authentication
-- Lorem ipsum
+- Check for common vulnerabilities and bypasses, including but not limited to:
+	- 
 ### Session Management
 - Cookie Token Tampering.
 - Brute Force `rememberme` tokens.
