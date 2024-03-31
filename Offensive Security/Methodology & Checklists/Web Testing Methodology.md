@@ -155,7 +155,8 @@ If the source code of the application is open-source or has been made available 
 Lorem Ipsum
 ### File Uploads
 - Fuzz the file upload functionality for file size limit and whitelisted/ blacklisted extensions and file types.
-- 
+- Attempt to bypass filters and whitelists/blacklists to upload unwanted files.
+- Test for injections via filenames.
 ### Error Handling
 - Force an error to see if the error message leaks unnecessary and sensitive information.
 ### Logging and Monitoring
