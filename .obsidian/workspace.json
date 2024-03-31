@@ -89,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dangling",
+                "query": "proxychains",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -195,12 +196,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3fe4a1c4f77b1be1",
+  "active": "7db1edcda1ea8fc7",
   "lastOpenFiles": [
+    "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
+    "Offensive Security/Web Application Security/Enumeration/Vulnerability Scanning.md",
     "Offensive Security/Web Application Security/Enumeration/DNS Zone Transfer.md",
     "Offensive Security/Web Application Security/Enumeration/Infrastructure.md",
-    "Offensive Security/Web Application Security/Enumeration/Vulnerability Scanning.md",
-    "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Certification Roadmap.md",
     "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Origin Resource Sharing (CORS)/Exploiting Misconfigured CORS/Breaking TLS with Poorly Configured CORS.md",
