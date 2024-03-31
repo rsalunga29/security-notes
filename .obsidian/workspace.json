@@ -47,8 +47,7 @@
               "pinned": true
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/CSP Bypass/Bypass using iframe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/CSP Bypass/Bypass using iframe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md"
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/CSP Bypass/Bypass using iframe.md"
               }
             }
           }
@@ -183,17 +182,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8870e9b60e703fc9",
+  "active": "3c182d049d7bba6d",
   "lastOpenFiles": [
+    "Certification Roadmap.md",
+    "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSP Bypass/Bypass using iframe.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSP Bypass/Bypass via Relative Path Overwrite.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSP Bypass/Unsafe or Wildcard Domains Bypass.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSP Bypass/base-uri Bypass.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Dangling Markup Injection/Introduction.md",
-    "Certification Roadmap.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Content Security Policy/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Upload Vulnerabilities/Uploading Malicious Client-side Scripts.md",
-    "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSP Bypass",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Upload Vulnerabilities/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Session Fixation.md",
