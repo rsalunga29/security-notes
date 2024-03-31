@@ -22,7 +22,7 @@
 	- [wafw00f](https://github.com/EnableSecurity/wafw00f)
 - Utilize general purpose automatic scanners.
 	- Port scanning using Nmap.
-	- Directory, DNS, and VHost fuzzing using [ffuf](https://github.com/ffuf/ffuf)or [GoBuster](https://github.com/OJ/gobuster).
+	- Directory, DNS, and VHost fuzzing using [ffuf](https://github.com/ffuf/ffuf), [GoBuster](https://github.com/OJ/gobuster), or [amass](https://github.com/owasp-amass/amass).
 	- Vulnerability scanning using [Nuclei](https://github.com/projectdiscovery/nuclei), [OpenVAS](https://github.com/greenbone/openvas-scanner), [Nikto](https://github.com/sullo/nikto), or Burp Active Scanner.
 	- SSL/TLS scanning using [testssl.sh](https://github.com/drwetter/testssl.sh).
 	- Spidering using [hakrawler](https://github.com/hakluke/hakrawler), [ParamSpider](https://github.com/devanshbatham/ParamSpider), or ZAP.

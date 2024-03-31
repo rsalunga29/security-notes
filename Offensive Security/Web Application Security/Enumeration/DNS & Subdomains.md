@@ -7,6 +7,10 @@ gobuster dns -d target.com -w /usr/share/seclists/Discovery/DNS/subdomains-top1m
 ```bash
 ffuf -c -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://FUZZ.target.com -ic
 ```
+### amass
+```bash
+amass enum -active -d target.com -brute -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt -o amass.txt
+```
 ### Sublist3r
 ```bash
 python3 sublist3r.py -d target.com -b -p 80,443,21 -v
