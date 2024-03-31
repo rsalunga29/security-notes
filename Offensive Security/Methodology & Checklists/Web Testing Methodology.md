@@ -97,7 +97,6 @@ If the source code of the application is open-source or has been made available 
 	- Does the account get locked after number of failed attempts?
 	- Does the application provide hints during failed attempts?
 - If using OAuth, test for Open Redirection.
-- If using MFA
 #### Logout
 - Check cookie if it's still usable after logout.
 - Cache issue, Logout then click back button.
@@ -127,7 +126,19 @@ If the source code of the application is open-source or has been made available 
 - What happens if parameter values are left as empty or null?
 #### Multi-factor Authentication
 - Check for common vulnerabilities and bypasses, including but not limited to:
-	- 
+	- Guessable codes and race conditions.
+	- Bypass via response manipulation.
+	- Resilience to brute force.
+#### JSON Web Tokens
+- Check for common vulnerabilities and bypasses, including but not limited to:
+	- Interesting values that can be changed (i.e `isAdmin`).
+	- Secret keys resilience to dictionary-type brute force.
+	- Change `alg` value to `none`.
+- Parameter injections
+	- Remote Code Execution.
+	- SQL Injection.
+	- Local File Inclusion + Directory Traversal.
+- Timestamp tampering.
 ### Session Management
 - Cookie Token Tampering.
 - Brute Force `rememberme` tokens.
