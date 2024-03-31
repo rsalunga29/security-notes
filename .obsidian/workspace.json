@@ -46,21 +46,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "3fe4a1c4f77b1be1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Offensive Security/Web Application Security/Enumeration/Vulnerability Scanning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "proxychains",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,8 +94,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -135,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Enumeration/Vulnerability Scanning.md",
+                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Enumeration/Vulnerability Scanning.md",
+                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Enumeration/Vulnerability Scanning.md"
+                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md"
               }
             }
           }
@@ -196,10 +183,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7db1edcda1ea8fc7",
+  "active": "8870e9b60e703fc9",
   "lastOpenFiles": [
-    "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
+    "Offensive Security/Web Application Security/Protections & WAF Bypass/CSP Bypass/Bypass using iframe.md",
     "Offensive Security/Web Application Security/Enumeration/Vulnerability Scanning.md",
+    "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Enumeration/DNS Zone Transfer.md",
     "Offensive Security/Web Application Security/Enumeration/Infrastructure.md",
     "Certification Roadmap.md",
@@ -223,7 +211,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Upload Vulnerabilities/Uploading Malicious Client-side Scripts.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Upload Vulnerabilities/Uploading Files using PUT.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Upload Vulnerabilities/Prevention.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Upload Vulnerabilities/Introduction.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/CSP Bypass",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources",
