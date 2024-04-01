@@ -29,3 +29,40 @@ _=[]|[];$=_++;__=(_<<_);___=(_<<_)+_;____=__+__;_____=__+___;$$=({}+"")[_____]+
 
 The above code would execute an `alert('cool code')`. This "magic" is strongly related to the loosely typed nature of JavaScript!
 ### Boolean
+There are many ways to return a Boolean value using non-alphanumeric characters. For example:
+
+**True**
+- `!![]`
+- `!!{}`
+- `!""`
+- `[]==""`
+
+**False**
+- `![]`
+- `!{}`
+- `!!""`
+- `[]=={}`
+
+We can also extract the Boolean values in string form by combining non-alphanumeric characters. For example:
+- `[!![]]+""` returns "true".
+- `[![]]+""` returns "false".
+### Numbers
+Numbers can also be created, for example `0` can be created as follows:
+- `+""` or `+[]`
+- `-""` or `-[]`
+- `-+-+""` or `-+-+[]`
+- `![]+![]`
+- `![]+!{}`
+- `![]+!!""`
+
+Additional example below, remember `TRUE` is `1` and `FALSE` is `0`. Therefore, to generate a number `1`, we can do `TRUE+FALSE` and `2` is `TRUE+TRUE`.
+
+| Number | Non-alphanumeric Representation                                  |
+| ------ | ---------------------------------------------------------------- |
+| 0      | `+[]` or `+""` or `![]+!{}`                                      |
+| 1      | `+!![]` or `![]+!""` or `![]+!![]` or `~[]*~[]` or `++[[]][+[]]` |
+| 2      | `!![]+!![]` or `++[++[[]][+[]]][+[]]`                            |
+| 3      | `!![]+!![]+!![]`                                                 |
+| 4      | `!![]+!![]+!![]+!![]` or `(!![]+!![])*(!![]+!![])`               |
+| 5      | `!![]+!![]+!![]+!![]+!![]`                                       |
+### Strings
