@@ -16,6 +16,7 @@ x = "hello"
 ```
 ## Non-alphanumeric JavaScript Encoding
 Among the many ways of encoding JavaScript, there is an interesting technique you should know called Non-alphanumeric JavaScript Encoding.
+> Note: Read more about non-alphanumeric JS [here](https://portswigger.net/research/executing-non-alphanumeric-javascript-without-parenthesis).
 
 This technique first appeared on the sla.ckers forum in late 2009 by Yosuke Hasegawa. Basically, Hasegawa showed a way to encode JS code by using non-alphanumeric characters. For example:
 ```js
