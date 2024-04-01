@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/CSP Bypass/Bypass using iframe.md",
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/WAF Bypass.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/CSP Bypass/Bypass using iframe.md",
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/WAF Bypass.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/CSP Bypass/Bypass using iframe.md"
+                "file": "Offensive Security/Web Application Security/Protections & WAF Bypass/WAF Bypass.md"
               }
             }
           }
@@ -195,14 +195,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccc68e20622978c5",
+  "active": "ce4b224b3e94c108",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Protections & WAF Bypass/CSP Bypass/Bypass using iframe.md",
     "Offensive Security/Miscellaneous/CVSS Scoring.md",
     "Offensive Security/Miscellaneous/Others.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Certification Roadmap.md",
     "Offensive Security/Web Application Security/Protections & WAF Bypass/WAF Bypass.md",
-    "Offensive Security/Web Application Security/Protections & WAF Bypass/CSP Bypass/Bypass using iframe.md",
     "Offensive Security/Web Application Security/Enumeration/Vulnerability Scanning.md",
     "Offensive Security/Web Application Security/Enumeration/DNS Zone Transfer.md",
     "Offensive Security/Web Application Security/Enumeration/Infrastructure.md",
