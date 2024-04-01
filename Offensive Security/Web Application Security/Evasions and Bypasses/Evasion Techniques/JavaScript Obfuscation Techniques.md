@@ -67,3 +67,16 @@ Additional example below, remember `TRUE` is `1` and `FALSE` is `0`. Therefore, 
 | 4      | `!![]+!![]+!![]+!![]` or `(!![]+!![])*(!![]+!![])`               |
 | 5      | `!![]+!![]+!![]+!![]+!![]`                                       |
 ### Strings
+As we have seen with Booleans, it is possible to extract the TRUE and FALSE strings but, what if we want to generate the `alert` string? We need to generate each character separately and then put them together.
+
+As such:
+- `[![]+[]][+[]][++[[]][+[]]]` generates "a" from `false`.
+- `[![]+[]][+[]][++[[]][+[]]+[++[[]][+[]]][+[]]]` generates "l" from `false`.
+- `[![]+[]][+[]][++[[]][+[]]+[++[[]][+[]]][+[]]+[++[[]][+[]]][+[]]+[++[[]][+[]]][+[]]]` generates "e" from `false`.
+- `[!![]+[]][+[]][+!![]]` generates "r" from `true`.
+- `[!![]+[]][+[]][+[]]` generates "t" from `true`.
+
+Combining it all together:
+```js
+([],[][[![]+[]][+[]][++[[]][+[]]+[++[[]][+[]]][+[]]+[++[[]][+[]]][+[]]]+[[]+{}][+[]][+!![]]+[!![] +[]][+[]][+!![]]+[!![]+[]][+[]][+[]]])()[[![]+[]][+[]][++[[]][+[]]]+[![]+[]][+[]][++[[]][+[]]+[++ [[]][+[]]][+[]]]+[![]+[]][+[]][++[[]][+[]]+[++[[]][+[]]][+[]]+[++[[]][+[]]][+[]]+[++[[]][+[]]][+ []]]+[!![]+[]][+[]][+!![]]+[!![]+[]][+[]][+[]]](+!![])
+```
