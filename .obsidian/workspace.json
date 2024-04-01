@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/JavaScript Deobfuscation/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,6 +92,16 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "2ef1cd99f8fda3f4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Introduction.md"
+              }
+            }
           }
         ]
       }
@@ -121,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/JavaScript Deobfuscation/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/JavaScript Deobfuscation/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,18 +164,9 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "2ef1cd99f8fda3f4",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/JavaScript Deobfuscation/Introduction.md"
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -182,15 +183,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccc68e20622978c5",
+  "active": "3c182d049d7bba6d",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Introduction.md",
-    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Basic Obfuscation.md",
-    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques.md",
-    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/URI Obfuscation Techniques.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/JavaScript Deobfuscation/Introduction.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/JavaScript Deobfuscation/Deobfuscation.md",
+    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Non-alphanumeric JS Encoding.md",
+    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Basic Obfuscation.md",
+    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Introduction.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/JavaScript Deobfuscation/Introduction.md",
+    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Introduction.md",
+    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/URI Obfuscation Techniques.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/JavaScript Deobfuscation/Deobfuscation.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Base64-based Obfuscation.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/Base64 Encoding Evasion.md",
@@ -211,7 +213,6 @@
     "Offensive Security/Web Application Security/Enumeration/Vulnerability Scanning.md",
     "Offensive Security/Web Application Security/Enumeration/DNS Zone Transfer.md",
     "Offensive Security/Web Application Security/Enumeration/Infrastructure.md",
-    "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/CSP Bypass",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources",
