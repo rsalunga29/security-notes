@@ -177,6 +177,9 @@ If the source code of the application is open-source or has been made available 
 - Check for verbosity of the logs.
 ### Application Logic
 - Account deletion/disable option and try to reactivate with Forgot Password feature.
+- Test multi-stage processes for logic flaws (i.e go from step 1 to step 4).
+- Tamper or reuse gift or discount codes and alike.
+- Test for HTTP Parameter Pollution and HTTP Verb Tampering.
 ### Web Proxies
 - Cache Poisoning
 - Cache Deception
