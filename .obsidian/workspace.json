@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Numerical Data Types.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Introduction.md"
+                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Numerical Data Types.md"
               }
             }
           }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Numerical Data Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Numerical Data Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,12 +185,13 @@
   },
   "active": "3c182d049d7bba6d",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Introduction.md",
+    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Numerical Data Types.md",
+    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Introduction.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Non-alphanumeric JS Encoding.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Basic Obfuscation.md",
-    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/JavaScript Deobfuscation/Introduction.md",
-    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Introduction.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/URI Obfuscation Techniques.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/JavaScript Deobfuscation/Deobfuscation.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Base64-based Obfuscation.md",
@@ -220,7 +221,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks",
     "Offensive Security/API Security",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Open Redirect",
     "Offensive Security/Assets/cookie-tampering.png",
     "Offensive Security/Assets/ssti-diagram.png",
     "Offensive Security/Assets/username-injection.png",
