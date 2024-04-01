@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/URI Obfuscation Techniques.md",
+                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/URI Obfuscation Techniques.md",
+                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/URI Obfuscation Techniques.md",
+                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/URI Obfuscation Techniques.md"
+                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques.md"
               }
             }
           }
@@ -182,10 +182,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccc68e20622978c5",
+  "active": "3c182d049d7bba6d",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Evasions and Bypasses/SQL Injection Bypass/Bypass with SQLMap.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/URI Obfuscation Techniques.md",
+    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques.md",
+    "Offensive Security/Web Application Security/Evasions and Bypasses/SQL Injection Bypass/Bypass with SQLMap.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/Base64 Encoding Evasion.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/File Inclusion Bypass.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/HTTP 30x Redirect Bypass.md",
@@ -210,7 +211,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources/Insecure Configuration.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources/Error Messages.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources/Directory Listing.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources/Developer Comments.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/CSP Bypass",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources",

@@ -56,11 +56,25 @@ DWord or Double Word is also known as Integer IP. Essentially, the IP address is
 
 For example, one of google.com's IP address, `216.58.215.78`, can be translated to `3627734862` and can be access in a browser: http://3627734862.
 #### Octal
-An IP address can also be represented in Octal form. The result is as follows: http://0330.0072.0327.0116. The IP address with tech number is translated to **Base 8**.
+An IP address can also be represented in Octal form. The result is as follows:
+```txt
+http://0330.0072.0327.0116
+```
+The IP address with tech number is translated to **Base 8**.
 
 Additionally, we can also feed each number by adding leading zeroes without breaking the original value as follows:
 ```
 http://0000000330.0000000072.0000000327.000000116
 ```
 #### Hexadecimal
-Another representation is Hexadecimal, in which each IP number is convered to Base 16
+Another representation is Hexadecimal, in which each IP number is convered to **Base 16**, and the result for google.com's IP is: `http://0xd83ad74e`.
+
+Each number can also be separated like this:
+```txt
+http://0xd8.0x3a.0xd7.0x4e
+```
+
+Even with Hexadecimal representation it is possible to add leading zeroes:
+```txt
+http://0x000000d8.0x0000003a.0x000000xd7.0x0000004e
+```

@@ -1,0 +1,1 @@
+Among the many ways of encoding JavaScript, there is an interesting technique you should know called Non-alphanumeric JavaScript Encoding.
