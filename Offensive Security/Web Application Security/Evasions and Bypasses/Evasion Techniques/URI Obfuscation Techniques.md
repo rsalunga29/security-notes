@@ -39,7 +39,7 @@ https://www.google.com@target-website.com/t/xss
 ```
 
 `target-website.com` does not implement this kind of authentication, and will ignore the `www.google.com` part of the URI.
-### userinfo Unicode Support
+#### userinfo Unicode Support
 Furthermore, the `userinfo` subcomponent supports Unicode.
 ```txt
 https://✌(◕‿-)✌@hack.me
@@ -47,5 +47,6 @@ https://✌(◕‿-)✌@hack.me
 ```txt
 https://mail.google.com⁄mail⁄u⁄0⁄ʔpli=1#inbox@hack.me
 ```
-### Restrictions
+#### Restrictions
 However, now all browsers support this type of obfuscation technique. Firefox will throw error messages, while some versions of Opera and Google Chrome allows this behavior silently.
+### Obfuscating with Host

@@ -16,7 +16,7 @@ In case of immediate problems (e.g., HTTP error code 5XX from the start) while r
 
 This is trivial to bypass with the switch `--random-agent`, which changes the default user-agent with a randomly chosen value from a large pool of values used by browsers.
 ## Tamper Scripts
-The other method that sqlmap uses to bypass WAF/IPS solutions is using "tamper" scripts. Tamper scripts are a special kind of Python scripts written for modifying requests just before being sent to the target, in most cases to bypass some protection.
+The other method that sqlmap uses to bypass WAF/IPS solutions is using "tamper" scripts. Tamper scripts are a special kind of Python scripts written for modifying requests just before being sent to the target, in most cases to bypass some protection. More info [here](https://forum.bugcrowd.com/t/sqlmap-tamper-scripts-sql-injection-and-waf-bypass/423).
 
 These scripts can be chained, one after another, within the `--tamper` flag (e.g `--tamper=between,randomcase`). To get a whole list of tamper scripts, use the `--list-tampers` parameter. The most notable tamper scripts are the following:
 
