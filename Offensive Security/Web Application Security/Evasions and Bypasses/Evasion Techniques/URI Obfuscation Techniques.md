@@ -14,16 +14,38 @@ Almost everyone are used to viewing URL in formats like `https://target-website.
 But, according to RFC 3986, the following are also valid URLs:
 - `https://target-website.com:443`
 - `https://_[this_is_valid_]_@target-website.com`
-
-What we want to obfuscate here is the Authority component of a URI:
+## URL Authority Obfuscation
+Starting from the URI structure, what we want to obfuscate is the Authority component of a URI:
 ```
-         foo://example.com:8042/over/there?name=ferret#nose
-         \_/   \______________/\_________/ \_________/ \__/
-          |           |            |            |        |
-       scheme     authority       path        query   fragment
+    foo://example.com:8042/over/there?name=ferret#nose
+    \_/   \______________/\_________/ \_________/ \__/
+     |           |            |            |        |
+   scheme     authority       path        query   fragment
 ```
 
-which is structured as follows:
+Other than just the hostname and port, the Authority component can also be structured like the following:
 ```txt
 [userinfo "@"] host [":" port]
 ```
+### Obfuscating with userinfo
+The `userinfo` subcomponent is used for authentication. If credentials are required to access a resource, they can be included here, and the login will be automatic. Otherwise, the subcomponent text is ignored by both the browser and the server. For example:
+```txt
+http://username:password@target-website.com:8042/admin
+```
+
+So, if we know that the resource does not require authentication, then we can use the following URI:
+```txt
+https://www.google.com@target-website.com/t/xss
+```
+
+`target-website.com` does not implement this kind of authentication, and will ignore the `www.google.com` part of the URI.
+### userinfo Unicode Support
+Furthermore, the `userinfo` subcomponent supports Unicode.
+```txt
+https://✌(◕‿-)✌@hack.me
+```
+```txt
+https://mail.google.com⁄mail⁄u⁄0⁄ʔpli=1#inbox@hack.me
+```
+### Restrictions
+However, now all browsers support this type of obfuscation technique. Firefox will throw error messages, while some versions of Opera and Google Chrome allows this behavior silently.
