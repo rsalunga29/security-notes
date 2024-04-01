@@ -154,10 +154,10 @@ If the source code of the application is open-source or has been made available 
 - Insecure access control methods (request parameters, `Referer` header, etc.).
 ### Input / Parameter Validation
 - XSS or SSTI via reflected values.
-- IDOR.
 - HTTP Parameter Pollution.
 - SQL injection (manual and automated using sqlmap).
 - Server-Side Includes Injection using various SSI directives.
+- If input / parameter accepts identifying strings (i.e ids), test for IDOR.
 - If input / parameter is using XML, test for XXE Injection.
 - If input / parameter is calling another URL, test for SSRF.
 - If input / parameter accepts what looks like an OS command or value for an OS command, test for Command Injection.
