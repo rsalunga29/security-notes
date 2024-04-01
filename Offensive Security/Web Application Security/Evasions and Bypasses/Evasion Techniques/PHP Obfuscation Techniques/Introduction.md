@@ -12,3 +12,4 @@ $joker = "a string" + array("1.1 string")[0]; // float(1.1)
 $joker .= ""; // string(1) "7"
 $joker += ""; // int(7)
 ```
+>Note: PHP versions 7 and above will throw warnings or even errors when executing type juggling.
