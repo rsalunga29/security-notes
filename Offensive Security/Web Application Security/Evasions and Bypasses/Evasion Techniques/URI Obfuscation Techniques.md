@@ -50,3 +50,17 @@ https://mail.google.com⁄mail⁄u⁄0⁄ʔpli=1#inbox@hack.me
 #### Restrictions
 However, now all browsers support this type of obfuscation technique. Firefox will throw error messages, while some versions of Opera and Google Chrome allows this behavior silently.
 ### Obfuscating with Host
+The following are the various technique used to obfuscate a URI host. Alternatively, we can just use [this resource](https://www.silisoftware.com/tools/ipconverter.php).
+#### Double Word
+DWord or Double Word is also known as Integer IP. Essentially, the IP address is translated in an equivalent 16-bit number.
+
+For example, one of google.com's IP address, `216.58.215.78`, can be translated to `3627734862` and can be access in a browser: http://3627734862.
+#### Octal
+An IP address can also be represented in Octal form. The result is as follows: http://0330.0072.0327.0116. The IP address with tech number is translated to **Base 8**.
+
+Additionally, we can also feed each number by adding leading zeroes without breaking the original value as follows:
+```
+http://0000000330.0000000072.0000000327.000000116
+```
+#### Hexadecimal
+Another representation is Hexadecimal, in which each IP number is convered to Base 16
