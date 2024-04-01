@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/JavaScript Deobfuscation/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.51103591918945
+    "width": 334.51103591918945
   },
   "right": {
     "id": "64847627f5c52abb",
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/JavaScript Deobfuscation/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/JavaScript Deobfuscation/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/JavaScript Deobfuscation/Introduction.md"
               }
             }
           }
@@ -182,14 +182,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3c182d049d7bba6d",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
-    "().md",
-    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques.md",
+    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Introduction.md",
+    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Basic Obfuscation.md",
+    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/URI Obfuscation Techniques.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/JavaScript Deobfuscation/Introduction.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/JavaScript Deobfuscation/Deobfuscation.md",
+    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Non-alphanumeric JS Encoding.md",
+    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Base64-based Obfuscation.md",
+    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques",
+    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/Base64 Encoding Evasion.md",
+    "().md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/SQL Injection Bypass/Bypass with SQLMap.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/File Inclusion Bypass.md",
-    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/Base64 Encoding Evasion.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/HTTP 30x Redirect Bypass.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/HTTP 403 and 401 Bypass.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques",
@@ -205,12 +212,6 @@
     "Offensive Security/Web Application Security/Enumeration/DNS Zone Transfer.md",
     "Offensive Security/Web Application Security/Enumeration/Infrastructure.md",
     "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Origin Resource Sharing (CORS)/Exploiting Misconfigured CORS/Breaking TLS with Poorly Configured CORS.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Origin Resource Sharing (CORS)/Exploiting Misconfigured CORS/Errors parsing Origin Headers.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources/Version Control History.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources/Source Code Disclosure via Backup Files.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources/Insecure Configuration.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources/Error Messages.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/CSP Bypass",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources",
@@ -219,7 +220,6 @@
     "Offensive Security/API Security",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Web Service Vulnerabilities",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Open Redirect",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities",
     "Offensive Security/Assets/cookie-tampering.png",
     "Offensive Security/Assets/ssti-diagram.png",
     "Offensive Security/Assets/username-injection.png",
