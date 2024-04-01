@@ -185,8 +185,9 @@
   },
   "active": "3c182d049d7bba6d",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Introduction.md",
+    "Offensive Security/Assets/php-obfus-integer-literals.png",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Numerical Data Types.md",
+    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Introduction.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Introduction.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Non-alphanumeric JS Encoding.md",
@@ -213,7 +214,6 @@
     "Certification Roadmap.md",
     "Offensive Security/Web Application Security/Enumeration/Vulnerability Scanning.md",
     "Offensive Security/Web Application Security/Enumeration/DNS Zone Transfer.md",
-    "Offensive Security/Web Application Security/Enumeration/Infrastructure.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/CSP Bypass",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources",
