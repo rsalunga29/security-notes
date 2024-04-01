@@ -40,4 +40,14 @@ echo $x[TRUE]; // TRUE is 1 > 'i'
 echo $x[count('hello')+true]; // count(object) is 1 > 'u'
 echo $x["7rail"+"3er"-TRUE^0xA]; // PHP ignore trailing data
 ```
-A
+
+Additionally, it is also possible to use the type casting functionalities that PHP provides.
+```php
+$x='Giuseppe';
+
+echo $x[(int)"a common string"]; // 0 > 'G'
+echo $x[(int)!0]; // True (1) > 'i'
+echo $x[(int)"2+1"]; // 2 > 'u'
+echo $x[(float)"3.11"]; // 3 > 's'
+echo $x[boolval(['.'])+(float)(int)array(0)+floatval('2.1+1.2=3.3')]; // True(1)+1+2.1 = 4.2 (float) > 'e'
+```
