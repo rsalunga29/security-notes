@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Unicode Encoding.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Multiple Encodings and Decodings.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Unicode Encoding.md"
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Multiple Encodings and Decodings.md"
               }
             }
           }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Unicode Encoding.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Multiple Encodings and Decodings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Unicode Encoding.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Multiple Encodings and Decodings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,13 +183,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4bfa2abb229ab206",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Unicode Encoding.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Multiple Encodings and Decodings.md",
     "Offensive Security/Assets/visual-spoofing-2.png",
     "Offensive Security/Assets/visual-spoofing-1.png",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/URL Encoding.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Base36 and Base64 Encoding.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Unicode Encoding.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/HTML Encoding.md",
     "Certification Roadmap.md",
     "Offensive Security/Assets/base64-encoding-algo-2.png",
@@ -220,16 +223,13 @@
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/HTTP 30x Redirect Bypass.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/HTTP 403 and 401 Bypass.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques",
-    "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Enumeration",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks",
     "Offensive Security/Assets/cookie-tampering.png",
     "Offensive Security/Assets/ssti-diagram.png",
     "Offensive Security/Assets/username-injection.png",
-    "Offensive Security/Assets/password-reset-flow.png",
-    "Offensive Security/Assets/deserialization-diagram.jpg"
+    "Offensive Security/Assets/password-reset-flow.png"
   ]
 }

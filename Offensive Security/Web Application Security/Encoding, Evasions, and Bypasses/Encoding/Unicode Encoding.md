@@ -26,7 +26,7 @@ In typography, a homoglyph is one or two or more characters, or glyphs, with sha
 Additional classification includes:
 - Homograph - a word that looks the same as another word.
 - Homogliph - a look-alike character used to create homographs.
-### Visual Spoofing
+## Visual Spoofing
 One of the possible attacks with Unicode is called, **Visual Spoofing**.
 ![[visual-spoofing-1.png]]
 ![[visual-spoofing-2.png]]
@@ -39,5 +39,5 @@ This type of attacks are being used in the real world:
 - [Use of Punycode and Homoglyph Attacks to Obfuscate URLs for Phishing](https://www.irongeek.com/i.php?page=security/out-of-character-use-of-punycode-and-homoglyph-attacks-to-obfuscate-urls-for-phishing)
 - [Creative usernames and Spotify account hijacking](https://engineering.atspotify.com/2013/06/creative-usernames/)
 - Bypass anti XSS and SQLi filters
-
-As such, many applications implements validation and processes to convert
+### Defenses
+There are other ways in which characters and strings can be transformed by software processes, such as normalization, canonicalization, best fit mapping, etc.
