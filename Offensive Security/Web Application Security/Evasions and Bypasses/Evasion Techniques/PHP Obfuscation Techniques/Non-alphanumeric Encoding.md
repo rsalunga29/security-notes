@@ -29,3 +29,14 @@ echo A^B; //U+0003 END OF TEXT
 echo ~A; //U+00BE VULGAR FRACTION THREE QUARTERS> 3⁄4
 echo A<<B; //> 0
 ```
+## Using String Output of Native PHP Objects
+If we want to start from a string, we can use the Array native object as follows:
+```php
+$a = []; // Create an empty array object
+$a = $a.!![]; // Convert the array to string > "Array"
+$_ = $__ = ![]&!![]; // true & false generates the int(0) > 0
+$__++; // Increment int(0) by one > 1
+$_§ = $__§ = $a[$_]; // Access the position 0 of the "Array" string > "A"
+$__§++; // Get the next char after A > "B"
+echo $_§|$__§; // Echoes A|B > "C"
+```
