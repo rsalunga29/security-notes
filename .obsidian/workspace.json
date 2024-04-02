@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/String Data Types.md",
+                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Variable Variables.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/String Data Types.md"
+                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Variable Variables.md"
               }
             }
           }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/String Data Types.md",
+                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Variable Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/String Data Types.md",
+                "file": "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Variable Variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,14 +183,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3c182d049d7bba6d",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Non-alphanumeric JS Encoding.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Array Data Types.md",
+    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/String Data Types.md",
+    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Non-alphanumeric JS Encoding.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Introduction.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Non-alphanumeric Encoding.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Numerical Data Types.md",
-    "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/String Data Types.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Introduction.md",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Variable Variables.md",
     "Offensive Security/Assets/php-obfus-float-literals.png",
