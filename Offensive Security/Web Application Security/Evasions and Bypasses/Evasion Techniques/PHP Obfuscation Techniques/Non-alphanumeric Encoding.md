@@ -40,3 +40,5 @@ $_§ = $__§ = $a[$_]; // Access the position 0 of the "Array" string > "A"
 $__§++; // Get the next char after A > "B"
 echo $_§|$__§; // Echoes A|B > "C"
 ```
+## Hackvertor.co.uk
+We can use the following website to encode a PHP script in non-alphanumeric code: https://hackvertor.co.uk/public
