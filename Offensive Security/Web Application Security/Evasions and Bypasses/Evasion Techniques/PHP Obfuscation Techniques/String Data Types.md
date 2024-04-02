@@ -17,7 +17,7 @@ echo 'Variables do not $expand, \n\t also escapes except \' and \ at the end of 
 echo "Variables do not $expand, \n\t also escapes";
 ```
 ## Single / Double Quoted Escapes
-The back
+The backslash (`\`) is used to escape strings in PHP.
 
 The following table contains the list of escape sequences that PHP provides for special characters. Notice that it is possible to use octal and hexadecimal notations to represent characters.
 
@@ -43,4 +43,77 @@ echo "I\x20L\x6fve\40B\145\63r";
 \40 is a space (octal)
 \145 is a latin small letter "E" (octal)
 \63 is a digit three (octal)
+```
+## Single / Double Quoted Variable Parsing
+With the dollar sign (`$`), the parser tries to form a valid variable name. It is also possible to enclose the variable name in curly brackets (`{}`) to explicitly specify the end of the name.
+```php
+$s = "\x20"; //Space character
+
+echo "I$sLove Beer"; //There's no $sLove variable > I Beer
+echo "I{$s}Love Beer"; // > I Love Beer
+echo "I${s}Love Beer"; // > I Love Beer
+echo "I{${s}}Love Beer"; // > I Love Beer
+```
+Additionally, even array, object methods, and class functions with numerical obfuscation are allowed, as follows:
+```php
+$s = "\x20"; //Space character
+$sp = " "; //Another space character
+
+echo "I{$s[0]}Love{$sp[0]}Beer"; //> I Love Beer
+echo "I{$s[(int)"I love Beer"]}Love{$sp[!true]}Beer";//> I Love Beer
+echo ILoveBeer./**/.NULL; //> ILoveBeer
+echo ILoveBeer.FALSE; //> ILoveBeer
+echo "I{$s[eval($_GET['s'])]}Love Beer"; //Simple shell!> [SHELL-result]I Love Beer
+```
+## Heredoc and Nowdoc
+PHP offers two alternatives to delimit strings: **Heredoc** and **Nowdoc**. The difference between the two is, Heredoc is for double-quoted strings while Nowdoc is for single-quoted strings.
+
+Additionally, the identifier must contain only alphanumeric characters and underscores. It must also start with a non-digit character or underscore, as such, the following are valid:
+```php
+echo <<<⊶
+It works!
+⊶;
+```
+```php
+echo <<<'🍺'
+It works!
+🍺;
+```
+```php
+echo <<<✄
+It works!
+✄;
+```
+### Heredoc example
+```php
+$expand = 'expand, nay they do';
+$hd = <<<HERE
+Variables do not $expand, \n\t also escapes.\n This is
+the Heredoc syntax. \n Notice there is no quotes around
+the identifier (HERE)
+HERE;
+echo $hd;
+```
+The above code would output the following:
+```txt
+Variables do not expand, nay they do,
+	also escapes.
+This is the Heredoc syntax.
+Notice there is no quotes around the identifier (HERE)
+```
+### Nowdoc example
+```php
+$expand = 'expand, nay they do';
+$nd = <<<'NOW'
+Variables do not $expand, \n\t also escapes.\n This is
+the Nowdoc syntax. \n Notice the single quotes used to
+enclose the identifier (NOW)
+NOW;
+echo $nd;
+```
+The above code would output the following:
+```txt
+Variables do not $expand, \n\t also escapes.\n This is
+the Nowdoc syntax. \n Notice the single quotes used to
+enclose the identifier (NOW)
 ```
