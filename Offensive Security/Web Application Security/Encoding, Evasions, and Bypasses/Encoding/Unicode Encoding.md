@@ -21,8 +21,23 @@ Additionally, the following table shows how Unicode characters are handled throu
 | `♥`       | U+2665  | `%E2%99%A5`    | `&hearts;` or `&#9829;` or `&#x2665;` | `\u2665`               |
 | `🍻`      | U+1F37B | `%F0%9F%8D%8B` | `&#127867;` or `&#x1F37B;`            | `\uD83C\uDF7B`         |
 ## Homoglyph
-Also known as Visual Spoofing. In typography, a homoglyph is one or two or more characters, or glyphs, with shapes that either appear identical or cannot be differentiated by quick visual inspection.
+In typography, a homoglyph is one or two or more characters, or glyphs, with shapes that either appear identical or cannot be differentiated by quick visual inspection.
 
 Additional classification includes:
 - Homograph - a word that looks the same as another word.
 - Homogliph - a look-alike character used to create homographs.
+### Visual Spoofing
+One of the possible attacks with Unicode is called, **Visual Spoofing**.
+![[visual-spoofing-1.png]]
+![[visual-spoofing-2.png]]
+
+If we analyze the character code points of the string, the differences are evident, but for a human this is not so obvious. These kind of characters are known as [confusable](https://util.unicode.org/UnicodeJsps/confusables.jsp).
+
+To speed the homographs generation, the [Homoglyph Attack Generator](https://www.irongeek.com/homoglyph-attack-generator.php) can be used instead.
+
+This type of attacks are being used in the real world:
+- [Use of Punycode and Homoglyph Attacks to Obfuscate URLs for Phishing](https://www.irongeek.com/i.php?page=security/out-of-character-use-of-punycode-and-homoglyph-attacks-to-obfuscate-urls-for-phishing)
+- [Creative usernames and Spotify account hijacking](https://engineering.atspotify.com/2013/06/creative-usernames/)
+- Bypass anti XSS and SQLi filters
+
+As such, many applications implements validation and processes to convert
