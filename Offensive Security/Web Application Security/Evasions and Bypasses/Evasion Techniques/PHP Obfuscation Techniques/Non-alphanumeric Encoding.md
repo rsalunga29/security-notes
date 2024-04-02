@@ -1,0 +1,1 @@
+Like in [JavaScript](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FEvasions%20and%20Bypasses%2FEvasion%20Techniques%2FJavaScript%20Obfuscation%20Techniques%2FNon-alphanumeric%20JS%20Encoding), in PHP it is also possible to write non-alphanumeric encoded code. The mechanism is similar but not the same.
