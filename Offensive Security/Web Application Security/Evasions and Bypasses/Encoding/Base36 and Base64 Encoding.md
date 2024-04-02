@@ -1,0 +1,2 @@
+Base 36 Encoding SchemePermalink
+Base36 - Its the most compact, case-insensitive, alphanumerical system using ASCII characters. In fact, the schemes alphabet contains all digits [0-9] and Latin letters [A-Z]
