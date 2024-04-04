@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Web Application Firewall.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Web Application Firewall.md"
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass.md"
               }
             }
           }
@@ -107,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.51103591918945
+    "width": 289.51103591918945
   },
   "right": {
     "id": "64847627f5c52abb",
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Web Application Firewall.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Web Application Firewall.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,11 +183,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccc68e20622978c5",
+  "active": "4bfa2abb229ab206",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Web Application Firewall.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Regular Expressions.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Web Application Firewall.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Unicode Encoding.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Base36 and Base64 Encoding.md",
@@ -226,7 +227,6 @@
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources",
     "Offensive Security/Assets/cookie-tampering.png",
     "Offensive Security/Assets/ssti-diagram.png",
     "Offensive Security/Assets/username-injection.png",
