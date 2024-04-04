@@ -46,8 +46,19 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "97f39f5395651086",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -183,7 +194,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccc68e20622978c5",
+  "active": "97f39f5395651086",
   "lastOpenFiles": [
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering",
