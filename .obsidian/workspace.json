@@ -76,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "filtering",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,8 +103,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -184,21 +183,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7db1edcda1ea8fc7",
+  "active": "4bfa2abb229ab206",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Multiple Encodings and Decodings.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Unicode Encoding.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Base36 and Base64 Encoding.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/HTML Encoding.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Regular Expressions.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Multiple Encodings and Decodings.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass/Unsafe or Wildcard Domains Bypass.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass/Bypass via Relative Path Overwrite.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass/base-uri Bypass.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Unicode Encoding.md",
     "Offensive Security/Assets/visual-spoofing-2.png",
     "Offensive Security/Assets/visual-spoofing-1.png",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/URL Encoding.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Base36 and Base64 Encoding.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/HTML Encoding.md",
     "Certification Roadmap.md",
     "Offensive Security/Assets/base64-encoding-algo-2.png",
     "Offensive Security/Assets/base64-encoding-algo-1.png",
