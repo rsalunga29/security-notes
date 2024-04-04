@@ -48,12 +48,14 @@
             }
           },
           {
-            "id": "97f39f5395651086",
+            "id": "956c8a44438c06e6",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.12"
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass/Unsafe or Wildcard Domains Bypass.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -110,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Multiple Encodings and Decodings.md"
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass/Unsafe or Wildcard Domains Bypass.md"
               }
             }
           }
@@ -142,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Multiple Encodings and Decodings.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass/Unsafe or Wildcard Domains Bypass.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Multiple Encodings and Decodings.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass/Unsafe or Wildcard Domains Bypass.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,12 +196,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "97f39f5395651086",
+  "active": "956c8a44438c06e6",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass/Bypass via Relative Path Overwrite.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass/base-uri Bypass.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Multiple Encodings and Decodings.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Unicode Encoding.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Multiple Encodings and Decodings.md",
     "Offensive Security/Assets/visual-spoofing-2.png",
     "Offensive Security/Assets/visual-spoofing-1.png",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/URL Encoding.md",
@@ -232,12 +236,10 @@
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/Bypass with SQLMap.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/File Inclusion Bypass.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/HTTP 30x Redirect Bypass.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/HTTP 403 and 401 Bypass.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Information Disclosure/Common Sources",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Enumeration",
     "Offensive Security/Assets/cookie-tampering.png",
     "Offensive Security/Assets/ssti-diagram.png",
     "Offensive Security/Assets/username-injection.png",
