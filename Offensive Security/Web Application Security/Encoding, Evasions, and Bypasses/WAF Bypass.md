@@ -28,3 +28,5 @@ The following are the simple payloads that can be used to bypass WAFs.
 - `/etc//passwd`
 - `/etc/ignore/../passwd`
 - `/etc/passwd.......`
+## Web Shell
+- `augh.php`
