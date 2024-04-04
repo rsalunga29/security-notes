@@ -38,15 +38,33 @@ Regex is known as a "symbolic language", below is a table of regex symbols and t
 | `.`       | Dot or period                   | Shorthand for a character class that matches any character.                            |
 | `\`       | Backslash                       | Escape special characters.                                                             |
 | `\|`      | Vertical bar or pipe            | It means OR. Combines multiple expressions in one that matches any of the single ones. |
-## Shorthand Character Class
+### Shorthand Character Class
 Since there are some character classes frequently used, there are also related shorthand classes that are useful to decrease the size and increase the readability of a regex.
 
-| Character | Name                   | Meaning                                                                                     |
-| --------- | ---------------------- | ------------------------------------------------------------------------------------------- |
-| `^`       | Caret                  | If at the beginning of the character class, it means to reverse the matching for the class. |
-| `\d`      | Digit                  |                                                                                             |
-| `\D`      | Non-digit              |                                                                                             |
-| `\w`      | Part-of-word character |                                                                                             |
-| `\W`      | Non-word character     |                                                                                             |
-| `\s`      | Whitespace             |                                                                                             |
-| `\S`      |                        |                                                                                             |
+| Character | Name                   | Meaning                                                                                              |
+| --------- | ---------------------- | ---------------------------------------------------------------------------------------------------- |
+| `^`       | Caret                  | If at the beginning of the character class, it means to reverse the matching for the class.          |
+| `\d`      | Digit                  | Matches any digit character. The same as `[0-9]`.                                                    |
+| `\D`      | Non-digit              | The complement of `\d`. The same as `[^\d]`.                                                         |
+| `\w`      | Part-of-word character | Matches any alphanumeric character. The same as `[a-zA-Z0-9_]`. Sometimes the underscore is omitted. |
+| `\W`      | Non-word character     | The complement of `\w`. The same as `[^\w]`.                                                         |
+| `\s`      | Whitespace             | Matches any whitespace character. The same as `[\f\n\r\t\v]`.                                        |
+| `\S`      | Non-whitespace         | The complement of `\s`. The same as `[^\s]`                                                          |
+## Unicode
+Regex also works with Unicode. The sequence is `\ucode-point`, wherein `code-point` is the hexadecimal number of the character to match. However, regex flavors like PCRE only supports `\x{code-point}`.
+
+For example, the regex `\u2603` matches the snowman in .NET, Java, JavaScript, and Python. However, if we want the same character in Apache and PHP, we must use `\x{2603}`.
+### Unicode Properties
+It is also possible to match if a character has a specific quality, using unicode properties. To match characters with a specific quality, we use `\p{quality-id}`, while for those that do not have the quality, we instead use `\P{quality-id}`.
+
+The following table shows the general character qualities:
+
+| Character Quality                      | Description                                                   |
+| -------------------------------------- | ------------------------------------------------------------- |
+| `\p{L}` or `\p{Letter}`                | All the letters, from any language.                           |
+| `\p{LI}` or `\p{Lowercase_Letter}`     | Lowercase letters that have the respective uppercase quality. |
+| `\p{Z}` or `\p{Separator}`             | Chars used to separate, but without visual representation.    |
+| `\p{S}` or `\p{Symbol}`                | Currency symbols, match symbols, etc...                       |
+| `\p{N}` or `\p{Number}`                | All the numeric characters.                                   |
+| `\p{Nd}` or `\p{Decimal_Digit_Number}` | Numbers from 0 to 9 except for Chinese, Japanese, and Korean. |
+| `\p{P}` or `\p{Punctuation}`           | All the punctuation characters.                               |
