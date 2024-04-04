@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Multiple Encodings and Decodings.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Regular Expressions.md",
                 "mode": "source",
                 "source": false
               }
@@ -46,21 +46,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "956c8a44438c06e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass/Unsafe or Wildcard Domains Bypass.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass/Unsafe or Wildcard Domains Bypass.md"
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Regular Expressions.md"
               }
             }
           }
@@ -144,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass/Unsafe or Wildcard Domains Bypass.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Regular Expressions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass/Unsafe or Wildcard Domains Bypass.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Regular Expressions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,11 +183,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "956c8a44438c06e6",
+  "active": "4bfa2abb229ab206",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Multiple Encodings and Decodings.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Regular Expressions.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass/Unsafe or Wildcard Domains Bypass.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass/Bypass via Relative Path Overwrite.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass/base-uri Bypass.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Multiple Encodings and Decodings.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Unicode Encoding.md",
@@ -234,8 +223,6 @@
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques",
     "().md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/Bypass with SQLMap.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/File Inclusion Bypass.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/HTTP 30x Redirect Bypass.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload",
