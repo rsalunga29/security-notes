@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/Bypass Keyword Filters.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/Bypass Keyword Filters.md"
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Introduction.md"
               }
             }
           }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/Bypass Keyword Filters.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/Bypass Keyword Filters.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +185,13 @@
   },
   "active": "4bfa2abb229ab206",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypass Blacklisting Filters.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Introduction.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypass Browser Filters.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypass Sanitization.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/Bypass with SQLMap.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/Bypass Function Filters.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/Bypass Keyword Filters.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Insecure Deserialization/Identify Insecure Deserialization.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/Conditions for Successful CSRF Attacks.md",
@@ -206,19 +212,13 @@
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Unicode Encoding.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Base36 and Base64 Encoding.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/HTML Encoding.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Multiple Encodings and Decodings.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass/Unsafe or Wildcard Domains Bypass.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass/Bypass via Relative Path Overwrite.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass/base-uri Bypass.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering",
     "Offensive Security/Assets/visual-spoofing-2.png",
     "Offensive Security/Assets/visual-spoofing-1.png",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/URL Encoding.md",
     "Offensive Security/Assets/base64-encoding-algo-2.png",
     "Offensive Security/Assets/base64-encoding-algo-1.png",
     "Offensive Security/Web Application Security/Evasions and Bypasses/Encoding/Untitled",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/URI Obfuscation Techniques.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding",
     "Offensive Security/Assets/php-obfus-float-literals.png",
     "Offensive Security/Assets/php-obfus-integer-literals.png",
