@@ -10,3 +10,7 @@ The XSS Filter rules are hardcoded in the `c:\windows\system32\mshtml.dll` libra
 ```cmd
 findstr /C:"sc{r}" \WINDOWS\SYSTEM32\mshtml.dll | find "{"
 ```
+
+The XSS Filter works by "neutering" characters. Basically, once a malicious injection is detected, the XSS Filter modifies the evil part of the payload by adding the `#` character, defined in the rules. For example:
+- `<svg/onload=alert(1)>` is transformed to `<svg/#nload=alert(1)>` using the filter `{[ /+\t\"\'`]{o}n\c\c\c+?[ +\\t]*?=.}`
+- 
