@@ -10,7 +10,13 @@ The XSS Filter rules are hardcoded in the `c:\windows\system32\mshtml.dll` libra
 ```cmd
 findstr /C:"sc{r}" \WINDOWS\SYSTEM32\mshtml.dll | find "{"
 ```
+While the XSS Filter has few rules - 25 to be exact, they are well constructed and difficult to attack. Even with bypasses being discovered over the years, the latest versions seems to be stronger than the past versions.
 
 The XSS Filter works by "neutering" characters. Basically, once a malicious injection is detected, the XSS Filter modifies the evil part of the payload by adding the `#` character, defined in the rules. For example:
-- `<svg/onload=alert(1)>` is transformed to `<svg/#nload=alert(1)>` using the filter `{[ /+\t\"\'`]{o}n\c\c\c+?[ +\\t]*?=.}`
-- 
+- `<svg/onload=alert(1)>` is transformed to `<svg/#nload=alert(1)>`.
+- `<isindex/onmouseover=alert(1)>` is transformed to `<is#ndex/#nmouseover=alert(1)>`.
+#### X-XSS-Protection Header
+Websites who chose to disable XSS Filter, can use the `X-XSS-Protection` HTTP header instead. It can be used as such:
+```http
+HTTP
+```
