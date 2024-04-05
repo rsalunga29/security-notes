@@ -18,5 +18,13 @@ The XSS Filter works by "neutering" characters. Basically, once a malicious inje
 #### X-XSS-Protection Header
 Websites who chose to disable XSS Filter, can use the `X-XSS-Protection` HTTP header instead. It can be used as such:
 ```http
-HTTP
+HTTP/1.1 200 OK
+...
+X-XSS-Protection: 1; mode=block
 ```
+### XSS Auditor (WebKit/Blink)
+This is enabled by default in browsers such as Google Chrome, Opera and Safari. Authors of XSSAuditor claims the filter design is both effective and highly precise. To do this, they placed XSS Auditor in between the HTML Parser and JS engine.
+
+The filter analyzes both the inbound requests and the outbound. If, in the parsed HTML data, it finds executable code within the response, then it stops the script and generates a console alert.
+
+However, there are tons of bypasses for XSS Auditor. In fact, a simple search on google about XSS Auditor returns more information on bypasses than on the filter itself.

