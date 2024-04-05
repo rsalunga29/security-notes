@@ -1,0 +1,3 @@
+Another approach to filter/block attacks is using client-side filters within web browsers. These browsers are the primary means used to address attacks. The goal of client-side defenses is to protect users against vulnerabilities in web applications.
+## Browser Add-ons
+The [NoScript Security Suite](https://addons.mozilla.org/en-US/firefox/addon/noscript/) is the first valid solution for client-side filtering

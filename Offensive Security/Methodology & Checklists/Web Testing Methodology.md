@@ -20,6 +20,7 @@
 ## Active Recon
 - Identify if the application if using WAF
 	- [wafw00f](https://github.com/EnableSecurity/wafw00f)
+	- Nmap's [http-waf-fingerprint](https://nmap.org/nsedoc/scripts/http-waf-fingerprint.html) script
 - Utilize general purpose automatic scanners.
 	- Port scanning using Nmap.
 	- Directory, DNS, and VHost fuzzing using [ffuf](https://github.com/ffuf/ffuf), [GoBuster](https://github.com/OJ/gobuster), or [amass](https://github.com/owasp-amass/amass).
