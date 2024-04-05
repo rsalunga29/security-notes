@@ -9,7 +9,7 @@ Additionally, when using `TRACE` verb, there are chances where we can also see t
 - Change `Host` header to some arbitrary value. For example, if we changed it from `Host: target-website.com` to `Host: google.com`, the access control mechanism might fail and allow access to protected resource.
 - Try to use other `User-Agents` or completely remove the `Host` header to access the resource.
 - Fuzz HTTP headers by using HTTP Proxy Headers, below is a list of possible headers to use:
-	- - `X-Originating-IP: 127.0.0.1`
+	- `X-Originating-IP: 127.0.0.1`
 	- `X-Forwarded-For: 127.0.0.1`
 	- `X-Forwarded: 127.0.0.1`
 	- `Forwarded-For: 127.0.0.1`
