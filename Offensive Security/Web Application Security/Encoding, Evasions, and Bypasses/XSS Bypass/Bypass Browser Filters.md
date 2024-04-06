@@ -1,1 +1,1 @@
-Lorem
+These filters try to protect users from XSS attacks but, they do not cover all possible XSS attack scenarios and only focuses on Reflected-type XSS.

