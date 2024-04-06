@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypass Blacklisting Filters.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters/Bypassing Weak script Filters..md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypass Blacklisting Filters.md"
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters/Bypassing Weak script Filters..md"
               }
             }
           }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypass Blacklisting Filters.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters/Bypassing Weak script Filters..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypass Blacklisting Filters.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters/Bypassing Weak script Filters..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,10 +183,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1f4297e123c8793c",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters/Introduction.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters/Bypassing Weak script Filters..md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypass Blacklisting Filters.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Unicode Encoding.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/URL Encoding.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Multiple Encodings and Decodings.md",
@@ -210,7 +212,6 @@
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Client-Side Filters.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Regular Expressions.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Web Application Firewall.md",
-    "Offensive Security/Miscellaneous/Others.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering",
@@ -226,7 +227,6 @@
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/CSP Bypass",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload",
     "Offensive Security/Assets/cookie-tampering.png",
     "Offensive Security/Assets/ssti-diagram.png",
     "Offensive Security/Assets/username-injection.png",

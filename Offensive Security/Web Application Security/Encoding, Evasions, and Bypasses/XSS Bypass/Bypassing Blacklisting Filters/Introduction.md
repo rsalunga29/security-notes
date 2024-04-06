@@ -1,0 +1,1 @@
+Blacklisting Filters is the most filter mechanism being used. These type of filter's common goal is to detect specific patterns to prevent malicious behaviors.
