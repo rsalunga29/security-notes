@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypass Browser Filters.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypass Browser Filters.md"
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets.md"
               }
             }
           }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypass Browser Filters.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypass Browser Filters.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,8 +185,9 @@
   },
   "active": "1f4297e123c8793c",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Client-Side Filters.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/Bypass Function Filters.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypass Browser Filters.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Client-Side Filters.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypass Sanitization.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters/Bypassing Weak script Filters..md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters/JavaScript using HTML Attributes and Events.md",
@@ -203,7 +204,6 @@
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Introduction.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/Bypass with SQLMap.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/Bypass Function Filters.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/Bypass Keyword Filters.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Insecure Deserialization/Identify Insecure Deserialization.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/Conditions for Successful CSRF Attacks.md",

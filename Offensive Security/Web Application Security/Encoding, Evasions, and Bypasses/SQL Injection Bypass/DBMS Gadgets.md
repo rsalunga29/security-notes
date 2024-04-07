@@ -1,0 +1,1 @@
+DBMS "gadgets" can be used for construction of obfuscated payloads.
