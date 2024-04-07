@@ -1,4 +1,4 @@
-The following are the simple payloads that can be used to bypass WAFs.
+The following are the simple payloads that can be used to bypass WAFs. Additionally, we may refer to this [cheat sheet](https://hacken.io/discover/how-to-bypass-waf-hackenproof-cheat-sheet/) for other techniques. 
 > Note: Since these are pretty common, this may not work 100% of the time.
 ## Cross-Site Scripting
 - `prompt('xss')`
