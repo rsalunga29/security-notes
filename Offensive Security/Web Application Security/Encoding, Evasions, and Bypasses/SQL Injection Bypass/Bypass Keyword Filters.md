@@ -1,1 +1,1 @@
-Lorem
+The first limitation that we may encounter when dealing with filters are 

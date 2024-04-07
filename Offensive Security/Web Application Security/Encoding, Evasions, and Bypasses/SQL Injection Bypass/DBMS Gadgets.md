@@ -201,3 +201,24 @@ SELECT q'[]'||'He'||'ll'/**/'o'
 SELECT CONCAT(/**/'He'/**/,/**/'ll'/**/)
 ```
 ### Integers
+In MySQL, there is a special behavior when combining arithmetic operations with different types. For example:
+```sql
+SELECT ~'-2it\'s a kind of magic'
+```
+
+Numbers vs Booleans:
+```sql
+SELECT ... 1=TRUE
+SELECT ... 2! =TRUE
+SELECT ... OR 1
+SELECT ... AND 1
+```
+
+Strings vs Numbers vs Booleans
+```sql
+SELECT ... VERSION()=5.5 #5.5.30
+SELECT ... @@VERSION()=5.5 #5.5.30
+SELECT ... ('type'+'cast')=0 #TRUE
+SELECT ~'-2it\'s a kind of magic' #1
+SELECT -'-1337a kind of magic'-25 #1337
+```
