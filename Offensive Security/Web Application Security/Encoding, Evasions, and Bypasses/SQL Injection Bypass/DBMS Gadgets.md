@@ -83,4 +83,29 @@ In MSSQL, the list of Universal characters allowed as a whitespace are large. Es
 | Codepoint | Character | Description    |
 | --------- | --------- | -------------- |
 | 160       | U+00A0    | No-break space |
-In Oracle
+In Oracle, the list shrinks back to what MySQL is using, plus the NULL char, like below:
+
+| Codepoint | Character | Description |
+| --------- | --------- | ----------- |
+| 0         | U+0000    | NULL        |
+### Non-Universal Characters
+In all the DBMSs we can use the plus sign (`+`) to separate almost all the keywords except `FROM`. For example:
+```sql
+SELECT+name FROM employees WHERE+id=1 AND+name LIKE+'J%';
+```
+### Constants and Variables
+For evasion purposes, knowing the SQL keywords is a must, as they can be useful during generation of strings, comparisons, etc.
+
+[MySQL](https://dev.mysql.com/doc/refman/8.0/en/keywords.html), [MSSQL](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/reserved-keywords-transact-sql?view=sql-server-ver16), and [Oracle](https://docs.oracle.com/cd/A97630_01/appdev.920/a42525/apb.htm) all have keywords which are reserved and require special treatment for use as identifiers.
+
+The only way to obfuscate keywords is by manipulating upper/lower case variations like: `sELeCt`, `SEleCT`, etc...
+
+Using `SHOW VARIABLES`, we can view the list of MySQL Server System Variables.
+
+If we want to define a custom variable, then we need the
+following notation:
+```sql
+SET @myvar={expression}
+SET @myvar:={expression}
+```
+### Strings
