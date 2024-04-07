@@ -183,13 +183,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccc68e20622978c5",
+  "active": "1f4297e123c8793c",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Client-Side Filters.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypass Browser Filters.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypass Sanitization.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters/Bypassing Weak script Filters..md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters/JavaScript using HTML Attributes and Events.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters/Keyword-based Filters.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypass Browser Filters.md",
     "Certification Roadmap.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters/Introduction.md",
@@ -211,7 +212,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/SameSite Cookie Restrictions/Difference Between Site and Origin.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/Common CSRF Defenses/CSRF Token Validation.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-site Request Forgery (CSRF)/GET-based vs POST-based CSRF.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Client-Side Filters.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering",
