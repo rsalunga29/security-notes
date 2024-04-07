@@ -1,4 +1,3 @@
-DBMS "gadgets" can be used for construction of obfuscated payloads.
 ## Comments
 Comments are useful to developers for clarifying SQL statements. However, it can also be used for commenting out a legitimate query and obfuscating portions of our payloads.
 ## Functions and Operators
@@ -152,4 +151,53 @@ Furthermore, to escape quotes we can use the same character two times:
 SELECT 'He''llo'
 SELECT "He""llo"
 ```
+If we try to escape a character that does not have a respective escaping sequence, the backslash will be ignored.
 
+In MSSQL and Oracle, we can escape single-quotes by using two single-quotes:
+```sql
+SELECT 'He''llo'
+```
+
+For quoted strings, concatenation can be performed by placing the string next to each other:
+```sql
+SELECT 'he' 'll' 'o'
+```
+
+As an alternative, we can use functions like `CONCAT` and `CONCAT_WS`. For example:
+```sql
+SELECT CONCAT('He','ll','o')
+SELECT CONCAT_WS(''. 'He', 'll', 'o')
+```
+
+It's also possible to concatenate using a mix of comments in C-style:
+```sql
+SELECT 'He'/**/'ll'/**/'o'
+SELECT /**/'He'/**/'ll'/**/'o'/**/
+SELECT /*!10000 'He' */'ll'/*****/'o'/*****/
+```
+
+In MSSQL, concatenation can be done using both the plus sign and `CONCAT` function. For example:
+```sql
+SELECT 'He'+'ll'+'o'
+SELECT CONCAT('He','ll','o')
+```
+
+We can also obfuscate it using C-style comments:
+```sql
+SELECT 'He'/**/+/**/'ll'/**/+'o'
+SELECT CONCAT(/**/'He',/**/1/**/,/**/'lo'/**/)
+```
+
+In Oracle, the operator is **||** and, from the function perspective, we can use **CONCAT** and **NVL**:
+```sql
+SELECT 'He'||'ll'||'o'
+SELECT CONCAT('He','llo')
+SELECT NVL('Hello', 'Goodbye')
+```
+
+We can also obfuscate it using C-style comments:
+```sql
+SELECT q'[]'||'He'||'ll'/**/'o'
+SELECT CONCAT(/**/'He'/**/,/**/'ll'/**/)
+```
+### Integers
