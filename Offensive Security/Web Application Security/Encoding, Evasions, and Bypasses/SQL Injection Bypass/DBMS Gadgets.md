@@ -109,3 +109,31 @@ SET @myvar={expression}
 SET @myvar:={expression}
 ```
 ### Strings
+In MySQL, we can define strings using single-quote (`'`) or double-quotes (`"`).
+
+We can also define string laterals with the following character set: `_latin1'string'`. The character set that can be used has approximately 40 possible values and can use any of them preceded by an underscore character: `SELECT _ascii'Break Me'`
+
+We can also use `N'literal'` or `n'literal'` to create a string in the National Character Set, for example:
+```sql
+SELECT N'mystring'
+```
+
+There is also `B'literal'` or `b'literal'` for defining Bit Literals, for example:
+```sql
+SELECT 'a'=B'1100001' # TRUE
+```
+
+Other literal notations are Hexadecimal:
+```sql
+SELECT X'4F485045'
+SELECT 0x4F485045
+```
+
+In MSSQL, the literal is defined as either constant or scaler value, it can only be defined using single-quote (`'`). However, if the `QUOTED_IDENTIFIER` is enabled, we can use double-quotes (`"`).
+
+In Oracle, literals are not allowed to use double-quote delimiters. Instead, the National Notation is used. For example:
+```sql
+SELECT N'Hello'...
+SELECT nQ'("ąďṁĩň")'...
+```
+
