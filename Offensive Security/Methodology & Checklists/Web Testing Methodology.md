@@ -62,6 +62,7 @@ If the source code of the application is open-source or has been made available 
 	- HTTP Parameter Pollution.
 - Existing user takeover via duplicate registration:
 	- Changes in letter cases (uppercase, lowercase, camelcase).
+	- Using unicode (i.e register as `ąďṁĩň` when `admin` already exists)
 	- Add some dots in the emails.
 	- Use special characters in the email (`%00`, `%09`, `%20`).
 	- Manipulating email by adding additional `@` (i.e `victim@gmail.com@attacker.com`).

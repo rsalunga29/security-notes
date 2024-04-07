@@ -129,11 +129,27 @@ SELECT X'4F485045'
 SELECT 0x4F485045
 ```
 
+MySQL also supports Unicode, below is a simple example of a Unicode select:
+```sql
+SELECT 'admin'='ąďṁĩň' #TRUE
+```
+
 In MSSQL, the literal is defined as either constant or scaler value, it can only be defined using single-quote (`'`). However, if the `QUOTED_IDENTIFIER` is enabled, we can use double-quotes (`"`).
 
 In Oracle, literals are not allowed to use double-quote delimiters. Instead, the National Notation is used. For example:
 ```sql
 SELECT N'Hello'...
 SELECT nQ'("ąďṁĩň")'...
+```
+
+Escaping in SQL means using a backslash before both the single and double quotes. For example:
+```sql
+SELECT 'He\'llo'
+SELECT 'He\%\_llo'
+```
+Furthermore, to escape quotes we can use the same character two times:
+```sql
+SELECT 'He''llo'
+SELECT "He""llo"
 ```
 
