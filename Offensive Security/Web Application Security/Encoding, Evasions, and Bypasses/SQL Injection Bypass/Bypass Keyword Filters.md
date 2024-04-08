@@ -52,4 +52,6 @@ If `GROUP BY` is blocked, we must switch to attempting [blind SQLi](obsidian://o
 
 If `HAVING` is filtered, in this case we must leverage functions like `GROUP_CONCAT`, functions that manipulates strings, etc. (blind SQLi)
 
-If `SELECT` is filtered, it's an *authentic tragedy*. The exploitation can vary and really depends upon the injection point.
+If `SELECT` is filtered, it's an *authentic tragedy*. The exploitation can vary and really depends upon the injection point. Alternatively, you can use functions that manipulates files, such as `load_files` (MySQL).
+
+Another option, brute-force or guess the column names by appending other `WHERE` condition.
