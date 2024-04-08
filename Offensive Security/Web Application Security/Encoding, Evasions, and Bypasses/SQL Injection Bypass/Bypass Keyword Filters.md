@@ -40,3 +40,16 @@ If `UNION` is filtered, the following alternatives can be used:
 ... /*!00000 UNION*//*!00000 SELECT*/ ...
 ```
 If none of the above works, we must switch to attempting [blind SQLi](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FVulnerabilities%20%26%20Attacks%2FSQL%20Injection%2FBlind%20SQL%20Injection%2FIntroduction) instead.
+
+In Oracle, we can use `INTERSECT` or `MINUS` operators.
+
+If the filter blocks the `WHERE` keyword, we can use `GROUP BY` and `HAVING` as alternatives. For example:
+```sql
+SELECT id FROM users GROUP BY id HAVING id=5...
+```
+
+If `GROUP BY` is blocked, we must switch to attempting [blind SQLi](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FVulnerabilities%20%26%20Attacks%2FSQL%20Injection%2FBlind%20SQL%20Injection%2FIntroduction) instead.
+
+If `HAVING` is filtered, in this case we must leverage functions like `GROUP_CONCAT`, functions that manipulates strings, etc. (blind SQLi)
+
+If `SELECT` is filtered, it's an *authentic tragedy*. The exploitation can vary and really depends upon the injection point.
