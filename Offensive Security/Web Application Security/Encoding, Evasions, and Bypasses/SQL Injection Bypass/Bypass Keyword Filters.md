@@ -55,3 +55,8 @@ If `HAVING` is filtered, in this case we must leverage functions like `GROUP_CON
 If `SELECT` is filtered, it's an *authentic tragedy*. The exploitation can vary and really depends upon the injection point. Alternatively, you can use functions that manipulates files, such as `load_files` (MySQL).
 
 Another option, brute-force or guess the column names by appending other `WHERE` condition.
+
+Another option, is being able to invoke the stored `procedure analyse()`, which returns "juicy" information about the query that was just executed. For example:
+```sql
+SELECT * FROM employees procedure analyse()
+```
