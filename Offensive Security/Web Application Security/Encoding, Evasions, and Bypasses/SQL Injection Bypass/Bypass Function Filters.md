@@ -48,5 +48,24 @@ If we cannot build a string, we can try to locate either a segment or an entire 
 ```sql
 IF(LOCATE('H',SUBSTR(USERNAME,1,1)),1,0)
 ```
->Note: Alternatively, we can use `INSTR` and `POSITION`.
+Alternatively, we can also use `INSTR` and `POSITION`.
+### Building Substring
+If `SUBSTR` is filtered or blocked, we can use the following alternatives.
 
+The first alternative is `MID`, this is nothing more than synonym of `SUBSTRING`, which is also a synonym of `SUBSTR`. For example:
+```sql
+SUBSTRING('HELLO' FROM 1 FOR 1)
+SUB('HELLO' FROM 1 FOR 1)
+```
+
+Alternatively, we can use the `LEFT` and `RIGHT` functions, which are useful for retrieving the left or right most specified character. For example:
+```SQL
+LEFT('HELLO', 2) // returns 'HE'
+RIGHT('HELLO', 2) // returns 'LO'
+```
+
+Padding functions like `RPAD` and `LPAD` are also other alternatives. For example:
+```sql
+LPAD('HELLO', 6, '?') // returns '?HELLO'
+RPAD('HELLO', 1, ?) // returns 'H'
+```
