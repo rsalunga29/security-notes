@@ -28,4 +28,6 @@ Usually when the requests are sent through the internet via HTTP, they are URL e
 
 We can also use **Double URL Encoding**, which URL encodes an already URL-encoded string. If the filter only decodes the request once, it will not find anything malicious. Then when the application receives the request, it will decode the contents and trigger the malicious request.
 ## Replaced Keywords
-Lorem
+When regex's are tricky, we have to find alternative methods to bypass them. Replacing blocked keywords is one of these methods.
+
+In MySQL and MSSQL, the `&&` and `||` can be replaced by `AND` and `OR`, and vice vers
