@@ -30,4 +30,13 @@ We can also use **Double URL Encoding**, which URL encodes an already URL-encode
 ## Replaced Keywords
 When regex's are tricky, we have to find alternative methods to bypass them. Replacing blocked keywords is one of these methods.
 
-In MySQL and MSSQL, the `&&` and `||` can be replaced by `AND` and `OR`, and vice vers
+In MySQL and MSSQL, the `&&` and `||` can be replaced by `AND` and `OR`, and vice versa. If both are blocked, then we must use `UNION`.
+
+If `UNION` is filtered, the following alternatives can be used:
+```sql
+... UNION(SELECT 'VALUES'...) && ...
+... UNION ALL SELECT ...
+... UNION DISTINCT SELECT ...
+... /*!00000 UNION*//*!00000 SELECT*/ ...
+```
+If none of the above works, we must switch to attempting [blind SQLi](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FVulnerabilities%20%26%20Attacks%2FSQL%20Injection%2FBlind%20SQL%20Injection%2FIntroduction) instead.
