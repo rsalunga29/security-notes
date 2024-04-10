@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md"
+                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md"
               }
             }
           }
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
+                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
+                "file": "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,12 +196,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f1feb46a73a8f9dc",
+  "active": "0949be06f75d5099",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "eWPTX Exam Notes.md",
     "Offensive Security/Network Security/Enumeration/Port Scanning.md",
-    "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
     "Offensive Security/Web Application Security/Enumeration/DNS Zone Transfer.md",
     "Offensive Security/Web Application Security/Enumeration/WAF.md",
     "Offensive Security/Web Application Security/Enumeration/Vulnerability Scanning.md",
