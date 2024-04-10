@@ -4,7 +4,7 @@
 - Report any vulnerability and any working exploit.
 - Full exploitation of all every identified vulnerability is a must. Simple error messages or payloads will not be counted.
 ## Scope
-- Dedicated Web Server: 10.100.13.37
+- Dedicated Web Server: 10.100.13.37 (also a DNS server)
 - Domain: \*.terahost.exam (all subdomains)
 - Dedicated Web Servers: 10.100.13.33, 10.100.13.34
 ## Passing Conditions
