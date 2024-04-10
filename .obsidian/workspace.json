@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures/Error-based XXE.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Blind XXE Injection/Exfiltrate Data via OAST Techniques.md",
                 "mode": "preview",
                 "source": false
               }
@@ -76,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "base64-encode",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures/Error-based XXE.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Blind XXE Injection/Exfiltrate Data via OAST Techniques.md"
               }
             }
           }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures/Error-based XXE.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Blind XXE Injection/Exfiltrate Data via OAST Techniques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures/Error-based XXE.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Blind XXE Injection/Exfiltrate Data via OAST Techniques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,12 +185,12 @@
   },
   "active": "bab6c66d879a5f57",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures/Advanced Exfiltration with CDATA.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Blind XXE Injection/Detecting Blind XXE using OAST Techniques.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Blind XXE Injection/Exfiltrate Data via OAST Techniques.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures/Advanced Exfiltration with CDATA.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures/Error-based XXE.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Blind XXE Injection/Retrieve Data via Error Messages.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Blind XXE Injection/Exploiting Blind XXE by Repurposing a Local DTD.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Blind XXE Injection/Exfiltrate Data via OAST Techniques.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures/Error-based XXE.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Chained XXE to RCE.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Chained XXE to SSRF.md",
