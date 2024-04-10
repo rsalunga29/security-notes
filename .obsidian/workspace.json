@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Base64-based Obfuscation.md",
                 "mode": "preview",
                 "source": false
               }
@@ -76,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sqlmap",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,12 +99,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Introduction.md"
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Base64-based Obfuscation.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -132,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Base64-based Obfuscation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Base64-based Obfuscation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,11 +185,15 @@
   },
   "active": "bab6c66d879a5f57",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Non-alphanumeric Encoding.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Introduction.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Basic Obfuscation.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Base64-based Obfuscation.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/SQL Injection in Different Contexts.md",
     "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
     "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Common SQL Injection Attacks/Enumerating the Database.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Introduction.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Certification Roadmap.md",
     "Offensive Security/Network Security/Enumeration/Port Scanning.md",
@@ -208,10 +211,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/UNION Attacks/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Common SQL Injection Attacks/Retrieving Hidden Data.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Common SQL Injection Attacks/Retrieving Data from Other Database Tables.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Common SQL Injection Attacks/Reading or Writing Files.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Common SQL Injection Attacks/Introduction.md",
-    "Offensive Security/Web Application Security/Enumeration/DNS Zone Transfer.md",
-    "Offensive Security/Web Application Security/Enumeration/WAF.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass",
