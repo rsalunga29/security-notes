@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Common SQL Injection Attacks/Enumerating the Database.md",
+                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
                 "mode": "preview",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Common SQL Injection Attacks/Enumerating the Database.md"
+                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md"
               }
             }
           }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Common SQL Injection Attacks/Enumerating the Database.md",
+                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Common SQL Injection Attacks/Enumerating the Database.md",
+                "file": "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,13 +185,13 @@
   },
   "active": "bab6c66d879a5f57",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Introduction.md",
+    "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Common SQL Injection Attacks/Enumerating the Database.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Introduction.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Certification Roadmap.md",
     "Offensive Security/Network Security/Enumeration/Port Scanning.md",
     "eWPTX Exam Notes.md",
-    "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/Bypass with SQLMap.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/Bypass Keyword Filters.md",
