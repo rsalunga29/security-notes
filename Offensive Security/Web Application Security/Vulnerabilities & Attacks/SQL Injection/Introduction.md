@@ -16,7 +16,7 @@ You can detect a SQL injection manually using a set of tests against every entry
 	- Hashtag `#` or `%23` as URL-encoded
 	- Semicolon `;` or `%3B` as URL-encoded
 	- Ending parenthesis `)` or `%29` as URL-encoded
->Note: You can also combine these. For example `name=victim',version())#`.
+>Note: You can also combine these. For example `name=victim',version())#`. This might works best in body parameters.
 - Some SQL-specific syntax that evaluates to the base (original) value of the entry point, and to a different value, and look for systematic differences in the application responses.
 - Boolean conditions such as `OR 1=1` and `OR 1=2`, and look for differences in the application's responses.
 - Payloads designed to trigger time delays when executed within a SQL query, and look for differences in the time taken to respond.
