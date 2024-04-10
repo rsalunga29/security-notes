@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Retrieve Sensitive Files using XXE.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Non-alphanumeric Encoding.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Retrieve Sensitive Files using XXE.md"
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Non-alphanumeric Encoding.md"
               }
             }
           }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Retrieve Sensitive Files using XXE.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Non-alphanumeric Encoding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Retrieve Sensitive Files using XXE.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Non-alphanumeric Encoding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,13 +185,14 @@
   },
   "active": "bab6c66d879a5f57",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/Base64 Encoding Evasion.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Retrieve Sensitive Files using XXE.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Chained XXE to RCE.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Chained XXE to SSRF.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Blind XXE Injection/Exfiltrate Data via OAST Techniques.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Blind XXE Injection/Exploiting Blind XXE by Repurposing a Local DTD.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Blind XXE Injection/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Blind XXE Injection/Retrieve Data via Error Messages.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Retrieve Sensitive Files using XXE.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Blind XXE Injection/Detecting Blind XXE using OAST Techniques.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures/Advanced Exfiltration with CDATA.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures/Error-based XXE.md",
@@ -210,7 +211,6 @@
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Certification Roadmap.md",
     "Offensive Security/Network Security/Enumeration/Port Scanning.md",
-    "eWPTX Exam Notes.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass",
