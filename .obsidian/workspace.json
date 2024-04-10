@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Introduction.md",
                 "mode": "preview",
                 "source": false
               }
@@ -124,12 +124,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Introduction.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -157,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,10 +210,10 @@
   },
   "active": "a926eaa98aea49f8",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/Bypass Keyword Filters.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/Bypass with SQLMap.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/Bypass Function Filters.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/Bypass Keyword Filters.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/Bypass Function Filters.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Web Application Firewall.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Client-Side Filters.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Regular Expressions.md",
