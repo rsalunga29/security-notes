@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
+                "file": "eWPTX Exam Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md"
+                "file": "eWPTX Exam Notes.md"
               }
             }
           }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
+                "file": "eWPTX Exam Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
+                "file": "eWPTX Exam Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,10 +185,19 @@
   },
   "active": "8bf83b142f6959ae",
   "lastOpenFiles": [
-    "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
-    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
-    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Burp Intruder Attack Types.md",
+    "Offensive Security/Network Security/Enumeration/Port Scanning.md",
+    "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
+    "Offensive Security/Web Application Security/Enumeration/DNS Zone Transfer.md",
+    "Offensive Security/Web Application Security/Enumeration/WAF.md",
+    "Offensive Security/Web Application Security/Enumeration/Vulnerability Scanning.md",
+    "Offensive Security/Web Application Security/Enumeration/Parameter Fuzzing.md",
+    "Offensive Security/Web Application Security/Enumeration/Infrastructure.md",
+    "Offensive Security/Web Application Security/Enumeration/CMS.md",
+    "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
     "eWPTX Exam Notes.md",
+    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
+    "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
+    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Burp Intruder Attack Types.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Insecure Deserialization/Introduction.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/Bypass Function Filters.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/Bypass Keyword Filters.md",
@@ -203,16 +212,7 @@
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypass Sanitization.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters/Bypassing Weak script Filters..md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters/JavaScript using HTML Attributes and Events.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters/Keyword-based Filters.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters/Introduction.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Unicode Encoding.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/URL Encoding.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Multiple Encodings and Decodings.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/HTML Encoding.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Base36 and Base64 Encoding.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Introduction.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Insecure Deserialization/Identify Insecure Deserialization.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering",
