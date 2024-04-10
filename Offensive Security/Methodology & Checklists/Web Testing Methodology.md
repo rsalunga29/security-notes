@@ -18,9 +18,6 @@
 	- Look for cookies lacking security flags (https://www.invicti.com/learn/cookie-security-flags/).
 - Look for any public repositories owned by the target.
 ## Active Recon
-- Identify if the application if using WAF
-	- [wafw00f](https://github.com/EnableSecurity/wafw00f)
-	- Nmap's [http-waf-fingerprint](https://nmap.org/nsedoc/scripts/http-waf-fingerprint.html) script
 - Utilize general purpose automatic scanners.
 	- Port scanning using Nmap.
 	- Directory, DNS, and VHost fuzzing using [ffuf](https://github.com/ffuf/ffuf), [GoBuster](https://github.com/OJ/gobuster), or [amass](https://github.com/owasp-amass/amass).
@@ -29,6 +26,9 @@
 	- Spidering using [hakrawler](https://github.com/hakluke/hakrawler), [ParamSpider](https://github.com/devanshbatham/ParamSpider), or ZAP.
 	- [reconFTW](https://github.com/six2dez/reconftw) or [recon-ng](https://github.com/lanmaster53/recon-ng) or [uncover](https://github.com/projectdiscovery/uncover).
 - Enumerate for subdomains using [subfinder](https://github.com/projectdiscovery/subfinder) or [crt.sh](https://crt.sh/).
+- Identify if the application if using WAF
+	- [wafw00f](https://github.com/EnableSecurity/wafw00f)
+	- Nmap's [http-waf-fingerprint](https://nmap.org/nsedoc/scripts/http-waf-fingerprint.html) script
 - Look for exposed Git folder, `.env` files, backup files, debug pages, and admin/staff-only pages during directory fuzzing.
 - Check for default pages which might contain interesting information:
 	- `robots.txt`.
