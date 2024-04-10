@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Inclusion Vulnerabilities/File Disclosures/Using PHP Wrappers.md",
-                "mode": "source",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Blind XXE Injection/Exfiltrate Data via OAST Techniques.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -99,12 +99,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Inclusion Vulnerabilities/File Disclosures/Using PHP Wrappers.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Blind XXE Injection/Exfiltrate Data via OAST Techniques.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -132,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Inclusion Vulnerabilities/File Disclosures/Using PHP Wrappers.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Blind XXE Injection/Exfiltrate Data via OAST Techniques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Inclusion Vulnerabilities/File Disclosures/Using PHP Wrappers.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Blind XXE Injection/Exfiltrate Data via OAST Techniques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,8 +185,8 @@
   },
   "active": "bab6c66d879a5f57",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Blind XXE Injection/Exfiltrate Data via OAST Techniques.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Inclusion Vulnerabilities/File Disclosures/Using PHP Wrappers.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Blind XXE Injection/Exfiltrate Data via OAST Techniques.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Blind XXE Injection/Exploiting Blind XXE by Repurposing a Local DTD.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Blind XXE Injection/Detecting Blind XXE using OAST Techniques.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures/Advanced Exfiltration with CDATA.md",
