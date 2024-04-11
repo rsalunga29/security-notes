@@ -53,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Insecure Deserialization/Identify Insecure Deserialization.md",
                 "mode": "preview",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Insecure Deserialization/Identify Insecure Deserialization.md"
               }
             }
           }
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Insecure Deserialization/Identify Insecure Deserialization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Insecure Deserialization/Identify Insecure Deserialization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,6 +198,7 @@
   },
   "active": "d5bd8d63de9ba774",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Stored XSS/Find and Test for Vulnerabilities.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Obtain Session IDs via XXS.md",
@@ -223,7 +224,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Blind XXE Injection/Detecting Blind XXE using OAST Techniques.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Inclusion Vulnerabilities/Remote File Inclusion.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Non-alphanumeric Encoding.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/Base64 Encoding Evasion.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass",
