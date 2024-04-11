@@ -29,5 +29,5 @@ arp-scan 10.10.10.0/24
 ## Receive Ping
 Useful for testing if target server can reach our attack box
 ```bash
-tcpdump ip proto \\\\icmp
+tcpdump -i INTERFACE icmp
 ```
