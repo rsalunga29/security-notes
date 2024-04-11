@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Session Hijacking.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Stored XSS/Find and Test for Vulnerabilities.md",
                 "mode": "preview",
                 "source": false
               }
@@ -46,8 +46,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "d5bd8d63de9ba774",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -99,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Session Hijacking.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md"
               }
             }
           }
@@ -131,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Session Hijacking.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Session Hijacking.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,14 +196,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bab6c66d879a5f57",
+  "active": "d5bd8d63de9ba774",
   "lastOpenFiles": [
+    "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Stored XSS/Find and Test for Vulnerabilities.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Obtain Session IDs via XXS.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Obtain Session IDs via Traffic Sniffing.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Obtain Session IDs via Post-Exploitation.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Session Hijacking.md",
     "Offensive Security/Network Security/Exploitation/Password Cracking & Brute Force.md",
     "Offensive Security/Miscellaneous/Others.md",
     "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Common SQL Injection Attacks/Reading or Writing Files.md",
     "Offensive Security/Web Application Security/Enumeration/Directory Busting.md",
-    "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Common SQL Injection Attacks/Enumerating the Database.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures/Advanced Exfiltration with CDATA.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Advanced FIle Disclosures/Error-based XXE.md",
@@ -206,11 +224,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Inclusion Vulnerabilities/Remote File Inclusion.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Non-alphanumeric Encoding.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/Base64 Encoding Evasion.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/File Inclusion Vulnerabilities/File Disclosures/Using PHP Wrappers.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Introduction.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Base64-based Obfuscation.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Non-alphanumeric Encoding.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/JavaScript Obfuscation Techniques/Introduction.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass",
