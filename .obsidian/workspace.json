@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/3a. Exploit Using Python-based Custom Payload.md",
+                "file": "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
                 "mode": "preview",
                 "source": false
               }
@@ -76,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ysoserial",
+                "query": "stabili",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,11 +99,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/3a. Exploit Using Python-based Custom Payload.md"
+                "file": "Offensive Security/Network Security/Exploitation/Reverse Shells.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -131,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/3a. Exploit Using Python-based Custom Payload.md",
+                "file": "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/3a. Exploit Using Python-based Custom Payload.md",
+                "file": "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,16 +186,17 @@
   },
   "active": "bab6c66d879a5f57",
   "lastOpenFiles": [
+    "Offensive Security/Miscellaneous/Others.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/HTML Encoding.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/3a. Exploit Using Python-based Custom Payload.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/2. Identify.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/3. Exploit.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/3b. Exploiting Using Java-based Custom Payload.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/3a. Exploit Using Python-based Custom Payload.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/1. Detection.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Introduction.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/URL Encoding.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Unicode Encoding.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Multiple Encodings and Decodings.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/HTML Encoding.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Base36 and Base64 Encoding.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Regular Expressions.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Insecure Deserialization/Exploitation/Gadget Chains/Pre-built Gadget Chains.md",
@@ -210,7 +212,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Obtain Session IDs via XXS.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Session Security/Obtain Session IDs via Traffic Sniffing.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass",
