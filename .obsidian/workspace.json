@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Insecure Deserialization/Exploitation/Gadget Chains/Pre-built Gadget Chains.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Time Delays.md",
                 "mode": "preview",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Insecure Deserialization/Exploitation/Gadget Chains/Pre-built Gadget Chains.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Time Delays.md"
               }
             }
           }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Insecure Deserialization/Exploitation/Gadget Chains/Pre-built Gadget Chains.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Time Delays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Insecure Deserialization/Exploitation/Gadget Chains/Pre-built Gadget Chains.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Time Delays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,6 +185,20 @@
   },
   "active": "bab6c66d879a5f57",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Common SQL Injection Attacks/Enumerating the Database.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Common SQL Injection Attacks/Introduction.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Common SQL Injection Attacks/Reading or Writing Files.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Common SQL Injection Attacks/Retrieving Hidden Data.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Common SQL Injection Attacks/Retrieving Data from Other Database Tables.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Introduction.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Time Delays.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Conditional Responses.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Blind SQL Injection/Error-based Blind SQLi/Introduction.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Blind SQL Injection/Error-based Blind SQLi/Extracting Sensitive Data via SQL Error Messages.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Blind SQL Injection/Error-based Blind SQLi/Blind SQLi by Triggering Conditional Errors.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Second-order SQL Injection.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/SQL Injection in Different Contexts.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Insecure Deserialization/Exploitation/Gadget Chains/Pre-built Gadget Chains.md",
     "Offensive Security/Network Security/Privilege Escalation/Linux.md",
     "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
     "Offensive Security/Miscellaneous/Others.md",
@@ -197,20 +211,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Introduction.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/URL Encoding.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Unicode Encoding.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Multiple Encodings and Decodings.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Base36 and Base64 Encoding.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering/Regular Expressions.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Insecure Deserialization/Exploitation/Gadget Chains/Pre-built Gadget Chains.md",
-    "Offensive Security/Web Application Security/Burp Suite Tips & Tricks/Add All Subdomains to Scope.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Stored XSS/Find and Test for Vulnerabilities.md",
-    "Offensive Security/Network Security/Enumeration/Ping Sweeping.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/Full SSRF Exploit Example.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/Internal Port Scan Using SSRF.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/SSRF Attacks Against the Server.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Common SSRF Attacks/SSRF Attacks Against Other Backend Systems.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Introduction.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Insecure Deserialization/Identify Insecure Deserialization.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Advanced XSS PoC/Steal Website Cookies.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass",
