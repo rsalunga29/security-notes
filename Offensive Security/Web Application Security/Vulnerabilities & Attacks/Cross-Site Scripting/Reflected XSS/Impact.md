@@ -1,4 +1,5 @@
 If an attacker can control a script that is executed in the victim's browser, then they can fully compromise that user. They can also do the following:
+- Steal passwords and session IDs.
 - Perform any action on behalf of the user.
 - View/modify any information the user is able to view/modify.
 - Initiate interaction with other users, including malicious attacks, that will appear to originate from the initial victim user.
