@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Prevention/Mitigating XSS using Content Security Policy (CSP).md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Prevention.md",
                 "mode": "preview",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Prevention/Mitigating XSS using Content Security Policy (CSP).md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Prevention.md"
               }
             }
           }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Prevention/Mitigating XSS using Content Security Policy (CSP).md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Prevention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Prevention/Mitigating XSS using Content Security Policy (CSP).md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Prevention.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,8 +185,8 @@
   },
   "active": "bab6c66d879a5f57",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Prevention/Basic Prevention.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Prevention/Mitigating XSS using Content Security Policy (CSP).md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Prevention/Basic Prevention.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Prevention/Preventing XSS in Client-side JavaScript.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Prevention/Allowing Safe HTML.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Reflected XSS/Impact.md",
