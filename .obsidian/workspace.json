@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Prevention.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Introduction.md",
                 "mode": "preview",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Prevention.md"
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Introduction.md"
               }
             }
           }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Prevention.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Prevention.md",
+                "file": "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,8 +183,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bab6c66d879a5f57",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Prevention.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Prevention/Mitigating XSS using Content Security Policy (CSP).md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Prevention/Basic Prevention.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Prevention/Preventing XSS in Client-side JavaScript.md",
@@ -210,7 +211,6 @@
     "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
     "Offensive Security/Miscellaneous/Others.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/HTML Encoding.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/3a. Exploit Using Python-based Custom Payload.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass",
