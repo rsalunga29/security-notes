@@ -13,3 +13,5 @@ $joker .= ""; // string(1) "7"
 $joker += ""; // int(7)
 ```
 >Note: PHP versions 7 and above will throw warnings or even errors when executing type juggling.
+## Obfuscation Tools
+- https://www.gaijin.at/en/tools/php-obfuscator

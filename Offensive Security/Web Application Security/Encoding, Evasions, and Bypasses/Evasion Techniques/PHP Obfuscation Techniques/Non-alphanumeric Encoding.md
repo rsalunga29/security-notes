@@ -42,3 +42,5 @@ echo $_§|$__§; // Echoes A|B > "C"
 ```
 ## Hackvertor.co.uk
 We can use the following website to encode a PHP script in non-alphanumeric code: https://hackvertor.co.uk/public
+
+All we have to do is select "Encrypt" then look for "phpnonalpha" and "phpnonalpha2".

@@ -128,7 +128,7 @@ If the source code of the application is open-source or has been made available 
 	- Injecting self-signed JWT via `jwk`, `jku`, or `kid` parameters.
 - Timestamp tampering.
 - [JWT Tool](https://github.com/ticarpi/jwt_tool).
-### Changing Critical Information
+### Updating Critical Information
 - Check for common vulnerabilities and bypasses, including but not limited to:
 	- Stored XSS or SSTI via reflected values such as name, email, etc.
 	- SQL injection (manual and automated using sqlmap).
