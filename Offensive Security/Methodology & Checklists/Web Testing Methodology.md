@@ -192,3 +192,7 @@ If the source code of the application is open-source or has been made available 
 - https://pentestbook.six2dez.com/others/web-checklist
 - https://github.com/Secuna/checklists/blob/main/web.md
 - https://owasp.org/www-project-web-security-testing-guide/stable/
+## Other Tips, Tricks, and Guides
+- https://github.com/rodolfomarianocy/Tricks-Web-Penetration-Tester
+- https://github.com/botesjuan/Burp-Suite-Certified-Practitioner-Exam-Study
+- https://github.com/CyberSecurityUP/eWPTX-Preparation
