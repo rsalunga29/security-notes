@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Prevention.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Reflected XSS/Impact.md",
                 "mode": "preview",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Prevention.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Reflected XSS/Impact.md"
               }
             }
           }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Prevention.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Reflected XSS/Impact.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Prevention.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Cross-Site Scripting/Reflected XSS/Impact.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,6 +185,7 @@
   },
   "active": "bab6c66d879a5f57",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Prevention.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Blind SQL Injection/Blind SQLi by Triggering Time Delays.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Common SQL Injection Attacks/Enumerating the Database.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/SQL Injection/Common SQL Injection Attacks/Introduction.md",
@@ -210,7 +211,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/1. Detection.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Introduction.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/URL Encoding.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Unicode Encoding.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass",
