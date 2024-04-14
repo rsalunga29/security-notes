@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Prevention.md",
                 "mode": "preview",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Introduction.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Prevention.md"
               }
             }
           }
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Prevention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Introduction.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Prevention.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,10 +196,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3eaf5e150411ed18",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Other SSRF Attacks.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Introduction.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Other SSRF Attacks.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Insecure Deserialization/Cause and Prevention.md",
     "Certification Roadmap.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/SSRF with Whitelist-based Input Filters.md",
