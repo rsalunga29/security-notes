@@ -6,7 +6,7 @@
 	- Web Hacking 101 (book)
 	- The Web Application Hacker's Handbook 2nd Edition (book)
 - Certifications
-	- eLearnSecurity Web Application Penetration Tester eXtreme
+	- eLearnSecurity Web Application Penetration Tester eXtreme (Achieved)
 - AppSec Homelab Project Part 1
 	- Firewall: pfSense
 	- DevSecOps: Gitea, DejectDojo, Intentionally Vulnerable App
