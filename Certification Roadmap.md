@@ -26,6 +26,8 @@
 		- Cyber Defense
 		- SOC Level 1
 		- SOC Level 2
+	- PentesterLab
+		- Code Review labs
 - Certifications
 	- Security Blue Team Level 1 (optional)
 	- TCM Academy Practical Network Penetration Tester
@@ -34,10 +36,11 @@
 	- IDS/IPS: Suricata (NIDS) and Wazuh Agent (HIDS)
 	- SIEM: Security Onion or Splunk or ELK
 	- Active Directory: 1 DC, 2 User (1 IIS)
-### Q4 2024 / Q1 2025
+### Q4 2024 / Q1 2025 and Beyond
 - Study Materials
 	- TBD
 - Certifications
 	- API Security Certified Professional
 	- Altered Security Certified Red Team Practitioner
 	- Offensive Security Certified Professional
+	- Offensive Security Web Expert
