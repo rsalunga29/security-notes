@@ -6,7 +6,7 @@
 	- Look for DNS and WHOIS records.
 - Study the web application's structure (utilize browser dev tools).
 	- Frontend Components (HTML, CSS, JavaScript).
-	- Look for endpoints in JavaScript files.
+	- Look for endpoints and interesting functions in JavaScript files.
 	- Core Functionality (Interaction between browser and server).
 	- Assess the target from both authenticated and unauthenticated perspectives.
 	- Looked for leaked credentials using [developer tools and regex](https://github.com/h4x0r-dz/Leaked-Credentials/).
