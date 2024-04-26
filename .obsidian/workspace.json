@@ -53,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/WordPress File Structure.md",
+                "file": "Offensive Security/Network Security/Privilege Escalation/Linux.md",
                 "mode": "preview",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/WordPress File Structure.md"
+                "file": "Offensive Security/Network Security/Privilege Escalation/Linux.md"
               }
             }
           }
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/WordPress File Structure.md",
+                "file": "Offensive Security/Network Security/Privilege Escalation/Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/WordPress File Structure.md",
+                "file": "Offensive Security/Network Security/Privilege Escalation/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,11 +198,11 @@
   },
   "active": "f8fc3d31dfaa6fa6",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/WordPress File Structure.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/WordPress User Roles.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Hardening.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Enumeration.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Attacking xmlrpc.php.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/WordPress File Structure.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "Certification Roadmap.md",
     "Offensive Security/Methodology & Checklists/Bug Bounty.md",
