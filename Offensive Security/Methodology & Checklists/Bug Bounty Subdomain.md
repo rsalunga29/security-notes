@@ -26,3 +26,7 @@ echo domain.com | alterx -pp 'word=subdomains-top1million-50000.txt' | dnsx > al
 ```bash
 cat *.txt | anew domain.com-subdomains.txt
 ```
+### Filter live subdomains using httpx
+```bash
+cat domain.com-subdomains.txt | httpx -o httpx.txt
+```
