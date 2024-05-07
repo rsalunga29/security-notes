@@ -28,8 +28,11 @@
 		- SOC Level 2
 	- PentesterLab
 		- Code Review labs
+	- Practical DevSecOps
+		- Certified DevSecOps Professional Certification Course
 - Certifications
 	- Security Blue Team Level 1 (optional)
+	- Certified DevSecOps Professional
 	- TCM Academy Practical Network Penetration Tester
 - AppSec Homelab Part 2
 	- Adversary Emulation: Atomic Red Team or Caldera
