@@ -14,12 +14,6 @@
 	- Create Network Topology
 ### Q2 2024 - Q4 2024
 - Study Materials
-	- TCM Academy
-		- Practical Ethical Hacking
-		- Open-Source Intelligence
-		- External Pentest Playbook
-		- Windows Privilege Escalation
-		- Linux Privilege Escalation
 	- Lets Defend (optional)
 		- SOC Analyst Learning Path
 	- TryHackMe (optional)
@@ -28,12 +22,13 @@
 		- SOC Level 2
 	- PentesterLab
 		- Code Review labs
-	- Practical DevSecOps
-		- Certified DevSecOps Professional Certification Course
+	- The Linux Foundation
+		- Kubernetes Fundamentals
+		- Kubernetes Security Essentials
 - Certifications
 	- Security Blue Team Level 1 (optional)
-	- Certified DevSecOps Professional
-	- TCM Academy Practical Network Penetration Tester
+	- Certified Kubernetes Administrator
+	- Certified Kubernetes Security Specialist
 - AppSec Homelab Part 2
 	- Adversary Emulation: Atomic Red Team or Caldera
 	- IDS/IPS: Suricata (NIDS) and Wazuh Agent (HIDS)
@@ -41,9 +36,15 @@
 	- Active Directory: 1 DC, 2 User (1 IIS)
 ### Q4 2024 / Q1 2025 and Beyond
 - Study Materials
-	- TBD
+	- TCM Academy
+		- Practical Ethical Hacking
+		- Open-Source Intelligence
+		- External Pentest Playbook
+		- Windows Privilege Escalation
+		- Linux Privilege Escalation
 - Certifications
-	- API Security Certified Professional
+	- TCM Academy Practical Network Penetration Tester
 	- Altered Security Certified Red Team Practitioner
 	- Offensive Security Certified Professional
 	- Offensive Security Web Expert
+	- API Security Certified Professional
