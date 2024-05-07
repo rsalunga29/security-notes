@@ -16,10 +16,11 @@
 - Study Materials
 	- Lets Defend (optional)
 		- SOC Analyst Learning Path
-	- TryHackMe (optional)
-		- Cyber Defense
-		- SOC Level 1
-		- SOC Level 2
+	- TryHackMe
+		- Cyber Defense (optional)
+		- SOC Level 1 (optional)
+		- SOC Level 2 (optional)
+		- DevSecOps
 	- PentesterLab
 		- Code Review labs
 	- The Linux Foundation
