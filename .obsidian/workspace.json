@@ -62,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "expect",
+                "query": "stabi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,8 +170,10 @@
   },
   "active": "7bd16a43f46d6374",
   "lastOpenFiles": [
-    "Certification Roadmap.md",
+    "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
+    "Offensive Security/Miscellaneous/Others.md",
     "DevSecOps/Pipeline Security/Introduction.md",
+    "Certification Roadmap.md",
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "DevSecOps/Pipeline Security",
     "DevSecOps",
@@ -196,8 +198,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Prevention.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/SSRF with Blacklist-based Input Filters.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/Bypassing SSRF Filters via Open Redirection.md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Non-alphanumeric Encoding.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass",
