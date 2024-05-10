@@ -23,9 +23,9 @@
 		- DevSecOps
 	- PentesterLab
 		- Code Review labs
-	- The Linux Foundation
-		- Kubernetes Fundamentals
-		- Kubernetes Security Essentials
+	- KodeKloud
+		- CKA Certification Learning Path
+		- CKS Certification Learning Path
 - Certifications
 	- Security Blue Team Level 1 (optional)
 	- Certified Kubernetes Administrator
