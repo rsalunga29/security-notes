@@ -15,3 +15,6 @@ SAST Under The Hood:
 Different analysis techniques:
 1. Semantic Analysis: Can be compared to `grep` in which it finds flaws concerning the use of known insecure code in a local context.
 2. Dataflow Analysis: Traces how information flows from user-provided input to potentially vulnerable functions. Basically, sources and sinks concept.
+3. Control Flow Analysis: Analyzes the code for race conditions, uninitialized variables, and resource leaks, etc...
+4. Structural Analysis: Analyzes specific code structures/blocks of each programming language to look for inconsistencies with safe coding practices.
+5. Configuration Analysis: Searches for configuration flaws rather than vulnerabilities in lines of codes.
