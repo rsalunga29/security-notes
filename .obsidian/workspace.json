@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevSecOps/Manual Code Review.md",
+                "file": "DevSecOps/Code Review.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevSecOps/Manual Code Review.md"
+                "file": "DevSecOps/Code Review.md"
               }
             }
           }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevSecOps/Manual Code Review.md",
+                "file": "DevSecOps/Code Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevSecOps/Manual Code Review.md",
+                "file": "DevSecOps/Code Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
   "active": "e1196c46c8ef1318",
   "lastOpenFiles": [
     "Certification Roadmap.md",
-    "DevSecOps/Manual Code Review.md",
+    "DevSecOps/Code Review.md",
     "DevSecOps/CICD Pipeline Security/Introduction.md",
     "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
     "Offensive Security/Miscellaneous/Others.md",
