@@ -1,3 +1,4 @@
+Using OWASP ZAP.
 ## Create or Modify Scanning Policies in ZAP
 1. Go to **Analyse** in the menu, then select **Scan Policy Manager**.
 2. Click **Add** button to create a new scan policy.
@@ -32,4 +33,18 @@ Click **Add** and define the username and password. Once done, re-spider the app
 ### Avoiding Logouts
 To prevent ZAP from logging itself out, look for any files/scripts containing a logout and exclude it from the context. This can be done by right-clicking on the base URL of the target application and select **Exclude from Context**.
 
-Additionally, its also possible to specify indicators for ZAP to identify if session is still active or not. This is easily done by selecting parts of a response that only appear when you are logged in or logged out.
+Additionally, its also possible to specify indicators for ZAP to identify if session is still active or not. This is easily done by selecting parts of a response that only appear when a user is logged in or logged out. Once selected, right-click on the selected text and choose **Flag as Context -> (Your Context Name): Authentication Logged-in/Logged-out indicator**.
+
+Now that ZAP has patterns to identify if it is logged in correctly, choose a **Verification Strategy** to tell ZAP how to use the configured patterns properly.
+## Dealing with API Scans
+The endpoints of an API won't normally expose information about other endpoints, making the discovery process harder. Instead of spidering APIs, it's best to rely on the development team to give a precise specification of the available endpoints and parameters in an API.
+
+ZAP can import APIs defined by **OpenAPI** (formerly **Swagger**), **SOAP** or **GraphQL**. ZAP supports two methods to import API definitions: an offline file or a URL from where to download them. This can be done by selecting **Import -> Import an OpenAPI definition from a URL**.
+## Integrating with CI/CD Pipelines
+Having DAST added to the development process may sound pretty straightforward, but there are some caveats to it:
+
+- We must decide at which stages of the development process we will run scans.
+- We must decide what will trigger a scan. We can run scans on each commit made to code or on a scheduled basis.
+- We must determine the intensity of each scan. Doing a full vulnerability scan on a medium-sized application will require significant time, and we don't want to slow down the development team.
+
+Since no solution fits all scenarios, determining all of this must be done with the help of the development team so that security requirements are met without actually creating significant disturbances to their established processes.

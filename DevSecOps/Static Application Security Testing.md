@@ -1,12 +1,12 @@
-## Manual
+## Manual Code Review
 Look for usage of known insecure functions.
 
 Use `grep` to check the source code recursively. Example:
 ```bash
 grep -r -n 'mysqli_query('
 ```
-## Automated
-Uses Static Application Security Testing (SAST)
+## Automated Code Review
+Uses Static Application Security Testing (SAST) tools.
 
 SAST Under The Hood:
 1. Transform the code into an abstract model: Ingest source code, transfer it into a code model called abstract syntax trees (AST)
