@@ -24,4 +24,12 @@ After authentication process is recorded, configure ZAP to use it by creating a 
 
 To create a new context, go to the **Sites** tab and right-click the base URL of the target application on your **Sites** tab and select **Include in Context -> New Context**.
 
-This will automatically create a regex that matches any page on the web application. Click on **Authentication**, and select Script-based Authentication on
+This will automatically create a regex that matches any page on the web application. Click on **Authentication**, and select **Script-based Authentication** on authentication method dropdown. Be sure to click **Load** button to the right of the script's name.
+
+Next, define at least one user in the Users section. By default, ZEST script embeds the user and password that was used during the recording. However, ZAP still needs a user to be defined, or it will just skip authentication altogether.
+
+Click **Add** and define the username and password. Once done, re-spider the application once again and notice that auth-only URLs are now being spidered.
+### Avoiding Logouts
+To prevent ZAP from logging itself out, look for any files/scripts containing a logout and exclude it from the context. This can be done by right-clicking on the base URL of the target application and select **Exclude from Context**.
+
+Additionally, its also possible to specify indicators for ZAP to identify if session is still active or not. This is easily done by selecting parts of a response that only appear when you are logged in or logged out.
