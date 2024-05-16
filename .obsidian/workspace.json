@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevSecOps/CICD Pipeline Security/Securing the Build Source.md",
+                "file": "DevSecOps/DAST.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevSecOps/CICD Pipeline Security/Securing the Build Source.md"
+                "file": "DevSecOps/DAST.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevSecOps/CICD Pipeline Security/Securing the Build Source.md",
+                "file": "DevSecOps/DAST.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevSecOps/CICD Pipeline Security/Securing the Build Source.md",
+                "file": "DevSecOps/DAST.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,9 +170,10 @@
   },
   "active": "7bd16a43f46d6374",
   "lastOpenFiles": [
-    "DevSecOps/CICD Pipeline Security/Case Study - SolarWinds.md",
-    "DevSecOps/CICD Pipeline Security/Securing the Build Source.md",
     "DevSecOps/Code Review.md",
+    "DevSecOps/DAST.md",
+    "DevSecOps/CICD Pipeline Security/Securing the Build Source.md",
+    "DevSecOps/CICD Pipeline Security/Case Study - SolarWinds.md",
     "DevSecOps/CICD Pipeline Security/Introduction.md",
     "Certification Roadmap.md",
     "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
@@ -197,7 +198,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Other SSRF Attacks.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Insecure Deserialization/Cause and Prevention.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Circumventing SSRF Defenses/SSRF with Whitelist-based Input Filters.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass",
