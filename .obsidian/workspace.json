@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevSecOps/DAST.md",
+                "file": "DevSecOps/DAST using ZAP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevSecOps/DAST.md"
+                "file": "DevSecOps/DAST using ZAP.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevSecOps/DAST.md",
+                "file": "DevSecOps/DAST using ZAP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevSecOps/DAST.md",
+                "file": "DevSecOps/DAST using ZAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
   "active": "7bd16a43f46d6374",
   "lastOpenFiles": [
     "DevSecOps/Code Review.md",
-    "DevSecOps/DAST.md",
+    "DevSecOps/DAST using ZAP.md",
     "DevSecOps/CICD Pipeline Security/Securing the Build Source.md",
     "DevSecOps/CICD Pipeline Security/Case Study - SolarWinds.md",
     "DevSecOps/CICD Pipeline Security/Introduction.md",

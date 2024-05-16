@@ -10,4 +10,14 @@
 ## Dealing with Authenticated Scans
 First things first, make sure to disable ZAP HUD from the menu bar. Some things will not work as expected if it is enabled.
 
-To record authentication, click the Record a New ZEST Script button on the menu bar (the icon in the middle of lock and help icon)
+To record authentication, click the **Record a New ZEST Script** button on the menu bar (the icon in the middle of lock and help icon).
+
+Set the title of the script and choose **Authentication** as the **Type** and **Server side script** as the **Record Type**. Skip **Initial URL** field and on the **Prefix** field, select the target URL, and checkbox **Load on start** option.
+
+Once **Start Recording** is clicked, every HTTP request that goes through ZAP proxy will be recorded as part of the script. Click the **Open Browser** button on the menu bar (the firefox logo).
+
+Navigate to the target's authentication page and login using your credentials. Once logged in, stop recording by clicking the **Record a New ZEST Script** button again.
+
+In order to test the recorded script, press the **Run** button on the **Script Console** tab. View **Zest Results** and confirm that the recorded script is running.
+### Creating a Context
+Context is important
