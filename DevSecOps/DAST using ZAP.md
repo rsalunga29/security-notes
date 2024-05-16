@@ -20,4 +20,8 @@ Navigate to the target's authentication page and login using your credentials. O
 
 In order to test the recorded script, press the **Run** button on the **Script Console** tab. View **Zest Results** and confirm that the recorded script is running.
 ### Creating a Context
-Context is important
+After authentication process is recorded, configure ZAP to use it by creating a context.
+
+To create a new context, go to the **Sites** tab and right-click the base URL of the target application on your **Sites** tab and select **Include in Context -> New Context**.
+
+This will automatically create a regex that matches any page on the web application. Click on **Authentication**, and select Script-based Authentication on
