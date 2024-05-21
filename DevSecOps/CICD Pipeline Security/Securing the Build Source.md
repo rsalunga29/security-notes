@@ -4,4 +4,4 @@ The first step to securing a pipeline is to secure the source code. In the event
 2. **Unauthorized Disclosure** - Depending on the application, the source code might be considered sensitive information. In situations where this is the case, we must ensure that the source code is not intentionally or accidentally disclosed to the public.
 
 **Confusion of Responsibilities**
-Another common mistake 
+Another common mistake
