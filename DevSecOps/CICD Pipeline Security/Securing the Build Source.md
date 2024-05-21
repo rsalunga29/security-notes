@@ -7,6 +7,6 @@ The first step to securing a pipeline is to secure the source code. In the event
 Another common mistake made by large organizations is believe that the perimeter is a sufficient security boundary. This false belief can lead to misconfigurations, such as:
 
 **Leaving the registration open for their self-hosted GitLab server**
-Even if its hosted inside an intranet, if the access to GitLab 
+Even if its hosted inside an intranet, if the access to GitLab allows
 
 it allows any user in the intranet to register a profile. While some would not consider this a risk,
