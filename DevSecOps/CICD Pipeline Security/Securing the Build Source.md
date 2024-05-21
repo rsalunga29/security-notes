@@ -7,6 +7,7 @@ The first step to securing a pipeline is to secure the source code. In the event
 Another common mistake made by large organizations is believe that the perimeter is a sufficient security boundary. This false belief can lead to misconfigurations, such as:
 
 **Leaving the registration open for their self-hosted GitLab server**
-Even if its hosted inside an intranet, if the access to GitLab allows
+Even if GitLab is hosted inside an intranet, if registration is open to any users within the intranet, the attack surface would grow significantly. If a single employee has been compromised, an attacker would have the ability to register an account and exfiltrate any publicly shared repos.
 
-it allows any user in the intranet to register a profile. While some would not consider this a risk,
+**Repositories are shared publicly**
+Some may even believe that since the GitLab server is hosted inside the intranet, it's okay to configured repos to be shared publicly. However, this would mean that any user who has a valid GitLab account will be able to view and modify any source code within the repositories.
