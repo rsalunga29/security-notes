@@ -16,4 +16,9 @@ Some may even believe that since the GitLab server is hosted inside the intranet
 
 Furthermore, an attacker with a GitLab account will be able to use GitLab API to automate the process of discovering and exfiltrating publicly available repositories.
 ### How to Secure the Build Source
-Following the principle of least privilege by implementing granular access control is the key. This ensures that different users or groups have only the enough permissions and restrictions to perform their task. This helps maint
+Following the principle of least privilege by implementing granular access control is the key. This ensures that different users or groups have only the enough permissions and restrictions to perform their task. This helps ensure the security, confidentiality, and integrity of the source code while maintaining effective collaboration within a development environment.
+
+In our example, GitLab has several features that simplifies permission management across multiple repositories and projects:
+1. **Group-based Access Control**: GitLab allows users to organize projects into groups, which allows permission management at a group-level instead of each projects. 
+2. **Access Levels**: GitLab offers different access levels, such as Guest, Reporter, Developer, Maintainer, and Owner. Each level comes with specific capabilities and permissions.
+3. Sensitive Information Protection
