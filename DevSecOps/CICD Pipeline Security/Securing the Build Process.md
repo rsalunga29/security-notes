@@ -19,4 +19,12 @@ Finally, it is also important to decide where the build will occur. For example,
 
 This way, even if the developer branch's build agent is compromised, the build agent for the master branch is untouched.
 ## How to Secure the Build Process
-Lorem Ipsum la
+An insecure build can enable living-off-the-land attacks, supply chain attacks and a lot of trouble that is difficult to detect later in the pipeline. Below are some of the best practices to follow:
+1. **Isolation and Containerization**: Run builds in isolated containers to prevent interference and maintain consistency.
+2. **Least Privilege**: Grant minimal permissions to CI/CD tools, restricting unnecessary access to sensitive resources.
+3. **Secret Management**: Use CI/CD tools' secret management features to store and inject sensitive data securely.
+4. **Immutable Artifacts**: Store build artifacts in a secure registry to prevent tampering and enable easy auditing.
+5. **Dependency Scanning**: Integrate dependency scanning to identify and address vulnerabilities in third-party libraries.  
+6. **Pipeline as Code**: Define CI/CD pipelines as code, version-controlled alongside the source code.  
+7. **Regular Updates**: Keep CI/CD tools and dependencies up to date to address known vulnerabilities.
+8. **Logging and Monitoring**: Monitor build logs for unusual activities and integrate them with security monitoring systems.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevSecOps/CICD Pipeline Security/Securing the Build Process.md",
+                "file": "DevSecOps/CICD Pipeline Security/Securing the Build Server.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevSecOps/CICD Pipeline Security/Securing the Build Process.md"
+                "file": "DevSecOps/CICD Pipeline Security/Securing the Build Server.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevSecOps/CICD Pipeline Security/Securing the Build Process.md",
+                "file": "DevSecOps/CICD Pipeline Security/Securing the Build Server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevSecOps/CICD Pipeline Security/Securing the Build Process.md",
+                "file": "DevSecOps/CICD Pipeline Security/Securing the Build Server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,13 +170,14 @@
   },
   "active": "7bd16a43f46d6374",
   "lastOpenFiles": [
+    "DevSecOps/CICD Pipeline Security/Securing the Build Process.md",
+    "DevSecOps/CICD Pipeline Security/Securing the Build Server.md",
+    "DevSecOps/CICD Pipeline Security/Introduction.md",
+    "DevSecOps/CICD Pipeline Security/Securing the Build Source.md",
     "DevSecOps/Dynamic Application Security Testing.md",
     "DevSecOps/Static Application Security Testing.md",
     "DevSecOps/Dependency Management.md",
-    "DevSecOps/CICD Pipeline Security/Securing the Build Process.md",
-    "DevSecOps/CICD Pipeline Security/Securing the Build Source.md",
     "DevSecOps/CICD Pipeline Security/Case Study - SolarWinds.md",
-    "DevSecOps/CICD Pipeline Security/Introduction.md",
     "Certification Roadmap.md",
     "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
     "Offensive Security/Miscellaneous/Others.md",
@@ -197,7 +198,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Attacking xmlrpc.php.md",
     "Offensive Security/Web Application Security/Enumeration/DNS & Subdomains.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/PHP Obfuscation Techniques/Introduction.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Request Forgery/Introduction.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass",
