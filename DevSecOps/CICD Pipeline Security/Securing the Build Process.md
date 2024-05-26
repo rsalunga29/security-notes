@@ -7,12 +7,16 @@ While this creates automation, it also creates the risks that if an attacker is 
 
 Answering the following three questions can help understand the attack surface of a pipeline:
 ### What actions to start the build process?
-We have the ability to determine what actions can start the build process. This can be non-strict as allowing the pipeline to start every time a code is committed, or more stricter, in which the pipeline only starts if a merge request is made or when code is merged to the master branch.
+We have the ability to determine what actions can start the build process. This can be less strict, such as, allowing the pipeline to start every time a code is committed, or more more strict, in which the pipeline only starts if a merge request is made or when code is merged to the master branch.
 
 It is important to understand that allowing multiple actions to start the build process will also increase the attack surface.
 ### Who can start the build process?
-After deciding which actions can start the build process, it is important to narrow down who can perform such actions. In the previous example, the pipeline only starts when the code is merged into the master branch; this can be a very small list of users who have the ability to approve these merges.
+After deciding which actions can start the build process, it is important to narrow down who can perform such actions. In the previous example, the pipeline only starts when the code is merged into the master branch, and users who can approve these merges can be few, reducing the attack surface.
+
+However, if we still want to allow builds to start on creation of a merge request, we have to ensure that the attacker cannot make a merge request or that the merge build will occur in a segregated environment.
 ### Where will the build process occur?
-Lorem
+Finally, it is also important to decide where the build will occur. For example, if we want developers to run builds on other branches, we can just simply register a new build agent specific for that branch, instead of using the build agent for the master branch.
+
+This way, even if the developer branch's build agent is compromised, the build agent for the master branch is untouched.
 ## How to Secure the Build Process
 Lorem Ipsum la
