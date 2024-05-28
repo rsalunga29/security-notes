@@ -14,4 +14,6 @@ If you want to store secrets securely in GitLab, you can use GitLab CI/CD variab
 - Navigate to Settings > CI/CD > Variables.
 - Add a new variable, select the "Masked" checkbox, and provide the value.
 - Once you've added a secure variable, you can use it in your `.gitlab-ci.yml` file without worrying about it being exposed in logs.
-It is also important to ensure that the CI/CD scripts do
+It is also important to ensure that the CI/CD scripts do not inadvertently echo or print sensitive information, even when using masked variables.
+## Access Control
+Limit access to CI/CD variables and logs. Only authorized can view job logs and variables. You can configure project-level and group-level access controls to achieve this.
