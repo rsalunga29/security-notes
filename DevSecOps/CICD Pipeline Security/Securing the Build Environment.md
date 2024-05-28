@@ -1,0 +1,6 @@
+## Isolate Environments
+Separate your DEV and PROD pipelines as much as possible. Use separate runners or runner tags for DEV and PROD builds. Ensuring that any compromise in the DEV environment does not directly impact PROD.
+## Restricted Access for CI/CD Jobs
+Limit access to the runner host. Only authorized personnel should have access to the machine(s) running the CI/CD runners. Implement strong access controls and monitor for unauthorized access. GitLab provides a "Protected CI/CD environments" feature that allows you to define access controls for environments, restricting who can deploy to them. Permission features limit and assigns who can modify CI/CD configuration, including the `.gitlab-ci.yml` file.
+## Monitoring and Alerting
+Implement monitoring and alerting for the CI/CD pipeline and runner. Set up alerts for suspicious activity or failed builds, which could indicate a compromise. Review and audit access permissions periodically, especially for environments and CI/CD configurations. Revoke access for users or roles that no longer require it.
