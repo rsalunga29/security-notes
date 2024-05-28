@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevSecOps/Dependency Management.md",
+                "file": "DevSecOps/Dependency Management/Internal vs External Dependencies.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevSecOps/Dependency Management.md"
+                "file": "DevSecOps/Dependency Management/Internal vs External Dependencies.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevSecOps/Dependency Management.md",
+                "file": "DevSecOps/Dependency Management/Internal vs External Dependencies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevSecOps/Dependency Management.md",
+                "file": "DevSecOps/Dependency Management/Internal vs External Dependencies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,10 +168,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccc68e20622978c5",
+  "active": "781aa824bf01c217",
   "lastOpenFiles": [
+    "DevSecOps/Dependency Management/Introduction.md",
+    "DevSecOps/Dependency Management/Internal vs External Dependencies.md",
+    "DevSecOps/Dependency Management",
     "DevSecOps/Static Application Security Testing.md",
-    "DevSecOps/Dependency Management.md",
     "Certification Roadmap.md",
     "DevSecOps/CICD Pipeline Security/Securing the Build Secrets.md",
     "DevSecOps/CICD Pipeline Security/Securing the Build Environment.md",
@@ -197,7 +199,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/WordPress File Structure.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/WordPress User Roles.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Hardening.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/Enumeration.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass",
@@ -211,7 +212,6 @@
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding",
     "Offensive Security/Assets/php-obfus-float-literals.png",
     "Offensive Security/Assets/php-obfus-integer-literals.png",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Evasion Techniques/PHP Obfuscation Techniques",
     "Offensive Security/Assets/cookie-tampering.png",
     "Offensive Security/Assets/ssti-diagram.png",
     "Offensive Security/Assets/username-injection.png",
