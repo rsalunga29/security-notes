@@ -1,1 +1,4 @@
-Internal dependencies have similar concerns as external dependencies. Although with internal dependencies, we can easily standardize a process.
+## Similarity of Concerns with External Dependencies
+Internal dependencies have similar concerns as external dependencies, if a dependency has a vulnerability, it will affect internal applications that is using that dependency. Therefore, we have to perform security testing of our dependencies before they are released for use.
+## Legacy Code
+Another issue is that internal dependencies can become legacy code incredibly fast. For example, if the developer that created and maintained a dependency has left the company, the dependency will no longer receive updates. If such a dependency is used in several applications, it can become an issue if a vulnerability is discovered.
