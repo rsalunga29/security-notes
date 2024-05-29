@@ -13,3 +13,8 @@ One APT group, namely MageCart, was notorious for performing these types of atta
 - Compromising the payment portal of British Airways' online portal led to the compromise of credit cards of customers and a fine for BA of 230 million dollars.
 - Compromising more than 100000 customers' credit cards by embedding skimmers in various payment portals of various applications.
 - Compromising more than 10000 AWS S3 buckets and embedding malware in any JavaScript found in these buckets.
+## Defenses
+It's often difficult to defend against attacks on external dependencies since there are so many and new vulnerabilities are found daily. However, there are certain things we can do to limit the risk:
+- Make sure to update and patch dependencies on a regular basis, including emergency patching in the event a serious vulnerability is discovered.
+- Dependencies can sometimes be copied and hosted internally. This will reduce the attack surface.
+- Sub-resource Integrity can be used to prevent tampered JS libraries from loading. In the HTML include, the hash of the JS library can be added. Modern web browsers will verify the hash of the JS library, and if it does not match, the library will not be loaded.
