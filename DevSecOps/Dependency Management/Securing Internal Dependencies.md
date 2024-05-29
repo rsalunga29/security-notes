@@ -1,0 +1,1 @@
+Internal dependencies have similar concerns as external dependencies. Although with internal dependencies, we can easily standardize a process.

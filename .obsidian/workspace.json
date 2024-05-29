@@ -168,14 +168,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "781aa824bf01c217",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
-    "DevSecOps/Dependency Management/Securing External Dependencies.md",
+    "DevSecOps/Static Application Security Testing.md",
+    "DevSecOps/Dynamic Application Security Testing.md",
     "DevSecOps/Dependency Management/Securing Internal Dependencies.md",
+    "DevSecOps/Dependency Management/Securing External Dependencies.md",
     "DevSecOps/Dependency Management/Internal vs External Dependencies.md",
     "DevSecOps/Dependency Management/Introduction.md",
     "DevSecOps/Dependency Management",
-    "DevSecOps/Static Application Security Testing.md",
     "Certification Roadmap.md",
     "DevSecOps/CICD Pipeline Security/Securing the Build Secrets.md",
     "DevSecOps/CICD Pipeline Security/Securing the Build Environment.md",
@@ -184,7 +185,6 @@
     "DevSecOps/CICD Pipeline Security/Introduction.md",
     "DevSecOps/CICD Pipeline Security/Securing the Build Server.md",
     "DevSecOps/CICD Pipeline Security/Securing the Build Process.md",
-    "DevSecOps/Dynamic Application Security Testing.md",
     "DevSecOps/CICD Pipeline Security/Case Study - SolarWinds.md",
     "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
     "Offensive Security/Miscellaneous/Others.md",

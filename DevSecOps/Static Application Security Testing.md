@@ -5,6 +5,9 @@ Use `grep` to check the source code recursively. Example:
 ```bash
 grep -r -n 'mysqli_query('
 ```
+The `-r` option tells grep to recursively search all files under the current directory, and the `-n` option indicates that we want grep to tell us the number of the line where the pattern was found.
+
+Once the results are shown, it is important to open the relevant file and read the relevant line to understand the context of the potentially vulnerable line of code.
 ## Automated Code Review
 Uses Static Application Security Testing (SAST) tools.
 
