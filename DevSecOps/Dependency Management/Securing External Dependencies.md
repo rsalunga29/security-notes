@@ -8,3 +8,6 @@ As such, it is important for developers to patch the relevant dependency as soon
 Even if applications are well-secured and hardened, attackers can still compromise them by targeting dependencies, which might be developed by smaller team with limited security budgets. These indirect attacks are called supply chain attacks.
 
 One APT group, namely MageCart, was notorious for performing these types of attacks. Some highlights of their actions:
+- Compromising the payment portal of British Airways' online portal led to the compromise of credit cards of customers and a fine for BA of 230 million dollars.
+- Compromising more than 100000 customers' credit cards by embedding skimmers in various payment portals of various applications.
+- Compromising more than 10000 AWS S3 buckets and embedding malware in any JavaScript found in these buckets.
