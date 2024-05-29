@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevSecOps/Dependency Management/Securing Internal Dependencies.md",
+                "file": "DevSecOps/Dependency Management/Dependency Confusion Attack.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevSecOps/Dependency Management/Securing Internal Dependencies.md"
+                "file": "DevSecOps/Dependency Management/Dependency Confusion Attack.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevSecOps/Dependency Management/Securing Internal Dependencies.md",
+                "file": "DevSecOps/Dependency Management/Dependency Confusion Attack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevSecOps/Dependency Management/Securing Internal Dependencies.md",
+                "file": "DevSecOps/Dependency Management/Dependency Confusion Attack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,14 +168,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccc68e20622978c5",
+  "active": "781aa824bf01c217",
   "lastOpenFiles": [
+    "DevSecOps/Dependency Management/Introduction.md",
+    "DevSecOps/Dependency Management/Dependency Confusion Attack.md",
+    "DevSecOps/Dependency Management/Securing External Dependencies.md",
+    "DevSecOps/Dependency Management/Securing Internal Dependencies.md",
     "DevSecOps/Static Application Security Testing.md",
     "DevSecOps/Dynamic Application Security Testing.md",
-    "DevSecOps/Dependency Management/Securing Internal Dependencies.md",
-    "DevSecOps/Dependency Management/Securing External Dependencies.md",
     "DevSecOps/Dependency Management/Internal vs External Dependencies.md",
-    "DevSecOps/Dependency Management/Introduction.md",
     "DevSecOps/Dependency Management",
     "Certification Roadmap.md",
     "DevSecOps/CICD Pipeline Security/Securing the Build Secrets.md",
@@ -198,7 +199,6 @@
     "Offensive Security/Methodology & Checklists/Bug Bounty Subdomain.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/XXE Injection/Common XXE Attacks/Chained XXE to RCE.md",
     "Offensive Security/Network Security/Privilege Escalation/Linux.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/WordPress Attacks/WordPress File Structure.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass",
