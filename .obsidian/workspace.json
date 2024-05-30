@@ -33,8 +33,7 @@
               "pinned": true
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certification Roadmap.md"
+                "file": "DevSecOps/Dependency Management/Dependency Confusion Attack.md"
               }
             }
           }
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "DevSecOps/Dependency Management/Dependency Confusion Attack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "DevSecOps/Dependency Management/Dependency Confusion Attack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,8 +168,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30561c69d3abdc0d",
+  "active": "781aa824bf01c217",
   "lastOpenFiles": [
+    "Certification Roadmap.md",
     "DevSecOps/Dependency Management/Dependency Confusion Attack.md",
     "DevSecOps/Dependency Management/Introduction.md",
     "DevSecOps/Dependency Management/Securing External Dependencies.md",
@@ -179,7 +179,6 @@
     "DevSecOps/Dynamic Application Security Testing.md",
     "DevSecOps/Dependency Management/Internal vs External Dependencies.md",
     "DevSecOps/Dependency Management",
-    "Certification Roadmap.md",
     "DevSecOps/CICD Pipeline Security/Securing the Build Secrets.md",
     "DevSecOps/CICD Pipeline Security/Securing the Build Environment.md",
     "DevSecOps/CICD Pipeline Security/Securing the Build Pipeline.md",
