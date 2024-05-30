@@ -23,7 +23,7 @@
 		- DevSecOps
 	- PentesterLab
 		- Code Review labs
-	- KodeKloud
+	- KodeKloud (optional)
 		- CKA Certification Learning Path
 		- CKS Certification Learning Path
 - Certifications
