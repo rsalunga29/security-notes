@@ -28,6 +28,7 @@
 		- CKS Certification Learning Path
 - Certifications
 	- Security Blue Team Level 1 (optional)
+	- HTB Certified Defensive Security Analyst (optional)
 	- Certified Kubernetes Administrator
 	- Certified Kubernetes Security Specialist
 - AppSec Homelab Part 2
