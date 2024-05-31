@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevSecOps/Assets/Dependency Confusion Attack.md",
+                "file": "DevSecOps/Kubernetes/Architecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevSecOps/Assets/Dependency Confusion Attack.md"
+                "file": "DevSecOps/Kubernetes/Architecture.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevSecOps/Assets/Dependency Confusion Attack.md",
+                "file": "DevSecOps/Kubernetes/Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevSecOps/Assets/Dependency Confusion Attack.md",
+                "file": "DevSecOps/Kubernetes/Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,11 +170,14 @@
   },
   "active": "781aa824bf01c217",
   "lastOpenFiles": [
+    "DevSecOps/Kubernetes/Introduction.md",
+    "DevSecOps/Kubernetes/Architecture.md",
+    "DevSecOps/Assets/Dependency Confusion Attack.md",
+    "DevSecOps/Kubernetes",
     "DevSecOps/Assets",
-    "DevSecOps/dependency-confusion-attack.png",
+    "DevSecOps/Assets/dependency-confusion-attack.png",
     "DevSecOps/Dependency Management/Securing External Dependencies.md",
     "DevSecOps/Dependency Management/Supply Chain Attacks.md",
-    "DevSecOps/Assets/Dependency Confusion Attack.md",
     "Certification Roadmap.md",
     "DevSecOps/Dependency Management/Introduction.md",
     "DevSecOps/Dependency Management/Securing Internal Dependencies.md",
@@ -199,7 +202,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/1. Detection.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Prevention.md",
-    "Offensive Security/Methodology & Checklists/Bug Bounty Subdomain.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass",
@@ -209,8 +211,6 @@
     "Offensive Security/Assets/visual-spoofing-1.png",
     "Offensive Security/Assets/base64-encoding-algo-2.png",
     "Offensive Security/Assets/base64-encoding-algo-1.png",
-    "Offensive Security/Web Application Security/Evasions and Bypasses/Encoding/Untitled",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding",
     "Offensive Security/Assets/php-obfus-float-literals.png",
     "Offensive Security/Assets/php-obfus-integer-literals.png",
     "Offensive Security/Assets/cookie-tampering.png",
