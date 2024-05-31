@@ -8,6 +8,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "08826ec64592a7bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevSecOps/Kubernetes/Architecture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "30561c69d3abdc0d",
             "type": "leaf",
             "pinned": true,
@@ -20,21 +32,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "08826ec64592a7bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevSecOps/Kubernetes/Architecture.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -156,8 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,11 +169,14 @@
   },
   "active": "08826ec64592a7bc",
   "lastOpenFiles": [
+    "DevSecOps/Assets/worker-node.png",
+    "DevSecOps/Kubernetes/Architecture.md",
+    "DevSecOps/Assets/component-comms.png",
+    "DevSecOps/Assets/control-plane.png",
     "Certification Roadmap.md",
     "DevSecOps/Assets/kubernetes-worker-node.png",
     "DevSecOps/Assets/kubernetes-control-plane.png",
     "DevSecOps/Assets/kubernetes-components-communications.png",
-    "DevSecOps/Kubernetes/Architecture.md",
     "DevSecOps/Kubernetes/Introduction.md",
     "DevSecOps/Dependency Confusion Attack.md",
     "DevSecOps/Kubernetes",
@@ -212,9 +213,6 @@
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering",
     "Offensive Security/Assets/visual-spoofing-2.png",
     "Offensive Security/Assets/visual-spoofing-1.png",
-    "Offensive Security/Assets/base64-encoding-algo-2.png",
-    "Offensive Security/Assets/base64-encoding-algo-1.png",
-    "Offensive Security/Assets/php-obfus-float-literals.png",
-    "Offensive Security/Assets/php-obfus-integer-literals.png"
+    "Offensive Security/Assets/base64-encoding-algo-2.png"
   ]
 }

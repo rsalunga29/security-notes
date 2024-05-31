@@ -29,7 +29,7 @@ The above is not an exhaustive list.
 ### Cloud-controller-manager
 This component enables communication between a Kubernetes cluster and a cloud provider API. It's main purpose is to allow the separation of components that communicate internally within the cluster and those that communicate externally by interacting with the cloud provider. This also allows cloud providers to release features at their own pace.
 
-
+![[control-plane.png]]
 ## Kubernetes Worker Node
 Worker nodes are responsible for running and maintaining pods, reports to the control plane (master node), and doing any work assigned to them by the control plane (master node). The following components are present on every worker node:
 ### Kubelet
@@ -39,4 +39,6 @@ Kube-proxy is responsible for network communication within the cluster. It makes
 ### Container runtime
 Pods have containers running inside of them. A container runtime must be installed on each node for this to happen. One of the most popular choice is Docker.
 
+![[worker-node.png]]
 ## Communication Between Components
+![[component-comms.png]]
