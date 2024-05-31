@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "781aa824bf01c217",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevSecOps/Kubernetes/Architecture.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "30561c69d3abdc0d",
             "type": "leaf",
             "pinned": true,
@@ -32,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "08826ec64592a7bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevSecOps/Kubernetes/Architecture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,18 +169,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccc68e20622978c5",
+  "active": "08826ec64592a7bc",
   "lastOpenFiles": [
-    "DevSecOps/Kubernetes/Introduction.md",
+    "Certification Roadmap.md",
+    "DevSecOps/Assets/kubernetes-worker-node.png",
     "DevSecOps/Assets/kubernetes-control-plane.png",
-    "DevSecOps/Dependency Confusion Attack.md",
+    "DevSecOps/Assets/kubernetes-components-communications.png",
     "DevSecOps/Kubernetes/Architecture.md",
+    "DevSecOps/Kubernetes/Introduction.md",
+    "DevSecOps/Dependency Confusion Attack.md",
     "DevSecOps/Kubernetes",
     "DevSecOps/Assets",
     "DevSecOps/Assets/dependency-confusion-attack.png",
     "DevSecOps/Dependency Management/Securing External Dependencies.md",
     "DevSecOps/Dependency Management/Supply Chain Attacks.md",
-    "Certification Roadmap.md",
     "DevSecOps/Dependency Management/Introduction.md",
     "DevSecOps/Dependency Management/Securing Internal Dependencies.md",
     "DevSecOps/Static Application Security Testing.md",
@@ -212,8 +215,6 @@
     "Offensive Security/Assets/base64-encoding-algo-2.png",
     "Offensive Security/Assets/base64-encoding-algo-1.png",
     "Offensive Security/Assets/php-obfus-float-literals.png",
-    "Offensive Security/Assets/php-obfus-integer-literals.png",
-    "Offensive Security/Assets/cookie-tampering.png",
-    "Offensive Security/Assets/ssti-diagram.png"
+    "Offensive Security/Assets/php-obfus-integer-literals.png"
   ]
 }

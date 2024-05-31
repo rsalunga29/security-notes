@@ -10,7 +10,7 @@ Easier way of understanding what nodes are: if applications run in containers wh
 ### Clusters
 At the highest level, we have our Kubernetes Cluster; put simply, a Cluster is just a set of nodes. Every cluster has at least one worker node.
 ## Kubernetes Control Plane
-The control plane (master node) manages the worker nodes and pods in the cluster. It does this with the use of various components.
+The control plane (master node) manages the worker nodes and pods in the cluster. It does this with the use of various components:
 ### Kube-apiserver
 The API server is the front-end of the control plane and is responsible for exposing the Kubernetes API. The kube-apiserver component is scalable, meaning multiple instances can be created so traffic can be load-balanced.
 ### Etcd
@@ -29,4 +29,14 @@ The above is not an exhaustive list.
 ### Cloud-controller-manager
 This component enables communication between a Kubernetes cluster and a cloud provider API. It's main purpose is to allow the separation of components that communicate internally within the cluster and those that communicate externally by interacting with the cloud provider. This also allows cloud providers to release features at their own pace.
 
-![[kubernetes-control-plane.png]]
+
+## Kubernetes Worker Node
+Worker nodes are responsible for running and maintaining pods, reports to the control plane (master node), and doing any work assigned to them by the control plane (master node). The following components are present on every worker node:
+### Kubelet
+Kubelet is an agent that runs on every node in the cluster and is responsible for ensuring that containers are running in a pod. It does this by taking a set of PodSpecs and ensures that the containers described in those PodSpecs are running and healthy. It executes actions given to it by the controller-manager.
+### Kube-proxy
+Kube-proxy is responsible for network communication within the cluster. It makes networking rules so traffic can flow and be directed to a pod (from inside or outside of the cluster). A traffic won't directly reach a pod, instead it will reach a Service (which would be associated with a group of pods) first, and then gets redirected to one of the associated pods.
+### Container runtime
+Pods have containers running inside of them. A container runtime must be installed on each node for this to happen. One of the most popular choice is Docker.
+
+## Communication Between Components
