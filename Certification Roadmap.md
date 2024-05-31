@@ -27,7 +27,7 @@
 		- CKA Certification Learning Path
 		- CKS Certification Learning Path
 - Certifications
-	- Security Blue Team Level 1
+	- Security Blue Team Level 1 (optional)
 	- HTB Certified Defensive Security Analyst
 	- Certified Kubernetes Administrator (optional)
 	- Certified Kubernetes Security Specialist (optional)
