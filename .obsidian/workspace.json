@@ -168,11 +168,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "781aa824bf01c217",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
     "DevSecOps/Kubernetes/Introduction.md",
+    "DevSecOps/Assets/kubernetes-control-plane.png",
+    "DevSecOps/Dependency Confusion Attack.md",
     "DevSecOps/Kubernetes/Architecture.md",
-    "DevSecOps/Assets/Dependency Confusion Attack.md",
     "DevSecOps/Kubernetes",
     "DevSecOps/Assets",
     "DevSecOps/Assets/dependency-confusion-attack.png",
@@ -201,7 +202,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/2. Identify.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/1. Detection.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Introduction.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Prevention.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass",
@@ -214,7 +214,6 @@
     "Offensive Security/Assets/php-obfus-float-literals.png",
     "Offensive Security/Assets/php-obfus-integer-literals.png",
     "Offensive Security/Assets/cookie-tampering.png",
-    "Offensive Security/Assets/ssti-diagram.png",
-    "Offensive Security/Assets/username-injection.png"
+    "Offensive Security/Assets/ssti-diagram.png"
   ]
 }
