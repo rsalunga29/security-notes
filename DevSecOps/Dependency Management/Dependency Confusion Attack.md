@@ -1,1 +1,1 @@
-Dependency Confusion is a vulnerability that can exist if our organisation uses internal dependencies that are managed through a dependency manager.
+Dependency Confusion is a vulnerability that can exist if our organization uses internal dependencies that are managed through a dependency manager.
