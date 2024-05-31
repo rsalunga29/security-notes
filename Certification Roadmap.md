@@ -17,9 +17,9 @@
 	- Lets Defend (optional)
 		- SOC Analyst Learning Path
 	- TryHackMe
-		- Cyber Defense (optional)
 		- SOC Level 1 (optional)
 		- SOC Level 2 (optional)
+		- Cyber Defense (optional)
 		- DevSecOps
 	- PentesterLab
 		- Code Review labs
