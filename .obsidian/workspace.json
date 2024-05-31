@@ -155,7 +155,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,7 +168,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "781aa824bf01c217",
+  "active": "9a8f674cdb8a97c7",
   "lastOpenFiles": [
     "Certification Roadmap.md",
     "DevSecOps/Dependency Management/Dependency Confusion Attack.md",
