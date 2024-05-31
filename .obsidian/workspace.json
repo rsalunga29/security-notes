@@ -33,7 +33,8 @@
               "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevSecOps/Dependency Management/Dependency Confusion Attack.md"
+                "file": "Certification Roadmap.md"
               }
             }
           }
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevSecOps/Dependency Management/Dependency Confusion Attack.md",
+                "file": "Certification Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevSecOps/Dependency Management/Dependency Confusion Attack.md",
+                "file": "Certification Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,10 +169,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9a8f674cdb8a97c7",
+  "active": "30561c69d3abdc0d",
   "lastOpenFiles": [
-    "Certification Roadmap.md",
     "DevSecOps/Dependency Management/Dependency Confusion Attack.md",
+    "Certification Roadmap.md",
     "DevSecOps/Dependency Management/Introduction.md",
     "DevSecOps/Dependency Management/Securing External Dependencies.md",
     "DevSecOps/Dependency Management/Securing Internal Dependencies.md",

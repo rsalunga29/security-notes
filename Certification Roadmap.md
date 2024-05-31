@@ -27,10 +27,10 @@
 		- CKA Certification Learning Path
 		- CKS Certification Learning Path
 - Certifications
-	- Security Blue Team Level 1 (optional)
-	- HTB Certified Defensive Security Analyst (optional)
-	- Certified Kubernetes Administrator
-	- Certified Kubernetes Security Specialist
+	- Security Blue Team Level 1
+	- HTB Certified Defensive Security Analyst
+	- Certified Kubernetes Administrator (optional)
+	- Certified Kubernetes Security Specialist (optional)
 - AppSec Homelab Part 2
 	- Adversary Emulation: Atomic Red Team or Caldera
 	- IDS/IPS: Suricata (NIDS) and Wazuh Agent (HIDS)
