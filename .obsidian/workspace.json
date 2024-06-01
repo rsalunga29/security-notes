@@ -155,8 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,6 +169,8 @@
   },
   "active": "08826ec64592a7bc",
   "lastOpenFiles": [
+    "DevSecOps/Assets/services.png",
+    "DevSecOps/Assets/statefulsets.png",
     "DevSecOps/Kubernetes/Architecture.md",
     "DevSecOps/Kubernetes/Architecture (cont.).md",
     "Certification Roadmap.md",
@@ -207,14 +208,12 @@
     "DevSecOps",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/2. Identify.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/1. Detection.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Introduction.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Filtering",
     "Offensive Security/Assets/visual-spoofing-2.png",
-    "Offensive Security/Assets/visual-spoofing-1.png",
-    "Offensive Security/Assets/base64-encoding-algo-2.png"
+    "Offensive Security/Assets/visual-spoofing-1.png"
   ]
 }
