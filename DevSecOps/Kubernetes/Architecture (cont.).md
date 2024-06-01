@@ -6,4 +6,12 @@ A ReplicaSet maintains a set of replica pods and can guarantee the availability 
 
 ReplicaSets usually aren't defined directly, but are instead managed by a deployment.
 ## Deployments
-Deployments are used to define a desired state.
+Deployments are used to define a desired state. One the desired state is defined, the deployment controller process changes the actual state to the desired state.
+
+Deployments also provide declarative updates for pods and replica sets. In other words, if a user defined a deployment named `test-nginx-deployment`, and wrote a definition that the deployment must have a ReplicaSet containing three nginx pods. Once this deployment is defined, the ReplicaSet will create pods in the background.
+## StatefulSets
+To understand StatefulSets, one must first understand the difference between stateful and stateless apps.
+
+
+### Stateful vs Stateless Apps
+Stateful apps store and record user data, allowing them to return to a particular state. Stateless applications, however, have no knowledge of any previous user interactions as it does not store user session data.

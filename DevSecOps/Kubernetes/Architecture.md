@@ -21,10 +21,10 @@ The kube-scheduler component actively monitors the cluster. Its job is to assign
 This component is responsible for running the controller processes, such as the node controller process which is responsible for noticing when nodes go down. The controller manager would then talk to kube-scheduler to schedule a new node to come up.
 
 There are many different types of controllers. Some examples of them are:
-- Node controller: Responsible for noticing and responding when nodes go down.
-- Job controller: Watches for Job objects that represent one-off tasks, then creates Pods to run those tasks to completion.
-- EndpointSlice controller: Populates EndpointSlice objects (to provide a link between Services and Pods).
-- ServiceAccount controller: Create default ServiceAccounts for new namespaces.
+- **Node controller**: Responsible for noticing and responding when nodes go down.
+- **Job controller**: Watches for Job objects that represent one-off tasks, then creates Pods to run those tasks to completion.
+- **EndpointSlice controller**: Populates EndpointSlice objects (to provide a link between Services and Pods).
+- **ServiceAccount controller**: Create default ServiceAccounts for new namespaces.
 The above is not an exhaustive list.
 ### Cloud-controller-manager
 This component enables communication between a Kubernetes cluster and a cloud provider API. It's main purpose is to allow the separation of components that communicate internally within the cluster and those that communicate externally by interacting with the cloud provider. This also allows cloud providers to release features at their own pace.
