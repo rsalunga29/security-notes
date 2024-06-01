@@ -12,7 +12,7 @@ kubectl get -n example-namespace
 ## kubectl describe
 This command can be used to show the details of a resource (or a group of resources). These details can help in troubleshooting or analysis situations. For example, say one of the pods in your cluster has started erroring out, and you want to get more information about the pod to try to determine why it has crashed. For example:
 ```bash
-kubectl describe pod example-nod -n example-namespace
+kubectl describe pod example-node -n example-namespace
 ```
 The results of this command would include details about certain "events", which can help shine a light on what the issue.
 ## kubectl logs

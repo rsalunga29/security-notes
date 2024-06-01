@@ -30,6 +30,11 @@ Here are some logging best practices to ensure you know exactly what is going on
 Role-based Access Control (RBAC) in Kubernetes regulates access to a Kubernetes cluster and its resources based on defined roles and permissions. These are assigned to users, groups or service accounts. RBAC can be configured using a YAML file (same as defining a resource) where specific rules can be defined by declaring the resource type and verbs. Verbs are the actions being restricted, such as 'create' and 'get'.
 ### Secrets Management
 A Kubernetes secret is an object used to store sensitive information (like credentials, OAuth tokens or SSH keys). Secrets are stored as a base64 encoded string, unencrypted by default. For security, it is best to configure encryption at rest. Another way to promote secure secrets management in your Kubernetes cluster is to configure the least privilege access to secrets using RBAC.
+
+Without encrypting the value, anyone can run the following command to view the value in plain text:
+```bash
+kubectl get secret secret-credentials -o jsonpath='{.data.username}' | base64 --decode
+```
 ### Pod Security Standards (PSS) and Pod Security Admission (PSA)
 Pod Security Standards are used to define security policies at 3 levels (privileged, baseline and restricted) at a namespace or cluster-wide level. What these levels mean:
 - **Privileged**: This is a near unrestricted policy (allows for known privilege escalations).

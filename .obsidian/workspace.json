@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevSecOps/Kubernetes/Hardening and Security Best Practices.md",
+                "file": "DevSecOps/Kubernetes/kubectl.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,12 +85,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevSecOps/Kubernetes/Hardening and Security Best Practices.md"
+                "file": "DevSecOps/Kubernetes/kubectl.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevSecOps/Kubernetes/Hardening and Security Best Practices.md",
+                "file": "DevSecOps/Kubernetes/kubectl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevSecOps/Kubernetes/Hardening and Security Best Practices.md",
+                "file": "DevSecOps/Kubernetes/kubectl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,11 +170,11 @@
   },
   "active": "08826ec64592a7bc",
   "lastOpenFiles": [
-    "DevSecOps/Kubernetes/Architecture.md",
     "DevSecOps/Kubernetes/Hardening and Security Best Practices.md",
-    "DevSecOps/Kubernetes/kubectl.md",
     "DevSecOps/Kubernetes/Introduction.md",
+    "DevSecOps/Kubernetes/kubectl.md",
     "DevSecOps/Kubernetes/Configuration.md",
+    "DevSecOps/Kubernetes/Architecture.md",
     "DevSecOps/Kubernetes/Architecture (cont.).md",
     "DevSecOps/Assets/ingress.png",
     "DevSecOps/Assets/services.png",
