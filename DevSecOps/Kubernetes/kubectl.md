@@ -39,4 +39,15 @@ The resources specified are `resource-type/resource-name`. This would be done u
 kubectl port-forward service/example-service 8090:8080
 ```
 ## kubectl auth
-This command is used to inspect authorization. One of its significant commands is `kubectl auth can-i` which checks whether an action is allowed.
+This command is used to inspect authorization. One of its significant commands is `kubectl auth can-i` which checks whether an action is allowed. This can be done by using the following command:
+```bash
+kubectl auth can-i VERB [TYPE | TYPE/NAME | NONRESOURCEURL]
+```
+- **VERB** is a logical Kubernetes API verb like 'get', 'list', 'watch', 'delete', etc.
+- **NONRESOURCEURL** is a partial URL that starts with "/".
+- **NAME** is the name of a particular Kubernetes resource. This command pairs nicely with impersonation.
+
+Full command example as follows:
+```bash
+kubectl auth can-i get secret/admin-creds --as=system:serviceaccount:default:regular-user
+```
