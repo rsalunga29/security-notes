@@ -33,7 +33,7 @@ A Kubernetes secret is an object used to store sensitive information (like crede
 
 Without encrypting the value, anyone can run the following command to view the value in plain text:
 ```bash
-kubectl get secret secret-credentials -o jsonpath='{.data.username}' | base64 --decode
+kubectl get secret admin-credentials -o jsonpath='{.data.username}' | base64 --decode
 ```
 ### Pod Security Standards (PSS) and Pod Security Admission (PSA)
 Pod Security Standards are used to define security policies at 3 levels (privileged, baseline and restricted) at a namespace or cluster-wide level. What these levels mean:

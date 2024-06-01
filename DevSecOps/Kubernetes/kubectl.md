@@ -15,6 +15,12 @@ This command can be used to show the details of a resource (or a group of resour
 kubectl describe pod example-node -n example-namespace
 ```
 The results of this command would include details about certain "events", which can help shine a light on what the issue.
+
+Additionally, the same command can also be used to view details about Kubernetes secrets using:
+```bash
+kubectl describe secret admin-credentials
+```
+The results of this would include details about the "Data" being stored.
 ## kubectl logs
 The kubectl logs command allows you to view the application logs of the erroring pods. For example:
 ```bash
@@ -32,3 +38,5 @@ The resources specified are `resource-type/resource-name`. This would be done u
 ```bash
 kubectl port-forward service/example-service 8090:8080
 ```
+## kubectl auth
+This command is used to inspect authorization. One of its significant commands is `kubectl auth can-i` which checks whether an action is allowed.
