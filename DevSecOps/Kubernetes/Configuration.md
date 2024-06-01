@@ -18,10 +18,32 @@ metadata:
 	name: example-nginx-service
 spec:
 	selector:
-		app: nginx
+		app: nginx # since nginx is defined, this service will look for apps with the nginx label
 	ports:
 		- protocol: TCP
-		  port: 8080
-		  targetPort: 80
+		  port: 8080 # the port the service is exposed on
+		  targetPort: 80 # the port to which the service will send requests
 	type: ClusterIP
+```
+### example-deployment.yaml
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+	name: example-nginx-deployment
+spec:
+	replicas: 3 # tells k8s we want 3 replicas in this ReplicaSet
+	selector:
+		matchLabels:
+			app: nginx
+	template: # the template k8s use to create pods
+		metadata: # template identifier
+			labels:
+				app: nginx
+		spec: # template specs, k8s uses this to know which image and settings to use
+			containers:
+				- name: nginx
+				  image: nginx:latest
+				  ports:
+					  - containerPort: 80 # must match with the targetPort in the service file.
 ```
