@@ -168,13 +168,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9a8f674cdb8a97c7",
+  "active": "08826ec64592a7bc",
   "lastOpenFiles": [
-    "DevSecOps/Assets/worker-node.png",
+    "Certification Roadmap.md",
     "DevSecOps/Kubernetes/Architecture.md",
+    "DevSecOps/Kubernetes/Architecture (cont.).md",
+    "DevSecOps/Assets/worker-node.png",
     "DevSecOps/Assets/component-comms.png",
     "DevSecOps/Assets/control-plane.png",
-    "Certification Roadmap.md",
     "DevSecOps/Assets/kubernetes-worker-node.png",
     "DevSecOps/Assets/kubernetes-control-plane.png",
     "DevSecOps/Assets/kubernetes-components-communications.png",
