@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevSecOps/Kubernetes/kubectl.md",
+                "file": "DevSecOps/Kubernetes/Hardening and Security Best Practices.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevSecOps/Kubernetes/kubectl.md"
+                "file": "DevSecOps/Kubernetes/Hardening and Security Best Practices.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevSecOps/Kubernetes/kubectl.md",
+                "file": "DevSecOps/Kubernetes/Hardening and Security Best Practices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevSecOps/Kubernetes/kubectl.md",
+                "file": "DevSecOps/Kubernetes/Hardening and Security Best Practices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,14 +170,15 @@
   },
   "active": "08826ec64592a7bc",
   "lastOpenFiles": [
+    "DevSecOps/Kubernetes/Architecture.md",
+    "DevSecOps/Kubernetes/Hardening and Security Best Practices.md",
+    "DevSecOps/Kubernetes/kubectl.md",
     "DevSecOps/Kubernetes/Introduction.md",
     "DevSecOps/Kubernetes/Configuration.md",
-    "DevSecOps/Kubernetes/kubectl.md",
     "DevSecOps/Kubernetes/Architecture (cont.).md",
     "DevSecOps/Assets/ingress.png",
     "DevSecOps/Assets/services.png",
     "DevSecOps/Assets/statefulsets.png",
-    "DevSecOps/Kubernetes/Architecture.md",
     "Certification Roadmap.md",
     "DevSecOps/Assets/worker-node.png",
     "DevSecOps/Assets/component-comms.png",
@@ -210,7 +211,6 @@
     "Offensive Security/Methodology & Checklists/Web Testing Methodology.md",
     "DevSecOps/CICD Pipeline Security",
     "DevSecOps",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Server-side Vulnerabilities/Server-side Template Injection/Construct SSTI Payload/2. Identify.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/WAF Bypass",
