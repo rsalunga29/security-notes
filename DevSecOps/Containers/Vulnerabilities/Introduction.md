@@ -1,3 +1,6 @@
 While Docker containers are designed to isolate applications from one another, they can still be vulnerable. For example, hard-coded passwords for an application can still be present. If an attacker is able to gain access through a vulnerable web application, they will be able to find these credentials.
 
-The other potential attack vectors are 
+The other potential attack vectors are:
+- **Misconfigured Containers**: Misconfigured containers will have privileges that are not necessary for the operation of the container. For example, a container running in "privileged" mode will have access to the host operating system - removing the layers of isolation.
+- **Vulnerable Images**: There have been numerous incidents of popular Docker images being backdoored to perform malicious actions such as crypto mining.
+- **Network Connectivity**: A container that is not correctly networked can be exposed to the internet. For example, a database container for a web application should only be accessible to the web application container - not the internet. Additionally, containers can serve to become a method of lateral movement. Once an attacker has access to a container, they may be able to interact with other containers on the host that are not exposed to the network.
