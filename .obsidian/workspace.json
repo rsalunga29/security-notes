@@ -170,6 +170,7 @@
   },
   "active": "08826ec64592a7bc",
   "lastOpenFiles": [
+    "DevSecOps/Kubernetes/Introduction.md",
     "DevSecOps/Kubernetes/Configuration.md",
     "DevSecOps/Kubernetes/kubectl.md",
     "DevSecOps/Kubernetes/Architecture (cont.).md",
@@ -184,7 +185,6 @@
     "DevSecOps/Assets/kubernetes-worker-node.png",
     "DevSecOps/Assets/kubernetes-control-plane.png",
     "DevSecOps/Assets/kubernetes-components-communications.png",
-    "DevSecOps/Kubernetes/Introduction.md",
     "DevSecOps/Dependency Confusion Attack.md",
     "DevSecOps/Kubernetes",
     "DevSecOps/Assets",
