@@ -19,7 +19,12 @@ StatefulSets will have one pod, referred to as the master pod, which can read/wr
 ### Stateful vs Stateless Apps
 Stateful apps store and record user data, allowing them to return to a particular state. Stateless applications, however, have no knowledge of any previous user interactions as it does not store user session data.
 ## Services
-A service is basically an abstraction that is used to expose a group of pods over a network. Since pods are ephemeral, meaning they are spun-up and destroyed regularly, they can't be issued an IP address, because doing so would change the IP address every time a pod is destroyed and spun-up. Instead, services are used so that a single static IP can be associated with a pod and its replicas.
+A service is basically an abstraction that is used to expose a group of pods over a network. Example:
+
+Since pods are ephemeral, meaning they are spun-up and destroyed regularly, they can't be issued an IP address, because doing so would change the IP address every time a pod is destroyed and spun-up. Instead, services are used so that a single static IP can be associated with a pod and its replicas. In other words, a service is placed in front of these pods and exposes them, acting as an access point.
 
 There are different types of services you can define: `ClusterIP`, `LoadBalancer`, `NodePort` and `ExternalName`.
 ![[services.png]]
+## Ingress
+Ingress acts as a single access point to the cluster and means that all routing rules are in a single resource.
+![[ingress.png]]
