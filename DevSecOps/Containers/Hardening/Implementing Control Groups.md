@@ -7,4 +7,8 @@ This behaviour is not enabled by default on Docker and must be enabled per conta
 docker run -it --cpus="1" --memory="20m" container-name
 ```
 You can also update this setting once the container is running. To do so, use:
-``
+```bash
+docker update --cpus="2" --memory="40m" container-name
+```
+
+You can use the `docker inspect container-name` command to view information about a container (including the resource limits set). If a resource limit is set to **0**, this means that no resource limits have been set.
