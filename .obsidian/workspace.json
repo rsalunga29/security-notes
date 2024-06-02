@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevSecOps/Containers/Hardening/Seccomp & AppArmor.md",
+                "file": "DevSecOps/Containers/Hardening/Reviewing Docker Images.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevSecOps/Containers/Hardening/Seccomp & AppArmor.md"
+                "file": "DevSecOps/Containers/Hardening/Reviewing Docker Images.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevSecOps/Containers/Hardening/Seccomp & AppArmor.md",
+                "file": "DevSecOps/Containers/Hardening/Reviewing Docker Images.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevSecOps/Containers/Hardening/Seccomp & AppArmor.md",
+                "file": "DevSecOps/Containers/Hardening/Reviewing Docker Images.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,8 +170,9 @@
   },
   "active": "08826ec64592a7bc",
   "lastOpenFiles": [
-    "DevSecOps/Containers/Hardening/Preventing Over-privileged Containers.md",
     "DevSecOps/Containers/Hardening/Seccomp & AppArmor.md",
+    "DevSecOps/Containers/Hardening/Reviewing Docker Images.md",
+    "DevSecOps/Containers/Hardening/Preventing Over-privileged Containers.md",
     "DevSecOps/Containers/Hardening/Implementing Control Groups.md",
     "DevSecOps/Containers/Hardening/Protecting Docker Daemon.md",
     "DevSecOps/Containers/Vulnerabilities/Abusing Namespaces.md",
@@ -211,7 +212,6 @@
     "DevSecOps/Dynamic Application Security Testing.md",
     "DevSecOps/Dependency Management/Internal vs External Dependencies.md",
     "DevSecOps/Dependency Management",
-    "DevSecOps/CICD Pipeline Security/Securing the Build Secrets.md",
     "DevSecOps/CICD Pipeline Security",
     "DevSecOps",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets",
