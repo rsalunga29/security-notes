@@ -1,0 +1,16 @@
+Privileged containers are containers that are assigned full privileges - i.e., full root access. The entire point of containerization is to "isolate" a container from the host. By running Docker containers in "privileged" mode, the normal security mechanisms to isolate a container from the host are bypassed. While privileged containers can have legitimate uses, for example, running Docker-In-Docker (a container within a container) or for debugging purposes, they are extremely dangerous.
+
+Capabilities allow us to fine-tune what privileges a process has. I have placed some standard capabilities in the table below, what privileges they translate to, and where they may be used:
+
+| **Capability**       | **Description**                                                                                                                                                                                 | **Use Case**                                                                                                                                                                              |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| CAP_NET_BIND_SERVICE | This capability allows services to bind to ports, specifically those under 1024, which usually requires root privileges.                                                                        | Allowing a web server to bind on port 80 without root access.                                                                                                                             |
+| CAP_SYS_ADMIN        | This capability provides a variety of administrative privileges, including being able to mount/unmount file systems, changing network settings, performing system reboots, shutdowns, and more. | You may find this capability in a process that automates administrative tasks. For example, modifying a user or starting/stopping a service.                                              |
+| CAP_SYS_RESOURCE     | This capability allows a process to modify the maximum limit of resources available. For example, a process can use more memory or bandwidth.                                                   | This capability can control the number of resources a process can consume on a granular level. This can be either increasing the amount of resources or reducing the amount of resources. |
+## Viewing Current Capabilities
+The command `capsh --print` can be used to determine what capabilities are assigned to a process.
+## Assigning Capabilities to Containers
+It's recommended assigning capabilities to containers individually rather than running containers with the `--privileged` flag (which will assign all capabilities). We can do this using the following command:
+```bash
+docker run -it --rm --cap-drop=ALL --cap-add=NET_BIND_SERVICE container-name
+```
