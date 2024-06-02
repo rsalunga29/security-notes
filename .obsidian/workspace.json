@@ -170,8 +170,9 @@
   },
   "active": "08826ec64592a7bc",
   "lastOpenFiles": [
-    "DevSecOps/Containers/Vulnerabilities/Introduction.md",
+    "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
     "DevSecOps/Containers/Vulnerabilities/Privileged Containers.md",
+    "DevSecOps/Containers/Vulnerabilities/Introduction.md",
     "DevSecOps/Kubernetes/kubectl.md",
     "DevSecOps/Containers/Hardening",
     "DevSecOps/Containers/Vulnerabilities",
@@ -211,7 +212,6 @@
     "DevSecOps/CICD Pipeline Security/Securing the Build Server.md",
     "DevSecOps/CICD Pipeline Security/Securing the Build Process.md",
     "DevSecOps/CICD Pipeline Security/Case Study - SolarWinds.md",
-    "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
     "DevSecOps/CICD Pipeline Security",
     "DevSecOps",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets",
