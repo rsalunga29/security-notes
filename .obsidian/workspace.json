@@ -155,7 +155,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,7 +168,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "08826ec64592a7bc",
+  "active": "9a8f674cdb8a97c7",
   "lastOpenFiles": [
     "DevSecOps/Kubernetes/kubectl.md",
     "DevSecOps/Containers/Vulnerabilities/Introduction.md",
