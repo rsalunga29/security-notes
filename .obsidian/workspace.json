@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevSecOps/Containers/Vulnerabilities/RCE via Exposed Docker Daemon.md",
+                "file": "DevSecOps/Containers/Vulnerabilities/Abusing Namespaces.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevSecOps/Containers/Vulnerabilities/RCE via Exposed Docker Daemon.md"
+                "file": "DevSecOps/Containers/Vulnerabilities/Abusing Namespaces.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevSecOps/Containers/Vulnerabilities/RCE via Exposed Docker Daemon.md",
+                "file": "DevSecOps/Containers/Vulnerabilities/Abusing Namespaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevSecOps/Containers/Vulnerabilities/RCE via Exposed Docker Daemon.md",
+                "file": "DevSecOps/Containers/Vulnerabilities/Abusing Namespaces.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,8 +170,9 @@
   },
   "active": "08826ec64592a7bc",
   "lastOpenFiles": [
-    "DevSecOps/Containers/Vulnerabilities/Escaping via Exposed Docker Daemon.md",
     "DevSecOps/Containers/Vulnerabilities/RCE via Exposed Docker Daemon.md",
+    "DevSecOps/Containers/Vulnerabilities/Abusing Namespaces.md",
+    "DevSecOps/Containers/Vulnerabilities/Escaping via Exposed Docker Daemon.md",
     "DevSecOps/Containers/Vulnerabilities/Privileged Containers.md",
     "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
     "DevSecOps/Containers/Vulnerabilities/Introduction.md",
@@ -211,7 +212,6 @@
     "DevSecOps/CICD Pipeline Security/Securing the Build Pipeline.md",
     "DevSecOps/CICD Pipeline Security/Securing the Build Source.md",
     "DevSecOps/CICD Pipeline Security/Introduction.md",
-    "DevSecOps/CICD Pipeline Security/Securing the Build Server.md",
     "DevSecOps/CICD Pipeline Security",
     "DevSecOps",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets",

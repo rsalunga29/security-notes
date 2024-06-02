@@ -8,8 +8,6 @@ By default, Docker engine will run on port `2375`. We can confirm this by runnin
 
 Once confirmed, we are going to use the `curl` command to interact with the exposed Docker daemon: `curl http://docker-ip-address:2375/version`.
 ## Executing Docker Command on Target
-We can now execute Docker commands on our target. For example, start containers, stop containers, delete them, or export the contents of the containers for us to analyse further. 
-
-by using the following command: `docker -H tcp://docker-ip-address:2375 COMMAND`.
+We can now execute Docker commands on our target. For example, start containers, stop containers, delete them, or export the contents of the containers for us to analyze further. We can use the following command to do this: `docker -H tcp://docker-ip-address:2375 COMMAND`.
 
 The `COMMAND` parameter refers to Docker commands, such as `network ls`, `images`, `exec`, or `run`.
