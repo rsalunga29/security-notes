@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevSecOps/Containers/Vulnerabilities/Introduction.md",
+                "file": "DevSecOps/Containers/Vulnerabilities/Privileged Containers.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevSecOps/Containers/Vulnerabilities/Introduction.md"
+                "file": "DevSecOps/Containers/Vulnerabilities/Privileged Containers.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevSecOps/Containers/Vulnerabilities/Introduction.md",
+                "file": "DevSecOps/Containers/Vulnerabilities/Privileged Containers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevSecOps/Containers/Vulnerabilities/Introduction.md",
+                "file": "DevSecOps/Containers/Vulnerabilities/Privileged Containers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,10 +168,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9a8f674cdb8a97c7",
+  "active": "08826ec64592a7bc",
   "lastOpenFiles": [
-    "DevSecOps/Kubernetes/kubectl.md",
     "DevSecOps/Containers/Vulnerabilities/Introduction.md",
+    "DevSecOps/Containers/Vulnerabilities/Privileged Containers.md",
+    "DevSecOps/Kubernetes/kubectl.md",
     "DevSecOps/Containers/Hardening",
     "DevSecOps/Containers/Vulnerabilities",
     "DevSecOps/Containers",
@@ -211,7 +212,6 @@
     "DevSecOps/CICD Pipeline Security/Securing the Build Process.md",
     "DevSecOps/CICD Pipeline Security/Case Study - SolarWinds.md",
     "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
-    "Offensive Security/Miscellaneous/Others.md",
     "DevSecOps/CICD Pipeline Security",
     "DevSecOps",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets",
