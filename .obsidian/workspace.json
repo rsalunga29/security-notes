@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevSecOps/Containers/Hardening/Reviewing Docker Images.md",
+                "file": "DevSecOps/Infrastructure as Code/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevSecOps/Containers/Hardening/Reviewing Docker Images.md"
+                "file": "DevSecOps/Infrastructure as Code/Introduction.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevSecOps/Containers/Hardening/Reviewing Docker Images.md",
+                "file": "DevSecOps/Infrastructure as Code/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevSecOps/Containers/Hardening/Reviewing Docker Images.md",
+                "file": "DevSecOps/Infrastructure as Code/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,10 +168,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "08826ec64592a7bc",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
-    "DevSecOps/Containers/Hardening/Seccomp & AppArmor.md",
     "DevSecOps/Containers/Hardening/Reviewing Docker Images.md",
+    "DevSecOps/Infrastructure as Code/Introduction.md",
+    "DevSecOps/Infrastructure as Code",
+    "DevSecOps/Containers/Hardening/Seccomp & AppArmor.md",
     "DevSecOps/Containers/Hardening/Preventing Over-privileged Containers.md",
     "DevSecOps/Containers/Hardening/Implementing Control Groups.md",
     "DevSecOps/Containers/Hardening/Protecting Docker Daemon.md",
@@ -210,11 +212,9 @@
     "DevSecOps/Dependency Management/Securing Internal Dependencies.md",
     "DevSecOps/Static Application Security Testing.md",
     "DevSecOps/Dynamic Application Security Testing.md",
-    "DevSecOps/Dependency Management/Internal vs External Dependencies.md",
     "DevSecOps/Dependency Management",
     "DevSecOps/CICD Pipeline Security",
     "DevSecOps",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters"
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/SQL Injection Bypass/DBMS Gadgets"
   ]
 }
