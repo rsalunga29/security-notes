@@ -20,7 +20,7 @@
 		- SOC Level 1 (optional)
 		- SOC Level 2 (optional)
 		- Cyber Defense (optional)
-		- DevSecOps
+		- DevSecOps (done)
 	- PentesterLab
 		- Code Review labs
 	- KodeKloud (optional)
