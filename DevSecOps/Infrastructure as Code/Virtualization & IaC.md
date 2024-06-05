@@ -6,4 +6,6 @@ Containerization (platform example: Docker) is virtualization at an operating sy
 1. **Scalability**: IaC uses virtualization to meet demands. If there is a sudden increase in demand and there is a need for more servers, virtual machines can be created to handle this increased load.
 2. **Resource Isolation**: Using IaC, you can define what components get how much of the available resources. This means if one component starts consuming all of its allocated resources, it wont affect the performance of other components.
 3. **Testing / Snapshots / Rollbacks**: The consistency that IaC provides allows OS virtualization and software configuration to be packaged and deployed anywhere. Also combined with the ability to take snapshots at specific points in time, rollbacks can be done if a deployment has gone wrong.
-4. **Templates**: IaC uses templates to provision new instances, which ensures consistence across instances due to manual provision and
+4. **Templates**: IaC uses templates to provision new instances, which ensures consistence across instances due to manual provision and configuration being removed in the picture.
+5. **Multi-tenancy**: IaC can manage the resources for multiple tenants using the same underlying infrastructure.
+6. **Portability**: Virtualisation makes it easier to move infrastructure between cloud providers or data centres. Having this portability can streamline critical business processes like disaster recovery.
