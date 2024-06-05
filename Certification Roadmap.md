@@ -32,8 +32,8 @@
 	- HTB Certified Defensive Security Analyst (optional)
 	- GuideM Cyber Defense Professional
 	- eLearnSecurity Certified Digital Forensics Professional
-	- eLearnSecurity Threat Hunting Professional
 	- eLearnSecurity Certified Incident Responder
+	- eLearnSecurity Certified Threat Hunting Professional
 - AppSec Homelab Part 2
 	- Adversary Emulation: Atomic Red Team or Caldera
 	- IDS/IPS: Suricata (NIDS) and Wazuh Agent (HIDS)

@@ -8,6 +8,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "88cd73d1b5d9dd32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Defensive Security/Cyber Defense Frameworks/Pyramid of Pain.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "30561c69d3abdc0d",
             "type": "leaf",
             "pinned": true,
@@ -19,18 +31,6 @@
                 "source": false
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "39aacacd28e32792",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
             }
           }
         ],
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Certification Roadmap.md"
               }
             }
           }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Certification Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Certification Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,8 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,9 +168,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "39aacacd28e32792",
+  "active": "30561c69d3abdc0d",
   "lastOpenFiles": [
+    "Defensive Security/Cyber Defense Frameworks/Pyramid of Pain.md",
     "Certification Roadmap.md",
+    "Defensive Security/Cyber Defense Frameworks",
+    "Defensive Security",
     "Untitled.md",
     "DevSecOps/Infrastructure as Code/Virtualization & IaC.md",
     "DevSecOps/Infrastructure as Code/Agent-based vs Agentless.md",
@@ -203,7 +205,6 @@
     "DevSecOps/Containers",
     "DevSecOps/Kubernetes/Hardening and Security Best Practices.md",
     "DevSecOps/Kubernetes/Introduction.md",
-    "DevSecOps/Kubernetes/Configuration.md",
     "DevSecOps/Assets/ingress.png",
     "DevSecOps/Assets/services.png",
     "DevSecOps/Assets/statefulsets.png",
@@ -214,8 +215,6 @@
     "DevSecOps/Assets/kubernetes-control-plane.png",
     "DevSecOps/Kubernetes",
     "DevSecOps/Assets",
-    "DevSecOps/Dependency Management",
-    "DevSecOps/CICD Pipeline Security",
-    "DevSecOps"
+    "DevSecOps/Dependency Management"
   ]
 }
