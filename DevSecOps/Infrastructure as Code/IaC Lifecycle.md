@@ -1,0 +1,3 @@
+Currently, there is yet to be agreed-upon and widely adopted lifecycle. The actions/tasks performed by developers and IaC tools can be broken down into phases, which together make a lifecycle; this lifecycle helps us understand that infrastructure as code has continual and repeatable processes, which don't simply follow a linear sequence of provision and management tasks.
+## Continual (Best Practice) Phase
+![[continual-iac.png]]
