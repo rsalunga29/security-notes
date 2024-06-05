@@ -23,6 +23,10 @@
 		- DevSecOps (done)
 	- PentesterLab
 		- Code Review labs
+	- CyberDefenders
+		- Digital Forensics Labs
+	- BlueTeamLabs
+		- Incident Response Labs
 - Certifications
 	- Security Blue Team Level 1 (optional)
 	- HTB Certified Defensive Security Analyst (optional)

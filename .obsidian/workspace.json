@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "39aacacd28e32792",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certification Roadmap.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -105,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,12 +169,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30561c69d3abdc0d",
+  "active": "39aacacd28e32792",
   "lastOpenFiles": [
+    "Certification Roadmap.md",
+    "Untitled.md",
     "DevSecOps/Infrastructure as Code/Virtualization & IaC.md",
     "DevSecOps/Infrastructure as Code/Agent-based vs Agentless.md",
     "DevSecOps/Infrastructure as Code/Declarative vs Imperative.md",
-    "Certification Roadmap.md",
     "DevSecOps/Infrastructure as Code/Ansible/Example.md",
     "DevSecOps/Infrastructure as Code/Ansible/Terminology.md",
     "DevSecOps/Infrastructure as Code/Ansible",
@@ -190,7 +204,6 @@
     "DevSecOps/Kubernetes/Hardening and Security Best Practices.md",
     "DevSecOps/Kubernetes/Introduction.md",
     "DevSecOps/Kubernetes/Configuration.md",
-    "DevSecOps/Kubernetes/Architecture.md",
     "DevSecOps/Assets/ingress.png",
     "DevSecOps/Assets/services.png",
     "DevSecOps/Assets/statefulsets.png",
