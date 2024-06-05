@@ -24,9 +24,10 @@
 	- PentesterLab
 		- Code Review labs
 - Certifications
-	- Security Blue Team Level 1 (optional)
+	- Security Blue Team Level 1
 	- HTB Certified Defensive Security Analyst
 	- GuideM Cyber Defense Professional
+	- eLearnSecurity Certified Incident Responder
 - AppSec Homelab Part 2
 	- Adversary Emulation: Atomic Red Team or Caldera
 	- IDS/IPS: Suricata (NIDS) and Wazuh Agent (HIDS)
