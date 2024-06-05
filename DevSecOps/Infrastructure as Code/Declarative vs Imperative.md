@@ -1,3 +1,4 @@
+Below are the differences between declarative and imperative (also known as functional and procedural) IaC tools:
 ## Declarative
 This approach involves declaring an explicit state for the infrastructure, min/max resources, x components, etc... The IaC tool will perform actions based on what is defined. In other words, it focuses on the what rather than the how.
 
