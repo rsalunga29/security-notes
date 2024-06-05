@@ -6,3 +6,7 @@ An agent-based IaC tool can perform tasks even when the system has limited conne
 Some agent-based IaC tools will also require opening ports on the server for inbound and outbound traffic, allowing the agent to push/pull configuration information.
 
 Examples of agent-based IaC tools are: Puppet, Chef, and Saltstalk.
+## Agentless
+Agentless IaC tools do not require agents to be installed on the target systems. Instead, these tools leverage existing communication protocols such as SSH, WinRM or Cloud APIs to interact with the target system.
+
+Benefits of agentless 
