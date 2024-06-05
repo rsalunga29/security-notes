@@ -24,9 +24,11 @@
 	- PentesterLab
 		- Code Review labs
 - Certifications
-	- Security Blue Team Level 1
-	- HTB Certified Defensive Security Analyst
+	- Security Blue Team Level 1 (optional)
+	- HTB Certified Defensive Security Analyst (optional)
 	- GuideM Cyber Defense Professional
+	- eLearnSecurity Certified Digital Forensics Professional
+	- eLearnSecurity Threat Hunting Professional
 	- eLearnSecurity Certified Incident Responder
 - AppSec Homelab Part 2
 	- Adversary Emulation: Atomic Red Team or Caldera
