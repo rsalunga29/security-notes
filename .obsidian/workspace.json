@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevSecOps/Infrastructure as Code/Introduction.md",
+                "file": "DevSecOps/Infrastructure as Code/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevSecOps/Infrastructure as Code/Introduction.md"
+                "file": "DevSecOps/Infrastructure as Code/Untitled.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevSecOps/Infrastructure as Code/Introduction.md",
+                "file": "DevSecOps/Infrastructure as Code/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevSecOps/Infrastructure as Code/Introduction.md",
+                "file": "DevSecOps/Infrastructure as Code/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,10 +168,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccc68e20622978c5",
+  "active": "08826ec64592a7bc",
   "lastOpenFiles": [
-    "DevSecOps/Containers/Hardening/Reviewing Docker Images.md",
     "DevSecOps/Infrastructure as Code/Introduction.md",
+    "DevSecOps/Infrastructure as Code/Untitled.md",
+    "DevSecOps/Containers/Hardening/Reviewing Docker Images.md",
     "DevSecOps/Infrastructure as Code",
     "DevSecOps/Containers/Hardening/Seccomp & AppArmor.md",
     "DevSecOps/Containers/Hardening/Preventing Over-privileged Containers.md",
@@ -211,7 +212,6 @@
     "DevSecOps/Dependency Management/Introduction.md",
     "DevSecOps/Dependency Management/Securing Internal Dependencies.md",
     "DevSecOps/Static Application Security Testing.md",
-    "DevSecOps/Dynamic Application Security Testing.md",
     "DevSecOps/Dependency Management",
     "DevSecOps/CICD Pipeline Security",
     "DevSecOps",
