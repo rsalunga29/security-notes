@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevSecOps/Infrastructure as Code/IaC Lifecycle.md",
+                "file": "DevSecOps/Infrastructure as Code/Virtualization & IaC.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevSecOps/Infrastructure as Code/IaC Lifecycle.md"
+                "file": "DevSecOps/Infrastructure as Code/Virtualization & IaC.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevSecOps/Infrastructure as Code/IaC Lifecycle.md",
+                "file": "DevSecOps/Infrastructure as Code/Virtualization & IaC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevSecOps/Infrastructure as Code/IaC Lifecycle.md",
+                "file": "DevSecOps/Infrastructure as Code/Virtualization & IaC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,11 +168,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccc68e20622978c5",
+  "active": "08826ec64592a7bc",
   "lastOpenFiles": [
+    "DevSecOps/Infrastructure as Code/IaC Lifecycle.md",
+    "DevSecOps/Infrastructure as Code/Virtualization & IaC.md",
+    "DevSecOps/Assets/repeatable-iac.png",
     "DevSecOps/Assets/continual-iac.png",
     "DevSecOps/Infrastructure as Code/Provisioning vs Configuration Management.md",
-    "DevSecOps/Infrastructure as Code/IaC Lifecycle.md",
     "DevSecOps/Infrastructure as Code/Introduction.md",
     "DevSecOps/Infrastructure as Code/Immutable vs Mutable.md",
     "DevSecOps/Infrastructure as Code/Agent-based vs Agentless.md",
@@ -207,11 +209,9 @@
     "DevSecOps/Assets/control-plane.png",
     "DevSecOps/Assets/kubernetes-worker-node.png",
     "DevSecOps/Assets/kubernetes-control-plane.png",
-    "DevSecOps/Assets/kubernetes-components-communications.png",
     "DevSecOps/Dependency Confusion Attack.md",
     "DevSecOps/Kubernetes",
     "DevSecOps/Assets",
-    "DevSecOps/Assets/dependency-confusion-attack.png",
     "DevSecOps/Dependency Management",
     "DevSecOps/CICD Pipeline Security",
     "DevSecOps",
