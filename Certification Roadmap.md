@@ -23,14 +23,10 @@
 		- DevSecOps (done)
 	- PentesterLab
 		- Code Review labs
-	- KodeKloud (optional)
-		- CKA Certification Learning Path
-		- CKS Certification Learning Path
 - Certifications
 	- Security Blue Team Level 1 (optional)
 	- HTB Certified Defensive Security Analyst
-	- Certified Kubernetes Administrator (optional)
-	- Certified Kubernetes Security Specialist (optional)
+	- GuideM Cyber Defense Professional
 - AppSec Homelab Part 2
 	- Adversary Emulation: Atomic Red Team or Caldera
 	- IDS/IPS: Suricata (NIDS) and Wazuh Agent (HIDS)
