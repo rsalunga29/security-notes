@@ -15,4 +15,10 @@ Various online tools can be used to do hash lookups like [VirusTotal](https://w
 ## IP Address (Easy)
 An IP address is used to identify any device connected to a network. These devices range from desktops, servers, and even CCTV cameras. We rely on IP addresses to send and receive the information over the network.
 
-The knowledge of the IP addresses a threat actor uses can be valuable. The most common defense tactic is to block, drop, or deny inbound requests from these IP addresses on the perimeter or firewall.
+The knowledge of the IP addresses a threat actor uses can be valuable. The most common defense tactic is to block, drop, or deny inbound requests from these IP addresses on the perimeter or firewall. This tactic is often not bulletproof as it’s trivial for an experienced adversary to recover simply by using a new public IP address.
+
+Fast Flux is a DNS technique of having multiple IP addresses associated with a domain name, which is constantly changing. This technique is primarily used by threat actors or botnets to hide phishing, web proxying, malware delivery, and malware C2 activities. As a result of this, defenders find it challenging to carry out successful IP blocking.
+## Domain Names (Simple)
+Domain Names can be thought as simply mapping an IP address to a string of text. A domain name can contain a domain and a top-level domain ([evilcorp.com](http://evilcorp.com/)) or a sub-domain followed by a domain and top-level domain ([tryhackme.evilcorp.com](http://tryhackme.evilcorp.com/)).
+
+Domain names can be a little more of a pain for the attack to change, as they would most likely need to purchase a domain and modify its DNS records. However, many DNS providers have loose standards and provide APIs to make it easier for the attacker to change the domains.
