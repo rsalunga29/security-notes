@@ -16,9 +16,28 @@ Various online tools can be used to do hash lookups like [VirusTotal](https://w
 An IP address is used to identify any device connected to a network. These devices range from desktops, servers, and even CCTV cameras. We rely on IP addresses to send and receive the information over the network.
 
 The knowledge of the IP addresses a threat actor uses can be valuable. The most common defense tactic is to block, drop, or deny inbound requests from these IP addresses on the perimeter or firewall. This tactic is often not bulletproof as it’s trivial for an experienced adversary to recover simply by using a new public IP address.
-
+### Fast Flux
 Fast Flux is a DNS technique of having multiple IP addresses associated with a domain name, which is constantly changing. This technique is primarily used by threat actors or botnets to hide phishing, web proxying, malware delivery, and malware C2 activities. As a result of this, defenders find it challenging to carry out successful IP blocking.
 ## Domain Names (Simple)
 Domain Names can be thought as simply mapping an IP address to a string of text. A domain name can contain a domain and a top-level domain ([evilcorp.com](http://evilcorp.com/)) or a sub-domain followed by a domain and top-level domain ([tryhackme.evilcorp.com](http://tryhackme.evilcorp.com/)).
 
 Domain names can be a little more of a pain for the attack to change, as they would most likely need to purchase a domain and modify its DNS records. However, many DNS providers have loose standards and provide APIs to make it easier for the attacker to change the domains.
+
+To detect the malicious domains, proxy logs or web server logs can be used.
+### Punycode
+Punycode attack is used by attackers to redirect users to a malicious domain that seems legitimate at first glance. Punycode is a way of converting words that cannot be written in ASCII, into a Unicode ASCII encoding. For example, the URL `adıdas.de` has the Punycode of `http://xn--addas-o4a.de/`.
+
+Modern browsers such as Google Chrome, Microsoft Edge, and Apple Safari are now pretty good at translating the obfuscated characters into the full punycode domain name.
+### URL Shorteners
+One technique used by threat actors to hide malicious domains are URL Shorteners.  URL Shortener is a tool that creates a short and unique URL that will redirect to the specific website specified during the initial step of setting up the URL Shortener link. Threat actors usually use the following URL shortening services:
+- bit.ly
+- goo.gl
+- ow.ly
+- s.id
+- smarturl.it
+- tiny.pl
+- tinyurl.com
+- x.co
+
+One technique to see the actual URL of the shortened link is by appending `+`. For example:
+- tiny.url:
