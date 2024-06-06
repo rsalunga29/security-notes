@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Cyber Defense Frameworks/Pyramid of Pain.md",
+                "file": "Defensive Security/Cyber Defense Frameworks/Cyber Kill Chain.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Cyber Defense Frameworks/Pyramid of Pain.md"
+                "file": "Defensive Security/Cyber Defense Frameworks/Cyber Kill Chain.md"
               }
             }
           }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Cyber Defense Frameworks/Pyramid of Pain.md",
+                "file": "Defensive Security/Cyber Defense Frameworks/Cyber Kill Chain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Cyber Defense Frameworks/Pyramid of Pain.md",
+                "file": "Defensive Security/Cyber Defense Frameworks/Cyber Kill Chain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,10 +171,11 @@
   },
   "active": "2b73b8c0c461cd36",
   "lastOpenFiles": [
+    "Defensive Security/Cyber Defense Frameworks/Pyramid of Pain.md",
+    "Defensive Security/Cyber Defense Frameworks/Cyber Kill Chain.md",
     "Defensive Security/Assets",
     "Defensive Security/Assets/pyramid-of-pain.png",
     "Certification Roadmap.md",
-    "Defensive Security/Cyber Defense Frameworks/Pyramid of Pain.md",
     "DevSecOps/Dependency Management/Dependency Confusion Attack.md",
     "conflict-files-obsidian-git.md",
     "DevSecOps/Kubernetes/kubectl.md",
@@ -215,7 +216,6 @@
     "DevSecOps/Assets",
     "Defensive Security/Cyber Defense Frameworks",
     "Defensive Security",
-    "DevSecOps/Dependency Management",
-    "DevSecOps/CICD Pipeline Security"
+    "DevSecOps/Dependency Management"
   ]
 }
