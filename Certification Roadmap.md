@@ -17,20 +17,23 @@
 	- Lets Defend (optional)
 		- SOC Analyst Learning Path
 	- TryHackMe
-		- Cyber Defense (optional)
 		- SOC Level 1 (optional)
 		- SOC Level 2 (optional)
-		- DevSecOps
+		- Cyber Defense (optional)
+		- DevSecOps (done)
 	- PentesterLab
 		- Code Review labs
-	- KodeKloud (optional)
-		- CKA Certification Learning Path
-		- CKS Certification Learning Path
+	- CyberDefenders
+		- Digital Forensics Labs
+	- BlueTeamLabs
+		- Incident Response Labs
 - Certifications
 	- Security Blue Team Level 1 (optional)
 	- HTB Certified Defensive Security Analyst (optional)
-	- Certified Kubernetes Administrator
-	- Certified Kubernetes Security Specialist
+	- GuideM Cyber Defense Professional
+	- eLearnSecurity Certified Digital Forensics Professional
+	- eLearnSecurity Certified Incident Responder
+	- eLearnSecurity Certified Threat Hunting Professional
 - AppSec Homelab Part 2
 	- Adversary Emulation: Atomic Red Team or Caldera
 	- IDS/IPS: Suricata (NIDS) and Wazuh Agent (HIDS)
