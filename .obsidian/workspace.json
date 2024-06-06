@@ -168,8 +168,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2b73b8c0c461cd36",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
+    "Defensive Security/Assets",
+    "Defensive Security/Assets/pyramid-of-pain.png",
     "Certification Roadmap.md",
     "Defensive Security/Cyber Defense Frameworks/Pyramid of Pain.md",
     "DevSecOps/Dependency Management/Dependency Confusion Attack.md",
@@ -197,7 +199,6 @@
     "DevSecOps/Containers/Vulnerabilities/Abusing Namespaces.md",
     "DevSecOps/Containers/Hardening/Seccomp & AppArmor.md",
     "DevSecOps/Containers/Hardening/Reviewing Docker Images.md",
-    "DevSecOps/Containers/Hardening/Protecting Docker Daemon.md",
     "DevSecOps/Containers/Vulnerabilities",
     "DevSecOps/Containers/Hardening",
     "DevSecOps/Containers",
@@ -214,7 +215,6 @@
     "Defensive Security/Cyber Defense Frameworks",
     "Defensive Security",
     "DevSecOps/Dependency Management",
-    "DevSecOps/CICD Pipeline Security",
-    "Offensive Security/Assets/visual-spoofing-2.png"
+    "DevSecOps/CICD Pipeline Security"
   ]
 }
