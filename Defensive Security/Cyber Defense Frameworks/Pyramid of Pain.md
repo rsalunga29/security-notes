@@ -40,4 +40,9 @@ One technique used by threat actors to hide malicious domains are URL Shorteners
 - x.co
 
 One technique to see the actual URL of the shortened link is by appending `+`. For example:
-- tiny.url:
+- **tiny.url**: http://tinyurl.com/zzzxxxyyy+
+- **bit.ly**: http://bit.ly/111222333+
+- **goo.gl**: http://goo.gl/aaabbbccc+
+## Host Artifacts (Annoying)
+Host artifacts are the traces or observables that attackers leave on the system, such as registry values, suspicious process execution, attack patterns or IOCs (Indicators of Compromise), files dropped by malicious applications, or anything exclusive to the current threat.
+
