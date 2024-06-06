@@ -3,7 +3,10 @@ The Pyramid of Pain is a conceptual model which may be used to detect indicators
 ## Hash Values (Trivial)
 A hash value is a numeric value of a fixed length that uniquely identifies data. It is the result of a hashing algorithm. Security professionals usually use the hash values to gain insights into a specific malware sample, a malicious or a suspicious file, and as a way to unique identify and reference the malicious artifact.
 
-The following are the most commo
+The following are the most common hashing algorithms:
+1. **MD5 (Message Digest)**: Lorem
+2. **SHA-1 (Secure Hash Algorithm 1)**: Ipsum
+3. **SHA-2 (Secure Hash Algorithm 2)**: Dolor
 
 A hash is not considered to be cryptographically secure if two files have the same hash value or digest.
 
