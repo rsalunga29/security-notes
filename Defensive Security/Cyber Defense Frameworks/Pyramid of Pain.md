@@ -15,9 +15,9 @@ Various online tools can be used to do hash lookups like [VirusTotal](https://w
 ## IP Address (Easy)
 An IP address is used to identify any device connected to a network. These devices range from desktops, servers, and even CCTV cameras. We rely on IP addresses to send and receive the information over the network.
 
-The knowledge of the IP addresses a threat actor uses can be valuable. The most common defense tactic is to block, drop, or deny inbound requests from these IP addresses on the perimeter or firewall. This tactic is often not bulletproof as it’s trivial for an experienced adversary to recover simply by using a new public IP address.
+The knowledge of the IP addresses an adversary uses can be valuable. The most common defense tactic is to block, drop, or deny inbound requests from these IP addresses on the perimeter or firewall. This tactic is often not bulletproof as it’s trivial for an experienced adversary to recover simply by using a new public IP address.
 ### Fast Flux
-Fast Flux is a DNS technique of having multiple IP addresses associated with a domain name, which is constantly changing. This technique is primarily used by threat actors or botnets to hide phishing, web proxying, malware delivery, and malware C2 activities. As a result of this, defenders find it challenging to carry out successful IP blocking.
+Fast Flux is a DNS technique of having multiple IP addresses associated with a domain name, which is constantly changing. This technique is primarily used by adversaries or botnets to hide phishing, web proxying, malware delivery, and malware C2 activities. As a result of this, defenders find it challenging to carry out successful IP blocking.
 ## Domain Names (Simple)
 Domain Names can be thought as simply mapping an IP address to a string of text. A domain name can contain a domain and a top-level domain ([evilcorp.com](http://evilcorp.com/)) or a sub-domain followed by a domain and top-level domain ([tryhackme.evilcorp.com](http://tryhackme.evilcorp.com/)).
 
@@ -29,7 +29,7 @@ Punycode attack is used by attackers to redirect users to a malicious domain tha
 
 Modern browsers such as Google Chrome, Microsoft Edge, and Apple Safari are now pretty good at translating the obfuscated characters into the full punycode domain name.
 ### URL Shorteners
-One technique used by threat actors to hide malicious domains are URL Shorteners.  URL Shortener is a tool that creates a short and unique URL that will redirect to the specific website specified during the initial step of setting up the URL Shortener link. Threat actors usually use the following URL shortening services:
+One technique used by adversaries to hide malicious domains are URL Shorteners.  URL Shortener is a tool that creates a short and unique URL that will redirect to the specific website specified during the initial step of setting up the URL Shortener link. Adversaries usually use the following URL shortening services:
 - bit.ly
 - goo.gl
 - ow.ly
@@ -48,8 +48,18 @@ Host artifacts are the traces or observables that attackers leave on the system,
 
 A network artifact can be a user-agent string, C2 information, or URI patterns followed by the HTTP POST requests.An attacker might use a User-Agent string that hasn’t been observed in your environment before or seems out of the ordinary. These artifacts can be detected in Wireshark PCAPs by using a network protocol analyzer such as [TShark](https://www.wireshark.org/docs/wsug_html_chunked/AppToolstshark.html) or exploring IDS (Intrusion Detection System) logging from a source such as [Snort](https://www.snort.org/).
 
-Threat actors will feel a little more annoyed or frustrated if their attack is detected at this level. As they will likely need to change their tactics and methodology, or modify the tools. This gives defenders ample time to respond and detect the upcoming threats or remediate existing ones.
+Adversaries will feel a little more annoyed or frustrated if their attack is detected at this level. As they will likely need to change their tactics and methodology, or modify the tools. This gives defenders ample time to respond and detect the upcoming threats or remediate existing ones.
 ## Tools (Challenging)
-Threat actors would use the utilities to create malicious macro documents (maldocs) for spearphishing attempts, a backdoor that can be used to establish [C2 (Command and Control Infrastructure)](https://www.varonis.com/blog/what-is-c2/), any custom .EXE, and .DLL files, payloads, or password crackers.
+Adversaries would use the utilities to create malicious macro documents (maldocs) for spearphishing attempts, a backdoor that can be used to establish [C2 (Command and Control Infrastructure)](https://www.varonis.com/blog/what-is-c2/), any custom .EXE, and .DLL files, payloads, or password crackers.
 
 AV signatures, detection rules, and YARA rules can be a great weapons against attackers at this stage. [MalwareBazaar](https://bazaar.abuse.ch/) and [Malshare](https://malshare.com/) are good resources that provides access with samples, malicious feeds, and YARA results, which can be helpful when it comes to threat hunting and incident response.
+
+For detection rules, [SOC Prime Threat Detection Marketplace](https://tdm.socprime.com/) is a great platform, where security professionals share their detection rules for different kinds of threats including the latest CVE's that are being exploited in the wild by adversaries.
+### Fuzzy Hashing
+Fuzzy hashing (a.k.a context triggered piecewise hashes) is a strong weapon against an adversary's tools. Fuzzy hashing helps perform similarity analysis, which means match two files with minor differences based on the fuzzy hash values. One example of fuzzy hashing is the usage of [SSDeep](https://ssdeep-project.github.io/ssdeep/index.html). 
+## TTPs (Tough)
+TTPs stands for Tactics, Techniques & Procedures. This includes the whole [MITRE](https://attack.mitre.org/) [ATT&CK Matrix](https://attack.mitre.org/), which means all the steps taken by an adversary to achieve his goal, starting from phishing attempts to persistence and data exfiltration.
+
+If you can detect and respond to the TTPs quickly, you leave the adversaries almost no chance to fight back. For, example if you could detect a [Pass-the-Hash](https://www.beyondtrust.com/resources/glossary/pass-the-hash-pth-attack) attack using Windows Event Log Monitoring and remediate it, you would be able to find the compromised host very quickly and stop the lateral movement inside your network. At this point, the attacker would have two options:
+1. Go back, do more research and training, reconfigure their custom tools
+2. Give up and find another target
