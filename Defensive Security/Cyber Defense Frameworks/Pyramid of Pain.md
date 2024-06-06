@@ -43,6 +43,13 @@ One technique to see the actual URL of the shortened link is by appending `+`. F
 - **tiny.url**: http://tinyurl.com/zzzxxxyyy+
 - **bit.ly**: http://bit.ly/111222333+
 - **goo.gl**: http://goo.gl/aaabbbccc+
-## Host Artifacts (Annoying)
+## Host / Network Artifacts (Annoying)
 Host artifacts are the traces or observables that attackers leave on the system, such as registry values, suspicious process execution, attack patterns or IOCs (Indicators of Compromise), files dropped by malicious applications, or anything exclusive to the current threat.
 
+A network artifact can be a user-agent string, C2 information, or URI patterns followed by the HTTP POST requests.An attacker might use a User-Agent string that hasn’t been observed in your environment before or seems out of the ordinary. These artifacts can be detected in Wireshark PCAPs by using a network protocol analyzer such as [TShark](https://www.wireshark.org/docs/wsug_html_chunked/AppToolstshark.html) or exploring IDS (Intrusion Detection System) logging from a source such as [Snort](https://www.snort.org/).
+
+Threat actors will feel a little more annoyed or frustrated if their attack is detected at this level. As they will likely need to change their tactics and methodology, or modify the tools. This gives defenders ample time to respond and detect the upcoming threats or remediate existing ones.
+## Tools (Challenging)
+Threat actors would use the utilities to create malicious macro documents (maldocs) for spearphishing attempts, a backdoor that can be used to establish [C2 (Command and Control Infrastructure)](https://www.varonis.com/blog/what-is-c2/), any custom .EXE, and .DLL files, payloads, or password crackers.
+
+AV signatures, detection rules, and YARA rules can be a great weapons against attackers at this stage. [MalwareBazaar](https://bazaar.abuse.ch/) and [Malshare](https://malshare.com/) are good resources that provides access with samples, malicious feeds, and YARA results, which can be helpful when it comes to threat hunting and incident response.
