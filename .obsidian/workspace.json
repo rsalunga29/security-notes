@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "88cd73d1b5d9dd32",
+            "id": "2b73b8c0c461cd36",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Cyber Defense Frameworks/Pyramid of Pain.md",
+                "file": "Defensive Security/Cyber Defense Frameworks/Unified Kill Chain.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,8 +33,7 @@
               "pinned": true
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,15 +85,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certification Roadmap.md"
+                "file": "Defensive Security/Cyber Defense Frameworks/Unified Kill Chain.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 289.51103591918945
+    "width": 289.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "64847627f5c52abb",
@@ -118,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Defensive Security/Cyber Defense Frameworks/Unified Kill Chain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Defensive Security/Cyber Defense Frameworks/Unified Kill Chain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,53 +170,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30561c69d3abdc0d",
+  "active": "2b73b8c0c461cd36",
   "lastOpenFiles": [
-    "Defensive Security/Cyber Defense Frameworks/Pyramid of Pain.md",
     "Certification Roadmap.md",
-    "Defensive Security/Cyber Defense Frameworks",
-    "Defensive Security",
-    "Untitled.md",
+    "Defensive Security/Cyber Defense Frameworks/Unified Kill Chain.md",
+    "Defensive Security/Assets/unified-kill-chain.png",
+    "Defensive Security/Cyber Defense Frameworks/Cyber Kill Chain.md",
+    "Defensive Security/Assets/cyber-kill-chain.png",
+    "Defensive Security/Cyber Defense Frameworks/Pyramid of Pain.md",
+    "Defensive Security/Assets",
+    "Defensive Security/Assets/pyramid-of-pain.png",
+    "DevSecOps/Dependency Management/Dependency Confusion Attack.md",
+    "conflict-files-obsidian-git.md",
+    "DevSecOps/Kubernetes/kubectl.md",
+    "DevSecOps/Kubernetes/Introduction.md",
+    "DevSecOps/Kubernetes/Hardening and Security Best Practices.md",
+    "DevSecOps/Kubernetes/Configuration.md",
+    "DevSecOps/Kubernetes/Architecture.md",
+    "DevSecOps/Kubernetes/Architecture (cont.).md",
+    "DevSecOps/Kubernetes",
     "DevSecOps/Infrastructure as Code/Virtualization & IaC.md",
-    "DevSecOps/Infrastructure as Code/Agent-based vs Agentless.md",
-    "DevSecOps/Infrastructure as Code/Declarative vs Imperative.md",
-    "DevSecOps/Infrastructure as Code/Ansible/Example.md",
-    "DevSecOps/Infrastructure as Code/Ansible/Terminology.md",
-    "DevSecOps/Infrastructure as Code/Ansible",
-    "DevSecOps/Infrastructure as Code/IaC Lifecycle.md",
-    "DevSecOps/Assets/repeatable-iac.png",
-    "DevSecOps/Assets/continual-iac.png",
     "DevSecOps/Infrastructure as Code/Provisioning vs Configuration Management.md",
     "DevSecOps/Infrastructure as Code/Introduction.md",
     "DevSecOps/Infrastructure as Code/Immutable vs Mutable.md",
-    "DevSecOps/Containers/Hardening/Reviewing Docker Images.md",
+    "DevSecOps/Infrastructure as Code/IaC Lifecycle.md",
+    "DevSecOps/Infrastructure as Code/Declarative vs Imperative.md",
+    "DevSecOps/Infrastructure as Code/Agent-based vs Agentless.md",
     "DevSecOps/Infrastructure as Code",
-    "DevSecOps/Containers/Hardening/Seccomp & AppArmor.md",
-    "DevSecOps/Containers/Hardening/Preventing Over-privileged Containers.md",
-    "DevSecOps/Containers/Hardening/Implementing Control Groups.md",
-    "DevSecOps/Containers/Hardening/Protecting Docker Daemon.md",
-    "DevSecOps/Containers/Vulnerabilities/Abusing Namespaces.md",
-    "DevSecOps/Containers/Vulnerabilities/Privileged Containers.md",
+    "DevSecOps/Dependency Management/Supply Chain Attacks.md",
     "DevSecOps/Containers/Vulnerabilities/RCE via Exposed Docker Daemon.md",
-    "DevSecOps/Containers/Vulnerabilities/Escaping via Exposed Docker Daemon.md",
-    "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
+    "DevSecOps/Containers/Vulnerabilities/Privileged Containers.md",
     "DevSecOps/Containers/Vulnerabilities/Introduction.md",
-    "DevSecOps/Kubernetes/kubectl.md",
-    "DevSecOps/Containers/Hardening",
+    "DevSecOps/Containers/Vulnerabilities/Escaping via Exposed Docker Daemon.md",
+    "DevSecOps/Containers/Vulnerabilities/Abusing Namespaces.md",
     "DevSecOps/Containers/Vulnerabilities",
+    "DevSecOps/Containers/Hardening",
     "DevSecOps/Containers",
-    "DevSecOps/Kubernetes/Hardening and Security Best Practices.md",
-    "DevSecOps/Kubernetes/Introduction.md",
-    "DevSecOps/Assets/ingress.png",
-    "DevSecOps/Assets/services.png",
-    "DevSecOps/Assets/statefulsets.png",
     "DevSecOps/Assets/worker-node.png",
-    "DevSecOps/Assets/component-comms.png",
+    "DevSecOps/Assets/statefulsets.png",
+    "DevSecOps/Assets/services.png",
+    "DevSecOps/Assets/repeatable-iac.png",
+    "DevSecOps/Assets/ingress.png",
+    "DevSecOps/Assets/dependency-confusion-attack.png",
     "DevSecOps/Assets/control-plane.png",
-    "DevSecOps/Assets/kubernetes-worker-node.png",
-    "DevSecOps/Assets/kubernetes-control-plane.png",
-    "DevSecOps/Kubernetes",
     "DevSecOps/Assets",
+    "Defensive Security/Cyber Defense Frameworks",
+    "Defensive Security",
     "DevSecOps/Dependency Management"
   ]
 }
