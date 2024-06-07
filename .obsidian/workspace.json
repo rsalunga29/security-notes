@@ -169,8 +169,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2b73b8c0c461cd36",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
+    "Defensive Security/Assets/cyber-kill-chain.png",
     "Certification Roadmap.md",
     "Defensive Security/Cyber Defense Frameworks/Cyber Kill Chain.md",
     "Defensive Security/Cyber Defense Frameworks/Pyramid of Pain.md",
@@ -200,7 +201,6 @@
     "DevSecOps/Containers/Vulnerabilities/Escaping via Exposed Docker Daemon.md",
     "DevSecOps/Containers/Vulnerabilities/Abusing Namespaces.md",
     "DevSecOps/Containers/Hardening/Seccomp & AppArmor.md",
-    "DevSecOps/Containers/Hardening/Reviewing Docker Images.md",
     "DevSecOps/Containers/Vulnerabilities",
     "DevSecOps/Containers/Hardening",
     "DevSecOps/Containers",
