@@ -171,6 +171,7 @@
   },
   "active": "2b73b8c0c461cd36",
   "lastOpenFiles": [
+    "Defensive Security/Assets/unified-kill-chain.png",
     "Defensive Security/Cyber Defense Frameworks/Cyber Kill Chain.md",
     "Defensive Security/Cyber Defense Frameworks/Unified Kill Chain.md",
     "Certification Roadmap.md",
@@ -201,7 +202,6 @@
     "DevSecOps/Containers/Vulnerabilities/Introduction.md",
     "DevSecOps/Containers/Vulnerabilities/Escaping via Exposed Docker Daemon.md",
     "DevSecOps/Containers/Vulnerabilities/Abusing Namespaces.md",
-    "DevSecOps/Containers/Hardening/Seccomp & AppArmor.md",
     "DevSecOps/Containers/Vulnerabilities",
     "DevSecOps/Containers/Hardening",
     "DevSecOps/Containers",
