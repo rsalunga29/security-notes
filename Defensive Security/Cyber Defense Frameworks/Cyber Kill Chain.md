@@ -30,4 +30,13 @@ The Delivery phase is when adversaries decides to choose the method for transmit
 - **Distributing infected USB drives in public places**: Some adversaries might decide to conduct a sophisticated USB Drop Attack by printing the company's logo on the USB drives and mailing them to the company while pretending to be a customer sending the USB devices as a gift.
 - **Watering hole attack**: A watering hole attack is a targeted attack designed to aim at a specific group of people by compromising the website they are usually visiting and then redirecting them to the malicious website of an attacker's choice.
 ## Exploitation
-//
+After gaining access to the system, adversaries could exploit software, system, or server-based vulnerabilities to escalate the privileges or perform lateral movement through the network. Lateral movement are techniques used by adversaries to move deeper into a network to obtain sensitive data.
+
+Adversaries might also apply a zero-day exploit or vulnerability, which is an unknown exploit in the wild that exposes a vulnerability in a software or hardware and can create complicated problems well before anyone realizes something is wrong. Often, this type of attacks leaves no opportunity for detection at the beginning.
+
+These are examples of how an attacker carries out exploitation:
+- The victim triggers the exploit by opening the email attachment or clicking on a malicious link.
+- Using a zero-day exploit.
+- Exploit software, hardware, or even human vulnerabilities. 
+- An attacker triggers the exploit for server-based vulnerabilities.
+## Installation
