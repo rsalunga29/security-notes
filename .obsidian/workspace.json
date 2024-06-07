@@ -169,11 +169,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccc68e20622978c5",
+  "active": "2b73b8c0c461cd36",
   "lastOpenFiles": [
-    "Defensive Security/Assets/cyber-kill-chain.png",
     "Certification Roadmap.md",
     "Defensive Security/Cyber Defense Frameworks/Cyber Kill Chain.md",
+    "Defensive Security/Assets/cyber-kill-chain.png",
     "Defensive Security/Cyber Defense Frameworks/Pyramid of Pain.md",
     "Defensive Security/Assets",
     "Defensive Security/Assets/pyramid-of-pain.png",
@@ -212,7 +212,6 @@
     "DevSecOps/Assets/dependency-confusion-attack.png",
     "DevSecOps/Assets/control-plane.png",
     "DevSecOps/Assets/continual-iac.png",
-    "DevSecOps/Assets/component-comms.png",
     "DevSecOps/Assets",
     "Defensive Security/Cyber Defense Frameworks",
     "Defensive Security",
