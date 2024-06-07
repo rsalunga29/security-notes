@@ -16,4 +16,4 @@ Email harvesting is the process of obtaining email addresses from public, paid, 
 ### Social Media Harvesting
 Adversaries may also use social media websites such as Facebook, X (Twitter), LinkedIn, and Instagram to collect information on a specific victim. The information found on social media can be beneficial for an attacker to conduct a phishing attack.
 ## Weaponization
-AAA
+After a successful recon phase, adversaries would then work on crafting a 
