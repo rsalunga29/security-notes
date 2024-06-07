@@ -23,7 +23,28 @@ Techniques that an adversary can employ to manipulate employees to perform actio
 - Impersonating a web page and having the user enter their credentials.
 - Calling or visiting the target and impersonating a user or being able to gain access to areas of a site that the attacker would not previously be capable of.
 ### Exploitation ([MITRE Tactic TA0002](https://attack.mitre.org/tactics/TA0002/))
-T
+The phase describes how an adversary abuse system weaknesses or vulnerabilities to perform code execution. Including, but not limited to:
+- Uploading and executing a reverse shell to a web application.
+- Interfering with an automated script on the system to execute code.
+- Abusing a web application vulnerability to execute code on the system it is running on.
+### Persistence ([MITRE Tactic TA0003](https://attack.mitre.org/tactics/TA0003/))
+In this phase, the adversary will perform several techniques to maintain their access to the compromised system. For example:
+- Creating a service on the target system that will allow the attacker to regain access.
+- Adding the target system to a Command & Control server where commands can be executed remotely at any time.
+- Leaving other forms of backdoors that execute when a certain action occurs on the system (i.e. a reverse shell will execute when a system administrator logs in).
+### Defense Evasion ([MITRE Tactic TA0005](https://attack.mitre.org/tactics/TA0005/))
+This phase specifically is used to understand the techniques an adversary uses to evade defensive measures put in place in the system or network. For example:
+- Web application firewalls
+- Network firewalls
+- Anti-virus systems
+- Intrusion detection and prevention systems
+### Command & Control ([MITRE Tactic TA0011](https://attack.mitre.org/tactics/TA0011/))
+An adversary can establish command and control of a target system to achieve its action on objectives. For example, the adversary can:
+- Execute commands.
+- Steal data, credentials and other information.
+- Use the controlled server to pivot to other systems on the network.
+### Pivoting ([MITRE Tactic TA0008](https://attack.mitre.org/tactics/TA0008/))
+"Pivoting" is the technique an adversary uses to reach other systems within a network that are not otherwise accessible from the internet. These systems often contain valuable data or have weaker security.
 ## Phase Through: Network Propagation
 Lorem
 ## Phase Out: Action on Objectives
