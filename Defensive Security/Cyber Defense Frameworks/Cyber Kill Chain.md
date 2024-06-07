@@ -7,4 +7,13 @@ Essentially, understand the kill chain helps defenders, such as SOC Analysts, Th
 ## Reconnaissance
 Reconnaissance is discovering and collecting information on the system and the victim. The reconnaissance phase is the planning phase for the adversaries.
 
-OSINT or open-source intelligence falls under recon phase. It is usually the first step an adversary needs to complete to carry our further phases of an attack.
+OSINT or open-source intelligence falls under recon phase. It is usually the first step an adversary needs to complete to carry our further phases of an attack. An adversary needs to study their victim by collecting every available piece of information, including size, email addresses, phone numbers, and employees from publicly available sources.
+### Email Harvesting
+Email harvesting is the process of obtaining email addresses from public, paid, or free services. An attacker can use email-address harvesting for a phishing attack. The adversary will use several arsenal of tools to conduct this phase, including but not limited to:
+- [theHarvester](https://github.com/laramies/theHarvester) - other than gathering emails, this tool is also capable of gathering names, subdomains, IPs, and URLs using multiple public data sources 
+- [Hunter.io](https://hunter.io/) - this is  an email hunting tool that will let you obtain contact information associated with the domain
+- [OSINT Framework](https://osintframework.com/) - OSINT Framework provides the collection of OSINT tools based on various categories
+### Social Media Harvesting
+Adversaries may also use social media websites such as Facebook, X (Twitter), LinkedIn, and Instagram to collect information on a specific victim. The information found on social media can be beneficial for an attacker to conduct a phishing attack.
+## Weaponization
+AAA
