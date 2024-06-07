@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Cyber Defense Frameworks/Cyber Kill Chain.md",
+                "file": "Defensive Security/Cyber Defense Frameworks/Unified Kill Chain.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Cyber Defense Frameworks/Cyber Kill Chain.md"
+                "file": "Defensive Security/Cyber Defense Frameworks/Unified Kill Chain.md"
               }
             }
           }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Cyber Defense Frameworks/Cyber Kill Chain.md",
+                "file": "Defensive Security/Cyber Defense Frameworks/Unified Kill Chain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Cyber Defense Frameworks/Cyber Kill Chain.md",
+                "file": "Defensive Security/Cyber Defense Frameworks/Unified Kill Chain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,8 +171,9 @@
   },
   "active": "2b73b8c0c461cd36",
   "lastOpenFiles": [
-    "Certification Roadmap.md",
     "Defensive Security/Cyber Defense Frameworks/Cyber Kill Chain.md",
+    "Defensive Security/Cyber Defense Frameworks/Unified Kill Chain.md",
+    "Certification Roadmap.md",
     "Defensive Security/Assets/cyber-kill-chain.png",
     "Defensive Security/Cyber Defense Frameworks/Pyramid of Pain.md",
     "Defensive Security/Assets",

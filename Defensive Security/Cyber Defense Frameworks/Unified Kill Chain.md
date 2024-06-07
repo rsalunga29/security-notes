@@ -1,0 +1,2 @@
+## Introduction
+The Unified Kill Chain provides deeper insights into each stage of an attack by linking specific techniques from the ATT&CK framework to each phase of the traditional kill chain (Cyber Kill Chain).
