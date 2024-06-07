@@ -50,6 +50,19 @@ To do this, adversaries would install a persistent backdoor which allows them to
 ### Timestomping
 A technique used by adversaries to avoid detection by DFIR personnel and also to make the malware appear as part of a legimate program. The technique works by modifying the file's timestamps, including the modify, access, create and change times.
 ## Command & Control
-At this stage, the adversary would establish communication with the compromised host
+Also known as C2, C&C, or C2 Beaconing is a type of malicious communication between a C&C server and malware on the infected host. This communication allows the adversary to main control, deliver commands, and receive data from the compromised systems.
 
-With C2, the adversary would have full control of the compromised endpoint, which allows them to control
+Until recently, IRC (Internet Relay Chat) was the traditional C2 channel used by attackers. This is no longer the case, as modern security solutions can easily detect malicious IRC traffic.
+
+The most common C2 channels used by adversaries nowadays:
+- **The protocols HTTP on port 80 and HTTPS on port 443**: This type of beaconing blends the malicious traffic with the legitimate traffic and can help the attacker evade firewalls.    
+- **DNS (Domain Name Server) Tunneling**: The infected machine makes constant DNS requests to the DNS server that belongs to an attacker.
+## Actions on Objectives
+After going through six phases of the attack, adversaries can finally achieve their goals, which means taking actions on the original objectives. With hands-on keyboard access, the attacker can achieve the following:
+- Collect the credentials from users.
+- Perform privilege escalation (gaining elevated access like domain administrator access from a workstation by exploiting the misconfiguration).
+- Internal reconnaissance (for example, an attacker gets to interact with internal software to find its vulnerabilities).
+- Lateral movement through the company's environment.
+- Collect and exfiltrate sensitive data.
+- Deleting the backups and shadow copies. Shadow Copy is a Microsoft technology that can create backup copies, snapshots of computer files, or volumes. 
+- Overwrite or corrupt data.
