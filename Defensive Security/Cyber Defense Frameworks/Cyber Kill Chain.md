@@ -40,4 +40,16 @@ These are examples of how an attacker carries out exploitation:
 - Exploit software, hardware, or even human vulnerabilities. 
 - An attacker triggers the exploit for server-based vulnerabilities.
 ## Installation
-aaa
+Once an adversary has access to the system, they would most likely maintain that access or re-access the system if they loses connection, or if they got detected and got the initial access removed, or if the system is later patched.
+
+To do this, adversaries would install a persistent backdoor which allows them to access the system that were compromised in the past. Persistence can be achieved through the following techniques:
+- Installing a web shell on the web server. A web shell is a malicious script used by an adversary to maintain access to the compromised system. Because of the web shell simplicity and file formatting (.php, .asp, .aspx, .jsp, etc.) can be difficult to detect and might be classified as benign.
+- Installing a backdoor on the victim's machine. For example, the adversary can use [Meterpreter](https://www.offensive-security.com/metasploit-unleashed/meterpreter-backdoor/) to install a backdoor on the victim's machine.
+- Creating or modifying Windows services. This technique is known as [T1543.003](https://attack.mitre.org/techniques/T1543/003/) on MITRE ATT&CK. An adversary can create or modify the Windows services to execute the malicious scripts or payloads regularly as part of the persistence. Adversaries usually use `sc.exe` and [Reg](https://attack.mitre.org/software/S0075/) to modify service configurations. Sometimes, an attacker can also masquerade the malicious payload by using a service name that is known to be related to the Operating System or legitimate software.
+- Adding the entry to the "run keys" for the malicious payload in the Registry or the Startup Folder.
+### Timestomping
+A technique used by adversaries to avoid detection by DFIR personnel and also to make the malware appear as part of a legimate program. The technique works by modifying the file's timestamps, including the modify, access, create and change times.
+## Command & Control
+At this stage, the adversary would establish communication with the compromised host
+
+With C2, the adversary would have full control of the compromised endpoint, which allows them to control
