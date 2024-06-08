@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "8c71a28aed54042b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Defensive Security/Cyber Threat Intelligence.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "30561c69d3abdc0d",
             "type": "leaf",
             "pinned": true,
@@ -33,7 +45,8 @@
               "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Cyber Defense Frameworks/MITRE.md"
+                "file": "Defensive Security/Cyber Threat Intelligence.md"
               }
             }
           }
@@ -93,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.51103591918945,
-    "collapsed": true
+    "width": 289.51103591918945
   },
   "right": {
     "id": "64847627f5c52abb",
@@ -118,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Cyber Defense Frameworks/MITRE.md",
+                "file": "Defensive Security/Cyber Threat Intelligence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Cyber Defense Frameworks/MITRE.md",
+                "file": "Defensive Security/Cyber Threat Intelligence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,11 +181,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "88cd73d1b5d9dd32",
+  "active": "8c71a28aed54042b",
   "lastOpenFiles": [
-    "Defensive Security/Cyber Defense Frameworks/Diamond Model.md",
     "Defensive Security/Cyber Defense Frameworks/MITRE.md",
+    "Defensive Security/Cyber Threat Intelligence.md",
     "Defensive Security/Cyber Defense Frameworks/Unified Kill Chain.md",
+    "Defensive Security/Cyber Defense Frameworks/Diamond Model.md",
     "Defensive Security/Cyber Defense Frameworks/Pyramid of Pain.md",
     "Defensive Security/Cyber Defense Frameworks/Cyber Kill Chain.md",
     "DevSecOps/Dependency Management/Dependency Confusion Attack.md",
@@ -184,7 +197,6 @@
     "Certification Roadmap.md",
     "Defensive Security/Cyber Defense Frameworks",
     "Defensive Security",
-    "Untitled.md",
     "DevSecOps/Infrastructure as Code/Virtualization & IaC.md",
     "DevSecOps/Infrastructure as Code/Agent-based vs Agentless.md",
     "DevSecOps/Infrastructure as Code/Declarative vs Imperative.md",

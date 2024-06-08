@@ -30,3 +30,4 @@ D3FEND stands for Detection, Denial, and Disruption Framework Empowering 
 
 D3FEND is still in beta and is funded by the Cybersecurity Directorate of the NSA.
 ## AEP
+AEP stands for ATT&CK® Emulation Plans. These are step-by-step guide on how to mimic the specific threat group, designed to help defenders to more effectively test their networks and defenses by enabling red teams to more actively model adversary behavior, as described by ATT&CK
