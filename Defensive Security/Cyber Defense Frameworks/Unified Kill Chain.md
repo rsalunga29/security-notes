@@ -69,4 +69,11 @@ With the credentials and elevated privileges, the adversary would seek to move t
 The final phase an adversary's attack on an environment, where they have critical asset access and can fulfil their attack goals. These goals are usually geared toward compromising the confidentiality, integrity and availability (CIA) triad.
 
 The different actions of this phase are the following:
-### Collection ()
+### Collection ([MITRE Tactic TA0009](https://attack.mitre.org/tactics/TA0009/))
+After gaining access, the adversary will be seeking to gather all the valuable data of interest. The main target sources include drives, browsers, audio, video and email.
+### Exfiltration ([MITRE Tactic TA0010](https://attack.mitre.org/tactics/TA0010/))
+To elevate their compromise, the adversary would seek to steal data, which would be packaged using encryption measures and compression to avoid any detection. The C2 channel and tunnel deployed in the earlier phases will come in handy during this process.
+### Impact ([MITRE Tactic TA0040](https://attack.mitre.org/tactics/TA0040/)) 
+If the adversary's goal is to disrupt the business and operational processes, they may compromise the integrity and availability of the data assets, such as removing account access, disk wipes, data encryption, defacement, and denial-of-service attacks.
+### Objective
+With all the power and access to the systems and network, the adversary would seek to achieve their strategic goal for the attack.
