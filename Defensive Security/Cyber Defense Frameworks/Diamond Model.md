@@ -41,3 +41,38 @@ Type 2 Infrastructures are used by adversaries to obfuscate the source and attri
 ### Service Providers
 Refers to the organization that provides services considered critical for the adversary. For example, internet service providers, domain registrars, and webmail providers.
 ## Event Meta Features
+Six possible meta-features can be added to the Diamond Model. Meta-features are not required, but they can add some valuable information or intelligence to the Diamond Model.
+### Timestamp
+Refers to the time and date of the intrusion event. Each event can be recorded with a date and time that it occurred, such as 2021-09-12 02:10:12.136. It can also include when the event started and stopped. Timestamps are essential to help determine the patterns and group the malicious activity.
+### Phase
+"Every malicious activity contains two or more phases which must be successfully executed in succession to achieve the desired result."
+
+The phases of an intrusion, attack, or breach. A great example can be the [Cyber Kill Chain](obsidian://open?vault=security-notes&file=Defensive%20Security%2FCyber%20Defense%20Frameworks%2FCyber%20Kill%20Chain) or [Unified Kill Chain](obsidian://open?vault=security-notes&file=Defensive%20Security%2FCyber%20Defense%20Frameworks%2FUnified%20Kill%20Chain).
+### Result
+The event results can be labelled as "success," "failure," or "unknown." The event results can also be related to the CIA (confidentiality, integrity, and availability) triad, such as Confidentiality Compromised, Integrity Compromised, and Availability Compromised.
+
+Another approach can also be documenting all of the post-conditions resulting from the event.
+
+It is crucial to capture the results and post-conditions of an adversary's operations, but sometimes they might not always be known.
+### Direction
+Helps describe host-based and network-based events and represents the direction of the intrusion attack. The Diamond Model of Intrusion Analysis defines seven potential values:
+1. Victim-to-Infrastructure
+2. Infrastructure-to-Victim
+3. Infrastructure-to-Infrastructure
+4. Adversary-to-Infrastructure
+5. Infrastructure-to-Adversary
+6. Bidirectional
+7. Unknown
+### Methodology
+This meta-feature will allow an analyst to describe the general classification of intrusion, for example, phishing, DDoS, breach, port scan, etc. 
+### Resources
+"Every intrusion event requires one or more external resources to be satisfied prior to success."
+
+Examples of the resources can include the following:
+1. Software (e.g operating systems, virtualization software, or Metasploit framework)
+2. Knowledge (e.g how to use Metasploit, how to perform Lateral Movement)
+3. Information (e.g username/password to masquerade)
+4. Hardware (e.g servers, workstations, routers)
+5. Funds (e.g money to purchase domains or servers)
+6. Facilities (e.g electricity or shelter)
+7. Access (e.g network path from host to victim and vice versa)
