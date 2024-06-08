@@ -11,7 +11,19 @@ The framework is heavily contributed to by many sources, such as security resear
 ## CAR Knowledge Base
 The Cyber Analytics Repository is a knowledge base of analytics developed by MITRE and is based upon the MITRE ATT&CK adversary model.
 
-It is a data model that is leveraged in its pseudocode representations but also includes implementations directly targete
+It is a data model that is leveraged in its pseudocode representations but also includes implementations directly targeted at specific tools (e.g Splunk, EQL) in its analytics. CAR is focused on providing a set of validated and well-explained analytics.
 ## ENGAGE
+Per the website, "_MITRE Engage is a framework for planning and discussing adversary engagement operations that empowers you to engage your adversaries and achieve your cybersecurity goals._"
+
+MITRE Engage is considered an Adversary Engagement Approach. This is accomplished by the implementation of Cyber Denial and Cyber Deception.
+
+With Cyber Denial we prevent the adversary's ability to conduct their operations and with Cyber Deception we intentionally plant artifacts to mislead the adversary.
+
+This framework consists of the following categories:
+- **Prepare** the set of operational actions that will lead to your desired outcome (input)
+- **Expose** adversaries when they trigger your deployed deception activities 
+- **Affect** adversaries by performing actions that will have a negative impact on their operations
+- **Elicit** information by observing the adversary and learn more about their modus operandi (TTPs)
+- **Understand** the outcomes of the operational actions (output)
 ## D3FEND
 ## AEP
