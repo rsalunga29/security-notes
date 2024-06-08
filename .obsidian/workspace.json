@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Cyber Threat Intelligence/Introduction.md",
+                "file": "Defensive Security/Cyber Threat Intelligence/CTI Lifecycle.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Cyber Threat Intelligence/Introduction.md"
+                "file": "Defensive Security/Cyber Threat Intelligence/CTI Lifecycle.md"
               }
             }
           }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Cyber Threat Intelligence/Introduction.md",
+                "file": "Defensive Security/Cyber Threat Intelligence/CTI Lifecycle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Cyber Threat Intelligence/Introduction.md",
+                "file": "Defensive Security/Cyber Threat Intelligence/CTI Lifecycle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,11 +181,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccc68e20622978c5",
+  "active": "8c71a28aed54042b",
   "lastOpenFiles": [
+    "Defensive Security/Cyber Threat Intelligence/Introduction.md",
+    "Defensive Security/Cyber Threat Intelligence/CTI Lifecycle.md",
     "Defensive Security/Cyber Threat Intelligence",
     "Defensive Security/Cyber Defense Frameworks/MITRE.md",
-    "Defensive Security/Cyber Threat Intelligence/Introduction.md",
     "Defensive Security/Cyber Defense Frameworks/Unified Kill Chain.md",
     "Defensive Security/Cyber Defense Frameworks/Diamond Model.md",
     "Defensive Security/Cyber Defense Frameworks/Pyramid of Pain.md",
@@ -227,7 +228,6 @@
     "DevSecOps/Assets/statefulsets.png",
     "DevSecOps/Assets/worker-node.png",
     "DevSecOps/Assets/component-comms.png",
-    "DevSecOps/Kubernetes",
-    "DevSecOps/Assets"
+    "DevSecOps/Kubernetes"
   ]
 }
