@@ -9,6 +9,9 @@ This framework started as an internal project known as Fort Meade Experiment (FM
 
 The framework is heavily contributed to by many sources, such as security researchers and threat intelligence reports This framework is useful for both red teamers and blue teamers.
 ## CAR Knowledge Base
+The Cyber Analytics Repository is a knowledge base of analytics developed by MITRE and is based upon the MITRE ATT&CK adversary model.
+
+It is a data model that is leveraged in its pseudocode representations but also includes implementations directly targete
 ## ENGAGE
 ## D3FEND
 ## AEP
