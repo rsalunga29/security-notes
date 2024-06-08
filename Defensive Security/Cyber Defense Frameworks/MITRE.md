@@ -26,4 +26,7 @@ This framework consists of the following categories:
 - **Elicit** information by observing the adversary and learn more about their modus operandi (TTPs)
 - **Understand** the outcomes of the operational actions (output)
 ## D3FEND
+D3FEND stands for Detection, Denial, and Disruption Framework Empowering Network Defense. It is a knowledge graph of cybersecurity countermeasures.
+
+D3FEND is still in beta and is funded by the Cybersecurity Directorate of the NSA.
 ## AEP
