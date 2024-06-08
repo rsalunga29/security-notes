@@ -20,3 +20,12 @@ A victim can be an opportunity for the attackers to get a foothold on the organi
 A victim personae are the people and organizations being targeted and whose assets are being attacked and exploited.
 ### Victim Assets
 A victim assets are the attack surface and includes the victim's systems, networks, email addresses, IP addresses, user account, etc., to which the adversary will direct their capabilities.
+## Capability
+Capability is the skill, tools, and techniques used by the adversary in the intrusion activity. The capability also highlights the adversary's tactics, techniques, and procedures (TTPs).
+
+The capabilities can be malware and phishing email development skills or, at least, access to capabilities, such as acquiring malware or ransomware as a service.
+### Capability Capacity
+Refers to all of the vulnerability and weaknesses that the individual capability can use.
+### Adversary Arsenal
+Refers to the set of capabilities that belong to an adversary. The combined capacities of an adversary's capabilities make it the adversary's arsenal.
+## Infrastructure
