@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Cyber Defense Frameworks/Diamond Model.md",
+                "file": "Defensive Security/Cyber Defense Frameworks/MITRE.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Cyber Defense Frameworks/Diamond Model.md"
+                "file": "Defensive Security/Cyber Defense Frameworks/MITRE.md"
               }
             }
           }
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.51103591918945,
-    "collapsed": true
+    "width": 289.51103591918945
   },
   "right": {
     "id": "64847627f5c52abb",
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Cyber Defense Frameworks/Diamond Model.md",
+                "file": "Defensive Security/Cyber Defense Frameworks/MITRE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Cyber Defense Frameworks/Diamond Model.md",
+                "file": "Defensive Security/Cyber Defense Frameworks/MITRE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,8 +170,9 @@
   },
   "active": "88cd73d1b5d9dd32",
   "lastOpenFiles": [
-    "Defensive Security/Cyber Defense Frameworks/Unified Kill Chain.md",
     "Defensive Security/Cyber Defense Frameworks/Diamond Model.md",
+    "Defensive Security/Cyber Defense Frameworks/MITRE.md",
+    "Defensive Security/Cyber Defense Frameworks/Unified Kill Chain.md",
     "Defensive Security/Cyber Defense Frameworks/Pyramid of Pain.md",
     "Defensive Security/Cyber Defense Frameworks/Cyber Kill Chain.md",
     "DevSecOps/Dependency Management/Dependency Confusion Attack.md",
@@ -206,7 +206,6 @@
     "DevSecOps/Containers/Vulnerabilities/Privileged Containers.md",
     "DevSecOps/Containers/Vulnerabilities/RCE via Exposed Docker Daemon.md",
     "DevSecOps/Containers/Vulnerabilities/Escaping via Exposed Docker Daemon.md",
-    "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
     "DevSecOps/Containers/Hardening",
     "DevSecOps/Containers/Vulnerabilities",
     "DevSecOps/Containers",

@@ -2,6 +2,8 @@
 The Diamond Model of Intrusion Analysis is a framework developed by Sergio Caltagirone, Andrew Pendergast, and Christopher Betz in 2013. It's composed of four core features: Adversary, Infrastructure, Capability, and Victim.
 
 The Diamond Model carries the essential concepts of identifying and analyzing intrusion and adversary operations while allowing the flexibility to expand and integrate new ideas and concepts. It also provides various opportunities to integrate intelligence in real-time for network defense, automating correlation across events, classifying events with confidence into adversary campaigns, and forecasting adversary operations while planning and gaming mitigation strategies.
+## Socio-Political
+The socio-political component of the Diamond Model describes the needs and intent of the adversary. For example, financial gain, hacktivism, or espionage.
 ## Adversary
 The term adversary in this model, is an actor or organization responsible for utilizing a capability against the victim to achieve their intent. It is also known as an attacker, enemy, cyber threat actor, or hacker. The adversary is the person who stands behind the cyberattack.
 
