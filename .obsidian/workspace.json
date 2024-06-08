@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Cyber Threat Intelligence.md",
+                "file": "Defensive Security/Cyber Threat Intelligence/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Cyber Threat Intelligence.md"
+                "file": "Defensive Security/Cyber Threat Intelligence/Introduction.md"
               }
             }
           }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Cyber Threat Intelligence.md",
+                "file": "Defensive Security/Cyber Threat Intelligence/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Cyber Threat Intelligence.md",
+                "file": "Defensive Security/Cyber Threat Intelligence/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,10 +181,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c71a28aed54042b",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
+    "Defensive Security/Cyber Threat Intelligence",
     "Defensive Security/Cyber Defense Frameworks/MITRE.md",
-    "Defensive Security/Cyber Threat Intelligence.md",
+    "Defensive Security/Cyber Threat Intelligence/Introduction.md",
     "Defensive Security/Cyber Defense Frameworks/Unified Kill Chain.md",
     "Defensive Security/Cyber Defense Frameworks/Diamond Model.md",
     "Defensive Security/Cyber Defense Frameworks/Pyramid of Pain.md",
@@ -218,7 +219,6 @@
     "DevSecOps/Containers/Vulnerabilities/Abusing Namespaces.md",
     "DevSecOps/Containers/Vulnerabilities/Privileged Containers.md",
     "DevSecOps/Containers/Vulnerabilities/RCE via Exposed Docker Daemon.md",
-    "DevSecOps/Containers/Vulnerabilities/Escaping via Exposed Docker Daemon.md",
     "DevSecOps/Containers/Hardening",
     "DevSecOps/Containers/Vulnerabilities",
     "DevSecOps/Containers",
