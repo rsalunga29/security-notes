@@ -29,3 +29,15 @@ Refers to all of the vulnerability and weaknesses that the individual capability
 ### Adversary Arsenal
 Refers to the set of capabilities that belong to an adversary. The combined capacities of an adversary's capabilities make it the adversary's arsenal.
 ## Infrastructure
+The infrastructure is the physical or logical interconnections that the adversary uses to deliver a capability or maintain control of capabilities. It can be a software or a hardware. For example, a command and control server or the results from the victim (data exfiltration).
+
+The infrastructure can also be IP addresses, domain names, email addresses, or even a malicious USB device found in the street that is being plugged into a workstation.\
+### Type 1 Infrastructure
+Refers to the infrastructure controlled or owned by the adversary.
+### Type 2 Infrastructure
+Refers to the infrastructure controlled by an intermediary that is used by the adversary. In some cases, this is the infrastructure that the victim will see as the adversary, and the intermediary might or might not be aware of it.
+
+Type 2 Infrastructures are used by adversaries to obfuscate the source and attribution of the intrusion. It includes malware staging servers, malicious domain names, compromised email accounts, etc.
+### Service Providers
+Refers to the organization that provides services considered critical for the adversary. For example, internet service providers, domain registrars, and webmail providers.
+## Event Meta Features
