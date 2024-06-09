@@ -12,3 +12,5 @@ This is another tool created by Florian Roth, it's meant to aid defenders in cre
 ```bash
 python3 yarGen.py -m /home/compromised/legit-file --excludegood -o /home/compromised/rule-legit-file.yar
 ```
+## Valhalla
+Valhalla is an online Yara feed created and hosted by [Nextron-Systems](https://www.nextron-systems.com/valhalla/). It's meant to boost a defender's detection capabilities with the power of thousands of hand-crafted high-quality YARA rules.
