@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/YARA/Introduction.md",
+                "file": "Defensive Security/YARA/Rules.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/YARA/Introduction.md"
+                "file": "Defensive Security/YARA/Rules.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/YARA/Introduction.md",
+                "file": "Defensive Security/YARA/Rules.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/YARA/Introduction.md",
+                "file": "Defensive Security/YARA/Rules.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,8 +170,9 @@
   },
   "active": "8c71a28aed54042b",
   "lastOpenFiles": [
-    "Defensive Security/Cyber Threat Intelligence/CTI Tools.md",
     "Defensive Security/YARA/Introduction.md",
+    "Defensive Security/Cyber Threat Intelligence/CTI Tools.md",
+    "Defensive Security/YARA/Rules.md",
     "Defensive Security/YARA",
     "Certification Roadmap.md",
     "Defensive Security/Cyber Threat Intelligence/Standards & Frameworks.md",
@@ -207,7 +208,6 @@
     "DevSecOps/Containers/Hardening/Seccomp & AppArmor.md",
     "DevSecOps/Containers/Hardening/Preventing Over-privileged Containers.md",
     "DevSecOps/Containers/Hardening/Implementing Control Groups.md",
-    "DevSecOps/Containers/Hardening/Protecting Docker Daemon.md",
     "DevSecOps/Containers/Hardening",
     "DevSecOps/Containers/Vulnerabilities",
     "DevSecOps/Containers",
