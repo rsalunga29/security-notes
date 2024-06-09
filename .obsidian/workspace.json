@@ -20,16 +20,6 @@
             }
           },
           {
-            "id": "640f970cb503655d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
-              }
-            }
-          },
-          {
             "id": "30561c69d3abdc0d",
             "type": "leaf",
             "pinned": true,
@@ -43,8 +33,7 @@
               "pinned": true
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.51103591918945
+    "width": 289.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "64847627f5c52abb",
@@ -179,10 +169,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "640f970cb503655d",
+  "active": "8c71a28aed54042b",
   "lastOpenFiles": [
-    "Defensive Security/Cyber Threat Intelligence/Standards & Frameworks.md",
     "Defensive Security/Cyber Threat Intelligence/CTI Tools.md",
+    "Defensive Security/Cyber Threat Intelligence/Standards & Frameworks.md",
     "Defensive Security/Cyber Defense Frameworks/MITRE.md",
     "Defensive Security/Cyber Threat Intelligence/CTI Lifecycle.md",
     "Defensive Security/Cyber Threat Intelligence/Introduction.md",
