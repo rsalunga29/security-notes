@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/YARA/Modules.md",
+                "file": "Defensive Security/YARA/Integrated Tools.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/YARA/Modules.md"
+                "file": "Defensive Security/YARA/Integrated Tools.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/YARA/Modules.md",
+                "file": "Defensive Security/YARA/Integrated Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/YARA/Modules.md",
+                "file": "Defensive Security/YARA/Integrated Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,10 +168,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c71a28aed54042b",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
-    "Defensive Security/YARA/Rules.md",
+    "Untitled.md",
+    "Defensive Security/YARA/Integrated Tools.md",
     "Defensive Security/YARA/Modules.md",
+    "Defensive Security/YARA/Rules.md",
     "Defensive Security/Assets/yara-rule-anatomy.png",
     "Defensive Security/YARA/Introduction.md",
     "Defensive Security/Cyber Threat Intelligence/CTI Tools.md",
@@ -207,8 +209,6 @@
     "DevSecOps/Infrastructure as Code/Immutable vs Mutable.md",
     "DevSecOps/Containers/Hardening/Reviewing Docker Images.md",
     "DevSecOps/Infrastructure as Code",
-    "DevSecOps/Containers/Hardening/Seccomp & AppArmor.md",
-    "DevSecOps/Containers/Hardening/Preventing Over-privileged Containers.md",
     "DevSecOps/Containers/Hardening",
     "DevSecOps/Containers/Vulnerabilities",
     "DevSecOps/Containers",
