@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Cyber Threat Intelligence/CTI Tools.md",
+                "file": "Defensive Security/YARA/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,8 +33,7 @@
               "pinned": true
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certification Roadmap.md"
+                "file": "Defensive Security/YARA/Introduction.md"
               }
             }
           }
@@ -94,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.51103591918945,
-    "collapsed": true
+    "width": 289.51103591918945
   },
   "right": {
     "id": "64847627f5c52abb",
@@ -119,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Defensive Security/YARA/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Defensive Security/YARA/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,9 +168,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30561c69d3abdc0d",
+  "active": "8c71a28aed54042b",
   "lastOpenFiles": [
     "Defensive Security/Cyber Threat Intelligence/CTI Tools.md",
+    "Defensive Security/YARA/Introduction.md",
+    "Defensive Security/YARA",
+    "Certification Roadmap.md",
     "Defensive Security/Cyber Threat Intelligence/Standards & Frameworks.md",
     "Defensive Security/Cyber Defense Frameworks/MITRE.md",
     "Defensive Security/Cyber Threat Intelligence/CTI Lifecycle.md",
@@ -187,7 +188,6 @@
     "Defensive Security/Assets/pyramid-of-pain.png",
     "Defensive Security/Assets/cyber-kill-chain.png",
     "Defensive Security/Assets",
-    "Certification Roadmap.md",
     "Defensive Security/Cyber Defense Frameworks",
     "Defensive Security",
     "DevSecOps/Infrastructure as Code/Virtualization & IaC.md",
@@ -208,7 +208,6 @@
     "DevSecOps/Containers/Hardening/Preventing Over-privileged Containers.md",
     "DevSecOps/Containers/Hardening/Implementing Control Groups.md",
     "DevSecOps/Containers/Hardening/Protecting Docker Daemon.md",
-    "DevSecOps/Containers/Vulnerabilities/Abusing Namespaces.md",
     "DevSecOps/Containers/Hardening",
     "DevSecOps/Containers/Vulnerabilities",
     "DevSecOps/Containers",
@@ -216,7 +215,6 @@
     "DevSecOps/Assets/services.png",
     "DevSecOps/Assets/statefulsets.png",
     "DevSecOps/Assets/worker-node.png",
-    "DevSecOps/Assets/component-comms.png",
-    "DevSecOps/Kubernetes"
+    "DevSecOps/Assets/component-comms.png"
   ]
 }
