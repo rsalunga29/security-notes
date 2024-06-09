@@ -169,8 +169,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30561c69d3abdc0d",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
+    "Defensive Security/Network Traffic Analysis",
     "Defensive Security/Cyber Threat Intelligence/Introduction.md",
     "Defensive Security/Cyber Threat Intelligence/CTI Tools.md",
     "().md",
@@ -208,7 +209,6 @@
     "DevSecOps/Assets/continual-iac.png",
     "DevSecOps/Infrastructure as Code/Provisioning vs Configuration Management.md",
     "DevSecOps/Infrastructure as Code/Introduction.md",
-    "DevSecOps/Infrastructure as Code/Immutable vs Mutable.md",
     "DevSecOps/Infrastructure as Code",
     "DevSecOps/Containers/Hardening",
     "DevSecOps/Containers/Vulnerabilities",
