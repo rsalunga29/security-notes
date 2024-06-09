@@ -13,3 +13,5 @@ PhishTool gives human analysts the power to reverse engineer phishing emails, to
 ## Others
 - [VirusTotal](https://virustotal.com/)
 - [AbuseIPDB](https://www.abuseipdb.com/)
+- [OpenCTI](https://github.com/OpenCTI-Platform/opencti)
+- [MISP](https://www.misp-project.org/)

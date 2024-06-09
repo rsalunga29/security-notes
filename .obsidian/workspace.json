@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/YARA/Integrated Tools.md",
+                "file": "Defensive Security/Cyber Threat Intelligence/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/YARA/Integrated Tools.md"
+                "file": "Defensive Security/Cyber Threat Intelligence/Introduction.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/YARA/Integrated Tools.md",
+                "file": "Defensive Security/Cyber Threat Intelligence/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/YARA/Integrated Tools.md",
+                "file": "Defensive Security/Cyber Threat Intelligence/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,13 +170,14 @@
   },
   "active": "8c71a28aed54042b",
   "lastOpenFiles": [
+    "Defensive Security/Cyber Threat Intelligence/CTI Tools.md",
+    "().md",
+    "Defensive Security/YARA/Integrated Tools.md",
     "Defensive Security/YARA/Rules.md",
     "Defensive Security/YARA/Introduction.md",
-    "Defensive Security/YARA/Integrated Tools.md",
     "Untitled.md",
     "Defensive Security/YARA/Modules.md",
     "Defensive Security/Assets/yara-rule-anatomy.png",
-    "Defensive Security/Cyber Threat Intelligence/CTI Tools.md",
     "Defensive Security/YARA",
     "Certification Roadmap.md",
     "Defensive Security/Cyber Threat Intelligence/Standards & Frameworks.md",
@@ -207,7 +208,6 @@
     "DevSecOps/Infrastructure as Code/Provisioning vs Configuration Management.md",
     "DevSecOps/Infrastructure as Code/Introduction.md",
     "DevSecOps/Infrastructure as Code/Immutable vs Mutable.md",
-    "DevSecOps/Containers/Hardening/Reviewing Docker Images.md",
     "DevSecOps/Infrastructure as Code",
     "DevSecOps/Containers/Hardening",
     "DevSecOps/Containers/Vulnerabilities",
