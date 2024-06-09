@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "88cd73d1b5d9dd32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Defensive Security/Cyber Defense Frameworks/MITRE.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8c71a28aed54042b",
             "type": "leaf",
             "state": {
@@ -28,6 +16,16 @@
                 "file": "Defensive Security/Cyber Threat Intelligence/CTI Tools.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "640f970cb503655d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
               }
             }
           },
@@ -181,7 +179,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c71a28aed54042b",
+  "active": "640f970cb503655d",
   "lastOpenFiles": [
     "Defensive Security/Cyber Threat Intelligence/Standards & Frameworks.md",
     "Defensive Security/Cyber Threat Intelligence/CTI Tools.md",
