@@ -10,6 +10,8 @@ For example, if we wanted to use `custom-rule.yar` on directory "custom_director
 ```bash
 yara custom-rule.yar custom_directory
 ```
+## Yara Rule Anatomy
+![[yara-rule-anatomy.png]]
 ## Example Rule
 Every rule must have a name and condition. For example, the following is an example of a custom Yara rule:
 ```yara
@@ -36,3 +38,50 @@ rule helloworld_checker {
 }
 ```
 We also added a condition to make the rule valid. Essentially, if any file has the string "Hello World!" then the rule will match. However, this will not match the same string in lowercase or uppercase.
+
+To solve this, wee add the condition `any of them` to allow multiple strings to be searched for. For example:
+```yara
+rule helloworld_checker {
+	strings:
+		$hello_world = "Hello, World!"
+		$hello_world_lcase = "hello, world!"
+		$hello_world_ucase = "HELLO, WORLD!"
+
+	condition:
+		any of them
+}
+```
+## Conditions
+Much like regular programming, Yara also uses the following operators:
+- `<=` - less than or equal to
+- `=>` - greater than or equal to
+- `!=` - not equal to
+
+For example:
+```yara
+rule helloworld_checker {
+	strings:
+		$hello_world = "Hello, World!"
+
+	condition:
+		#hello_world <= 10
+}
+```
+The above rule will search for the "Hello, World!" string and will only match if there are less than or equal to ten occurrences of the string.
+## Combining Keywords
+We can also use the following keywords to combine conditions:
+- and
+- not
+- or
+
+For example, if we want to check if the file has a string and is of a certain file size.
+```yara
+rule helloworld_checker {
+	strings:
+		$hello_world = "Hello, World!"
+
+	condition:
+		$hello_world and filesize < 10KB
+}
+```
+The above rule will only match if both of the conditions are true.
