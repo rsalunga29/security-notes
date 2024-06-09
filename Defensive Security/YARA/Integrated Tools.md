@@ -7,3 +7,8 @@ THOR _Lite_ is Florian's newest multi-platform IOC AND YARA scanner. There are
 This is the 3rd tool created by Florian Roth. The updated version was created to address the issue from its predecessors, where requirements must be met for them to function. Fenrir is a bash script; it will run on any system capable of running bash (nowadays even Windows).
 ## YAYA
 Acronym for Yet Another Yara Scanner, is a tool created by the Electronic Frontier Foundation (EFF) and released in September 2020. It is an open-source tool to help researchers manage multiple YARA rule repositories.
+## yarGen
+This is another tool created by Florian Roth, it's meant to aid defenders in creating new Yara rules from strings found in malware files while removing all strings that also appear in goodware files. To generate a Yara rule, use the following command:
+```bash
+python3 yarGen.py -m /home/compromised/legit-file --excludegood -o /home/compromised/rule-legit-file.yar
+```
