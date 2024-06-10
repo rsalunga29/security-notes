@@ -32,8 +32,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "26f9c8af869c6cad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -168,13 +181,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f00b51d7f5dffa83",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
+    "Certification Roadmap.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md",
     "Defensive Security/Network Traffic Analysis/Tools/Snort/SnortCheatsheet.pdf",
     "Defensive Security/Network Traffic Analysis/Tools/Snort/Rule Structure.md",
     "Defensive Security/Assets/snort-rule-structure.png",
     "Defensive Security/Network Traffic Analysis/Tools/Snort/Investigating PCAP with Snort.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md",
     "Defensive Security/Network Traffic Analysis/Tools/Snort/Mode Commands.md",
     "Defensive Security/Network Traffic Analysis/Tools/Snort",
     "Defensive Security/Network Traffic Analysis/Intrusion Detection & Prevention System.md",
@@ -190,7 +204,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Predictable Reset Token/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Resetting Passwords Using a URL.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Username Injection.md",
-    "Certification Roadmap.md",
     "Defensive Security/YARA/Introduction.md",
     "conflict-files-obsidian-git.md",
     "Defensive Security/YARA/Integrated Tools.md",
