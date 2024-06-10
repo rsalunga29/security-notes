@@ -21,3 +21,14 @@ Snort has three main modes:
 ```bash
 snort -c /etc/snort/snort.conf -T
 ```
+The `-c` parameter identifies the config file, while the `-T` is Snort's self-test parameter.
+### Sniffer Mode: With Parameter "-i" and "-v"
+```bash
+snort -i eth0 -v
+```
+Starts the Snort instance in verbose mode (`-v`) and define the network interface to sniff/listen (`-i`).
+### Sniffer Mode: With Parameter "-d" and "-e"
+```bash
+snort -d -e
+```
+Starts the Snort instance in dumping packet mode (`-d`) and link-layer header grabbing mode (`-e`).
