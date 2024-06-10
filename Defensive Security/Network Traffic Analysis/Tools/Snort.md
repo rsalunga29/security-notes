@@ -82,3 +82,13 @@ Starts the Snort instance in different alert modes:
 - **full:** Full alert mode, providing all possible information about the alert.  
 - **fast:** Fast mode, shows the alert message, timestamp, source and destination ıp along with port numbers.
 - **none:** Disabling alerting.
+### IDS/IPS Mode: Without Configuration File
+It's possible to run Snort IDS/IPS mode without a configuration file. For example:
+```bash
+snort -c /etc/snort/rules/local.rules -A console
+```
+However, this will provide less performance, so this is mostly used for instances where we need to test user-created rules.
+### IDS/IPS Mode: Activate IPS and Drop Packets
+```bash
+snort -c /etc/snort/snort.conf -Q --daq afpacket -i eth0:eth1 -A console
+```
