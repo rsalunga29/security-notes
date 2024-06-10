@@ -32,3 +32,13 @@ Starts the Snort instance in verbose mode (`-v`) and define the network interfac
 snort -d -e
 ```
 Starts the Snort instance in dumping packet mode (`-d`) and link-layer header grabbing mode (`-e`).
+### Sniffer Mode: With Parameter "-X"
+```bash
+snort -X
+```
+Starts the Snort instance in full packet dump mode (`-X`).
+### Packet Logger Mode: With Parameter "-l"
+```bash
+snort -dev -l .
+```
+Starts the Snort instance in packet logger mode and creates the logs in the current directory. 
