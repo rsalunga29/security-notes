@@ -1,40 +1,20 @@
-## Introduction
-Snort is an open-source Network Intrusion Detection and Prevention System (NIDS/NIPS). It was developed and still maintained by Martin Roesch, open-source contributors, and the Cisco Talos team.
-
-Snort uses a series of rules that help define malicious network activity and uses those rules to find packets that match against them and generate alerts for the users.
-## Capabilities
-- Live traffic analysis
-- Attack and probe detection
-- Packet logging
-- Protocol analysis
-- Real-time alerting
-- Modules & plugins
-- Pre-processors
-- Cross-platform support! (Linux & Windows)
-## Modes
-Snort has three main modes:
-- **Sniffer Mode**: Read IP packets like `tcpdump` and prompt them in the console application.
-- **Packet Logger Mode**: Log all IP packets (inbound and outbound) that visit the network.
-- **NIDS and NIPS Mode**: Log/drop the packets that are deemed malicious according to rules.
-> Note: Once Snort is started running in IDS/IPS mode, the sniffing and logging mode will be semi-passive. However, functions can still be activate using various parameters (i.e `-i`, `-v`, `-d`, `-e`, `-X`, `-l`, `-K ASCII`, etc.)
-## Common Commands
 Snort can be ran with multiple combined parameters.
-### Configuration Validity
+## Configuration Validity
 ```bash
 snort -c /etc/snort/snort.conf -T
 ```
 The `-c` parameter identifies the config file, while the `-T` is Snort's self-test parameter.
-### Sniffer Mode: With Parameter "-i" and "-v"
+## Sniffer Mode: With Parameter "-i" and "-v"
 ```bash
 snort -i eth0 -v
 ```
 Starts the Snort instance in verbose mode (`-v`) and define the network interface to sniff/listen (`-i`).
-### Sniffer Mode: With Parameter "-d" and "-e"
+## Sniffer Mode: With Parameter "-d" and "-e"
 ```bash
 snort -d -e
 ```
 Starts the Snort instance in dumping packet mode (`-d`) and link-layer header grabbing mode (`-e`).
-### Sniffer Mode: With Parameter "-X"
+## Sniffer Mode: With Parameter "-X"
 ```bash
 snort -X
 ```
@@ -42,17 +22,17 @@ Starts the Snort instance in full packet dump mode (`-X`). This will also displa
 ```bash
 snort -r snort.log -X
 ```
-### Packet Logger Mode: With Parameter "-l"
+## Packet Logger Mode: With Parameter "-l"
 ```bash
 snort -dev -l .
 ```
 Starts the Snort instance in packet logger mode and creates the logs in the current directory. The logs that are created requires specialize tools like `tcpdump` to be read.
-### Packet Logger Mode: With Parameter "-K ASCII"
+## Packet Logger Mode: With Parameter "-K ASCII"
 ```bash
 snort -dev -K ASCII -l .
 ```
 Starts the Snort instance in packet logger mode and creates logs in ASCII format, which makes it human-readable without using a specialized tool.
-### Packet Logger Mode: With Parameter "-r"
+## Packet Logger Mode: With Parameter "-r"
 ```bash
 snort -r snort.log [icmp/tcp/udp]
 ```
@@ -62,17 +42,17 @@ snort -r snort.log 'tcp and port 80'
 ```
 
 The parameter `-n` can also be added to determine how many packets will be read. For example `-n 10` will process only the first 10 packets.
-### IDS/IPS Mode: With Parameter "-N"
+## IDS/IPS Mode: With Parameter "-N"
 ```bash
 snort -c /etc/snort/snort.conf -N
 ```
 Starts the Snort instance and disable logging (`-N`).
-### IDS/IPS Mode: With Parameter "-D"
+## IDS/IPS Mode: With Parameter "-D"
 ```bash
 snort -c /etc/snort/snort.conf -D
 ```
 Starts the Snort instance in background mode (`-D`).
-### IDS/IPS Mode: With Parameter "-A"
+## IDS/IPS Mode: With Parameter "-A"
 ```bash
 snort -c /etc/snort/snort.conf -A [console/cmg/full/fast/none]
 ```
@@ -82,13 +62,13 @@ Starts the Snort instance in different alert modes:
 - **full:** Full alert mode, providing all possible information about the alert.  
 - **fast:** Fast mode, shows the alert message, timestamp, source and destination ıp along with port numbers.
 - **none:** Disabling alerting.
-### IDS/IPS Mode: Without Configuration File
+## IDS/IPS Mode: Without Configuration File
 It's possible to run Snort IDS/IPS mode without a configuration file. For example:
 ```bash
 snort -c /etc/snort/rules/local.rules -A console
 ```
 However, this will provide less performance, so this is mostly used for instances where we need to test user-created rules.
-### IDS/IPS Mode: Activate IPS and Drop Packets
+## IDS/IPS Mode: Activate IPS and Drop Packets
 ```bash
 snort -c /etc/snort/snort.conf -Q --daq afpacket -i eth0:eth1 -A console
 ```
