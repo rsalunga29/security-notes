@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/YARA/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/YARA/Introduction.md"
+                "file": "Defensive Security/Network Traffic Analysis/Introduction.md"
               }
             }
           }
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.51103591918945
+    "width": 289.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "64847627f5c52abb",
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/YARA/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/YARA/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +156,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,12 +169,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccc68e20622978c5",
+  "active": "f00b51d7f5dffa83",
   "lastOpenFiles": [
+    "Defensive Security/YARA/Introduction.md",
     "Certification Roadmap.md",
     "conflict-files-obsidian-git.md",
     "Defensive Security/YARA/Integrated Tools.md",
-    "Defensive Security/YARA/Introduction.md",
     "Defensive Security/YARA/Rules.md",
     "Defensive Security/YARA/Modules.md",
     "Defensive Security/YARA",
