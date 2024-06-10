@@ -16,8 +16,9 @@ Snort has three main modes:
 - **Sniffer Mode**: Read IP packets like `tcpdump` and prompt them in the console application.
 - **Packet Logger Mode**: Log all IP packets (inbound and outbound) that visit the network.
 - **NIDS and NIPS Mode**: Log/drop the packets that are deemed malicious according to rules.
-> Note: One Sn
+> Note: Once Snort is started running in IDS/IPS mode, the sniffing and logging mode will be semi-passive. However, functions can still be activate using various parameters (i.e `-i`, `-v`, `-d`, `-e`, `-X`, `-l`, `-K ASCII`, etc.)
 ## Common Commands
+Snort can be ran with multiple combined parameters.
 ### Configuration Validity
 ```bash
 snort -c /etc/snort/snort.conf -T
@@ -71,3 +72,13 @@ Starts the Snort instance and disable logging (`-N`).
 snort -c /etc/snort/snort.conf -D
 ```
 Starts the Snort instance in background mode (`-D`).
+### IDS/IPS Mode: With Parameter "-A"
+```bash
+snort -c /etc/snort/snort.conf -A [console/cmg/full/fast/none]
+```
+Starts the Snort instance in different alert modes:
+- **console**: Provides fast style alerts on the console screen.
+- **cmg**: Provides basic header details with payload in hex and text format.
+- **full:** Full alert mode, providing all possible information about the alert.  
+- **fast:** Fast mode, shows the alert message, timestamp, source and destination ıp along with port numbers.
+- **none:** Disabling alerting.
