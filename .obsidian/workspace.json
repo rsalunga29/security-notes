@@ -73,12 +73,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Cyber Defense Frameworks/Unified Kill Chain.md"
+                "file": "Certification Roadmap.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Cyber Defense Frameworks/Unified Kill Chain.md",
+                "file": "Certification Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Cyber Defense Frameworks/Unified Kill Chain.md",
+                "file": "Certification Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,10 +156,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2ef1cd99f8fda3f4",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
-    "Certification Roadmap.md",
     "Defensive Security/Cyber Defense Frameworks/Unified Kill Chain.md",
+    "Certification Roadmap.md",
     "Defensive Security/Assets/unified-kill-chain.png",
     "Defensive Security/Cyber Defense Frameworks/Cyber Kill Chain.md",
     "Defensive Security/Assets/cyber-kill-chain.png",
