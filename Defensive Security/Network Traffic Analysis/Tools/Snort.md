@@ -16,6 +16,7 @@ Snort has three main modes:
 - **Sniffer Mode**: Read IP packets like `tcpdump` and prompt them in the console application.
 - **Packet Logger Mode**: Log all IP packets (inbound and outbound) that visit the network.
 - **NIDS and NIPS Mode**: Log/drop the packets that are deemed malicious according to rules.
+> Note: One Sn
 ## Common Commands
 ### Configuration Validity
 ```bash
@@ -36,7 +37,10 @@ Starts the Snort instance in dumping packet mode (`-d`) and link-layer header gr
 ```bash
 snort -X
 ```
-Starts the Snort instance in full packet dump mode (`-X`). This will also i
+Starts the Snort instance in full packet dump mode (`-X`). This will also display the full packet details in HEX when reading logs. For example:
+```bash
+snort -r snort.log -X
+```
 ### Packet Logger Mode: With Parameter "-l"
 ```bash
 snort -dev -l .
@@ -51,6 +55,19 @@ Starts the Snort instance in packet logger mode and creates logs in ASCII format
 ```bash
 snort -r snort.log [icmp/tcp/udp]
 ```
-Starts the Snort instance in packet reader mode (`-r`). Note that, logs created with the `-K ASCII` format parameter can't be read by this command. This command also allows the user to filter the log files.
+Starts the Snort instance in packet reader mode (`-r`). Note that, logs created with the `-K ASCII` format parameter can't be read by this command. This command also allows the user to filter the log files. For example, if I want to see all TCP port 80 packets:
+```bash
+snort -r snort.log 'tcp and port 80'
+```
 
 The parameter `-n` can also be added to determine how many packets will be read. For example `-n 10` will process only the first 10 packets.
+### IDS/IPS Mode: With Parameter "-N"
+```bash
+snort -c /etc/snort/snort.conf -N
+```
+Starts the Snort instance and disable logging (`-N`).
+### IDS/IPS Mode: With Parameter "-D"
+```bash
+snort -c /etc/snort/snort.conf -D
+```
+Starts the Snort instance in background mode (`-D`).
