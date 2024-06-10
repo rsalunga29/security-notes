@@ -47,6 +47,8 @@
 		- External Pentest Playbook
 		- Windows Privilege Escalation
 		- Linux Privilege Escalation
+	- GOAD
+		- Practice AD Pentesting / Red Teaming
 - Certifications
 	- TCM Academy Practical Network Penetration Tester
 	- Altered Security Certified Red Team Practitioner

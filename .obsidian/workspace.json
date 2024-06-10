@@ -32,21 +32,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "26f9c8af869c6cad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md"
+                "file": "Certification Roadmap.md"
               }
             }
           }
@@ -130,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md",
+                "file": "Certification Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md",
+                "file": "Certification Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,10 +169,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccc68e20622978c5",
+  "active": "30561c69d3abdc0d",
   "lastOpenFiles": [
-    "Certification Roadmap.md",
     "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md",
+    "Certification Roadmap.md",
     "Defensive Security/Network Traffic Analysis/Tools/Snort/SnortCheatsheet.pdf",
     "Defensive Security/Network Traffic Analysis/Tools/Snort/Rule Structure.md",
     "Defensive Security/Assets/snort-rule-structure.png",
