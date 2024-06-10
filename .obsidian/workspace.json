@@ -8,6 +8,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "f00b51d7f5dffa83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Defensive Security/YARA/Introduction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "30561c69d3abdc0d",
             "type": "leaf",
             "pinned": true,
@@ -73,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certification Roadmap.md"
+                "file": "Defensive Security/YARA/Introduction.md"
               }
             }
           }
@@ -105,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Defensive Security/YARA/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Defensive Security/YARA/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,8 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,8 +169,24 @@
   },
   "active": "ccc68e20622978c5",
   "lastOpenFiles": [
-    "Defensive Security/Cyber Defense Frameworks/Unified Kill Chain.md",
     "Certification Roadmap.md",
+    "conflict-files-obsidian-git.md",
+    "Defensive Security/YARA/Integrated Tools.md",
+    "Defensive Security/YARA/Introduction.md",
+    "Defensive Security/YARA/Rules.md",
+    "Defensive Security/YARA/Modules.md",
+    "Defensive Security/YARA",
+    "Defensive Security/Network Traffic Analysis/Introduction.md",
+    "Defensive Security/Network Traffic Analysis",
+    "Defensive Security/Cyber Threat Intelligence/Standards & Frameworks.md",
+    "Defensive Security/Cyber Threat Intelligence/Introduction.md",
+    "Defensive Security/Cyber Threat Intelligence/CTI Tools.md",
+    "Defensive Security/Cyber Threat Intelligence/CTI Lifecycle.md",
+    "Defensive Security/Cyber Threat Intelligence",
+    "Defensive Security/Cyber Defense Frameworks/MITRE.md",
+    "Defensive Security/Cyber Defense Frameworks/Diamond Model.md",
+    "Defensive Security/Assets/yara-rule-anatomy.png",
+    "Defensive Security/Cyber Defense Frameworks/Unified Kill Chain.md",
     "Defensive Security/Assets/unified-kill-chain.png",
     "Defensive Security/Cyber Defense Frameworks/Cyber Kill Chain.md",
     "Defensive Security/Assets/cyber-kill-chain.png",
@@ -167,7 +194,6 @@
     "Defensive Security/Assets",
     "Defensive Security/Assets/pyramid-of-pain.png",
     "DevSecOps/Dependency Management/Dependency Confusion Attack.md",
-    "conflict-files-obsidian-git.md",
     "DevSecOps/Kubernetes/kubectl.md",
     "DevSecOps/Kubernetes/Introduction.md",
     "DevSecOps/Kubernetes/Hardening and Security Best Practices.md",
@@ -178,17 +204,7 @@
     "DevSecOps/Infrastructure as Code/Virtualization & IaC.md",
     "DevSecOps/Infrastructure as Code/Provisioning vs Configuration Management.md",
     "DevSecOps/Infrastructure as Code/Introduction.md",
-    "DevSecOps/Infrastructure as Code/Immutable vs Mutable.md",
-    "DevSecOps/Infrastructure as Code/IaC Lifecycle.md",
-    "DevSecOps/Infrastructure as Code/Declarative vs Imperative.md",
-    "DevSecOps/Infrastructure as Code/Agent-based vs Agentless.md",
     "DevSecOps/Infrastructure as Code",
-    "DevSecOps/Dependency Management/Supply Chain Attacks.md",
-    "DevSecOps/Containers/Vulnerabilities/RCE via Exposed Docker Daemon.md",
-    "DevSecOps/Containers/Vulnerabilities/Privileged Containers.md",
-    "DevSecOps/Containers/Vulnerabilities/Introduction.md",
-    "DevSecOps/Containers/Vulnerabilities/Escaping via Exposed Docker Daemon.md",
-    "DevSecOps/Containers/Vulnerabilities/Abusing Namespaces.md",
     "DevSecOps/Containers/Vulnerabilities",
     "DevSecOps/Containers/Hardening",
     "DevSecOps/Containers",
@@ -198,10 +214,6 @@
     "DevSecOps/Assets/repeatable-iac.png",
     "DevSecOps/Assets/ingress.png",
     "DevSecOps/Assets/dependency-confusion-attack.png",
-    "DevSecOps/Assets/control-plane.png",
-    "DevSecOps/Assets",
-    "Defensive Security/Cyber Defense Frameworks",
-    "Defensive Security",
-    "DevSecOps/Dependency Management"
+    "DevSecOps/Assets"
   ]
 }
