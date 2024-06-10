@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Introduction.md"
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md"
               }
             }
           }
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.51103591918945,
-    "collapsed": true
+    "width": 289.51103591918945
   },
   "right": {
     "id": "64847627f5c52abb",
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,6 +170,10 @@
   },
   "active": "f00b51d7f5dffa83",
   "lastOpenFiles": [
+    "Defensive Security/Network Traffic Analysis/Introduction.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Snort",
+    "Defensive Security/Network Traffic Analysis/Tools",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Changing User Passwords.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Predictable Reset Token/Weak Token Generation.md",
@@ -180,7 +183,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Predictable Reset Token/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Resetting Passwords Using a URL.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Username Injection.md",
-    "Defensive Security/Network Traffic Analysis/Introduction.md",
     "Certification Roadmap.md",
     "Defensive Security/YARA/Introduction.md",
     "conflict-files-obsidian-git.md",
@@ -204,18 +206,15 @@
     "Defensive Security/Cyber Defense Frameworks/Pyramid of Pain.md",
     "Defensive Security/Assets",
     "Defensive Security/Assets/pyramid-of-pain.png",
-    "DevSecOps/Dependency Management/Dependency Confusion Attack.md",
     "DevSecOps/Kubernetes",
     "DevSecOps/Infrastructure as Code",
     "DevSecOps/Containers/Vulnerabilities",
     "DevSecOps/Containers/Hardening",
-    "DevSecOps/Containers",
     "DevSecOps/Assets/worker-node.png",
     "DevSecOps/Assets/statefulsets.png",
     "DevSecOps/Assets/services.png",
     "DevSecOps/Assets/repeatable-iac.png",
     "DevSecOps/Assets/ingress.png",
-    "DevSecOps/Assets/dependency-confusion-attack.png",
-    "DevSecOps/Assets"
+    "DevSecOps/Assets/dependency-confusion-attack.png"
   ]
 }
