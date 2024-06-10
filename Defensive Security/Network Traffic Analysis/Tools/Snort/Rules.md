@@ -1,19 +1,25 @@
+## Types
+There are three types of rules available for Snort:
+- **Community Rules**: Free ruleset under the GPLv2. Publicly accessible, no need for registration.
+- **Registered Rules**: Free ruleset (requires registration). This ruleset contains subscriber rules with 30 days delay.
+- **Subscriber Rules (Paid)**: Paid ruleset (requires subscription). This ruleset is the main ruleset and is updated twice a week (Tuesdays and Thursdays).
+## Structure
 The primary structure of the snort rule is shown below:
 ![[snort-rule-structure.png]]
-## Action Types
+### Action Types
 There are several actions for rules. The most common are listed below:
 - **alert**: Generate an alert and log the packet.
 - **log**: Log the packet.
 - **drop**: Block and log the packet.
 - **reject**: Block the packet, log it and terminate the packet session.
-## Protocol Types
+### Protocol Types
 Snort2 only supports the following protocols:
 - IP
 - TCP
 - UDP
 - ICMP
 However, if we want to detect traffic from specific applications, say FTP, we cannot use the "FTP" keyword in the Protocol field, instead we will filter the FTP traffic by investigating TCP traffic on port 21.
-## IP and Port Numbers
+### IP and Port Numbers
 These parameters identify the source and destination IP addresses and associated port numbers filtered for the rule. For example:
 
 |                              |                                                                                                                                                                                                                                                                                                                                  |
@@ -28,31 +34,31 @@ These parameters identify the source and destination IP addresses and associated
 | Filter a port range (Type 2) | **alert tcp any any <> any :1024   (msg: "TCP 0-1024 System Port Activity"; sid: 100001; rev:1;)**  <br><br>This rule will create an alert for each TCP packet sent to ports less than or equal to 1024.                                                                                                                         |
 | Filter a port range (Type 3) | **alert tcp any any <> any 1025: (msg: "TCP Non-System Port Activity"; sid: 100001; rev:1;)**<br><br>This rule will create an alert for each TCP packet sent to source port higher than or equal to 1025.                                                                                                                        |
 | Filter a port range (Type 4) | **alert tcp any any <> any [21,23] (msg: "FTP and Telnet Port 21-23 Activity Detected"; sid: 100001; rev:1;)**<br><br>This rule will create an alert for each TCP packet sent to port 21 and 23.                                                                                                                                 |
-## Direction
+### Direction
 The direction operator indicates the traffic flow to be filtered by Snort.
 - `->`: Source to destination flow.
 - `<>`: Bidirectional flow.
 - `<-`: This doesn't exists.
-## Rule Options
+### Rule Options
 There are three main rule options in Snort:
 - **General Rule Options**: Fundamental rule options for Snort.
 - **Payload Rule Options**: Rule options that help investigate the payload data. These options are helpful to detect specific payload patterns.
 - **Non-Payload Rule Options**: Rule options that focus on non-payload data. These options will help create specific patterns and identify network issues.
-### General Rule Options
+#### General Rule Options
 |           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Msg       | The message field is a basic prompt and quick identifier of the rule. Once the rule is triggered, the message filed will appear in the console or log. Usually, the message part is a one-liner that summarises the event.                                                                                                                                                                                                                                                                                                                                |
 | Sid       | Snort rule IDs (SID) come with a pre-defined scope, and each rule must have a SID in a proper format. There are three different scopes for SIDs shown below.<br><br>- **<100**: Reserved rules<br>- **100-999,999**: Rules came with the build.<br>- **>=1,000,000**: Rules created by user.<br><br>Another important point is; SIDs should not overlap, and each id must be unique.                                                                                                                                                                      |
 | Reference | Each rule can have additional information or reference to explain the purpose of the rule or threat pattern. This could be a `cve` which uses a CVE ID or `url` which uses a URL. Having references for the rules will always help analysts during the alert and incident investigation.                                                                                                                                                                                                                                                                  |
 | Rev       | Snort rules can be modified and updated for performance and efficiency issues. Rev option help analysts to have the revision information of each rule. Therefore, it will be easy to understand rule improvements. Each rule has its unique rev number, and there is no auto-backup feature on the rule history. Analysts should keep the rule history themselves. Rev option is only an indicator of how many times the rule had revisions.<br><br>alert icmp any any <> any any (msg: "ICMP Packet Found"; sid: 100001; reference:cve,CVE-XXXX; rev:1;) |
-### Payload Rule Options
+#### Payload Rule Options
 |              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Msg          | The message field is a basic prompt and quick identifier of the rule. Once the rule is triggered, the message filed will appear in the console or log. Usually, the message part is a one-liner that summarises the event.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Content      | Payload data. It matches specific payload data by ASCII, HEX or both. It is possible to use this option multiple times in a single rule. However, the more you create specific pattern match features, the more it takes time to investigate a packet.<br><br>Following rules will create an alert for each HTTP packet containing the keyword "GET". This rule option is case sensitive!<br><br>- ASCII mode - alert tcp any any <> any 80  (msg: "GET Request Found"; content:"GET"; sid: 100001; rev:1;)<br>- HEX mode - alert tcp any any <> any 80  (msg: "GET Request Found"; content:"\|47 45 54\|"; sid: 100001; rev:1;)                                                                                                             |
 | Nocase       | Disabling case sensitivity. Used for enhancing the content searches.<br><br>alert tcp any any <> any 80  (msg: "GET Request Found"; content:"GET"; nocase; sid: 100001; rev:1;)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Fast_pattern | Prioritise content search to speed up the payload search operation. By default, Snort uses the biggest content and evaluates it against the rules. "fast_pattern" option helps you select the initial packet match with the specific value for further investigation. This option always works case insensitive and can be used once per rule. Note that this option is required when using multiple "content" options. <br><br>The following rule has two content options, and the fast_pattern option tells to snort to use the first content option (in this case, "GET") for the initial packet match.  <br><br>alert tcp any any <> any 80  (msg: "GET Request Found"; content:"GET"; fast_pattern; content:"www";  sid:100001; rev:1;) |
-### Non-Payload Rule Options
+#### Non-Payload Rule Options
 |        |                                                                                                                                                                                                                            |
 | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Msg    | The message field is a basic prompt and quick identifier of the rule. Once the rule is triggered, the message filed will appear in the console or log. Usually, the message part is a one-liner that summarises the event. |

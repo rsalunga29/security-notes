@@ -36,7 +36,7 @@
 	- eLearnSecurity Certified Threat Hunting Professional
 - AppSec Homelab Part 2
 	- Adversary Emulation: Atomic Red Team or Caldera
-	- IDS/IPS: Snort (NIDS) and Wazuh Agent (HIDS)
+	- IDS/IPS: Suricata (NIDS) and Wazuh Agent (HIDS)
 	- SIEM: Wazuh SIEM
 	- Active Directory: 1 DC, 2 User (1 IIS)
 ### Q4 2024 / Q1 2025 and Beyond
