@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md"
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,6 +171,7 @@
   "active": "f00b51d7f5dffa83",
   "lastOpenFiles": [
     "Defensive Security/Network Traffic Analysis/Introduction.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Snort.md",
     "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md",
     "Defensive Security/Network Traffic Analysis/Tools/Snort",
     "Defensive Security/Network Traffic Analysis/Tools",
@@ -203,7 +204,6 @@
     "Defensive Security/Assets/unified-kill-chain.png",
     "Defensive Security/Cyber Defense Frameworks/Cyber Kill Chain.md",
     "Defensive Security/Assets/cyber-kill-chain.png",
-    "Defensive Security/Cyber Defense Frameworks/Pyramid of Pain.md",
     "Defensive Security/Assets",
     "Defensive Security/Assets/pyramid-of-pain.png",
     "DevSecOps/Kubernetes",
