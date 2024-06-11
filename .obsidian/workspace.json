@@ -56,9 +56,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "59459e50483588f6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -180,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,7 +203,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5f297d6094756aaa",
+  "active": "59459e50483588f6",
   "lastOpenFiles": [
     "Certification Roadmap.md",
     "Defensive Security/Network Traffic Analysis/Tools/Snort/Configuration.md",
