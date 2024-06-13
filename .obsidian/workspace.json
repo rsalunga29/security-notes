@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Configuration.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md"
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Configuration.md"
               }
             }
           }
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.51103591918945
+    "width": 289.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "64847627f5c52abb",
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
