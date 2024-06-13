@@ -12,5 +12,8 @@ Adding the `--pcap-show` parameter at the end would distinguish each PCAP for ea
 ## Filtering Results
 Filtering results is easy, we just need to add the filter query at the end of the command. For example:
 ```bash
-snort -c /etc/snort/snort.conf -r investigate.pcap -A console ''
+snort -c /etc/snort/snort.conf -r investigate.pcap -A full 'tcp and port 80'
+```
+```bash
+snort -c /etc/snort/snort.conf -r malware.pcap -A fast 'udp'
 ```
