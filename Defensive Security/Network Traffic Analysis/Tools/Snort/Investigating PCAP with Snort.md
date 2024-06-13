@@ -15,6 +15,7 @@ Alternatively, we can also opt to save the PCAP as log files first before contin
 ```bash
 snort -c [rule_file] -r investigate.pcap -X -l .
 ```
+We can also use this technique if we are getting the error "Warning: No preprocessor configured for policy 0."
 ## Filtering Results
 Filtering results is easy, we just need to add the filter query at the end of the command. For example:
 ```bash
