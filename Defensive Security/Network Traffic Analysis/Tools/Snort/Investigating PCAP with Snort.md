@@ -11,6 +11,7 @@ snort -c [rule_file] --pcap-list="investigate.pcap mal.pcap phish.pcap" -A [cons
 ```
 Adding the `--pcap-show` parameter at the end would distinguish each PCAP for easier viewing.
 ## Save into Log File
+Alternatively, we can also opt to save the PCAP as log files first before continuing with our investigation:
 ```bash
 snort -c [rule_file] -r investigate.pcap -X -l .
 ```
