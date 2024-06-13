@@ -10,7 +10,10 @@ snort -c [rule_file] --pcap-single=investigate.pcap -A [console/cmg/full/fast/no
 snort -c [rule_file] --pcap-list="investigate.pcap mal.pcap phish.pcap" -A [console/cmg/full/fast/none] '[filter]'
 ```
 Adding the `--pcap-show` parameter at the end would distinguish each PCAP for easier viewing.
-## Save 
+## Save into Log File
+```bash
+snort -c [rule_file] -r investigate.pcap -X -l .
+```
 ## Filtering Results
 Filtering results is easy, we just need to add the filter query at the end of the command. For example:
 ```bash
