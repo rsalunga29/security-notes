@@ -1,5 +1,5 @@
 Capabilities of Snort are not limited to sniffing, logging and detecting/preventing the threats. PCAP read/investigate mode helps you work with PCAP files.
-> Note: `rule_file` can either ba `/etc/snort/snort.conf` or `local.rules`.
+> Note: `rule_file` can either be `/etc/snort/snort.conf`, `local.rules`, or empty (defaults to `snort.conf`).
 ## Read Single PCAP
 ```bash
 snort -c [rule_file] --pcap-single=investigate.pcap -A [console/cmg/full/fast/none] '[filter]'

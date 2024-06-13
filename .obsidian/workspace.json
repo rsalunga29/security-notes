@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Mode Commands.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Rules.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Mode Commands.md"
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Rules.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Mode Commands.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Rules.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Mode Commands.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Snort/Rules.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,13 +170,13 @@
   },
   "active": "f00b51d7f5dffa83",
   "lastOpenFiles": [
-    "Defensive Security/Network Traffic Analysis/Tools/Snort/Investigating PCAP with Snort.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Snort/Rules.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Snort/SnortCheatsheet.pdf",
     "Defensive Security/Network Traffic Analysis/Tools/Snort/Mode Commands.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Snort/Rules.md",
     "Defensive Security/Network Traffic Analysis/Tools/Snort/Configuration.md",
     "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Snort/Investigating PCAP with Snort.md",
     "Certification Roadmap.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Snort/SnortCheatsheet.pdf",
     "Defensive Security/Assets/snort-rule-structure.png",
     "Defensive Security/Network Traffic Analysis/Tools/Snort",
     "Defensive Security/Network Traffic Analysis/Intrusion Detection & Prevention System.md",
@@ -202,7 +202,6 @@
     "Defensive Security/Cyber Threat Intelligence/Standards & Frameworks.md",
     "Defensive Security/Cyber Threat Intelligence/Introduction.md",
     "Defensive Security/Cyber Threat Intelligence/CTI Tools.md",
-    "Defensive Security/Cyber Threat Intelligence/CTI Lifecycle.md",
     "Defensive Security/Cyber Threat Intelligence",
     "Defensive Security/Assets/yara-rule-anatomy.png",
     "Defensive Security/Assets/unified-kill-chain.png",
