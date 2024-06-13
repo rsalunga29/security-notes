@@ -10,20 +10,17 @@ snort -c [rule_file] --pcap-single=investigate.pcap -A [console/cmg/full/fast/no
 snort -c [rule_file] --pcap-list="investigate.pcap mal.pcap phish.pcap" -A [console/cmg/full/fast/none] '[filter]'
 ```
 Adding the `--pcap-show` parameter at the end would distinguish each PCAP for easier viewing.
+## Save 
 ## Filtering Results
 Filtering results is easy, we just need to add the filter query at the end of the command. For example:
 ```bash
-snort -c /etc/snort/snort.conf -r investigate.pcap -A full 'tcp and port 80'
+snort -c /etc/snort/snort.conf -r snort.log.timestamp -A cmg 'tcp and port 80'
 ```
 ```bash
-snort -c local.rules -r malware.pcap -A fast 'udp'
+snort -c local.rules -r snort.log.timestamp -A fast 'udp'
 ```
 ### Using `strings` to Filter Results
-First read the PCAP file in Packet Logger mode and save the logs in the current directory:
-```bash
-snort -c local.rules -r dos.pcap -X -l .
-```
-Then use the Linux `strings` command to look for specific string in the Snort log:
+Use the Linux `strings` command to look for specific string in the Snort log:
 ```bash
 strings snort.log.timestamp | grep "string-im-looking-for"
 ```
