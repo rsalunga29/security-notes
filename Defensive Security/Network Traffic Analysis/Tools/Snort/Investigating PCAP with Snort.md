@@ -29,3 +29,9 @@ Use the Linux `strings` command to look for specific string in the Snort log:
 ```bash
 strings snort.log.timestamp | grep "string-im-looking-for"
 ```
+## Number of Rules Triggered
+Look for the "Limits" keyword on the Snort output. This is just below the "Action Stats" results.
+## Look for SID of Triggered Rules
+```bash
+cat snort.log.timestamp | grep -r -e sid
+```
