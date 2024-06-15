@@ -28,7 +28,7 @@
 	- BlueTeamLabs
 		- Incident Response Labs
 	- Qualys
-		- 
+		- Vulnerability Management Learning Patch
 - Certifications
 	- Security Blue Team Level 1 (optional)
 	- HTB Certified Defensive Security Analyst (optional)
