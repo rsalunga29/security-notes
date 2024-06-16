@@ -23,6 +23,8 @@ Discovering the contents of encrypted data is impossible. However, it can still 
 ### Privacy Concerns in Traffic Recording
 Capturing the traffic is the same as "recording everything on the wire"; therefore, this act should comply with GDPR and business-specific regulations (e.g. HIPAA, PCI DSS and FISMA).
 ### Non-standard Port Usage
-Threat actors sometimes use non-standard ports and services to avoid detection abd
+Threat actors sometimes use non-standard ports and services to avoid detection and bypass security mechanisms. This makes it hard to defenders to investigate malicious activities.
 ### Timezone issues
+Usage of different timezone creates difficulties in event correlation.
 ### Lack of Logs
+Threat actors would often erase event logs to make investigation more difficult.
