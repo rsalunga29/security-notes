@@ -170,8 +170,9 @@
   },
   "active": "2186fee8cfc5f714",
   "lastOpenFiles": [
-    "Defensive Security/Network Forensics/Investigation Process.md",
+    "Certification Roadmap.md",
     "Defensive Security/Network Forensics/Advantages and Disadvantages.md",
+    "Defensive Security/Network Forensics/Investigation Process.md",
     "Defensive Security/Network Forensics/Introduction.md",
     "Defensive Security/Network Traffic Analysis/Introduction.md",
     "conflict-files-obsidian-git.md",
@@ -180,7 +181,6 @@
     "Defensive Security/Network Traffic Analysis/Tools/Snort/Rules.md",
     "Defensive Security/Network Traffic Analysis/Tools/Snort/Mode Commands.md",
     "Defensive Security/Network Traffic Analysis/Tools/Snort/Investigating PCAP with Snort.md",
-    "Certification Roadmap.md",
     "Defensive Security/Network Traffic Analysis/Tools/Snort/Configuration.md",
     "Defensive Security/Network Traffic Analysis/Tools/Snort/SnortCheatsheet.pdf",
     "Defensive Security/Assets/snort-rule-structure.png",
