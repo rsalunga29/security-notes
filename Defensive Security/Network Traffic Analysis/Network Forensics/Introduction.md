@@ -1,0 +1,1 @@
+Network Forensics is a specific subdomain of the Forensics domain and focuses on network traffic investigation. It is an action of recording packets of network traffic and creating investigable sources and establishing a r

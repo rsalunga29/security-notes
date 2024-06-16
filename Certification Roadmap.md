@@ -27,6 +27,9 @@
 		- Digital Forensics Labs
 	- BlueTeamLabs
 		- Incident Response Labs
+	- Qualys
+		- Vulnerability Management Learning Path
+		- Endpoint Detection and Response Learning Path
 - Certifications
 	- Security Blue Team Level 1 (optional)
 	- HTB Certified Defensive Security Analyst (optional)
