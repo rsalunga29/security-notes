@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Processing using CLI Kung-Fu.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs.md"
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Processing using CLI Kung-Fu.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Processing using CLI Kung-Fu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Processing using CLI Kung-Fu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,8 +170,14 @@
   },
   "active": "2186fee8cfc5f714",
   "lastOpenFiles": [
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Update Frequency.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Processing using CLI Kung-Fu.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Introduction.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Category.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Untitled",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek-Cut.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Commands.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Frameworks.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Introduction.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Architecture.md",
@@ -200,17 +206,11 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Changing User Passwords.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Predictable Reset Token/Weak Token Generation.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Predictable Reset Token/Weak Cryptography.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Predictable Reset Token/Short Token.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Predictable Reset Token/Reset Token as Temporary Password.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Predictable Reset Token/Introduction.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Resetting Passwords Using a URL.md",
     "Defensive Security/YARA",
     "Defensive Security/Network Traffic Analysis",
-    "Defensive Security/Cyber Threat Intelligence",
     "Defensive Security/Assets/yara-rule-anatomy.png",
     "Defensive Security/Assets/unified-kill-chain.png",
     "Defensive Security/Assets/cyber-kill-chain.png",
-    "Defensive Security/Assets",
     "Defensive Security/Assets/pyramid-of-pain.png",
     "DevSecOps/Assets/worker-node.png",
     "DevSecOps/Assets/statefulsets.png",
