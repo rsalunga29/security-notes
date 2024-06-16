@@ -170,8 +170,12 @@
   },
   "active": "2186fee8cfc5f714",
   "lastOpenFiles": [
-    "Defensive Security/Network Forensics/Advantages and Disadvantages.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Architecture.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Frameworks.md",
+    "Defensive Security/Assets/zeek-architecture.png",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Introduction.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek vs Snort.md",
+    "Defensive Security/Network Forensics/Advantages and Disadvantages.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek",
     "Certification Roadmap.md",
     "Defensive Security/Network Forensics/Investigation Process.md",
@@ -200,9 +204,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Resetting Passwords Using a URL.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Username Injection.md",
     "Defensive Security/YARA/Introduction.md",
-    "Defensive Security/YARA/Integrated Tools.md",
-    "Defensive Security/YARA/Rules.md",
-    "Defensive Security/YARA/Modules.md",
     "Defensive Security/YARA",
     "Defensive Security/Network Traffic Analysis",
     "Defensive Security/Cyber Threat Intelligence",
@@ -214,7 +215,6 @@
     "DevSecOps/Assets/worker-node.png",
     "DevSecOps/Assets/statefulsets.png",
     "DevSecOps/Assets/services.png",
-    "DevSecOps/Assets/repeatable-iac.png",
-    "DevSecOps/Assets/ingress.png"
+    "DevSecOps/Assets/repeatable-iac.png"
   ]
 }
