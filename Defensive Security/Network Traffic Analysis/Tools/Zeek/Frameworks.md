@@ -3,7 +3,7 @@ Zeek has several frameworks to provide extended functionality in the scripting l
 The following are the available frameworks:
 - Logging
 - Cluster
-- Signature
+- [Signature](obsidian://open?vault=security-notes&file=Defensive%20Security%2FNetwork%20Traffic%20Analysis%2FTools%2FZeek%2FSignatures)
 - Notice
 - Broker Communication
 - Summary

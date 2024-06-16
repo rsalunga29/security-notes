@@ -1,3 +1,4 @@
+Having the power to manipulate the data at the command line is a crucial skill for analysts. Below is a cheatsheet to help you write kung-fu level CLI queries.
 
 | Category                | Command Purpose and Usage                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Category  | Command Purpose and Usage                                                                                                                                                                                                                                                                                                                       |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -7,3 +8,16 @@
 |   |   |
 |---|---|
 |**Special**|Filter specific fields of Zeek logs:<br><br>`ubuntu@ubuntu$ cat signatures.log \| zeek-cut uid src_addr dst_addr`|
+
+| **Use Case**                                     | **Description**                                                                                  |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `sort \| uniq`                                   | Remove duplicate values.                                                                         |
+| `sort \| uniq -c`                                | Remove duplicates and count the number of occurrences for each value.                            |
+| `sort -nr`                                       | Sort values numerically and recursively.                                                         |
+| `rev`                                            | Reverse string characters.                                                                       |
+| `cut -f 1`                                       | Cut field 1.                                                                                     |
+| `cut -d '.' -f 1-2`                              | Split the string on every dot and print keep the first two fields.                               |
+| `grep -v 'test'`                                 | Display lines that  don't match the "test" string.                                               |
+| `grep -v -e 'test1' -e 'test2'`                  | Display lines that don't match one or both "test1" and "test2" strings.                          |
+| `file`                                           | View file information.                                                                           |
+| `grep -rin Testvalue1 * \| column -t \| less -S` | Search the "Testvalue1" string everywhere, organise column spaces and view the output with less. |
