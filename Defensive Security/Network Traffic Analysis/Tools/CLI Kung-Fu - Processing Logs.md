@@ -11,7 +11,8 @@ Having the power to manipulate the data at the command line is a crucial skill f
 
 | **Use Case**                                     | **Description**                                                                                  |
 | ------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
-| `sort \| uniq`                                   | Remove duplicate values.                                                                         |
+| `wc -l`                                          | Find the total number of lines in a text.                                                        |
+| `sort \| uniq \| wc -l`                          | Remove duplicate value.                                                                          |
 | `sort \| uniq -c`                                | Remove duplicates and count the number of occurrences for each value.                            |
 | `sort -nr`                                       | Sort values numerically and recursively.                                                         |
 | `rev`                                            | Reverse string characters.                                                                       |

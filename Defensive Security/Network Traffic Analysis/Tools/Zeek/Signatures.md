@@ -48,4 +48,3 @@ signature ftp-brute {
     event "FTP Brute-force Attempt"
 }
 ```
-

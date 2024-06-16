@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Signatures.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/CLI Kung-Fu - Processing Logs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Signatures.md"
+                "file": "Defensive Security/Network Traffic Analysis/Tools/CLI Kung-Fu - Processing Logs.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Signatures.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/CLI Kung-Fu - Processing Logs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Signatures.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/CLI Kung-Fu - Processing Logs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,12 +170,12 @@
   },
   "active": "2186fee8cfc5f714",
   "lastOpenFiles": [
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Signatures.md",
+    "Defensive Security/Network Traffic Analysis/Tools/CLI Kung-Fu - Processing Logs.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Commands.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Introduction.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Signatures.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Frameworks.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Zeek-Cut.md",
-    "Defensive Security/Network Traffic Analysis/Tools/CLI Kung-Fu - Processing Logs.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Update Frequency.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Architecture.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Introduction.md",
