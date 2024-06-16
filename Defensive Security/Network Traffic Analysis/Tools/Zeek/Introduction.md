@@ -1,0 +1,1 @@
+Zeek (formerly Bro) is an open-source and commercial network monitoring and traffic analysis tool. It is a passive network traffic analyzer used as a network security monitor (NSM) to support suspicious or malicious activity investigations.

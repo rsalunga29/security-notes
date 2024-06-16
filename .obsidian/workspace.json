@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Network Forensics/Advantages and Disadvantages.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Network Forensics/Advantages and Disadvantages.md"
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Introduction.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Network Forensics/Advantages and Disadvantages.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Network Forensics/Advantages and Disadvantages.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,8 +170,10 @@
   },
   "active": "2186fee8cfc5f714",
   "lastOpenFiles": [
-    "Certification Roadmap.md",
     "Defensive Security/Network Forensics/Advantages and Disadvantages.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Introduction.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek",
+    "Certification Roadmap.md",
     "Defensive Security/Network Forensics/Investigation Process.md",
     "Defensive Security/Network Forensics/Introduction.md",
     "Defensive Security/Network Traffic Analysis/Introduction.md",
@@ -203,14 +205,12 @@
     "Defensive Security/YARA/Modules.md",
     "Defensive Security/YARA",
     "Defensive Security/Network Traffic Analysis",
-    "Defensive Security/Cyber Threat Intelligence/Standards & Frameworks.md",
     "Defensive Security/Cyber Threat Intelligence",
     "Defensive Security/Assets/yara-rule-anatomy.png",
     "Defensive Security/Assets/unified-kill-chain.png",
     "Defensive Security/Assets/cyber-kill-chain.png",
     "Defensive Security/Assets",
     "Defensive Security/Assets/pyramid-of-pain.png",
-    "DevSecOps/Kubernetes",
     "DevSecOps/Assets/worker-node.png",
     "DevSecOps/Assets/statefulsets.png",
     "DevSecOps/Assets/services.png",
