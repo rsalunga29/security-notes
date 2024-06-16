@@ -22,3 +22,8 @@ To process PCAP files with Zeek, we need to run the following command:
 zeek -C -r sample.pcap
 ```
 The following command ignores checksum errors (`-C`) and reads/process the PCAP file (`-r`). This will automatically create logs in the working directory.
+### Using Signature Files
+Zeek uses [signatures](obsidian://open?vault=security-notes&file=Defensive%20Security%2FNetwork%20Traffic%20Analysis%2FTools%2FZeek%2FSignatures) to have rules and event correlations to find noteworthy activities on the network. To use signatures, we need to append the `-s` parameter. For example:
+```bash
+zeek -C -r sample.pcap -s sample.sig
+```
