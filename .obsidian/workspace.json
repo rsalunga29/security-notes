@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Introduction.md"
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs.md"
               }
             }
           }
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.51103591918945
+    "width": 290.5
   },
   "right": {
     "id": "64847627f5c52abb",
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,10 +170,12 @@
   },
   "active": "2186fee8cfc5f714",
   "lastOpenFiles": [
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Architecture.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Commands.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Frameworks.md",
-    "Defensive Security/Assets/zeek-architecture.png",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Introduction.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Architecture.md",
+    "Defensive Security/Assets/zeek-architecture.png",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek vs Snort.md",
     "Defensive Security/Network Forensics/Advantages and Disadvantages.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek",
@@ -202,8 +204,6 @@
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Predictable Reset Token/Reset Token as Temporary Password.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Predictable Reset Token/Introduction.md",
     "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Resetting Passwords Using a URL.md",
-    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Username Injection.md",
-    "Defensive Security/YARA/Introduction.md",
     "Defensive Security/YARA",
     "Defensive Security/Network Traffic Analysis",
     "Defensive Security/Cyber Threat Intelligence",
