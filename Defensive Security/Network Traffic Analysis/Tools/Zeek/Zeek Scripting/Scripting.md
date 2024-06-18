@@ -49,6 +49,11 @@ event signature_match(state: signature_state, msg: string, data: string)
 	}
 }
 ```
+
+To use this, the following command must be used:
+```bash
+zeek -C -r ftp.pcap -s ftp-admin.sig ftp-script.zeek
+```
 ## Load All Local Scripts
 It was mentioned that Zeek has base scripts located in `/opt/zeek/share/zeek/base`. Zeek can load all local scripts identified in the `local.zeek` file. This can be done using the following command:
 ```bash
