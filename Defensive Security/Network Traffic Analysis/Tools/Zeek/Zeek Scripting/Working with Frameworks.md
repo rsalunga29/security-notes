@@ -8,4 +8,8 @@ You can easily load a framework in scripts by calling the specific framework in 
 @load /opt/zeek/share/zeek/policy/frameworks/files/hash-all-files.zeek
 ```
 
-Another way of using a framework is to call it via
+Another way of using a framework is to call it as parameter of a command. For example:
+```bash
+zeek -C -r sample.pcap /opt/zeek/share/zeek/policy/frameworks/files/hash-all-files.zeek
+```
+##
