@@ -9,16 +9,16 @@ Having the power to manipulate the data at the command line is a crucial skill f
 |---|---|
 |**Special**|Filter specific fields of Zeek logs:<br><br>`ubuntu@ubuntu$ cat signatures.log \| zeek-cut uid src_addr dst_addr`|
 
-| **Use Case**                                     | **Description**                                                                                  |
-| ------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
-| `wc -l`                                          | Find the total number of lines in a text.                                                        |
-| `sort \| uniq \| wc -l`                          | Remove duplicate value.                                                                          |
-| `sort \| uniq -c`                                | Remove duplicates and count the number of occurrences for each value.                            |
-| `sort -nr`                                       | Sort values numerically and recursively.                                                         |
-| `rev`                                            | Reverse string characters.                                                                       |
-| `cut -f 1`                                       | Cut field 1.                                                                                     |
-| `cut -d '.' -f 1-2`                              | Split the string on every dot and print keep the first two fields.                               |
-| `grep -v 'test'`                                 | Display lines that  don't match the "test" string.                                               |
-| `grep -v -e 'test1' -e 'test2'`                  | Display lines that don't match one or both "test1" and "test2" strings.                          |
-| `file`                                           | View file information.                                                                           |
-| `grep -rin Testvalue1 * \| column -t \| less -S` | Search the "Testvalue1" string everywhere, organise column spaces and view the output with less. |
+| **Use Case**                                     | **Description**                                                                                                                                                            |
+| ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `wc -l`                                          | Find the total number of lines in a text.                                                                                                                                  |
+| `sort \| uniq \| wc -l`                          | Remove duplicate value.                                                                                                                                                    |
+| `sort \| uniq -c`                                | Remove duplicates and count the number of occurrences for each value.                                                                                                      |
+| `sort -nr`                                       | Sort values numerically and recursively.                                                                                                                                   |
+| `rev`                                            | Reverse string characters.                                                                                                                                                 |
+| `cut -f 1`                                       | Cut field 1.                                                                                                                                                               |
+| `cut -d '.' -f 1-2`                              | Split the string on every dot and print keep the first two fields.                                                                                                         |
+| `grep -v 'test'`                                 | Display lines that  don't match the "test" string.                                                                                                                         |
+| `grep -v -e 'test1' -e 'test2'`                  | Display lines that don't match one or both "test1" and "test2" strings.                                                                                                    |
+| `file`                                           | View file information.                                                                                                                                                     |
+| `grep -rin Testvalue1 * \| column -t \| less -S` | Search the "Testvalue1" string everywhere, organise column spaces and view the output with less.<br><br>This will help with correlating the string on different log files. |
