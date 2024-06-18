@@ -17,13 +17,6 @@ Zeek scripting is a programming language itself, learn and practice Zeek scripti
 ## Built-In Functions
 There are multiple options to trigger conditions in Zeek. Zeek can use "Built-In Function" (Bif) and protocols to extract information from traffic data. You can find supported protocols and Bif either by looking in your setup or visiting the [Zeek repo](https://docs.zeek.org/en/master/script-reference/scripts.html).
 ## Example Usage
-Below is an example of a Zeek script, which tells Zeek to extract DHCP hostnames.
-```zeek
-event dhcp_message (c: connection, is_orig: bool, msg: DHCP::Msg, options: DHCP::Options)
-{
-	print options$host_name;
-}
-```
 To use this script, you need to call the script name at the end of the command. For example:
 ```bash
 zeek -C -r sample.pcap dhcp-hostname.zeek
