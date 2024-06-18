@@ -49,4 +49,19 @@ event signature_match(state: signature_state, msg: string, data: string)
 	}
 }
 ```
-## Load Local Scripts
+## Load All Local Scripts
+It was mentioned that Zeek has base scripts located in `/opt/zeek/share/zeek/base`. Zeek can load all local scripts identified in the `local.zeek` file. This can be done using the following command:
+```bash
+zeek -C -r ftp.pcap local
+```
+This will run all base scripts using the "local" command. Loaded scripts generated `loaded_scripts.log`, `capture_loss.log`, `notice.log`, and `stats.log` files. However, Zeek doesn't provide log files for the scripts doesn't have hits or results.
+
+To add scripts to be loaded in the `local.zeek` file. All we need to do is to load them with the command `load @/script/path` or `load @script-name`. For example:
+```zeek
+@load custom/script.zeek
+```
+## Load Specific Scripts
+Another way to load scripts is by identifying the script path. For example:
+```bash
+zeek -C -r ftp.pcap /opt/zeek/share/zeek/policy/protocols/ftp/detect-bruteforcing.zeek
+```
