@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 290.5,
+    "collapsed": true
   },
   "right": {
     "id": "64847627f5c52abb",
@@ -170,8 +171,11 @@
   },
   "active": "2186fee8cfc5f714",
   "lastOpenFiles": [
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Signatures.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Category.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Zeek-Cut.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Commands.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Scripts/Introduction.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Signatures.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Unicode Encoding.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Scripts",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/URL Encoding.md",
@@ -181,14 +185,11 @@
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypass Browser Filters.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypass Sanitization.md",
     "Defensive Security/Network Traffic Analysis/Tools/CLI Kung-Fu - Processing Logs.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Commands.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Introduction.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Frameworks.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Zeek-Cut.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Update Frequency.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Architecture.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Introduction.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Category.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Untitled",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs",
     "Defensive Security/Assets/zeek-architecture.png",
