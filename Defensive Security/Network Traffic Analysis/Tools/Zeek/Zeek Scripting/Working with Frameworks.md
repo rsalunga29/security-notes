@@ -12,4 +12,8 @@ Another way of using a framework is to call it as parameter of a command. For ex
 ```bash
 zeek -C -r sample.pcap /opt/zeek/share/zeek/policy/frameworks/files/hash-all-files.zeek
 ```
-##
+## Some Examples
+### File Framework - Hashes
+This file framework will perform MD5 and SHA1 hashing on all files that are transferred, this will create a `files.log`.
+### File Framework - Extract Files
+The file framework can extract the files transferred. A new folder called "extract_files" is automatically created, and all detected files are located in it.
