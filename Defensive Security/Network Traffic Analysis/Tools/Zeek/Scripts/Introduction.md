@@ -1,0 +1,1 @@
+Zeek has its own event-driven scripting language, which allows defenders to investigate and correlate the detected events.
