@@ -171,6 +171,7 @@
   "active": "2186fee8cfc5f714",
   "lastOpenFiles": [
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/URL Encoding.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Unicode Encoding.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Base36 and Base64 Encoding.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters/Bypassing Weak script Filters..md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters/JavaScript using HTML Attributes and Events.md",
@@ -200,7 +201,6 @@
     "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md",
     "Defensive Security/Network Forensics",
     "Defensive Security/Network Traffic Analysis/Tools/Snort/Rules.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Snort/Mode Commands.md",
     "Defensive Security/Network Traffic Analysis/Tools/Snort/SnortCheatsheet.pdf",
     "Defensive Security/Assets/snort-rule-structure.png",
     "Defensive Security/Network Traffic Analysis/Tools/Snort",
