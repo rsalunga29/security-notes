@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Packages.md",
+                "file": "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Packages.md"
+                "file": "Offensive Security/Network Security/Exploitation/Reverse Shells.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Packages.md",
+                "file": "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Packages.md",
+                "file": "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,8 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,8 +169,9 @@
   },
   "active": "2186fee8cfc5f714",
   "lastOpenFiles": [
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Working with Frameworks.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Packages.md",
+    "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Working with Frameworks.md",
     "Defensive Security/Network Forensics/Introduction.md",
     "Defensive Security/Network Traffic Analysis/Tools/CLI Kung-Fu - Processing Logs.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Frameworks.md",
@@ -200,7 +200,6 @@
     "Defensive Security/Network Traffic Analysis/Tools/Zeek vs Snort.md",
     "Defensive Security/Network Forensics/Advantages and Disadvantages.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek",
-    "Defensive Security/Network Forensics/Investigation Process.md",
     "Defensive Security/Network Forensics",
     "Defensive Security/Network Traffic Analysis/Tools/Snort/SnortCheatsheet.pdf",
     "Defensive Security/Assets/snort-rule-structure.png",
