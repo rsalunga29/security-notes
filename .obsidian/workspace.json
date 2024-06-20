@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Packages.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Offensive Security/Network Security/Exploitation/Reverse Shells.md"
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Packages.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Packages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Packages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,8 +169,8 @@
   },
   "active": "2186fee8cfc5f714",
   "lastOpenFiles": [
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Packages.md",
     "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Packages.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Working with Frameworks.md",
     "Defensive Security/Network Forensics/Introduction.md",
     "Defensive Security/Network Traffic Analysis/Tools/CLI Kung-Fu - Processing Logs.md",
