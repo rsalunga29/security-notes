@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "2fbec4c08bcabc26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "30561c69d3abdc0d",
             "type": "leaf",
             "pinned": true,
@@ -45,7 +57,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Cyber Threat Intelligence/Introduction.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -129,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Cyber Threat Intelligence/Introduction.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Cyber Threat Intelligence/Introduction.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,8 +193,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c71a28aed54042b",
+  "active": "2fbec4c08bcabc26",
   "lastOpenFiles": [
+    "Defensive Security/Cyber Threat Intelligence/Introduction.md",
+    "Untitled.md",
     "Certification Roadmap.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Working with Frameworks.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Scripting.md",
@@ -214,9 +229,7 @@
     "Defensive Security/Network Traffic Analysis/Tools/Snort/Configuration.md",
     "Defensive Security/Network Traffic Analysis/Tools/Snort",
     "Defensive Security/Network Traffic Analysis/Tools",
-    "Defensive Security/Network Traffic Analysis/Intrusion Detection & Prevention System.md",
     "Defensive Security/Assets/snort-rule-structure.png",
-    "Defensive Security/Network Traffic Analysis/Introduction.md",
     "Defensive Security/Network Traffic Analysis",
     "Defensive Security/Assets/yara-rule-anatomy.png",
     "Defensive Security/YARA",
