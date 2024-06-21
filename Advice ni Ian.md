@@ -17,4 +17,4 @@ Then as your organization matures, mas nagiging complex yun phishing simulation.
 
 Need rin ng punishment and reward for those who fail or pass the phishing simulation.
 ## Security Culture
-Security culture is a set of ideas, norms, and social behaviors of an employee within an organizations.
+Security culture is a set of ideas, norms, and social behaviors that shape how an organization's employees engage with and take responsibility for security issues.
