@@ -16,3 +16,5 @@ Start na easy or very noob-friendly phishing campaign. Like asking them to click
 Then as your organization matures, mas nagiging complex yun phishing simulation.
 
 Need rin ng punishment and reward for those who fail or pass the phishing simulation.
+## Security Culture
+Security culture is a set of ideas, norms, and social behaviors of an employee within an organizations.
