@@ -27,6 +27,8 @@
 		- Digital Forensics Labs
 	- BlueTeamLabs
 		- Incident Response Labs
+	- PwnedLabs
+		- AWS Attack & Defense
 	- Qualys
 		- Vulnerability Management Learning Path
 		- Endpoint Detection and Response Learning Path
