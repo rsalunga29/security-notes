@@ -33,8 +33,7 @@
               "pinned": true
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certification Roadmap.md"
+                "file": "Advice ni Ian.md"
               }
             }
           }
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Advice ni Ian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Advice ni Ian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,10 +168,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30561c69d3abdc0d",
+  "active": "2fbec4c08bcabc26",
   "lastOpenFiles": [
-    "Advice ni Ian.md",
     "Certification Roadmap.md",
+    "Advice ni Ian.md",
     "Defensive Security/Cyber Threat Intelligence/Introduction.md",
     "Defensive Security/Network Traffic Analysis/Introduction.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Working with Frameworks.md",
