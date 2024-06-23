@@ -19,6 +19,6 @@ Need rin ng punishment and reward for those who fail or pass the phishing simula
 ## Security Culture
 Security culture is a set of ideas, norms, and social behaviors that shape how an organization's employees engage with and take responsibility for security issues, their adherence to security policies, their proactive involvement in safeguarding data, and their commitment to maintaining a secure work environment.
 ## Security Assessment
-Determine the goal. Is it to test the IR capability or improve defenses by looking for gaps.
+Determine the goal. Is it to test the IR capability, test speed of IR, look for gaps in IR process, or look for gaps in defenses?
 
 Might need a dedicated purple team or red team based on the goal of the assessment.
