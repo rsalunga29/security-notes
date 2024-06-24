@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Working with Frameworks.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Brim/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Working with Frameworks.md"
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Brim/Introduction.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Working with Frameworks.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Brim/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Working with Frameworks.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Brim/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,10 +168,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2186fee8cfc5f714",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Frameworks.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Working with Frameworks.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Brim/Introduction.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Brim",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Frameworks.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Scripting.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Packages.md",
     "Defensive Security/Network Traffic Analysis/Tools/CLI Kung-Fu - Processing Logs.md",
@@ -196,7 +198,6 @@
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/URL Encoding.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Base36 and Base64 Encoding.md",
     "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters/Bypassing Weak script Filters..md",
-    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters/JavaScript using HTML Attributes and Events.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Untitled",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs",
     "Defensive Security/Assets/zeek-architecture.png",
@@ -207,7 +208,6 @@
     "Defensive Security/Network Traffic Analysis/Tools/Snort",
     "Defensive Security/Network Traffic Analysis/Tools/Snort",
     "Defensive Security/Network Traffic Analysis/Tools",
-    "Defensive Security/YARA",
     "Defensive Security/Assets/yara-rule-anatomy.png",
     "Defensive Security/Assets/unified-kill-chain.png",
     "Defensive Security/Assets/cyber-kill-chain.png",
