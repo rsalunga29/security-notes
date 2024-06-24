@@ -15,3 +15,5 @@ It can handle two types of data as input:
 Brim reduces the time and effort spent processing and investigating PCAP files larger than 1GB, in which Wireshark is slow.
 ## Brim vs Wireshark vs Zeek
 While each of them is powerful and useful, each tool has its own strength and weaknesses. The common best practice is handling medium-sized pcaps with Wireshark, creating logs and correlating events with Zeek, and processing multiple logs in Brim.
+# Tutorial
+Visit [TryHackMe - Brim](https://tryhackme.com/r/room/brim).
