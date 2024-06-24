@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Brim/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Brim/Example Queries.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Brim/Introduction.md"
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Brim/Example Queries.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Brim/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Brim/Example Queries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Brim/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Brim/Example Queries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,8 +170,8 @@
   },
   "active": "2186fee8cfc5f714",
   "lastOpenFiles": [
-    "Defensive Security/Network Traffic Analysis/Tools/Brim/Example Queries.md",
     "Defensive Security/Network Traffic Analysis/Tools/Brim/Introduction.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Brim/Example Queries.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Working with Frameworks.md",
     "Defensive Security/Network Traffic Analysis/Tools/Brim",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Frameworks.md",
