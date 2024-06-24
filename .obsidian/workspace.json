@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2fbec4c08bcabc26",
+            "id": "2186fee8cfc5f714",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advice ni Ian.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Packages.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advice ni Ian.md"
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Packages.md"
               }
             }
           }
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.51103591918945
+    "width": 290.5
   },
   "right": {
     "id": "64847627f5c52abb",
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advice ni Ian.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Packages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advice ni Ian.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Packages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,53 +168,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2fbec4c08bcabc26",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
-    "Certification Roadmap.md",
     "Advice ni Ian.md",
-    "Defensive Security/Cyber Threat Intelligence/Introduction.md",
-    "Defensive Security/Network Traffic Analysis/Introduction.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Working with Frameworks.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Scripting.md",
+    "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Packages.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Introduction.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Zeek-Cut.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Update Frequency.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Introduction.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Category.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Signatures.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Working with Frameworks.md",
+    "Defensive Security/Network Forensics/Introduction.md",
+    "Defensive Security/Network Traffic Analysis/Tools/CLI Kung-Fu - Processing Logs.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Frameworks.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Introduction.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Introduction.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Scripting.md",
+    "Certification Roadmap.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Zeek-Cut.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Category.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Commands.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Signatures.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Unicode Encoding.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/URL Encoding.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/Encoding/Base36 and Base64 Encoding.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters/Bypassing Weak script Filters..md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypassing Blacklisting Filters/JavaScript using HTML Attributes and Events.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypass Browser Filters.md",
+    "Offensive Security/Web Application Security/Encoding, Evasions, and Bypasses/XSS Bypass/Bypass Sanitization.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Update Frequency.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Architecture.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek vs Snort.md",
-    "Defensive Security/Network Traffic Analysis/Tools/CLI Kung-Fu - Processing Logs.md",
-    "Defensive Security/Network Forensics/Investigation Process.md",
-    "Defensive Security/Network Forensics/Introduction.md",
-    "Defensive Security/Network Forensics/Advantages and Disadvantages.md",
-    "Defensive Security/Network Forensics",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Introduction.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Untitled",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs",
     "Defensive Security/Assets/zeek-architecture.png",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek vs Snort.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek",
+    "Defensive Security/Network Forensics",
     "Defensive Security/Network Traffic Analysis/Tools/Snort/SnortCheatsheet.pdf",
-    "Defensive Security/Network Traffic Analysis/Tools/Snort/Rules.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Snort/Investigating PCAP with Snort.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Snort/Mode Commands.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Snort/Introduction.md",
+    "Defensive Security/Assets/snort-rule-structure.png",
+    "Defensive Security/Network Traffic Analysis/Tools/Snort",
     "Defensive Security/Network Traffic Analysis/Tools/Snort",
     "Defensive Security/Network Traffic Analysis/Tools",
-    "Defensive Security/Assets/snort-rule-structure.png",
-    "Defensive Security/Network Traffic Analysis",
-    "Defensive Security/Assets/yara-rule-anatomy.png",
     "Defensive Security/YARA",
-    "Defensive Security/Cyber Threat Intelligence",
+    "Defensive Security/Assets/yara-rule-anatomy.png",
     "Defensive Security/Assets/unified-kill-chain.png",
-    "Defensive Security/Assets/pyramid-of-pain.png",
     "Defensive Security/Assets/cyber-kill-chain.png",
-    "DevSecOps/Assets/repeatable-iac.png",
-    "DevSecOps/Assets/continual-iac.png",
-    "DevSecOps/Assets/ingress.png",
-    "DevSecOps/Assets/services.png"
+    "Defensive Security/Assets/pyramid-of-pain.png",
+    "DevSecOps/Assets/worker-node.png",
+    "DevSecOps/Assets/statefulsets.png",
+    "DevSecOps/Assets/services.png",
+    "DevSecOps/Assets/repeatable-iac.png"
   ]
 }
