@@ -15,8 +15,14 @@ zeek -C -r sample.pcap /opt/zeek/share/zeek/policy/frameworks/files/hash-all-fil
 ## Some Examples
 ### File Framework - Hashes
 This file framework will perform MD5 and SHA1 hashing on all files that are transferred, this will create a `files.log`.
+```bash
+zeek -C -r sample.pcap /opt/zeek/share/zeek/policy/frameworks/files/hash-all-files.zeek
+```
 ### File Framework - Extract Files
 The file framework can extract the files transferred. A new folder called "extract_files" is automatically created, and all detected files are located in it.
+```bash
+zeek -C -r sample.pcap /opt/zeek/share/zeek/policy/frameworks/files/extract-all-files.zeek
+```
 ### Notice Framework - Intelligence
 The intelligence framework can work with data feeds to process and correlate events and identify anomalies. The intelligence framework requires a feed to match and create alerts from the network traffic.
 
