@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Endpoint Security/Introduction.md",
+                "file": "Advice ni Ian.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Endpoint Security/Introduction.md"
+                "file": "Advice ni Ian.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Endpoint Security/Introduction.md",
+                "file": "Advice ni Ian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Endpoint Security/Introduction.md",
+                "file": "Advice ni Ian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,9 +170,9 @@
   },
   "active": "2186fee8cfc5f714",
   "lastOpenFiles": [
+    "Defensive Security/Endpoint Security/Introduction.md",
     "Defensive Security/Phishing Analysis/Introduction.md",
     "Defensive Security/SIEM/Introduction.md",
-    "Defensive Security/Endpoint Security/Introduction.md",
     "Defensive Security/DFIR/Introduction.md",
     "Defensive Security/Network Traffic Analysis/Tools/Brim/Example Queries.md",
     "Defensive Security/Phishing Analysis",
