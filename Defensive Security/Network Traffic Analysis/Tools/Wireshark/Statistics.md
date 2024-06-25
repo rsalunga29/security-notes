@@ -1,0 +1,4 @@
+This menu provides multiple statistics options ready to investigate to help users see the big picture in terms of the scope of the traffic, available protocols, endpoints and conversations, and some protocol-specific details like DHCP, DNS and HTTP/2.
+## Resolved Addresses
+This option helps analysts identify IP addresses and DNS names available in the capture file by providing the list of the resolved addresses and their hostnames. The hostname information is taken from DNS answers in the capture file.
+You can use the **"Statistics --> Resolved Addresses"** menu to view all resolved addresses by Wireshark.
