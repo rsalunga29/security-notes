@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTP.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTP.md"
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md"
               }
             }
           }
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5,
-    "collapsed": true
+    "width": 290.5
   },
   "right": {
     "id": "64847627f5c52abb",
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTP.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTP.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,8 +170,9 @@
   },
   "active": "2186fee8cfc5f714",
   "lastOpenFiles": [
-    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/FTP.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTP.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/FTP.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/DHCP, NBNS and Kerberos.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/ARP Poisoning & MITM.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/Tunneling Traffic.md",
@@ -206,7 +206,6 @@
     "Defensive Security/Network Traffic Analysis/Tools/Brim",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Frameworks.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Scripting.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Packages.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Untitled",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs",
