@@ -1,0 +1,14 @@
+## ICMP
+Internet Control Message Protocol (ICMP) is designed for diagnosing and reporting network communication issues.
+
+| **Notes**                                                                                                                                                                | **Wireshark filters**      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------- |
+| Global search                                                                                                                                                            | - `icmp`                   |
+| "ICMP" options for grabbing the low-hanging fruits:<br><br>- Packet length.<br>- ICMP destination addresses.  <br>    <br>- Encapsulated protocol signs in ICMP payload. | - `data.len > 64 and icmp` |
+## DNS
+Domain Name System (DNS) is designed to translate/convert IP domain addresses to IP addresses. It is also known as a phonebook of the internet.
+
+| **Notes**                                                                                                                                                                                                                                                                                                                                                                                 | **Wireshark Filter**                                                 |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| Global search                                                                                                                                                                                                                                                                                                                                                                             | - `dns`                                                              |
+| "DNS" options for grabbing the low-hanging fruits:<br><br>- Query length.<br>- Anomalous and non-regular names in DNS addresses.<br>- Long DNS addresses with encoded subdomain addresses.<br>- Known patterns like dnscat and dns2tcp.<br>- Statistical analysis like the anomalous volume of DNS requests for a particular target.<br><br>**!mdns:** Disable local link device queries. | - `dns contains "dnscat"`<br><br>- `dns.qry.name.len > 15 and !mdns` |

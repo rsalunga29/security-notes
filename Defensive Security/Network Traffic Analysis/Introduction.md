@@ -11,6 +11,8 @@ Benefits of the Traffic Analysis:
 - Provides full network visibility.
 - Helps comprehensive baselining for asset tracking.
 - Helps to detect/respond to anomalies and threats.
+
+> Note: Visit Tools folder to view traffic analysis using different tools.
 ## Flow Analysis
 Collecting data/evidence from the networking devices. This type of analysis aims to provide statistical results without applying in-depth packet-level investigation.
 
