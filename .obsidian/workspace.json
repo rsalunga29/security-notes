@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advice ni Ian.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advice ni Ian.md"
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Introduction.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advice ni Ian.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advice ni Ian.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,10 @@
   },
   "active": "2186fee8cfc5f714",
   "lastOpenFiles": [
+    "Defensive Security/Network Traffic Analysis/Tools/Wireshark",
     "Defensive Security/Endpoint Security/Introduction.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Introduction.md",
+    "Advice ni Ian.md",
     "Defensive Security/Phishing Analysis/Introduction.md",
     "Defensive Security/SIEM/Introduction.md",
     "Defensive Security/DFIR/Introduction.md",
@@ -197,10 +200,7 @@
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Update Frequency.md",
     "Defensive Security/Cyber Threat Intelligence/CTI Tools.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek vs Snort.md",
-    "Advice ni Ian.md",
     "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
-    "Defensive Security/Network Forensics/Introduction.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Introduction.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Untitled",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs",
