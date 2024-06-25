@@ -14,6 +14,6 @@ To save the values of these key pairs as key log files, we need to use a suitabl
 Note: SSL/TLS key pairs are created per session at the connection time, so it is important to dump the keys during the traffic capture.
 
 To save and utilize a key log file. Follow the following steps:
-1. Setup an environment variable.
+1. Setup an environment variable named "SSLKEYLOGFILE".
 2. Create a file named SSLKEYLOGFILE (this is where the browser will dump the keys as you browse the web).
 3. Go to the "Edit --> Preferences --> Protocols --> TLS" menu to add/remove key log files.
