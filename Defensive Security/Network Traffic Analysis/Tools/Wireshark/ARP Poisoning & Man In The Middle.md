@@ -23,3 +23,24 @@ Here we have our notes below:
 | Possible IP address match.     | 1 IP address announced from a MAC address.                                                                                  | - MAC: 00:0c:29:e2:18:b4<br>- IP: 192.168.1.25          |
 | Possible ARP spoofing attempt. | 2 MAC addresses claimed the same IP address (192.168.1.1).  <br>The "192.168.1.1" IP address is a possible gateway address. | - MAC1: 50:78:b3:f3:cd:f4<br>- MAC 2: 00:0c:29:e2:18:b4 |
 | Possible ARP flooding attempt. | The MAC address that ends with "b4" claims to have a different/new IP address.                                              | - MAC: 00:0c:29:e2:18:b4<br>- IP: 192.168.1.1           |
+A flood of ARP requests could be a sign of a malicious activity, scan or network problems. Look at the given picture below, it is evident that there is a new anomaly.
+![[arp-analysis-2.png]]
+The MAC address that ends with "b4" crafted multiple ARP requests with the "192.168.1.25" IP address. We update our notes with:
+
+| Notes                          | Detection Notes                                                                                    | Findings                                        |
+| ------------------------------ | -------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| Possible ARP flooding attempt. | The MAC address that ends with "b4" crafted multiple ARP requests against a range of IP addresses. | - MAC: 00:0c:29:e2:18:b4<br>- IP: 192.168.1.xxx |
+Based on our notes and findings, we can so far conclude that the MAC address that ends with "b4" owns the "192.168.1.25" IP address and crafted suspicious ARP requests against a range of IP addresses. It also claimed to have the possible gateway address as well.
+### Correlating with Other Protocols
+Checking the HTTP traffic, everything look normal at the IP level, but if we added the MAC addresses as columns, we can see there is another anomaly.
+![[arp-analysis-3.png]]
+The MAC address that ends with "b4" is the destination of all HTTP packets! A clear evidence of a MITM attack, and the attacker is the MAC address that ends with "b4".
+### Conclusion
+Our final notes and findings are as follows:
+
+| Detection Notes    | Findings                                        |                                                                                                                                         |
+| ------------------ | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| IP to MAC matches. | 3  IP to MAC address matches.                   | - MAC: 00:0c:29:e2:18:b4 = IP: 192.168.1.25<br>- MAC: 50:78:b3:f3:cd:f4 = IP: 192.1681.1<br>- MAC: 00:0c:29:98:c7:a8 = IP: 192.168.1.12 |
+| Attacker           | The attacker created noise with ARP packets.    | - MAC: 00:0c:29:e2:18:b4 = IP: 192.168.1.25                                                                                             |
+| Router/gateway     | Gateway address.                                | - MAC: 50:78:b3:f3:cd:f4 = IP: 192.1681.1                                                                                               |
+| Victim             | The attacker sniffed all traffic of the victim. | - MAC: 50:78:b3:f3:cd:f4 = IP: 192.1681.12                                                                                              |
