@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Filtering.md",
+                "file": "Defensive Security/Network Traffic Analysis/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Filtering.md"
+                "file": "Defensive Security/Network Traffic Analysis/Introduction.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Filtering.md",
+                "file": "Defensive Security/Network Traffic Analysis/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Filtering.md",
+                "file": "Defensive Security/Network Traffic Analysis/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,13 +170,16 @@
   },
   "active": "2186fee8cfc5f714",
   "lastOpenFiles": [
+    "Defensive Security/Network Traffic Analysis/Intrusion Detection & Prevention System.md",
+    "Defensive Security/Network Traffic Analysis/Introduction.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/DHCP, NBNS and Kerberos.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/ARP Poisoning & Man In The Middle.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Filtering.md",
     "Certification Roadmap.md",
     "Defensive Security/Assets/arp-analysis-3.png",
     "Defensive Security/Assets/arp-analysis-2.png",
     "Defensive Security/Assets/arp-analysis-1.png",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Nmap Scans.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Filtering.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Statistics.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Introduction.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark",
@@ -202,9 +205,6 @@
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Signatures.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Introduction.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Architecture.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Zeek-Cut.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Category.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Introduction.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Untitled",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs",

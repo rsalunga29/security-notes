@@ -21,6 +21,13 @@ Wireshark's filter toolbar is where filters are created and applied. It is a sma
 | or          | \|         | Logical OR      | `(ip.src == 10.10.10.100) OR (ip.src == 10.10.10.111)`                                                |
 | not         | !          | Logical NOT     | `!(ip.src == 10.10.10.222)`<br><br>**Note:** Usage of `!=value` is deprecated; Use `!(value)` instead |
 ## Protocol Filters
+### Ethernet Filters
+| Filter                          | Description                                                     |
+| ------------------------------- | --------------------------------------------------------------- |
+| `eth`                           | Show all ethernet packets.                                      |
+| `eth.addr == 08:00:08:15:ca:fe` | Show all packets containing ethernet address 08:00:08:15:ca:fe. |
+| `eth.src == 08:00:08:15:ca:fe`  | Show all packets originated from 08:00:08:15:ca:fe              |
+| `eth.dst == 08:00:08:15:ca:fe`  | Show all packets sent to 08:00:08:15:ca:fe                      |
 ### IP Filters
 
 | Filter                     | Description                                                         |
