@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Filtering.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Introduction.md"
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Filtering.md"
               }
             }
           }
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5,
-    "collapsed": true
+    "width": 290.5
   },
   "right": {
     "id": "64847627f5c52abb",
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Filtering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Filtering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,9 +170,11 @@
   },
   "active": "2186fee8cfc5f714",
   "lastOpenFiles": [
+    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Nmap Scans.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Filtering.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Introduction.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark",
     "Defensive Security/Endpoint Security/Introduction.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Introduction.md",
     "Advice ni Ian.md",
     "Defensive Security/Phishing Analysis/Introduction.md",
     "Defensive Security/SIEM/Introduction.md",
@@ -201,13 +202,11 @@
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Update Frequency.md",
     "Defensive Security/Cyber Threat Intelligence/CTI Tools.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek vs Snort.md",
-    "Offensive Security/Network Security/Exploitation/Reverse Shells.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Untitled",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs",
     "Defensive Security/Assets/zeek-architecture.png",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek",
-    "Defensive Security/Network Forensics",
     "Defensive Security/Assets/snort-rule-structure.png",
     "Defensive Security/Assets/yara-rule-anatomy.png",
     "Defensive Security/Assets/unified-kill-chain.png",
