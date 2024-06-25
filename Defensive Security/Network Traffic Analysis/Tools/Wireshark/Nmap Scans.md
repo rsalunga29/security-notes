@@ -1,3 +1,4 @@
+Nmap is an industry-standard tool for mapping networks, identifying live hosts and discovering the services. It is one of the most used network scanner tools.
 ## TCP Flags
 
 | **Notes**                                                                                | **Wireshark Filters**                                                      |

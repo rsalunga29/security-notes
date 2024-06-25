@@ -1,0 +1,3 @@
+Address Resolution Protocol (ARP) is the technology responsible for allowing devices to identify themselves on a network.
+
+ARP Poisoning also known as ARP Spoofing or Man In The Middle (MITM) attack is a type of attack that involves network jamming/manipulating by sending malicious ARP packets to the default gateway. The ultimate aim is to manipulate the **"IP to MAC address table"** and sniff the traffic of the target host.
