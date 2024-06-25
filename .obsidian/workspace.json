@@ -33,7 +33,8 @@
               "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md"
+                "file": "Certification Roadmap.md"
               }
             }
           }
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md",
+                "file": "Certification Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md",
+                "file": "Certification Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,10 +169,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2186fee8cfc5f714",
+  "active": "30561c69d3abdc0d",
   "lastOpenFiles": [
-    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTP.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTP.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/FTP.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/DHCP, NBNS and Kerberos.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/ARP Poisoning & MITM.md",

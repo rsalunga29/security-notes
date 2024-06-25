@@ -44,7 +44,7 @@
 	- IDS/IPS: Suricata (NIDS) and Wazuh Agent (HIDS)
 	- SIEM: Wazuh SIEM
 	- Active Directory: 1 DC, 2 User (1 IIS)
-### Q4 2024 / Q1 2025 and Beyond
+### Q1 2025 and Beyond
 - Study Materials
 	- TCM Academy
 		- Practical Ethical Hacking
@@ -59,4 +59,3 @@
 	- Altered Security Certified Red Team Practitioner
 	- Offensive Security Certified Professional
 	- Offensive Security Web Expert
-	- API Security Certified Professional
