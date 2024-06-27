@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advice ni Ian.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advice ni Ian.md"
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advice ni Ian.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advice ni Ian.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,8 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,6 +169,7 @@
   },
   "active": "2186fee8cfc5f714",
   "lastOpenFiles": [
+    "Advice ni Ian.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md",
     "Certification Roadmap.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTP.md",
@@ -192,7 +192,6 @@
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Statistics.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark",
     "Defensive Security/Endpoint Security/Introduction.md",
-    "Advice ni Ian.md",
     "Defensive Security/Phishing Analysis/Introduction.md",
     "Defensive Security/SIEM/Introduction.md",
     "Defensive Security/DFIR/Introduction.md",
