@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.51103591918945,
-    "collapsed": true
+    "width": 264.51103591918945
   },
   "right": {
     "id": "64847627f5c52abb",
@@ -171,11 +170,13 @@
   },
   "active": "02a9d537713ebb01",
   "lastOpenFiles": [
-    "Defensive Security/Endpoint Security/Core Windows Processes/System.md",
+    "Defensive Security/Endpoint Security/Core Windows Processes/services.exe.md",
     "Defensive Security/Endpoint Security/Core Windows Processes/smss.exe.md",
-    "Defensive Security/Endpoint Security/Core Windows Processes/csrss.exe.md",
-    "Defensive Security/Endpoint Security/Core Windows Processes/Task Manager.md",
     "Defensive Security/Endpoint Security/Core Windows Processes/Introduction.md",
+    "Defensive Security/Endpoint Security/Core Windows Processes/csrss.exe.md",
+    "Defensive Security/Endpoint Security/Core Windows Processes/wininit.exe.md",
+    "Defensive Security/Endpoint Security/Core Windows Processes/System.md",
+    "Defensive Security/Endpoint Security/Core Windows Processes/Task Manager.md",
     "Defensive Security/Endpoint Security/Fundamentals.md",
     "Defensive Security/Endpoint Security/Core Windows Processes",
     "Defensive Security/Endpoint Security/Log Analysis.md",
@@ -203,8 +204,6 @@
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/ARP Poisoning & MITM.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Statistics.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Introduction.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Filtering.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark",
     "Defensive Security/Assets/arp-analysis-1.png",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting",
