@@ -1,0 +1,3 @@
+The smss.exe (Session Manager Subsystem) also known as Windows Session Manager, is responsible for creating new sessions. It is the first user-mode process started by the kernel. It's parent process is [System](obsidian://open?vault=security-notes&file=Defensive%20Security%2FEndpoint%20Security%2FCore%20Windows%20Processes%2FSystem).
+
+This process starts the kernel and user modes of the Windows subsystem which includes win32k.sys (kernel mode),
