@@ -8,6 +8,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "02a9d537713ebb01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Defensive Security/Endpoint Security/Fundamentals.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "30561c69d3abdc0d",
             "type": "leaf",
             "pinned": true,
@@ -73,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certification Roadmap.md"
+                "file": "Defensive Security/Endpoint Security/Fundamentals.md"
               }
             }
           }
@@ -105,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Defensive Security/Endpoint Security/Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certification Roadmap.md",
+                "file": "Defensive Security/Endpoint Security/Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,8 +168,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30561c69d3abdc0d",
+  "active": "02a9d537713ebb01",
   "lastOpenFiles": [
+    "Defensive Security/Endpoint Security/Core Windows Processes.md",
+    "Defensive Security/Endpoint Security/Fundamentals.md",
+    "Certification Roadmap.md",
     "Defensive Security/SIEM/Introduction.md",
     "Defensive Security/SIEM",
     "Defensive Security/Phishing Analysis/Introduction.md",
@@ -165,7 +180,6 @@
     "Defensive Security/Network Traffic Analysis/Tools/Brim/Introduction.md",
     "Defensive Security/Network Traffic Analysis/Tools/Brim/Example Queries.md",
     "Defensive Security/Network Traffic Analysis/Tools/Brim",
-    "Defensive Security/Endpoint Security/Introduction.md",
     "Defensive Security/Endpoint Security",
     "Defensive Security/DFIR/Introduction.md",
     "Defensive Security/DFIR",
@@ -183,7 +197,6 @@
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Filtering.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark",
     "Defensive Security/Assets/arp-analysis-1.png",
-    "Certification Roadmap.md",
     "Defensive Security/Cyber Threat Intelligence/Introduction.md",
     "Defensive Security/Network Traffic Analysis/Introduction.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Working with Frameworks.md",
@@ -191,7 +204,6 @@
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Packages.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Introduction.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Zeek-Cut.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Update Frequency.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek",
