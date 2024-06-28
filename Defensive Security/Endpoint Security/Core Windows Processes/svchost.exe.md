@@ -5,7 +5,8 @@ The services running in this process are implemented as DLLs. The DLL to imple
 2. Go to "Services" and click "Go to service".
 3. Right-click the service and select "Properties".
 
-Legitimate svchost.exe processes is called with the key identifier `-k`. For example: `C:\Windows\system32\svchost.exe -k DcomLaunch -p`.
+Legitimate svchost.exe processes is called with the key identifier / parameter `-k`. For example:
+`C:\Windows\system32\svchost.exe -k DcomLaunch -p`.
 ## What is normal?
 **Image Path**: %SystemRoot%\System32\svchost.exe
 **Parent Process**: services.exe
