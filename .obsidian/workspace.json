@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Endpoint Security/Core Windows Processes/Introduction.md",
+                "file": "Defensive Security/Endpoint Security/SysInternals/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Endpoint Security/Core Windows Processes/Introduction.md"
+                "file": "Defensive Security/Endpoint Security/SysInternals/Introduction.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Endpoint Security/Core Windows Processes/Introduction.md",
+                "file": "Defensive Security/Endpoint Security/SysInternals/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Endpoint Security/Core Windows Processes/Introduction.md",
+                "file": "Defensive Security/Endpoint Security/SysInternals/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,6 +170,11 @@
   },
   "active": "02a9d537713ebb01",
   "lastOpenFiles": [
+    "Defensive Security/Endpoint Security/Fundamentals.md",
+    "Defensive Security/Endpoint Security/SysInternals/Introduction.md",
+    "Defensive Security/Endpoint Security/Core Windows Processes/Introduction.md",
+    "Defensive Security/Endpoint Security/SysInternals/Introduction",
+    "Defensive Security/Endpoint Security/SysInternals",
     "Defensive Security/Endpoint Security/Core Windows Processes/explorer.exe.md",
     "Defensive Security/Endpoint Security/Core Windows Processes/winlogon.exe.md",
     "Defensive Security/Endpoint Security/Core Windows Processes/wininit.exe.md",
@@ -177,12 +182,10 @@
     "Defensive Security/Endpoint Security/Core Windows Processes/csrss.exe.md",
     "Defensive Security/Endpoint Security/Core Windows Processes/services.exe.md",
     "Defensive Security/Endpoint Security/Core Windows Processes/svchost.exe.md",
-    "Defensive Security/Endpoint Security/Core Windows Processes/Introduction.md",
     "Defensive Security/Endpoint Security/Core Windows Processes/System.md",
     "Defensive Security/Endpoint Security/Core Windows Processes/Task Manager.md",
     "Defensive Security/Endpoint Security/Core Windows Processes/lsass.exe.md",
     "Defensive Security/Endpoint Security/Log Analysis.md",
-    "Defensive Security/Endpoint Security/Fundamentals.md",
     "Defensive Security/Endpoint Security/Core Windows Processes",
     "Defensive Security/Endpoint Security/Log Analysis/Untitled.md",
     "Defensive Security/Endpoint Security/Log Analysis",
@@ -202,11 +205,8 @@
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/Tunneling Traffic.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/Nmap Scans.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTP.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis",
-    "Defensive Security/Network Traffic Analysis/Tools/Wireshark",
     "Defensive Security/Assets/arp-analysis-1.png",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting",
     "Defensive Security/Assets/zeek-architecture.png",
     "Defensive Security/Assets/snort-rule-structure.png",
     "Defensive Security/Assets/yara-rule-anatomy.png",
