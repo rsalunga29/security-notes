@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Endpoint Security/Fundamentals.md",
+                "file": "Defensive Security/Endpoint Security/Log Analysis.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Endpoint Security/Fundamentals.md"
+                "file": "Defensive Security/Endpoint Security/Log Analysis.md"
               }
             }
           }
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.51103591918945
+    "width": 264.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "64847627f5c52abb",
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Endpoint Security/Fundamentals.md",
+                "file": "Defensive Security/Endpoint Security/Log Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Endpoint Security/Fundamentals.md",
+                "file": "Defensive Security/Endpoint Security/Log Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,8 +171,11 @@
   },
   "active": "02a9d537713ebb01",
   "lastOpenFiles": [
-    "Defensive Security/Endpoint Security/Core Windows Processes.md",
     "Defensive Security/Endpoint Security/Fundamentals.md",
+    "Defensive Security/Endpoint Security/Log Analysis.md",
+    "Defensive Security/Endpoint Security/Log Analysis/Untitled.md",
+    "Defensive Security/Endpoint Security/Log Analysis",
+    "Defensive Security/Endpoint Security/Core Windows Processes.md",
     "Certification Roadmap.md",
     "Defensive Security/SIEM/Introduction.md",
     "Defensive Security/SIEM",
@@ -202,11 +206,8 @@
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Working with Frameworks.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Scripting.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Packages.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting/Introduction.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs/Zeek-Cut.md",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Logs",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek",
     "Defensive Security/Assets/zeek-architecture.png",
     "Defensive Security/Assets/snort-rule-structure.png",
     "Defensive Security/Assets/yara-rule-anatomy.png",

@@ -23,3 +23,5 @@ The Sysinternals tools are a compilation of over 70+ Windows-based tools. These 
 - Security Utilities
 - System Information
 - Miscellaneous
+
+The two more used tools for endpoint investigation
