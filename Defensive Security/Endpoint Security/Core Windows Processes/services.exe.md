@@ -3,11 +3,17 @@ The services.exe (Service Control Manager (SCM)) is primarily responsible for ha
 - interacting with services
 - starting or ending services
 
-It maintains a database that can be queried using a Windows built-in utility, `sc.exe`.
+It maintains a database that can be queried using a Windows built-in utility, `sc.exe`. It's parent process is [wininit.exe](obsidian://open?vault=security-notes&file=Defensive%20Security%2FEndpoint%20Security%2FCore%20Windows%20Processes%2Fwininit.exe).
 
-It's parent process is [wininit.exe](obsidian://open?vault=security-notes&file=Defensive%20Security%2FEndpoint%20Security%2FCore%20Windows%20Processes%2Fwininit.exe).
+This process also loads device drivers marked as auto-start into memory.
 
-Information regarding services is stored in the registry, "HKLM\System\CurrentControlSet\Services". 
+Information regarding services is stored in the registry, "HKLM\System\CurrentControlSet\Services".
+## Child Processes
+This process is parent to several key processes, below are some examples:
+- svchost.exe
+- spoolsv.exe
+- msmpeng.exe
+- dllhost.exe
 ## What is normal?
 **Image Path**: %SystemRoot%\System32\services.exe
 **Parent Process**: wininit.exe

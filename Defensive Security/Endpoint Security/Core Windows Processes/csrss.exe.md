@@ -8,7 +8,7 @@ The csrss.exe is also responsible for the following:
 - mapping drive letters
 - handling the Windows shutdown process.
 ## What is normal?
-**Image Path**: "%SystemRoot%\System32\csrss.exe"
+**Image Path**: %SystemRoot%\System32\csrss.exe
 **Parent Process**: Non-existent process (Created by an instance of smss.exe which self-terminated after)
 **Number of Instances**: Two or more
 **User Account**: Local System

@@ -16,10 +16,10 @@ Any other subsystem listed in the `Required` value of "HKLM\System\CurrentContro
 SMSS is also responsible for creating environment variables and virtual memory paging files.
 ## What is normal?
 **Image Path**: %SystemRoot%\System32\smss.exe
-**Parent Process**:  System
-**Number of Instances**:  One master instance and child instance per session. The child instance exits after creating the session.
-**User Account**:  Local System
-**Start Time**:  Within seconds of boot time for the master instance
+**Parent Process**: System
+**Number of Instances**: One master instance and child instance per session. The child instance exits after creating the session.
+**User Account**: Local System
+**Start Time**: Within seconds of boot time for the master instance
 ## What is unusual?
 - A different parent process other than System (4)
 - The image path is different from C:\Windows\System32

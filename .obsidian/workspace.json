@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Endpoint Security/Core Windows Processes/csrss.exe.md",
+                "file": "Defensive Security/Endpoint Security/Core Windows Processes/svchost.exe.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Endpoint Security/Core Windows Processes/csrss.exe.md"
+                "file": "Defensive Security/Endpoint Security/Core Windows Processes/svchost.exe.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Endpoint Security/Core Windows Processes/csrss.exe.md",
+                "file": "Defensive Security/Endpoint Security/Core Windows Processes/svchost.exe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Endpoint Security/Core Windows Processes/csrss.exe.md",
+                "file": "Defensive Security/Endpoint Security/Core Windows Processes/svchost.exe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,9 +172,10 @@
   "lastOpenFiles": [
     "Defensive Security/Endpoint Security/Core Windows Processes/services.exe.md",
     "Defensive Security/Endpoint Security/Core Windows Processes/smss.exe.md",
-    "Defensive Security/Endpoint Security/Core Windows Processes/Introduction.md",
-    "Defensive Security/Endpoint Security/Core Windows Processes/csrss.exe.md",
+    "Defensive Security/Endpoint Security/Core Windows Processes/svchost.exe.md",
     "Defensive Security/Endpoint Security/Core Windows Processes/wininit.exe.md",
+    "Defensive Security/Endpoint Security/Core Windows Processes/csrss.exe.md",
+    "Defensive Security/Endpoint Security/Core Windows Processes/Introduction.md",
     "Defensive Security/Endpoint Security/Core Windows Processes/System.md",
     "Defensive Security/Endpoint Security/Core Windows Processes/Task Manager.md",
     "Defensive Security/Endpoint Security/Fundamentals.md",
@@ -203,7 +204,6 @@
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/DHCP, NBNS and Kerberos.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/ARP Poisoning & MITM.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis",
-    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Statistics.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark",
     "Defensive Security/Assets/arp-analysis-1.png",
     "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting",
