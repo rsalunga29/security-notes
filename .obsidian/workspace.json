@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Endpoint Security/Core Windows Processes/explorer.exe.md",
+                "file": "Defensive Security/Endpoint Security/Core Windows Processes/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Endpoint Security/Core Windows Processes/explorer.exe.md"
+                "file": "Defensive Security/Endpoint Security/Core Windows Processes/Introduction.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Endpoint Security/Core Windows Processes/explorer.exe.md",
+                "file": "Defensive Security/Endpoint Security/Core Windows Processes/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Endpoint Security/Core Windows Processes/explorer.exe.md",
+                "file": "Defensive Security/Endpoint Security/Core Windows Processes/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,8 +170,8 @@
   },
   "active": "02a9d537713ebb01",
   "lastOpenFiles": [
-    "Defensive Security/Endpoint Security/Core Windows Processes/winlogon.exe.md",
     "Defensive Security/Endpoint Security/Core Windows Processes/explorer.exe.md",
+    "Defensive Security/Endpoint Security/Core Windows Processes/winlogon.exe.md",
     "Defensive Security/Endpoint Security/Core Windows Processes/wininit.exe.md",
     "Defensive Security/Endpoint Security/Core Windows Processes/smss.exe.md",
     "Defensive Security/Endpoint Security/Core Windows Processes/csrss.exe.md",

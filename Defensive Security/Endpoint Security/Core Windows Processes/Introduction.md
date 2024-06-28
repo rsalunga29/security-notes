@@ -1,4 +1,4 @@
-Understanding what is normal behavior within a Windows operation system is important to help you identify malicious processes running on an endpoint.
+Understanding what is normal behavior within the Windows OS is important to help defenders identify malware and malicious processes running on an endpoint.
 
 Below is a summary of running processes that are considered normal behavior:
 - System
