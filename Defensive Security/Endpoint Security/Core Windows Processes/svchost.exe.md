@@ -1,4 +1,4 @@
-The svchost.exe (Service Host) is responsible for hosting and managing Windows services.
+The svchost.exe (Service Host) is responsible for hosting and managing Windows services. It's parent process is [services.exe](obsidian://open?vault=security-notes&file=Defensive%20Security%2FEndpoint%20Security%2FCore%20Windows%20Processes%2Fservices.exe).
 
 The services running in this process are implemented as DLLs. The DLL to implement is stored in the registry for the service under the `Parameters` subkey in `ServiceDLL`. The full path is "HKLM\SYSTEM\CurrentControlSet\Services\SERVICE_NAME\Parameters". To view this information from within Process Hacker:
 1. Right-click the svchost.exe process.

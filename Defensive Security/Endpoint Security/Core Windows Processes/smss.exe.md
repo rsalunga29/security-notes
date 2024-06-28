@@ -6,8 +6,14 @@ This process starts the kernel and user modes of the Windows subsystem which inc
 - [csrss.exe](obsidian://open?vault=security-notes&file=Defensive%20Security%2FEndpoint%20Security%2FCore%20Windows%20Processes%2Fcsrss.exe) (user mode).
 
 Read more about the NT Architecture [here](https://en.wikipedia.org/wiki/Architecture_of_Windows_NT).
-## The Process
-Smss.exe starts csrss.exe (Windows subsystem) and wininit.exe in Session 0 (An isolated Windows session for the OS). It also starts the csrss.exe and winlogon.exe (the Windows Logon Manager) in Session 1 (User session).
+## Child Processes
+The smss.exe process starts the following in Session 0, which is an isolated Windows session for the OS:
+- csrss.exe (Windows subsystem)
+- wininit.exe
+
+The smss.exe process starts the following in Session 1, which is the user session:
+- csrss.exe (Windows subsystem)
+- [winlogon.exe](obsidian://open?vault=security-notes&file=Defensive%20Security%2FEndpoint%20Security%2FCore%20Windows%20Processes%2Fwinlogon.exe) (the Windows Logon Manager)
 
 Basically, the first child instance creates child instances in new sessions. This is done by smss.exe copying itself into the new session and self-terminating.
 

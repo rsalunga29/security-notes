@@ -10,7 +10,7 @@ This process also loads device drivers marked as auto-start into memory.
 Information regarding services is stored in the registry, "HKLM\System\CurrentControlSet\Services".
 ## Child Processes
 This process is parent to several key processes, below are some examples:
-- svchost.exe
+- [svchost.exe](obsidian://open?vault=security-notes&file=Defensive%20Security%2FEndpoint%20Security%2FCore%20Windows%20Processes%2Fsvchost.exe)
 - spoolsv.exe
 - msmpeng.exe
 - dllhost.exe

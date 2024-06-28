@@ -8,7 +8,7 @@ The wininit.exe (Windows Initialization Process) is responsible for launching th
 The wininit.exe is another critical Windows process that runs in the background, along with its child processes.
 ## What is normal?
 **Image Path**: %SystemRoot%\System32\wininit.exe
-**Parent Process**: Created by an instance of smss.exe
+**Parent Process**: Non-existent process (Created by an instance of smss.exe which self-terminated after)
 **Number of Instances**: One
 **User Account**: Local System
 **Start Time**: Within seconds of boot time
