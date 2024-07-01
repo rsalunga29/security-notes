@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "02a9d537713ebb01",
+            "id": "2186fee8cfc5f714",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Endpoint Security/SysInternals/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Endpoint Security/SysInternals/Introduction.md"
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md"
               }
             }
           }
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.51103591918945
+    "width": 290.5
   },
   "right": {
     "id": "64847627f5c52abb",
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Endpoint Security/SysInternals/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Endpoint Security/SysInternals/Introduction.md",
+                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,53 +168,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02a9d537713ebb01",
+  "active": "ccc68e20622978c5",
   "lastOpenFiles": [
-    "Defensive Security/Endpoint Security/Fundamentals.md",
     "Defensive Security/Endpoint Security/SysInternals/Introduction.md",
-    "Defensive Security/Endpoint Security/Core Windows Processes/Introduction.md",
-    "Defensive Security/Endpoint Security/SysInternals/Introduction",
     "Defensive Security/Endpoint Security/SysInternals",
-    "Defensive Security/Endpoint Security/Core Windows Processes/explorer.exe.md",
+    "Defensive Security/Endpoint Security/Log Analysis.md",
     "Defensive Security/Endpoint Security/Core Windows Processes/winlogon.exe.md",
     "Defensive Security/Endpoint Security/Core Windows Processes/wininit.exe.md",
-    "Defensive Security/Endpoint Security/Core Windows Processes/smss.exe.md",
-    "Defensive Security/Endpoint Security/Core Windows Processes/csrss.exe.md",
-    "Defensive Security/Endpoint Security/Core Windows Processes/services.exe.md",
     "Defensive Security/Endpoint Security/Core Windows Processes/svchost.exe.md",
-    "Defensive Security/Endpoint Security/Core Windows Processes/System.md",
-    "Defensive Security/Endpoint Security/Core Windows Processes/Task Manager.md",
+    "Defensive Security/Endpoint Security/Core Windows Processes/smss.exe.md",
+    "Defensive Security/Endpoint Security/Core Windows Processes/services.exe.md",
     "Defensive Security/Endpoint Security/Core Windows Processes/lsass.exe.md",
-    "Defensive Security/Endpoint Security/Log Analysis.md",
+    "Defensive Security/Endpoint Security/Core Windows Processes/explorer.exe.md",
+    "Defensive Security/Endpoint Security/Core Windows Processes/csrss.exe.md",
+    "Defensive Security/Endpoint Security/Core Windows Processes/Task Manager.md",
+    "Defensive Security/Endpoint Security/Core Windows Processes/System.md",
+    "Defensive Security/Endpoint Security/Core Windows Processes/Introduction.md",
     "Defensive Security/Endpoint Security/Core Windows Processes",
-    "Defensive Security/Endpoint Security/Log Analysis/Untitled.md",
-    "Defensive Security/Endpoint Security/Log Analysis",
-    "Defensive Security/Endpoint Security/Core Windows Processes.md",
-    "Certification Roadmap.md",
-    "Defensive Security/SIEM/Introduction.md",
-    "Defensive Security/SIEM",
-    "Defensive Security/Phishing Analysis/Introduction.md",
-    "Defensive Security/Phishing Analysis",
-    "Defensive Security/Network Traffic Analysis/Tools/Brim/Introduction.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Brim/Example Queries.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Brim",
-    "Defensive Security/Endpoint Security",
-    "Defensive Security/DFIR/Introduction.md",
-    "Defensive Security/DFIR",
     "Advice ni Ian.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/Tunneling Traffic.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/Nmap Scans.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md",
+    "Certification Roadmap.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTP.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/FTP.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/DHCP, NBNS and Kerberos.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/ARP Poisoning & MITM.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/Tunneling Traffic.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Introduction.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis",
+    "Defensive Security/Network Traffic Analysis/Introduction.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Snort/Investigating PCAP with Snort.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek vs Snort.md",
+    "Defensive Security/Network Traffic Analysis/Tools/CLI Kung-Fu - Processing Logs.md",
+    "Defensive Security/Assets/arp-analysis-3.png",
+    "Defensive Security/Assets/arp-analysis-2.png",
     "Defensive Security/Assets/arp-analysis-1.png",
+    "Defensive Security/Network Traffic Analysis/Tools/Wireshark",
+    "Defensive Security/Phishing Analysis",
+    "Defensive Security/DFIR",
+    "Defensive Security/SIEM",
+    "Defensive Security/Endpoint Security",
+    "Defensive Security/Network Traffic Analysis/Tools/Brim",
+    "Defensive Security/Network Traffic Analysis/Tools/Zeek/Zeek Scripting",
     "Defensive Security/Assets/zeek-architecture.png",
     "Defensive Security/Assets/snort-rule-structure.png",
     "Defensive Security/Assets/yara-rule-anatomy.png",
     "Defensive Security/Assets/unified-kill-chain.png",
-    "Defensive Security/Assets/pyramid-of-pain.png",
     "Defensive Security/Assets/cyber-kill-chain.png",
-    "DevSecOps/Assets/repeatable-iac.png",
-    "DevSecOps/Assets/continual-iac.png",
-    "DevSecOps/Assets/ingress.png"
+    "Defensive Security/Assets/pyramid-of-pain.png",
+    "DevSecOps/Assets/worker-node.png"
   ]
 }
