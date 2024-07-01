@@ -1,0 +1,10 @@
+As per Microsoft Internals 6th Edition, "_The System process (process ID 4) is the home for a special kind of thread that runs only in kernel mode a kernel-mode system thread. System threads have all the attributes and contexts of regular user-mode threads (such as a hardware context, priority, and so on) but are different in that they run only in kernel-mode executing code loaded in system space, whether that is in Ntoskrnl.exe or in any other loaded device driver. In addition, system threads don't have a user process address space and hence must allocate any dynamic storage from operating system memory heaps, such as a paged or nonpaged pool._"
+## User mode
+When you launch an application in user mode, Windows creates a process for it. This process provides the application with a private [virtual address space](https://learn.microsoft.com/en-us/windows-hardware/drivers/gettingstarted/virtual-address-spaces) and a private handle table. Since each application's virtual address space is private, one application can't modify another application's data. Each application runs in isolation, ensuring that if one crashes, it doesn't affect other applications or the operating system.
+## Kernel mode
+All code running in kernel mode shares a single [virtual address space](https://learn.microsoft.com/en-us/windows-hardware/drivers/gettingstarted/virtual-address-spaces). As a result, a kernel-mode driver isn't isolated from other drivers or the operating system. If a kernel-mode driver mistakenly writes to the wrong virtual address, it could compromise data belonging to the operating system or another driver. If a kernel-mode driver crashes, it causes the entire operating system to crash.
+## Unusual Behavior for System
+- A parent process (aside from System Idle Process (0))
+- Multiple instances of System. (Should only be one instance) 
+- A different PID. (Remember that the PID will always be PID 4)
+- Not running in Session 0
