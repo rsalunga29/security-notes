@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/AJAX Calls.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md"
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/AJAX Calls.md"
               }
             }
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/AJAX Calls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md",
+                "file": "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Access Control/Types of Broken Access Controls/Insecure Direct Object References/Identifying IDOR/AJAX Calls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,8 +168,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccc68e20622978c5",
+  "active": "2186fee8cfc5f714",
   "lastOpenFiles": [
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Access Control/Types of Broken Access Controls/Horizontal Privilege Escalation/Upgrade to Vertical Privilege Escalation.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Access Control/Types of Broken Access Controls/Horizontal Privilege Escalation/Data Leakage in Redirect.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Access Control/Types of Access Controls/Context-dependent Access Controls.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Predictable Reset Token/Weak Token Generation.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Predictable Reset Token/Weak Cryptography.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Predictable Reset Token/Short Token.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Authentication/Abusing Password Reset Function/Predictable Reset Token/Reset Token as Temporary Password.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/HTTP Verb Tampering/Insecure Coding.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/JavaScript Deobfuscation/Introduction.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/JavaScript Deobfuscation/Deobfuscation.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Open Redirect/Introduction.md",
+    "Offensive Security/Web Application Security/Vulnerabilities & Attacks/Open Redirect/Prevention.md",
+    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md",
     "Defensive Security/Endpoint Security/SysInternals/Introduction.md",
     "Defensive Security/Endpoint Security/SysInternals",
     "Defensive Security/Endpoint Security/Log Analysis.md",
@@ -185,20 +198,7 @@
     "Defensive Security/Endpoint Security/Core Windows Processes/System.md",
     "Defensive Security/Endpoint Security/Core Windows Processes/Introduction.md",
     "Defensive Security/Endpoint Security/Core Windows Processes",
-    "Advice ni Ian.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTPS Decryption.md",
-    "Certification Roadmap.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/HTTP.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/FTP.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/DHCP, NBNS and Kerberos.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/ARP Poisoning & MITM.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis/Tunneling Traffic.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Introduction.md",
     "Defensive Security/Network Traffic Analysis/Tools/Wireshark/Traffic Analysis",
-    "Defensive Security/Network Traffic Analysis/Introduction.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Snort/Investigating PCAP with Snort.md",
-    "Defensive Security/Network Traffic Analysis/Tools/Zeek vs Snort.md",
-    "Defensive Security/Network Traffic Analysis/Tools/CLI Kung-Fu - Processing Logs.md",
     "Defensive Security/Assets/arp-analysis-3.png",
     "Defensive Security/Assets/arp-analysis-2.png",
     "Defensive Security/Assets/arp-analysis-1.png",
